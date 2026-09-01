@@ -1,0 +1,13 @@
+{
+  "name": "SAT Math Lab",
+  "short_name": "SAT Math",
+  "description": "Offline Digital SAT Math practice and graphing calculator",
+  "start_url": "./",
+  "scope": "./",
+  "display": "standalone",
+  "background_color": "#f4f7f5",
+  "theme_color": "#12372a",
+  "icons": [
+    { "src": "./icon.svg", "sizes": "any", "type": "image/svg+xml", "purpose": "any maskable" }
+  ]
+}

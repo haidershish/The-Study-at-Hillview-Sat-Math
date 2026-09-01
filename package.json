@@ -1,0 +1,25 @@
+{
+  "name": "sat-math-lab",
+  "private": true,
+  "version": "1.0.0",
+  "type": "module",
+  "scripts": {
+    "dev": "vite",
+    "build": "tsc --noEmit && vite build",
+    "preview": "vite preview",
+    "preview:qa": "vite preview --host 127.0.0.1 --port 4173",
+    "preview:qa2": "vite preview --host 127.0.0.1 --port 4174",
+    "test": "vitest run",
+    "check": "npm run test && npm run build"
+  },
+  "dependencies": {
+    "dompurify": "^3.2.6",
+    "function-plot": "^1.25.4",
+    "mathjs": "^15.2.0"
+  },
+  "devDependencies": {
+    "typescript": "^5.8.3",
+    "vite": "^7.0.0",
+    "vitest": "^3.2.4"
+  }
+}

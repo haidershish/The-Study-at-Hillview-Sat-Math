@@ -1,0 +1,5 @@
+/* Keep elements with the HTML hidden attribute out of layout even when a
+   component class declares its own display mode. */
+[hidden] {
+  display: none !important;
+}
