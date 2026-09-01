@@ -1,6 +1,5 @@
-import type { CalculatorStrategy, Domain, Question } from '../types';
-
-const domains: Domain[] = ['Algebra', 'Advanced Math', 'Problem-Solving and Data Analysis', 'Geometry and Trigonometry'];
+import type { CalculatorStrategy, Difficulty, Question, QuestionAsset } from '../types';
+import { DOMAINS } from '../types';
 
 function validateStrategy(candidate: unknown, index: number): CalculatorStrategy | undefined {
   if (candidate === undefined || candidate === null) return undefined;
@@ -27,7 +26,29 @@ function validateStrategy(candidate: unknown, index: number): CalculatorStrategy
       }
     }
   }
+  if (s.angleMode !== undefined && s.angleMode !== 'degrees' && s.angleMode !== 'radians') {
+    throw new Error(`Question ${index + 1} strategy has an invalid angleMode.`);
+  }
   return s as CalculatorStrategy;
+}
+
+function validateAssets(candidate: unknown, index: number): QuestionAsset[] | undefined {
+  if (candidate === undefined || candidate === null) return undefined;
+  if (!Array.isArray(candidate)) throw new Error(`Question ${index + 1} "assets" must be an array.`);
+  return candidate.map((asset, assetIndex) => {
+    if (typeof asset !== 'object' || asset === null) throw new Error(`Question ${index + 1} asset ${assetIndex + 1} is not an object.`);
+    const a = asset as Partial<QuestionAsset>;
+    if (typeof a.id !== 'string' || typeof a.type !== 'string' || typeof a.src !== 'string' || typeof a.alt !== 'string') {
+      throw new Error(`Question ${index + 1} asset ${assetIndex + 1} needs id, type, src, and alt.`);
+    }
+    return asset as QuestionAsset;
+  });
+}
+
+function validateDifficulty(candidate: unknown, index: number): Difficulty {
+  if (candidate === undefined || candidate === null) return 2;
+  if (candidate === 1 || candidate === 2 || candidate === 3) return candidate;
+  throw new Error(`Question ${index + 1} has an invalid difficulty (expected 1, 2, or 3).`);
 }
 
 export function validateQuestionBank(value: unknown): Question[] {
@@ -38,15 +59,19 @@ export function validateQuestionBank(value: unknown): Question[] {
     const q = candidate as Partial<Question>;
     if (!q.id || ids.has(q.id)) throw new Error(`Question ${index + 1} needs a unique id.`);
     if (!q.prompt || !q.answer || !q.explanation) throw new Error(`Question ${index + 1} is missing prompt, answer, or explanation.`);
-    if (!q.domain || !domains.includes(q.domain)) throw new Error(`Question ${index + 1} has an invalid SAT domain.`);
+    if (!q.domain || !DOMAINS.includes(q.domain)) throw new Error(`Question ${index + 1} has an invalid SAT domain.`);
     if (q.type !== 'multiple-choice' && q.type !== 'student-produced-response') throw new Error(`Question ${index + 1} has an invalid type.`);
     if (q.type === 'multiple-choice' && (!Array.isArray(q.choices) || q.choices.length < 2)) throw new Error(`Question ${index + 1} needs answer choices.`);
+    if (q.calculatorTip !== undefined && typeof q.calculatorTip !== 'string') throw new Error(`Question ${index + 1} calculatorTip must be a string.`);
+    if (q.assetIds !== undefined && !Array.isArray(q.assetIds)) throw new Error(`Question ${index + 1} assetIds must be an array.`);
     ids.add(q.id);
+    // Preserve every supported field (spread), then apply validated/normalised values.
     return {
-      id: q.id, domain: q.domain, skill: q.skill || 'Imported question', difficulty: q.difficulty || 2,
-      prompt: q.prompt, type: q.type, choices: q.choices, answer: q.answer,
-      explanation: q.explanation, calculatorTip: q.calculatorTip,
+      ...q,
+      skill: q.skill ?? 'Imported question',
+      difficulty: validateDifficulty(q.difficulty, index),
       calculatorStrategy: validateStrategy(q.calculatorStrategy, index),
+      assets: validateAssets(q.assets, index),
     } as Question;
   });
 }

@@ -1,0 +1,149 @@
+[
+  {
+    "id": "ALG-001",
+    "domain": "Algebra",
+    "skill": "Linear equations in two variables; slope and rate of change",
+    "difficulty": 2,
+    "prompt": "A line passes through the points (0, 3) and (1, 8). Which equation represents this line?",
+    "type": "multiple-choice",
+    "choices": [
+      { "id": "A", "text": "y = -5x + 3" },
+      { "id": "B", "text": "y = 5x + 3" },
+      { "id": "C", "text": "y = x + 3" },
+      { "id": "D", "text": "y = -x + 3" }
+    ],
+    "answer": "B",
+    "explanation": "Calculate the slope: (8-3)/(1-0) = 5. Use point-slope form with (0,3): y - 3 = 5(x - 0), which simplifies to y = 5x + 3.",
+    "calculatorTip": "Use Desmos or a graphing calculator to plot the two points and observe the slope.",
+    "calculatorStrategy": {
+      "recommended": true,
+      "provider": "either",
+      "expressions": [
+        { "id": "point1", "latex": "y=5x+3", "source": "y=5*x+3" },
+        { "id": "point2", "latex": "y=x", "source": "y=x" }
+      ],
+      "instructions": "Verify the slope between the two points matches 5."
+    },
+    "sourceType": "extracted",
+    "sourcePage": 1,
+    "sourceQuestion": "Graph Image 56",
+    "assetIds": [ "image-56.png" ],
+    "needsReview": false,
+    "sourceNotes": ""
+  },
+  {
+    "id": "PSDA-001",
+    "domain": "Problem-Solving and Data Analysis",
+    "skill": "Scatterplots; correlation strength and direction",
+    "difficulty": 2,
+    "prompt": "Which scatterplot best represents a strong positive linear relationship between two variables?",
+    "type": "multiple-choice",
+    "choices": [
+      { "id": "A", "text": "Scatterplot A" },
+      { "id": "B", "text": "Scatterplot B" },
+      { "id": "C", "text": "Scatterplot C" },
+      { "id": "D", "text": "Scatterplot D" }
+    ],
+    "answer": "A",
+    "explanation": "Scatterplot A shows points clustering tightly around a line with a positive slope, indicating a strong positive linear relationship.",
+    "calculatorTip": "Use Desmos to plot the data points and observe the correlation coefficient (r).",
+    "calculatorStrategy": {
+      "recommended": true,
+      "provider": "either",
+      "expressions": [
+        { "id": "dataA", "latex": "y=0.9x+1", "source": "y=0.9*x+1" },
+        { "id": "dataB", "latex": "y=-0.8x+2", "source": "y=-0.8*x+2" }
+      ],
+      "instructions": "Compare the correlation coefficient of each dataset."
+    },
+    "sourceType": "extracted",
+    "sourcePage": 1,
+    "sourceQuestion": "Graph Image 29",
+    "assetIds": [ "image-29.png" ],
+    "needsReview": false,
+    "sourceNotes": ""
+  },
+  {
+    "id": "ADV-001",
+    "domain": "Advanced Math",
+    "skill": "Quadratic functions; zeros and factoring",
+    "difficulty": 2,
+    "prompt": "The graph of y = x² + 7x + 12 is shown. What are the zeros of this function?",
+    "type": "student-produced-response",
+    "answer": "-3,-4",
+    "explanation": "Factor the quadratic: (x+3)(x+4) = 0, so x = -3 and x = -4.",
+    "calculatorTip": "Use Desmos to graph y=x^2+7x+12 and find the x-intercepts.",
+    "calculatorStrategy": {
+      "recommended": true,
+      "provider": "either",
+      "expressions": [
+        { "id": "function", "latex": "y=x^2+7x+12", "source": "y=x^2+7*x+12" }
+      ],
+      "instructions": "Find the x-intercepts (zeros) of the parabola."
+    },
+    "sourceType": "extracted",
+    "sourcePage": 1,
+    "sourceQuestion": "Graph Image 40",
+    "assetIds": [ "image-40.png" ],
+    "needsReview": false,
+    "sourceNotes": ""
+  },
+  {
+    "id": "GEO-001",
+    "domain": "Geometry and Trigonometry",
+    "skill": "Coordinate geometry; distance formula",
+    "difficulty": 2,
+    "prompt": "A circle is centered at the origin with a radius of 5 units. What is the distance from the center to the point (-3, 4)?",
+    "type": "student-produced-response",
+    "answer": "5",
+    "explanation": "Use the distance formula: sqrt((-3-0)² + (4-0)²) = sqrt(9+16) = sqrt(25) = 5.",
+    "calculatorTip": "Use Desmos to plot the point and measure its distance from the origin.",
+    "calculatorStrategy": {
+      "recommended": true,
+      "provider": "either",
+      "expressions": [
+        { "id": "point", "latex": "y=0", "source": "y=0" },
+        { "id": "distance", "latex": "d=sqrt(x^2+y^2)", "source": "d=sqrt(x^2+y^2)" }
+      ],
+      "instructions": "Calculate the distance from (0,0) to (-3,4)."
+    },
+    "sourceType": "extracted",
+    "sourcePage": 1,
+    "sourceQuestion": "Graph Image 72",
+    "assetIds": [ "image-72.png" ],
+    "needsReview": false,
+    "sourceNotes": ""
+  },
+  {
+    "id": "PSDA-002",
+    "domain": "Problem-Solving and Data Analysis",
+    "skill": "Line of best fit; interpretation of scatterplots",
+    "difficulty": 3,
+    "prompt": "A scatterplot shows the relationship between 'Cost of Television' and 'Number of Televisions Sold'. As cost increases, sales decrease. Which line of best fit represents this data?",
+    "type": "multiple-choice",
+    "choices": [
+      { "id": "A", "text": "Positive slope" },
+      { "id": "B", "text": "Negative slope" },
+      { "id": "C", "text": "Horizontal line" },
+      { "id": "D", "text": "Vertical line" }
+    ],
+    "answer": "B",
+    "explanation": "As the x-values (cost) increase, the y-values (sales) decrease. This indicates a negative slope.",
+    "calculatorTip": "Use Desmos to plot the data points and observe the trend.",
+    "calculatorStrategy": {
+      "recommended": true,
+      "provider": "either",
+      "expressions": [
+        { "id": "data1", "latex": "y=-0.5x+200", "source": "y=-0.5*x+200" }
+      ],
+      "instructions": "Verify the negative slope of the line of best fit."
+    },
+    "sourceType": "extracted",
+    "sourcePage": 1,
+    "sourceQuestion": "Graph Image 16",
+    "assetIds": [ "image-16.png" ],
+    "needsReview": false,
+    "sourceNotes": ""
+  }
+]
+

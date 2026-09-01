@@ -1,6 +1,6 @@
 import type { AngleMode, CalculatorExpression, CalculatorProvider } from './types';
-import { createGraph, type GraphAdapter } from './graph';
-import { evaluateExpression, formatNumber, isValidExpression, tableValues, unsupportedRelation } from './engine';
+import { createGraph, type DataPoint, type GraphAdapter } from './graph';
+import { evaluateExpression, formatNumber, isValidExpression, unsupportedRelation } from './engine';
 
 const COLORS = ['#c74440', '#2d70b3', '#388c46', '#6042a6', '#000000'];
 
@@ -11,19 +11,46 @@ const UNSUPPORTED_MESSAGES: Record<string, string> = {
   'implicit-equation': 'Implicit equations (such as circles) need the official Desmos calculator.',
 };
 
-interface OpenSourceState {
+export interface TableRow { x: string; y: string }
+
+export interface OpenSourceState {
   expressions: CalculatorExpression[];
   angleMode: AngleMode;
+  tableRows: TableRow[];
+  connectPoints: boolean;
 }
 
 export interface OpenSourceProviderOptions {
-  onChange?: (expressions: CalculatorExpression[], angleMode: AngleMode) => void;
+  onChange?: (state: OpenSourceState) => void;
+}
+
+/** Parse a number from a string, accepting decimals, negatives, and fractions like "3/5". */
+export function parseNumber(raw: string): number | null {
+  const s = raw.trim();
+  if (!s) return null;
+  const frac = s.match(/^(-?\d+(?:\.\d+)?)\s*\/\s*(-?\d+(?:\.\d+)?)$/);
+  if (frac) {
+    const denominator = Number(frac[2]);
+    if (denominator === 0) return null;
+    return Number(frac[1]) / denominator;
+  }
+  const n = Number(s);
+  return Number.isFinite(n) ? n : null;
+}
+
+export function validPoints(rows: TableRow[]): DataPoint[] {
+  const points: DataPoint[] = [];
+  for (const row of rows) {
+    const x = parseNumber(row.x);
+    const y = parseNumber(row.y);
+    if (x !== null && y !== null) points.push({ x, y });
+  }
+  return points;
 }
 
 /**
  * Offline open-source calculator: math.js for evaluation, function-plot for
- * graphing. This is the fallback used whenever the official Desmos provider is
- * unavailable (no key, offline, or rejected key).
+ * graphing, plus an editable x/y data table that plots points immediately.
  */
 export class OpenSourceCalculatorProvider implements CalculatorProvider {
   readonly id = 'open-source' as const;
@@ -31,9 +58,11 @@ export class OpenSourceCalculatorProvider implements CalculatorProvider {
 
   private expressions: CalculatorExpression[] = [];
   private angleMode: AngleMode = 'radians';
+  private tableRows: TableRow[] = [{ x: '', y: '' }];
+  private connectPoints = false;
   private container: HTMLElement | null = null;
   private graph: GraphAdapter | null = null;
-  private onChange?: (expressions: CalculatorExpression[], angleMode: AngleMode) => void;
+  private onChange?: (state: OpenSourceState) => void;
 
   constructor(options: OpenSourceProviderOptions = {}) {
     this.onChange = options.onChange;
@@ -46,6 +75,7 @@ export class OpenSourceCalculatorProvider implements CalculatorProvider {
     this.graph = createGraph(this.require<HTMLElement>('.graph-stage'));
     this.bindEvents();
     this.renderExpressions();
+    this.renderTable();
     this.ready = true;
   }
 
@@ -64,29 +94,34 @@ export class OpenSourceCalculatorProvider implements CalculatorProvider {
   }
 
   addExpression(expression: CalculatorExpression): void {
-    const item: CalculatorExpression = {
+    this.expressions.push({
       id: expression.id || crypto.randomUUID(),
       latex: expression.latex,
       source: expression.source ?? expression.latex,
       color: expression.color ?? COLORS[this.expressions.length % COLORS.length],
       visible: expression.visible !== false,
-    };
-    this.expressions.push(item);
-    this.emitAndRender();
+    });
+    this.emit();
   }
 
   removeExpression(id: string): void {
     this.expressions = this.expressions.filter(e => e.id !== id);
-    this.emitAndRender();
+    this.emit();
   }
 
   clear(): void {
     this.expressions = [];
-    this.emitAndRender();
+    this.tableRows = [{ x: '', y: '' }];
+    this.emit();
   }
 
   getState(): OpenSourceState {
-    return { expressions: this.expressions.map(e => ({ ...e })), angleMode: this.angleMode };
+    return {
+      expressions: this.expressions.map(e => ({ ...e })),
+      angleMode: this.angleMode,
+      tableRows: this.tableRows.map(r => ({ ...r })),
+      connectPoints: this.connectPoints,
+    };
   }
 
   setState(state: unknown): void {
@@ -94,12 +129,12 @@ export class OpenSourceCalculatorProvider implements CalculatorProvider {
     if (!s) return;
     if (Array.isArray(s.expressions)) this.expressions = s.expressions.map(e => ({ ...e }));
     if (s.angleMode === 'degrees' || s.angleMode === 'radians') this.angleMode = s.angleMode;
-    if (this.container) this.renderExpressions();
+    if (Array.isArray(s.tableRows)) this.tableRows = s.tableRows.map(r => ({ x: r.x ?? '', y: r.y ?? '' }));
+    if (typeof s.connectPoints === 'boolean') this.connectPoints = s.connectPoints;
+    if (this.container) { this.renderExpressions(); this.renderTable(); }
   }
 
-  resize(): void {
-    // function-plot observes the stage via ResizeObserver; nothing else needed.
-  }
+  resize(): void { /* function-plot observes the stage via ResizeObserver */ }
 
   resetViewport(): void {
     this.graph?.reset();
@@ -108,21 +143,22 @@ export class OpenSourceCalculatorProvider implements CalculatorProvider {
   setAngleMode(mode: AngleMode): void {
     if (this.angleMode === mode) return;
     this.angleMode = mode;
-    this.emitAndRender();
+    this.emit();
   }
 
   // ---- internals -----------------------------------------------------------
 
-  private emitAndRender(): void {
+  private emit(): void {
     this.draw();
-    this.onChange?.(this.expressions.map(e => ({ ...e })), this.angleMode);
-    if (this.container) this.renderExpressions();
+    this.onChange?.(this.getState());
+    if (this.container) { this.renderExpressions(); this.renderTable(); }
   }
 
   private draw(): void {
     this.graph?.setExpressions(this.expressions.map(e => ({
       id: e.id, source: e.source ?? '', color: e.color ?? COLORS[0], visible: e.visible !== false,
     })));
+    this.graph?.setPoints(validPoints(this.tableRows), this.connectPoints);
   }
 
   private require<T extends HTMLElement>(selector: string): T {
@@ -148,12 +184,12 @@ export class OpenSourceCalculatorProvider implements CalculatorProvider {
       </section>
       <section class="calc-view table-view" data-view="table">
         <div class="table-controls">
-          <label>Expression <select class="table-expression"></select></label>
-          <label>Start <input class="table-start" type="number" value="-3"></label>
-          <label>Step <input class="table-step" type="number" value="1" min="0.01" step="0.1"></label>
-          <button class="primary" id="make-table">Generate</button>
+          <button class="primary" id="add-row">Add row</button>
+          <button class="quiet" id="clear-table">Clear table</button>
+          <label class="table-toggle"><input type="checkbox" id="show-lines"> Connect points</label>
         </div>
-        <div class="table-scroll"><table><thead><tr><th>x</th><th>y</th></tr></thead><tbody class="table-body"></tbody></table></div>
+        <div class="table-scroll"><table><thead><tr><th>x</th><th>y</th><th aria-label="actions"></th></tr></thead><tbody class="table-body"></tbody></table></div>
+        <p class="mini-help">Enter x/y pairs to plot points. Fractions like <code>3/5</code>, decimals, and negatives are supported.</p>
       </section>
       <section class="calc-view scientific-view" data-view="scientific">
         <label class="math-label" for="scientific-input">Expression</label>
@@ -186,7 +222,7 @@ export class OpenSourceCalculatorProvider implements CalculatorProvider {
       const expression = this.expressions.find(item => item.id === input.dataset.expression);
       if (expression) { expression.source = input.value; expression.latex = input.value; }
       this.draw();
-      this.onChange?.(this.expressions.map(e => ({ ...e })), this.angleMode);
+      this.onChange?.(this.getState());
       this.renderExpressions();
       this.container?.querySelector<HTMLInputElement>(`[data-expression="${input.dataset.expression}"]`)?.focus();
     });
@@ -198,11 +234,52 @@ export class OpenSourceCalculatorProvider implements CalculatorProvider {
       if (removeId) this.removeExpression(removeId);
       else if (visibleId) {
         const expression = this.expressions.find(item => item.id === visibleId);
-        if (expression) { expression.visible = expression.visible === false; this.emitAndRender(); }
+        if (expression) { expression.visible = expression.visible === false; this.emit(); }
       }
     });
 
-    this.require<HTMLElement>('#make-table').addEventListener('click', () => this.generateTable());
+    // Editable data table
+    this.require<HTMLElement>('#add-row').addEventListener('click', () => {
+      this.tableRows.push({ x: '', y: '' });
+      this.renderTable();
+      this.emit();
+      this.container?.querySelector<HTMLInputElement>('[data-x]:last-of-type')?.focus();
+    });
+    this.require<HTMLElement>('#clear-table').addEventListener('click', () => {
+      this.tableRows = [{ x: '', y: '' }];
+      this.renderTable();
+      this.emit();
+    });
+    this.require<HTMLInputElement>('#show-lines').addEventListener('change', event => {
+      this.connectPoints = (event.target as HTMLInputElement).checked;
+      this.draw();
+      this.onChange?.(this.getState());
+    });
+
+    const body = this.require<HTMLElement>('.table-body');
+    body.addEventListener('input', event => {
+      const input = event.target as HTMLInputElement;
+      const rowEl = input.closest<HTMLTableRowElement>('tr');
+      if (!rowEl) return;
+      const index = Number(rowEl.dataset.row);
+      if (Number.isNaN(index) || !this.tableRows[index]) return;
+      if (input.dataset.x !== undefined) this.tableRows[index].x = input.value;
+      if (input.dataset.y !== undefined) this.tableRows[index].y = input.value;
+      this.draw();
+      this.onChange?.(this.getState());
+    });
+    body.addEventListener('click', event => {
+      const button = (event.target as HTMLElement).closest<HTMLButtonElement>('[data-delete-row]');
+      if (!button) return;
+      const index = Number(button.dataset.deleteRow);
+      if (Number.isNaN(index)) return;
+      this.tableRows.splice(index, 1);
+      if (this.tableRows.length === 0) this.tableRows.push({ x: '', y: '' });
+      this.renderTable();
+      this.emit();
+    });
+
+    // Scientific
     this.require<HTMLElement>('#evaluate').addEventListener('click', () => this.evaluateScientific());
     this.require<HTMLElement>('#scientific-input').addEventListener('keydown', event => {
       if ((event as KeyboardEvent).key === 'Enter') this.evaluateScientific();
@@ -249,29 +326,18 @@ export class OpenSourceCalculatorProvider implements CalculatorProvider {
           ${unsupported ? `<div class="expression-note">${UNSUPPORTED_MESSAGES[unsupported]}</div>` : ''}
         </div>`;
     }).join('');
-
-    const select = this.require<HTMLSelectElement>('.table-expression');
-    select.innerHTML = this.expressions.map((expression, index) =>
-      `<option value="${expression.id}">${index + 1}: ${escapeHtml(expression.source || 'blank')}</option>`).join('');
     this.draw();
   }
 
-  private generateTable(): void {
-    const id = this.require<HTMLSelectElement>('.table-expression').value;
-    const expression = this.expressions.find(item => item.id === id);
-    const start = Number(this.require<HTMLInputElement>('.table-start').value);
-    const step = Math.abs(Number(this.require<HTMLInputElement>('.table-step').value)) || 1;
+  private renderTable(): void {
+    if (!this.container) return;
     const body = this.require<HTMLElement>('.table-body');
-    if (!expression) { body.innerHTML = '<tr><td colspan="2">Choose a valid function.</td></tr>'; return; }
-    const source = expression.source ?? '';
-    const unsupported = unsupportedRelation(source);
-    if (unsupported) {
-      body.innerHTML = `<tr><td colspan="2">${UNSUPPORTED_MESSAGES[unsupported]}</td></tr>`;
-      return;
-    }
-    const rows = tableValues(source, start, start + step * 9, step, this.angleMode);
-    body.innerHTML = rows.map(row => `<tr><td>${formatNumber(row.x)}</td><td>${row.y === null ? 'undefined' : formatNumber(row.y)}</td></tr>`).join('')
-      || '<tr><td colspan="2">Choose a valid function.</td></tr>';
+    body.innerHTML = this.tableRows.map((row, index) => `
+      <tr data-row="${index}">
+        <td><input class="table-cell" data-x value="${escapeHtml(row.x)}" inputmode="decimal" aria-label="Row ${index + 1} x-value"></td>
+        <td><input class="table-cell" data-y value="${escapeHtml(row.y)}" inputmode="decimal" aria-label="Row ${index + 1} y-value"></td>
+        <td><button class="remove-expression" data-delete-row="${index}" aria-label="Delete row ${index + 1}">×</button></td>
+      </tr>`).join('');
   }
 
   private evaluateScientific(): void {

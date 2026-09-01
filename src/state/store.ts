@@ -1,9 +1,12 @@
 import type { SessionState } from '../types';
 
-const KEY = 'sat-math-lab-session-v1';
+const KEY = 'sat-math-lab-session-v2';
 const colors = ['#c74440', '#2d70b3', '#388c46', '#6042a6', '#000000'];
 
 export const initialState = (): SessionState => ({
+  screen: 'home',
+  testConfig: undefined,
+  order: [],
   current: 0,
   secondsRemaining: 35 * 60,
   timerHidden: false,
@@ -14,18 +17,28 @@ export const initialState = (): SessionState => ({
     { id: crypto.randomUUID(), source: 'y=-x+7', color: colors[1], visible: true },
   ],
   angleMode: 'radians',
+  tableRows: [{ x: '', y: '' }],
+  connectPoints: false,
   calculatorState: undefined,
 });
 
 export function loadState(): SessionState {
   try {
     const value = localStorage.getItem(KEY);
-    return value ? { ...initialState(), ...JSON.parse(value) as SessionState } : initialState();
-  } catch { return initialState(); }
+    if (!value) return initialState();
+    const parsed = JSON.parse(value) as Partial<SessionState>;
+    return { ...initialState(), ...parsed };
+  } catch {
+    return initialState();
+  }
 }
 
 export function saveState(state: SessionState): void {
   localStorage.setItem(KEY, JSON.stringify(state));
+}
+
+export function clearState(): void {
+  localStorage.removeItem(KEY);
 }
 
 export function nextColor(index: number): string { return colors[index % colors.length]; }

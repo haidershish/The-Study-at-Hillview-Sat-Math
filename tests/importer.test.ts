@@ -1,6 +1,7 @@
 import { describe, expect, it } from 'vitest';
 import { validateQuestionBank } from '../src/questions/importer';
 import questionBank from '../Questions 2.json';
+import questionBank3 from '../Questions3.json';
 
 describe('question-bank validation', () => {
   it('accepts the bundled 12-question bank with strategies intact', () => {
@@ -38,5 +39,37 @@ describe('question-bank validation', () => {
       calculatorStrategy: { recommended: true, instructions: 'i', expressions: [{ color: 'red' }] },
     }];
     expect(() => validateQuestionBank(bank)).toThrow(/latex/);
+  });
+
+  it('preserves calculator strategies, assets, and source metadata', () => {
+    const bank = [{
+      id: 'D', domain: 'Algebra', skill: 's', difficulty: 3, prompt: 'p',
+      type: 'multiple-choice', choices: [{ id: 'a', text: 'x' }, { id: 'b', text: 'y' }], answer: 'a', explanation: 'e',
+      calculatorTip: 'tip',
+      calculatorStrategy: { recommended: true, provider: 'desmos', expressions: [{ id: 'e1', latex: 'y=x', source: 'y=x' }], table: { columns: [{ latex: 'x_1', values: [1, 2] }, { latex: 'y_1', values: [2, 4] }] }, angleMode: 'degrees', instructions: 'i' },
+      assets: [{ id: 'fig', type: 'diagram', src: 'assets/fig.png', alt: 'figure', sourcePage: 4 }],
+      sourceType: 'extracted', sourcePage: 4, sourceQuestion: 'Graph Image 7', assetIds: ['image-7.png'], needsReview: true, sourceNotes: 'note',
+    }];
+    const [q] = validateQuestionBank(bank);
+    expect(q.calculatorTip).toBe('tip');
+    expect(q.calculatorStrategy?.provider).toBe('desmos');
+    expect(q.calculatorStrategy?.table?.columns).toHaveLength(2);
+    expect(q.calculatorStrategy?.angleMode).toBe('degrees');
+    expect(q.assets).toHaveLength(1);
+    expect(q.assets![0].alt).toBe('figure');
+    expect(q.sourceType).toBe('extracted');
+    expect(q.sourcePage).toBe(4);
+    expect(q.sourceQuestion).toBe('Graph Image 7');
+    expect(q.assetIds).toEqual(['image-7.png']);
+    expect(q.needsReview).toBe(true);
+    expect(q.sourceNotes).toBe('note');
+  });
+
+  it('preserves source metadata from the extracted bank (Questions3.json)', () => {
+    const questions = validateQuestionBank(questionBank3 as unknown);
+    const extracted = questions.find(q => q.sourceType === 'extracted');
+    expect(extracted).toBeTruthy();
+    expect(extracted!.sourcePage).toBeGreaterThan(0);
+    expect(Array.isArray(extracted!.assetIds)).toBe(true);
   });
 });

@@ -7,3 +7,15 @@ dist/
 .env
 .env.*
 !.env.example
+
+# Python (PDF question extractor tool)
+__pycache__/
+*.pyc
+.venv/
+venv/
+
+# PDF extractor generated outputs / caches / crops / model outputs
+tools/pdf-question-extractor/output/
+tools/pdf-question-extractor/*.pdf
+tools/pdf-question-extractor/*.png
+tools/pdf-question-extractor/*.jpg

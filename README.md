@@ -1,10 +1,11 @@
 # SAT Math Lab
 
-A Digital SAT Math practice application with an embedded graphing calculator.
-When a valid [Desmos API](https://www.desmos.com/api/) key is configured, it uses
-the **official Desmos calculator** in a SAT-compatible configuration; otherwise
-it falls back to an **open-source offline calculator** (math.js + function-plot).
-It deploys as a static site on GitHub Pages.
+A Digital SAT Math practice platform with an embedded graphing calculator.
+Configure a [Desmos API](https://www.desmos.com/api/) key to use the **official
+Desmos calculator** in a SAT-compatible configuration; otherwise it falls back to
+an **open-source offline calculator** (math.js + function-plot). Ships with
+multiple question banks, a build-your-own-test homepage, image support, ZIP bank
+import, and a local PDF → question-bank authoring tool.
 
 > This is an independent classroom tool. It is **not** affiliated with or
 > endorsed by College Board or Desmos, and it does not replicate Bluebook trade
@@ -12,125 +13,105 @@ It deploys as a static site on GitHub Pages.
 
 ## Features
 
-- Digital SAT question player: navigation, timer, review flags, scoring, explanations
-- **Calculator-provider abstraction** — the app never depends on Desmos globals
-- Official Desmos provider (SAT-restricted: no images, folders, or notes; log-mode regressions)
-- Open-source offline provider (graphing, tables, scientific, degree/radian, combinatorics)
-- Structured per-question **"Send setup to calculator"** strategies (no answer leakage)
-- Validated JSON question-bank import and session export
-- Local progress + calculator-state persistence, offline service worker
-- Responsive Chromebook / desktop / tablet / phone layout
-- Automated tests, production build, GitHub Pages deployment
+- **Homepage** — pick a single bank, combined mode, or random practice; filter by
+  domain and difficulty; choose 5/10/15/20/25/full/custom question counts; resume
+  an active session.
+- **Multiple banks** — a central manifest makes adding a bank a two-step task
+  (drop in the JSON + add one entry). Each bank shows title, description, count,
+  domains, and difficulties.
+- **Combined & random tests** — Fisher–Yates shuffle, duplicate prevention,
+  reproducible seed, optional domain-balanced selection, persistent question order.
+- **Questions with images** — multiple figures per question, responsive rendering,
+  click-to-enlarge, alt text, preloading, missing-image warnings.
+- **ZIP bank import** — import a `bank.json` + `questions.json` + `assets/` package
+  locally (images become local data URLs; no external upload).
+- **Calculator providers** — official Desmos (SAT-restricted) and open-source
+  (graphing, editable x/y data table, scientific, degree/radian, combinatorics).
+- **Structured calculator strategies** — "Send setup to calculator" per question,
+  with no answer leakage.
+- **Scoring** — total score plus domain, skill, difficulty, and bank breakdowns.
+- **PDF question extractor** — a local CLI (`tools/pdf-question-extractor/`) that
+  turns a PDF of SAT questions into an importable bank via LM Studio.
+- Responsive layout, offline service worker, GitHub Pages deployment.
 
 ## Architecture
 
 ```
 src/
-  calculator/
-    types.ts              CalculatorProvider interface + expression/status types
-    factory.ts            Provider selection: key detection, load, fallback, status
-    desmos-loader.ts      Loads Desmos API v1.12 script exactly once (with timeout)
-    desmos-provider.ts    DesmosCalculatorProvider (official API)
-    opensource-provider.ts OpenSourceCalculatorProvider (math.js + function-plot)
-    engine.ts             math.js evaluation, angle mode, statistics/combinatorics
-    graph.ts              function-plot adapter
-  questions/
-    sample.ts             Bundled 12-question bank
-    importer.ts           JSON validation (including calculator strategies)
-    strategy.ts           Strategy → expression conversion + Desmos-requirement check
-  state/store.ts          localStorage session persistence
-  main.ts                 Application shell (player, navigation, calculator host)
-  types.ts                Domain types (Question, SessionState, CalculatorStrategy)
+  calculator/            CalculatorProvider abstraction (desmos + open-source)
+  questions/             banks (manifest/registry), importer, zip-import, images, strategy
+  test/                  generator (combined/random/filters), scoring
+  state/store.ts         session persistence (config, order, responses, calculator state)
+  types.ts               Domain types (Question, Bank, TestConfig, SessionState)
+  main.ts                Three-screen app (home → test → results)
+tools/pdf-question-extractor/   Python CLI (PyMuPDF + LM Studio)
 ```
 
-### Provider-selection flow
+Questions are keyed internally as `bankId::questionId` so identically-named
+questions across banks never collide.
 
-1. `selectCalculatorProvider()` reads `VITE_DESMOS_API_KEY`.
-2. No key → **open-source** provider, status "Open-source offline calculator".
-3. Key present → load `calculator.js` once (12s timeout); on success and a
-   detectable `window.Desmos.GraphingCalculator` → **Desmos** provider.
-4. Any failure (rejected/expired key, offline, timeout) → **open-source**
-   provider with status "Desmos unavailable — offline calculator active".
+### Calculator-provider selection
 
-The SAT shell talks to the calculator only through the `CalculatorProvider`
-interface (`setExpressions`, `addExpression`, `removeExpression`, `clear`,
-`getState`/`setState`, `resize`, `resetViewport`, `setAngleMode`).
+`selectCalculatorProvider()` reads `VITE_DESMOS_API_KEY`. No key → open-source.
+With a key → load Desmos v1.12 once (12s timeout); any failure (rejected/expired
+key, offline, timeout) falls back to open-source with a human-readable status.
 
-## Local configuration
-
-Copy `.env.example` to `.env.local` and set a Desmos API key for local
-development:
+## Configuration
 
 ```bash
 # .env.local (never committed)
 VITE_DESMOS_API_KEY=<your key>
 ```
 
-The key is read at build time by Vite and inlined into the client bundle.
-`.env` and `.env.*` are git-ignored (only the empty `.env.example` is committed).
+For GitHub Pages, add a repository secret `DESMOS_API_KEY`
+(**Settings → Secrets and variables → Actions → New repository secret**). The
+workflow injects it at build time and never prints it.
 
-## GitHub secret setup
+> A browser API key is always visible in network traffic and the built client.
+> The secret prevents source-code exposure only. The app never displays the key,
+> and the service worker never caches the Desmos script (whose URL carries it).
 
-For the GitHub Pages build to receive the key, add a repository secret:
-
-```
-Settings → Secrets and variables → Actions → New repository secret
-Name:  DESMOS_API_KEY
-Value: <your key>
-```
-
-The workflow injects it as `VITE_DESMOS_API_KEY` at build time. It is never
-printed in logs.
-
-> **Security note.** A browser API key is *always* observable to the end user in
-> browser network traffic and in the built client. A GitHub secret prevents
-> accidental source-code exposure but cannot make a client-side key truly
-> private. The application never displays the key, and the service worker never
-> caches the Desmos script (whose URL carries the key).
-
-## Desmos usage and limitations
-
-- API version: **v1.12**, loaded dynamically from `www.desmos.com`; never
-  self-hosted, never cached by the service worker.
-- SAT-compatible configuration: `images:false`, `folders:false`, `notes:false`,
-  `forceLogModeRegressions:true`.
-- Trial keys expire (typically after 90 days). When the key is rejected or
-  expires, the app automatically falls back to the offline calculator.
-- Full command compatibility is documented in
-  [`docs/DESMOS_COMPATIBILITY.md`](docs/DESMOS_COMPATIBILITY.md).
-
-## Offline behavior
-
-The SAT shell and question bank work offline. When offline (or without a key),
-the open-source provider is used. The service worker uses network-first
-navigation so new deployments are always served, and it never caches the Desmos
-script or the API key.
-
-## Testing
+## Development
 
 ```bash
-npm run test        # Vitest unit/behavior tests (provider selection, loader, strategies, engine, importer)
-npm run build       # tsc + Vite production build
-npm audit           # dependency vulnerability scan
-npm run check       # test + build
+npm install
+npm run dev        # local dev server
+npm run test       # Vitest (unit/behavior tests)
+npm run build      # tsc + Vite production build
+npm run check      # test + build
+npm audit
 ```
 
-Browser-level checks (live Desmos, layout, base-path, session reload) are covered
-by the documented checklist in [`tests/manual/README.md`](tests/manual/README.md).
+## PDF question extractor
+
+```bash
+cd tools/pdf-question-extractor
+python -m pip install -r requirements.txt
+python extract.py practice.pdf --model <text-model> --vision-model <vision-model>
+python extract.py --selftest   # offline self-test
+```
+
+See `tools/pdf-question-extractor/README.md` for the full CLI and the
+text-model vs. vision-model distinction.
 
 ## Publish on GitHub Pages
 
-1. Push to `main` (or `master`).
+1. Push to `main`.
 2. **Settings → Pages → Build and deployment → GitHub Actions**.
 3. Add the `DESMOS_API_KEY` secret (above).
 4. The workflow tests, builds, and publishes after each push.
 
-The Vite build uses relative `./` asset paths, so it works under any repository
-name and on other static hosts.
+The Vite build uses relative `./` paths, so it works under any repository name.
+
+## Desmos usage and limitations
+
+API version **v1.12**, loaded from `www.desmos.com` (never self-hosted or cached).
+SAT configuration: `images:false`, `folders:false`, `notes:false`,
+`forceLogModeRegressions:true`. Full command compatibility is in
+[`docs/DESMOS_COMPATIBILITY.md`](docs/DESMOS_COMPATIBILITY.md). Browser-level
+checks are in [`tests/manual/README.md`](tests/manual/README.md).
 
 ## Open-source components
 
-- math.js — Apache-2.0
-- function-plot — MIT
-- DOMPurify — Apache-2.0 / MPL-2.0
-- KaTeX fonts (bundled) — MIT
+math.js (Apache-2.0), function-plot (MIT), DOMPurify (Apache-2.0/MPL-2.0),
+JSZip (MIT/GPL-3.0), KaTeX fonts (MIT).

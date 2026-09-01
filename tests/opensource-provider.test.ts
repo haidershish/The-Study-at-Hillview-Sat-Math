@@ -47,7 +47,7 @@ describe('open-source provider state', () => {
   it('reports onChange for edits', () => {
     const seen: string[] = [];
     const provider = new OpenSourceCalculatorProvider({
-      onChange: (expressions, angleMode) => { seen.push(angleMode); void expressions; },
+      onChange: (calcState) => { seen.push(calcState.angleMode); },
     });
     provider.addExpression({ id: 'a', latex: 'y=x', source: 'y=x' });
     provider.setAngleMode('radians');

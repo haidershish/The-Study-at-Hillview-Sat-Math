@@ -117,7 +117,7 @@ export class DesmosCalculatorProvider implements CalculatorProvider {
   }
 }
 
-function toDesmosExpression(expression: CalculatorExpression): DesmosExpressionState {
+export function toDesmosExpression(expression: CalculatorExpression): DesmosExpressionState {
   const result: DesmosExpressionState = { id: expression.id, latex: expression.latex };
   if (expression.color) result.color = expression.color;
   if (expression.visible === false) result.hidden = true;
