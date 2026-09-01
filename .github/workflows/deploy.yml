@@ -17,6 +17,10 @@ concurrency:
 jobs:
   build:
     runs-on: ubuntu-latest
+    # The Desmos API key is injected only into the build environment. It is
+    # never printed; Vite inlines VITE_-prefixed values into the client bundle.
+    env:
+      VITE_DESMOS_API_KEY: ${{ secrets.DESMOS_API_KEY }}
     steps:
       - uses: actions/checkout@v4
       - uses: actions/setup-node@v4

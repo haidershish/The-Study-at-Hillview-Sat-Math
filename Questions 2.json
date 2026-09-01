@@ -9,7 +9,16 @@
     "choices": [{"id":"A","text":"2"},{"id":"B","text":"10/3"},{"id":"C","text":"4"},{"id":"D","text":"10"}],
     "answer": "B",
     "explanation": "At the intersection, the y-values are equal: 2x + 1 = 11 − x. Thus 3x = 10, so x = 10/3.",
-    "calculatorTip": "Enter y=2x+1 and y=11-x. Select the intersection and read its x-coordinate."
+    "calculatorTip": "Enter y=2x+1 and y=11-x. Select the intersection and read its x-coordinate.",
+    "calculatorStrategy": {
+      "recommended": true,
+      "provider": "either",
+      "expressions": [
+        { "latex": "y=2x+1", "source": "y=2x+1", "color": "#c74440" },
+        { "latex": "y=11-x", "source": "y=11-x", "color": "#2d70b3" }
+      ],
+      "instructions": "Graph both lines and read the x-coordinate where they cross."
+    }
   },
   {
     "id": "ALG-002",
@@ -21,7 +30,16 @@
     "choices": [{"id":"A","text":"0"},{"id":"B","text":"3"},{"id":"C","text":"5"},{"id":"D","text":"8"}],
     "answer": "C",
     "explanation": "The equations have the same slope. They represent the same line only when their y-intercepts match, so k = 5.",
-    "calculatorTip": "Graph y=3x+5 and y=3x+k, then adjust k until the lines coincide."
+    "calculatorTip": "Graph y=3x+5 and y=3x+k, then adjust k until the lines coincide.",
+    "calculatorStrategy": {
+      "recommended": true,
+      "provider": "desmos",
+      "expressions": [
+        { "latex": "y=3x+5", "color": "#c74440" },
+        { "latex": "y=3x+k", "color": "#2d70b3" }
+      ],
+      "instructions": "Drag the slider for k and find the value that makes the two lines coincide."
+    }
   },
   {
     "id": "ADV-001",
@@ -33,7 +51,15 @@
     "choices": [{"id":"A","text":"−2"},{"id":"B","text":"3"},{"id":"C","text":"18"},{"id":"D","text":"36"}],
     "answer": "C",
     "explanation": "The vertex is (3, 18). Because the coefficient of the squared term is negative, the vertex gives the maximum value: 18.",
-    "calculatorTip": "Enter y=-2(x-3)^2+18 and inspect the vertex."
+    "calculatorTip": "Enter y=-2(x-3)^2+18 and inspect the vertex.",
+    "calculatorStrategy": {
+      "recommended": true,
+      "provider": "either",
+      "expressions": [
+        { "latex": "y=-2(x-3)^{2}+18", "source": "y=-2(x-3)^2+18", "color": "#c74440" }
+      ],
+      "instructions": "Graph the parabola and find its highest point (the vertex)."
+    }
   },
   {
     "id": "ADV-002",
@@ -45,7 +71,16 @@
     "choices": [{"id":"A","text":"2.7"},{"id":"B","text":"3.2"},{"id":"C","text":"3.7"},{"id":"D","text":"4.2"}],
     "answer": "C",
     "explanation": "Because 2^3 = 8 and 2^4 = 16, x is between 3 and 4. Numerically, x = log(13)/log(2) ≈ 3.70.",
-    "calculatorTip": "Graph y=2^x and y=13. The intersection's x-coordinate is approximately 3.70."
+    "calculatorTip": "Graph y=2^x and y=13. The intersection's x-coordinate is approximately 3.70.",
+    "calculatorStrategy": {
+      "recommended": true,
+      "provider": "either",
+      "expressions": [
+        { "latex": "y=2^{x}", "source": "y=2^x", "color": "#c74440" },
+        { "latex": "y=13", "source": "y=13", "color": "#2d70b3" }
+      ],
+      "instructions": "Graph both and read the x-coordinate where they intersect."
+    }
   },
   {
     "id": "PSDA-001",
@@ -57,7 +92,15 @@
     "choices": [{"id":"A","text":"The predicted score after zero sessions"},{"id":"B","text":"The number of sessions needed to increase the score by 4.2"},{"id":"C","text":"The predicted score increase for each additional session"},{"id":"D","text":"The total score after 4.2 sessions"}],
     "answer": "C",
     "explanation": "The slope is 4.2 score points per practice session. The intercept, 18, is the predicted score at zero sessions.",
-    "calculatorTip": "Enter y=4.2x+18 and use a table to compare consecutive x-values."
+    "calculatorTip": "Enter y=4.2x+18 and use a table to compare consecutive x-values.",
+    "calculatorStrategy": {
+      "recommended": true,
+      "provider": "either",
+      "expressions": [
+        { "latex": "y=4.2x+18", "source": "y=4.2x+18", "color": "#c74440" }
+      ],
+      "instructions": "Graph the line, then use a table to see how y changes when x increases by 1."
+    }
   },
   {
     "id": "PSDA-002",
@@ -69,7 +112,16 @@
     "choices": [{"id":"A","text":"$57.80"},{"id":"B","text":"$78.20"},{"id":"C","text":"$80.00"},{"id":"D","text":"$83.00"}],
     "answer": "C",
     "explanation": "The sale price is 85% of the original price. Solve 0.85x = 68, giving x = 80.",
-    "calculatorTip": "Enter 68/0.85 or graph y=0.85x and y=68."
+    "calculatorTip": "Enter 68/0.85 or graph y=0.85x and y=68.",
+    "calculatorStrategy": {
+      "recommended": true,
+      "provider": "either",
+      "expressions": [
+        { "latex": "y=0.85x", "source": "y=0.85x", "color": "#c74440" },
+        { "latex": "y=68", "source": "y=68", "color": "#2d70b3" }
+      ],
+      "instructions": "Graph both and read the x-coordinate where they intersect."
+    }
   },
   {
     "id": "PSDA-003",
@@ -105,7 +157,15 @@
     "choices": [{"id":"A","text":"2"},{"id":"B","text":"5"},{"id":"C","text":"7"},{"id":"D","text":"49"}],
     "answer": "C",
     "explanation": "Circle form is (x−h)^2 + (y−k)^2 = r^2. Here r^2 = 49, so r = 7.",
-    "calculatorTip": "Graph (x-2)^2+(y+5)^2=49 or compare it with the standard circle form."
+    "calculatorTip": "Graph (x-2)^2+(y+5)^2=49 or compare it with the standard circle form.",
+    "calculatorStrategy": {
+      "recommended": true,
+      "provider": "desmos",
+      "expressions": [
+        { "latex": "(x-2)^{2}+(y+5)^{2}=49", "color": "#c74440" }
+      ],
+      "instructions": "Graph the circle and compare it with the standard circle form to find the radius."
+    }
   },
   {
     "id": "GEO-003",
@@ -129,7 +189,15 @@
     "choices": [{"id":"A","text":"1"},{"id":"B","text":"2"},{"id":"C","text":"4"},{"id":"D","text":"6"}],
     "answer": "C",
     "explanation": "Factor x^2 − 6x + 5 = (x − 1)(x − 5). The x-intercepts are 1 and 5, whose distance is 4.",
-    "calculatorTip": "Enter y=x^2-6x+5 and inspect both x-intercepts."
+    "calculatorTip": "Enter y=x^2-6x+5 and inspect both x-intercepts.",
+    "calculatorStrategy": {
+      "recommended": true,
+      "provider": "either",
+      "expressions": [
+        { "latex": "y=x^{2}-6x+5", "source": "y=x^2-6x+5", "color": "#c74440" }
+      ],
+      "instructions": "Graph the parabola and find the two places it crosses the x-axis."
+    }
   },
   {
     "id": "MIX-002",

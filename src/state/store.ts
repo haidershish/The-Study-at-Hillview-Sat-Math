@@ -13,6 +13,8 @@ export const initialState = (): SessionState => ({
     { id: crypto.randomUUID(), source: 'y=2x+1', color: colors[0], visible: true },
     { id: crypto.randomUUID(), source: 'y=-x+7', color: colors[1], visible: true },
   ],
+  angleMode: 'radians',
+  calculatorState: undefined,
 });
 
 export function loadState(): SessionState {

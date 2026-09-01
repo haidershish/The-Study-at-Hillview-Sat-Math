@@ -1,11 +1,14 @@
 import DOMPurify from 'dompurify';
 import './styles.css';
-import type { Question, SessionState } from './types';
+import type { Expression, Question, SessionState } from './types';
 import { sampleQuestions } from './questions/sample';
 import { importQuestionFile } from './questions/importer';
-import { createGraph } from './calculator/graph';
-import { evaluateExpression, formatNumber, isValidExpression, tableValues } from './calculator/engine';
 import { exportState, initialState, loadState, nextColor, saveState } from './state/store';
+import { selectCalculatorProvider } from './calculator/factory';
+import { OpenSourceCalculatorProvider } from './calculator/opensource-provider';
+import { DesmosCalculatorProvider } from './calculator/desmos-provider';
+import type { CalculatorExpression, CalculatorProvider, ProviderInfo } from './calculator/types';
+import { strategyAngleMode, strategyNeedsDesmos, strategyToExpressions } from './questions/strategy';
 
 const app = document.querySelector<HTMLDivElement>('#app');
 if (!app) throw new Error('Application root was not found.');
@@ -30,40 +33,16 @@ app.innerHTML = `
       <article id="question"></article>
       <div class="question-tip" id="question-tip" hidden></div>
     </section>
-    <aside class="calculator-panel" id="calculator-panel" aria-label="Open-source calculator">
+    <aside class="calculator-panel" id="calculator-panel" aria-label="Calculator">
       <div class="calculator-header">
-        <div><strong>Calculator</strong><small>Open-source classroom edition</small></div>
-        <button class="quiet" id="reset-graph">Reset view</button>
-      </div>
-      <div class="calculator-tabs" role="tablist">
-        <button class="calc-tab active" data-tab="graph">Graph</button>
-        <button class="calc-tab" data-tab="table">Table</button>
-        <button class="calc-tab" data-tab="scientific">Scientific</button>
-      </div>
-      <section class="calc-view graph-view active" data-view="graph">
-        <div class="expressions-panel">
-          <div class="expressions-title"><strong>Expressions</strong><button id="add-expression" aria-label="Add expression">＋</button></div>
-          <div id="expression-list"></div>
-          <p class="mini-help">Examples: <code>y=x^2-4</code>, <code>y=sin(x)</code><br>Scroll to zoom · drag to pan</p>
+        <div><strong>Calculator</strong><small id="provider-status">Loading calculator…</small></div>
+        <div class="calculator-header-actions">
+          <button class="quiet" id="angle-toggle" aria-pressed="false" title="Currently in radians — click for degrees">RAD</button>
+          <button class="quiet" id="reset-graph">Reset view</button>
+          <button class="quiet" id="send-setup" hidden>Send setup to calculator</button>
         </div>
-        <div class="graph-stage" id="graph" role="img" aria-label="Interactive coordinate graph"></div>
-      </section>
-      <section class="calc-view table-view" data-view="table">
-        <div class="table-controls"><label>Expression <select id="table-expression"></select></label><label>Start <input id="table-start" type="number" value="-3"></label><label>Step <input id="table-step" type="number" value="1" min="0.01" step="0.1"></label><button class="primary" id="make-table">Generate</button></div>
-        <div class="table-scroll"><table><thead><tr><th>x</th><th>y</th></tr></thead><tbody id="table-body"></tbody></table></div>
-      </section>
-      <section class="calc-view scientific-view" data-view="scientific">
-        <label class="math-label" for="scientific-input">Expression</label>
-        <input class="formula-input" id="scientific-input" value="sqrt(144)+5!" autocomplete="off" spellcheck="false">
-        <div class="science-actions"><button class="primary" id="evaluate">Evaluate</button><button class="quiet" id="clear-science">Clear</button></div>
-        <output class="result" id="science-result" aria-live="polite">Result appears here</output>
-        <div class="quick-keys" id="quick-keys">
-          <button data-insert="sqrt">√</button><button data-insert="pi">π</button><button data-insert="^2">x²</button>
-          <button data-value="nCr(5,2)">nCr</button><button data-value="nPr(5,2)">nPr</button><button data-insert="!">n!</button>
-          <button data-value="sin(pi/6)">sin</button><button data-value="log(100,10)">log</button><button data-value="sum([1,2,3,4])">Σ</button>
-        </div>
-        <p class="science-help"><strong>SAT shortcuts:</strong> nCr(5,2), nPr(5,2), 7+(20-1)*4, sum([1,2,3,4])</p>
-      </section>
+      </div>
+      <div class="calculator-mount" id="calculator-mount" aria-live="polite"></div>
     </aside>
   </main>
   <nav class="bottombar" aria-label="Question navigation">
@@ -86,7 +65,9 @@ const $ = <T extends HTMLElement>(id: string): T => {
 let questions: Question[] = sampleQuestions;
 let state: SessionState = loadState();
 if (state.current >= questions.length) state.current = 0;
-const graph = createGraph($('graph'));
+
+let provider: CalculatorProvider | null = null;
+let providerInfo: ProviderInfo = { id: 'open-source', status: 'loading', ready: false, label: 'Loading calculator…', detail: '', degraded: false };
 let timer: number | undefined;
 
 const clean = (value: string): string => DOMPurify.sanitize(value, { ALLOWED_TAGS: [] });
@@ -95,8 +76,47 @@ const toast = (message: string, error = false) => {
   const node = $('toast');
   node.textContent = message;
   node.className = `toast show${error ? ' error' : ''}`;
-  window.setTimeout(() => node.className = 'toast', 2600);
+  window.setTimeout(() => node.className = 'toast', 3200);
 };
+
+// ---- expression model conversion (persisted state <-> provider) ------------
+
+const toCalcExpression = (expression: Expression): CalculatorExpression => ({
+  id: expression.id,
+  source: expression.source,
+  latex: expression.source,
+  color: expression.color,
+  visible: expression.visible,
+});
+
+const fromCalcExpression = (expression: CalculatorExpression, index: number): Expression => ({
+  id: expression.id,
+  source: expression.source ?? '',
+  color: expression.color ?? nextColor(index),
+  visible: expression.visible !== false,
+});
+
+// ---- provider status + angle-mode UI --------------------------------------
+
+function updateProviderStatus(): void {
+  const node = $('provider-status');
+  node.textContent = providerInfo.label;
+  node.classList.toggle('degraded', providerInfo.degraded);
+}
+
+function updateAngleToggle(): void {
+  const button = $('angle-toggle');
+  const degrees = state.angleMode === 'degrees';
+  button.textContent = degrees ? 'DEG' : 'RAD';
+  button.title = degrees ? 'Currently in degrees — click for radians' : 'Currently in radians — click for degrees';
+  button.setAttribute('aria-pressed', String(degrees));
+}
+
+function updateSetupButton(): void {
+  $('send-setup').hidden = !questions[state.current].calculatorStrategy;
+}
+
+// ---- question rendering ----------------------------------------------------
 
 function renderQuestion(): void {
   const q = questions[state.current];
@@ -113,8 +133,9 @@ function renderQuestion(): void {
     : `<label class="spr-label">Enter your answer<input class="spr" id="spr" inputmode="decimal" value="${clean(answer)}" placeholder="Answer"></label>`;
   $('question').innerHTML = `<div class="skill-line">${clean(q.skill)} · Difficulty ${q.difficulty}</div><h1>${clean(q.prompt)}</h1>${controls}`;
   const tip = $('question-tip');
-  tip.hidden = !q.calculatorTip;
-  tip.innerHTML = q.calculatorTip ? `<strong>Calculator strategy</strong><br>${clean(q.calculatorTip)}` : '';
+  const tipText = q.calculatorTip ?? q.calculatorStrategy?.instructions ?? '';
+  tip.hidden = !tipText;
+  tip.innerHTML = tipText ? `<strong>Calculator strategy</strong><br>${clean(tipText)}` : '';
 
   document.querySelectorAll<HTMLInputElement>('input[name="answer"]').forEach(input => input.addEventListener('change', () => {
     state.responses[q.id] = input.value; persist(); renderQuestion(); renderMenu();
@@ -123,23 +144,11 @@ function renderQuestion(): void {
     state.responses[q.id] = (event.target as HTMLInputElement).value; persist(); renderMenu();
   });
   renderMenu();
+  updateSetupButton();
 }
 
 function renderMenu(): void {
   $('question-menu').innerHTML = questions.map((q, index) => `<button data-index="${index}" class="${index === state.current ? 'current' : ''}"><span>${index + 1}</span><span>${clean(q.skill)}</span><b>${state.responses[q.id] ? '✓' : ''}${state.review.includes(q.id) ? ' ★' : ''}</b></button>`).join('');
-}
-
-function renderExpressions(): void {
-  $('expression-list').innerHTML = state.expressions.map((expression, index) => `
-    <div class="expression-row ${isValidExpression(expression.source) ? '' : 'invalid'}">
-      <button class="visibility" data-visible="${expression.id}" style="--expression-color:${expression.color}" aria-label="Toggle expression ${index + 1}">${expression.visible ? '●' : '○'}</button>
-      <span class="expression-number">${index + 1}</span>
-      <input value="${clean(expression.source)}" data-expression="${expression.id}" aria-label="Expression ${index + 1}" spellcheck="false">
-      <button class="remove-expression" data-remove="${expression.id}" aria-label="Remove expression">×</button>
-    </div>`).join('');
-  graph.setExpressions(state.expressions);
-  const options = state.expressions.map((expression, index) => `<option value="${expression.id}">${index + 1}: ${clean(expression.source || 'blank')}</option>`).join('');
-  $('table-expression').innerHTML = options;
 }
 
 function navigate(index: number): void {
@@ -180,11 +189,117 @@ function showScore(): void {
   showDialog(`Score: ${correct} of ${questions.length}`, `<div class="score-meter"><div style="width:${correct / questions.length * 100}%"></div></div>${review}`);
 }
 
-function selectTab(name: string): void {
-  document.querySelectorAll('.calc-tab').forEach(node => node.classList.toggle('active', (node as HTMLElement).dataset.tab === name));
-  document.querySelectorAll('.calc-view').forEach(node => node.classList.toggle('active', (node as HTMLElement).dataset.view === name));
-  if (name === 'graph') graph.setExpressions(state.expressions);
+// ---- calculator strategy ---------------------------------------------------
+
+function providerHasExpressions(): boolean {
+  if (!provider) return false;
+  const value = provider.getState() as { expressions?: unknown } | { list?: unknown } | null;
+  if (!value || typeof value !== 'object') return false;
+  if ('expressions' in value && Array.isArray((value as { expressions: unknown }).expressions)) {
+    return ((value as { expressions: unknown[] }).expressions).length > 0;
+  }
+  const desmos = value as { expressions?: { list?: unknown[] } };
+  return (desmos.expressions?.list?.length ?? 0) > 0;
 }
+
+function applyStrategy(): void {
+  if (!provider) return;
+  const calc = provider;
+  const q = questions[state.current];
+  const strategy = q.calculatorStrategy;
+  if (!strategy) return;
+
+  if (strategyNeedsDesmos(strategy) && calc.id !== 'desmos') {
+    toast('This setup requires the official Desmos calculator, which is not available right now.', true);
+    return;
+  }
+
+  const expressions = strategyToExpressions(strategy);
+  const replace = !providerHasExpressions() || window.confirm('Replace your current calculator expressions with this question setup?');
+  if (replace) {
+    calc.setExpressions(expressions);
+    // setExpressions does not emit onChange for the open-source provider, so
+    // mirror the new expression list back into session state.
+    if (calc.id === 'open-source') state.expressions = expressions.map(fromCalcExpression);
+  } else {
+    expressions.forEach(expression => calc.addExpression(expression));
+  }
+
+  const mode = strategyAngleMode(strategy);
+  if (mode) { state.angleMode = mode; calc.setAngleMode(mode); updateAngleToggle(); persist(); }
+  toast(strategy.instructions);
+}
+
+// ---- calculator lifecycle --------------------------------------------------
+
+/**
+ * Re-seed the active provider from the current session state. Used after a
+ * session reset or question-bank import so the calculator matches the restored
+ * default expressions/angle mode (rather than clearing into an empty state).
+ */
+function restoreCalculator(): void {
+  if (!provider) return;
+  if (provider.id === 'open-source') {
+    provider.setState({ expressions: state.expressions.map(toCalcExpression), angleMode: state.angleMode });
+  } else {
+    state.calculatorState = undefined;
+    provider.clear();
+    provider.resetViewport();
+    provider.setAngleMode(state.angleMode);
+  }
+  updateAngleToggle();
+}
+
+async function initCalculator(): Promise<void> {
+  const selected = await selectCalculatorProvider({
+    createOpenSource: () => new OpenSourceCalculatorProvider({
+      onChange: (expressions, angleMode) => {
+        state.expressions = expressions.map(fromCalcExpression);
+        state.angleMode = angleMode;
+        updateAngleToggle();
+        persist();
+      },
+    }),
+    createDesmos: () => new DesmosCalculatorProvider({
+      onChange: (calculatorState) => {
+        state.calculatorState = calculatorState;
+        const graph = (calculatorState as { graph?: { degreeMode?: boolean } } | null)?.graph;
+        if (graph && typeof graph.degreeMode === 'boolean') {
+          state.angleMode = graph.degreeMode ? 'degrees' : 'radians';
+          updateAngleToggle();
+        }
+        persist();
+      },
+    }),
+  });
+
+  provider = selected.provider;
+  providerInfo = selected.info;
+  updateProviderStatus();
+
+  try {
+    await provider.mount($('calculator-mount'));
+  } catch (error) {
+    // If Desmos mount fails (e.g. runtime init error), fall back to open-source.
+    provider = new OpenSourceCalculatorProvider({ onChange: (expressions, angleMode) => {
+      state.expressions = expressions.map(fromCalcExpression);
+      state.angleMode = angleMode; updateAngleToggle(); persist();
+    } });
+    providerInfo = { id: 'open-source', status: 'desmos-unavailable', ready: true, degraded: true, label: 'Desmos unavailable — offline calculator active', detail: error instanceof Error ? error.message : 'Desmos could not start.' };
+    updateProviderStatus();
+    await provider.mount($('calculator-mount'));
+  }
+
+  if (provider.id === 'open-source') {
+    provider.setState({ expressions: state.expressions.map(toCalcExpression), angleMode: state.angleMode });
+  } else {
+    if (state.calculatorState) provider.setState(state.calculatorState);
+    provider.setAngleMode(state.angleMode);
+  }
+  updateAngleToggle();
+}
+
+// ---- events ----------------------------------------------------------------
 
 function bindEvents(): void {
   $('review-button').addEventListener('click', () => {
@@ -205,7 +320,17 @@ function bindEvents(): void {
   $('calculator-toggle').addEventListener('click', () => {
     const hidden = $('calculator-panel').classList.toggle('closed');
     $('calculator-toggle').setAttribute('aria-expanded', String(!hidden));
+    if (!hidden) window.setTimeout(() => provider?.resize(), 60);
   });
+  $('angle-toggle').addEventListener('click', () => {
+    if (!provider) return;
+    const next = state.angleMode === 'degrees' ? 'radians' : 'degrees';
+    state.angleMode = next;
+    provider.setAngleMode(next);
+    updateAngleToggle(); persist();
+  });
+  $('send-setup').addEventListener('click', applyStrategy);
+  $('reset-graph').addEventListener('click', () => provider?.resetViewport());
   $('dialog-close').addEventListener('click', () => ($('dialog') as HTMLDialogElement).close());
   $('dialog').addEventListener('click', event => { if (event.target === $('dialog')) ($('dialog') as HTMLDialogElement).close(); });
   $('dialog-body').addEventListener('click', event => {
@@ -213,62 +338,21 @@ function bindEvents(): void {
     if (tool === 'import') $('question-file').click();
     if (tool === 'export') { exportState(state); toast('Session exported.'); }
     if (tool === 'score') showScore();
-    if (tool === 'reset' && window.confirm('Clear this session and restore the sample questions?')) { state = initialState(); questions = sampleQuestions; persist(); ($('dialog') as HTMLDialogElement).close(); renderAll(); }
+    if (tool === 'reset' && window.confirm('Clear this session and restore the sample questions?')) {
+      state = initialState();
+      questions = sampleQuestions;
+      persist();
+      restoreCalculator();
+      ($('dialog') as HTMLDialogElement).close();
+      renderAll();
+    }
   });
   $('question-file').addEventListener('change', async event => {
     const file = (event.target as HTMLInputElement).files?.[0];
     if (!file) return;
-    try { questions = await importQuestionFile(file); state = initialState(); persist(); renderAll(); ($('dialog') as HTMLDialogElement).close(); toast(`${questions.length} questions imported.`); }
+    try { questions = await importQuestionFile(file); state = initialState(); persist(); restoreCalculator(); renderAll(); ($('dialog') as HTMLDialogElement).close(); toast(`${questions.length} questions imported.`); }
     catch (error) { toast(error instanceof Error ? error.message : 'Import failed.', true); }
   });
-  document.querySelectorAll('.calc-tab').forEach(button => button.addEventListener('click', () => selectTab((button as HTMLElement).dataset.tab || 'graph')));
-  $('add-expression').addEventListener('click', () => {
-    state.expressions.push({ id: crypto.randomUUID(), source: '', color: nextColor(state.expressions.length), visible: true });
-    persist(); renderExpressions();
-    document.querySelector<HTMLInputElement>('[data-expression]:last-of-type')?.focus();
-  });
-  $('expression-list').addEventListener('input', event => {
-    const input = (event.target as HTMLElement).closest<HTMLInputElement>('[data-expression]');
-    if (!input) return;
-    const expression = state.expressions.find(item => item.id === input.dataset.expression);
-    if (expression) expression.source = input.value;
-    persist(); renderExpressions();
-    document.querySelector<HTMLInputElement>(`[data-expression="${input.dataset.expression}"]`)?.focus();
-  });
-  $('expression-list').addEventListener('click', event => {
-    const target = event.target as HTMLElement;
-    const remove = target.closest<HTMLButtonElement>('[data-remove]')?.dataset.remove;
-    const visible = target.closest<HTMLButtonElement>('[data-visible]')?.dataset.visible;
-    if (remove) state.expressions = state.expressions.filter(item => item.id !== remove);
-    if (visible) { const expression = state.expressions.find(item => item.id === visible); if (expression) expression.visible = !expression.visible; }
-    if (remove || visible) { persist(); renderExpressions(); }
-  });
-  $('reset-graph').addEventListener('click', () => graph.reset());
-  $('make-table').addEventListener('click', () => {
-    const id = ($('table-expression') as HTMLSelectElement).value;
-    const expression = state.expressions.find(item => item.id === id);
-    const start = Number(($('table-start') as HTMLInputElement).value);
-    const step = Math.abs(Number(($('table-step') as HTMLInputElement).value)) || 1;
-    const rows = expression ? tableValues(expression.source, start, start + step * 9, step) : [];
-    $('table-body').innerHTML = rows.map(row => `<tr><td>${formatNumber(row.x)}</td><td>${row.y === null ? 'undefined' : formatNumber(row.y)}</td></tr>`).join('') || '<tr><td colspan="2">Choose a valid function.</td></tr>';
-  });
-  $('evaluate').addEventListener('click', evaluateScientific);
-  $('scientific-input').addEventListener('keydown', event => { if ((event as KeyboardEvent).key === 'Enter') evaluateScientific(); });
-  $('clear-science').addEventListener('click', () => { ($('scientific-input') as HTMLInputElement).value = ''; $('science-result').textContent = 'Result appears here'; });
-  $('quick-keys').addEventListener('click', event => {
-    const button = (event.target as HTMLElement).closest<HTMLButtonElement>('button');
-    if (!button) return;
-    const field = $('scientific-input') as HTMLInputElement;
-    if (button.dataset.value) field.value = button.dataset.value;
-    else if (button.dataset.insert) field.value += button.dataset.insert;
-    field.focus();
-  });
-}
-
-function evaluateScientific(): void {
-  const field = $('scientific-input') as HTMLInputElement;
-  try { $('science-result').textContent = `= ${formatNumber(evaluateExpression(field.value))}`; }
-  catch { $('science-result').textContent = 'Check the expression and try again.'; }
 }
 
 function updateTimer(): void {
@@ -277,10 +361,12 @@ function updateTimer(): void {
   $('timer').textContent = state.timerHidden ? 'Show timer' : `${minutes}:${seconds}`;
 }
 
-function renderAll(): void { renderQuestion(); renderExpressions(); updateTimer(); }
+function renderAll(): void { renderQuestion(); updateAngleToggle(); updateTimer(); }
 
 bindEvents();
 renderAll();
+void initCalculator();
+
 timer = window.setInterval(() => {
   if (state.secondsRemaining > 0) { state.secondsRemaining -= 1; updateTimer(); if (state.secondsRemaining % 10 === 0) persist(); }
   else if (timer) window.clearInterval(timer);

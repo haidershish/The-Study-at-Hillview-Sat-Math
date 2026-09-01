@@ -2,3 +2,8 @@ node_modules/
 dist/
 .vite/
 *.log
+
+# Local environment files (may contain the Desmos API key). Never commit these.
+.env
+.env.*
+!.env.example
