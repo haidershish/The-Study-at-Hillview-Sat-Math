@@ -2,6 +2,7 @@ import { describe, expect, it } from 'vitest';
 import { validateQuestionBank } from '../src/questions/importer';
 import questionBank from '../Questions 2.json';
 import questionBank3 from '../Questions3.json';
+import questionBank4 from '../Questions4.json';
 
 describe('question-bank validation', () => {
   it('accepts the bundled 12-question bank with strategies intact', () => {
@@ -71,5 +72,14 @@ describe('question-bank validation', () => {
     expect(extracted).toBeTruthy();
     expect(extracted!.sourcePage).toBeGreaterThan(0);
     expect(Array.isArray(extracted!.assetIds)).toBe(true);
+  });
+
+  it('accepts the QA-approved visual bank with one asset per question', () => {
+    const questions = validateQuestionBank(questionBank4 as unknown);
+    expect(questions).toHaveLength(8);
+    expect(questions.every(q => q.assets?.length === 1)).toBe(true);
+    expect(questions.every(q => q.needsReview === false)).toBe(true);
+    expect(questions.every(q => q.assets![0].src.startsWith('./banks/princeton-ready-visuals/assets/'))).toBe(true);
+    expect(new Set(questions.map(q => q.assets![0].type))).toEqual(new Set(['table', 'graph', 'figure', 'diagram']));
   });
 });

@@ -1,4 +1,4 @@
-const CACHE = 'sat-math-lab-v3';
+const CACHE = 'sat-math-lab-v4';
 const DESMOS_ORIGIN = 'https://www.desmos.com';
 
 self.addEventListener('install', () => self.skipWaiting());

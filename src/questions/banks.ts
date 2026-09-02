@@ -1,5 +1,6 @@
 import questionBank2 from '../../Questions 2.json';
 import questionBank3 from '../../Questions3.json';
+import questionBank4 from '../../Questions4.json';
 import type { Bank, Question } from '../types';
 
 /**
@@ -30,11 +31,43 @@ export const BUILTIN_BANKS: BuiltinBankEntry[] = [
     questions: questionBank3 as Question[],
     assetBase: '.',
   },
+  {
+    id: 'princeton-ready-visuals',
+    title: 'Princeton Review — QA-Approved Visual Questions',
+    description: 'Eight reviewed SAT Math questions using tables, graphs, and geometry figures.',
+    questions: questionBank4 as Question[],
+    // Questions4 uses deploy-root-relative paths so it also works through the
+    // standalone JSON importer, which does not have a bank-specific asset base.
+    assetBase: '.',
+  },
 ];
 
 const IMPORTED_KEY = 'sat-math-lab-imported-banks-v1';
 
 let imported: Bank[] = [];
+
+const PRINCETON_VISUAL_ASSET_ROOT = './banks/princeton-ready-visuals/';
+
+/**
+ * Questions4 was initially imported before its images had deployable URLs.
+ * Repair that persisted browser copy while preserving its bank id so active
+ * sessions using `questions4::…` keys continue to resolve after deployment.
+ */
+export function normalizeImportedBank(bank: Omit<Bank, 'builtin'>): Omit<Bank, 'builtin'> {
+  if (bank.id !== 'questions4' && bank.title.toLowerCase() !== 'questions4') return bank;
+  return {
+    ...bank,
+    questions: bank.questions.map(question => ({
+      ...question,
+      assets: question.assets?.map(asset => {
+        if (!/^\.?\/?assets\//i.test(asset.src)) return asset;
+        const relative = asset.src.replace(/^\.?\/?/, '');
+        return { ...asset, src: `${PRINCETON_VISUAL_ASSET_ROOT}${relative}` };
+      }),
+    })),
+    assetBase: '',
+  };
+}
 
 function persistImported(): void {
   try {
@@ -61,10 +94,15 @@ function restoreImported(): void {
     const text = localStorage.getItem(IMPORTED_KEY);
     if (!text) return;
     const raw = JSON.parse(text) as Array<Omit<Bank, 'builtin'>>;
-    imported = raw.filter(b => b && Array.isArray(b.questions)).map(b => ({
-      id: b.id, title: b.title, description: b.description,
-      questions: b.questions, assetBase: b.assetBase ?? '', builtin: false,
-    }));
+    imported = raw.filter(b => b && Array.isArray(b.questions)).map(b => {
+      const normalized = normalizeImportedBank({
+        id: b.id, title: b.title, description: b.description,
+        questions: b.questions, assetBase: b.assetBase ?? '',
+      });
+      return { ...normalized, builtin: false };
+    });
+    // Save repaired legacy paths so subsequent loads no longer need migration.
+    persistImported();
   } catch {
     imported = [];
   }
@@ -75,7 +113,7 @@ export function builtinBanks(): Bank[] {
 }
 
 export function registerImportedBank(bank: Omit<Bank, 'builtin'>): Bank {
-  const full: Bank = { ...bank, builtin: false };
+  const full: Bank = { ...normalizeImportedBank(bank), builtin: false };
   imported = imported.filter(b => b.id !== bank.id);
   imported.push(full);
   persistImported();

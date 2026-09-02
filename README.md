@@ -50,6 +50,18 @@ tools/pdf-question-extractor/   Python CLI (PyMuPDF + LM Studio)
 Questions are keyed internally as `bankId::questionId` so identically-named
 questions across banks never collide.
 
+### Reference summary: questions with images
+
+Tables, diagrams, graphs, and other figures use one typed `assets[]` contract on
+the question. A bank owns the base path, the renderer resolves that path without
+mutating bank data, and all visual types share responsive display, alt text,
+missing-image handling, preloading, keyboard access, and click-to-enlarge.
+
+See [Question images: architectural reference](docs/QUESTION_IMAGES.md) for the
+built-in-bank and ZIP layouts, JSON examples, authoring rules, and acceptance
+checklist. This is the Module 2 extension of the image support introduced in the
+previous Git module.
+
 ### Calculator-provider selection
 
 `selectCalculatorProvider()` reads `VITE_DESMOS_API_KEY`. No key → open-source.

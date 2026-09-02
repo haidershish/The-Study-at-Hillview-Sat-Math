@@ -1,0 +1,270 @@
+[
+  {
+    "id": "PRV-P180-Q7",
+    "domain": "Algebra",
+    "skill": "Linear functions from tables",
+    "difficulty": 2,
+    "prompt": "Linear function f is represented by the table. Which function accurately represents f?",
+    "type": "multiple-choice",
+    "choices": [
+      { "id": "A", "text": "f(x) = 8x" },
+      { "id": "B", "text": "f(x) = 8x + 8" },
+      { "id": "C", "text": "f(x) = 9x − 1" },
+      { "id": "D", "text": "f(x) = 9x + 8" }
+    ],
+    "answer": "C",
+    "explanation": "The output increases by 9 whenever x increases by 1, so the slope is 9. Substituting (1, 8) into f(x) = 9x + b gives 8 = 9 + b, so b = −1. Therefore f(x) = 9x − 1.",
+    "calculatorTip": "Enter the table values and compare them with each proposed function.",
+    "calculatorStrategy": {
+      "recommended": true,
+      "provider": "either",
+      "table": {
+        "columns": [
+          { "latex": "x_1", "values": [1, 2, 3, 4] },
+          { "latex": "y_1", "values": [8, 17, 26, 35] }
+        ]
+      },
+      "instructions": "Use the table to identify the constant rate of change, then determine the intercept."
+    },
+    "assets": [
+      {
+        "id": "p180-q7-table",
+        "type": "table",
+        "src": "./banks/princeton-ready-visuals/assets/p180_7_table.png",
+        "alt": "Table with x-values 1, 2, 3, 4 and corresponding f(x)-values 8, 17, 26, 35; the source crop also shows the four answer choices.",
+        "sourcePage": 180
+      }
+    ],
+    "sourceType": "qa-approved-visual-extract",
+    "sourcePage": 180,
+    "sourceQuestion": "7",
+    "needsReview": false,
+    "sourceNotes": "QA-approved crop from the supplied ready folder."
+  },
+  {
+    "id": "PRV-P190-Q11",
+    "domain": "Algebra",
+    "skill": "Slopes of perpendicular lines",
+    "difficulty": 2,
+    "prompt": "Which graph shows a line perpendicular to the line defined by 2x + 5y = 10?",
+    "type": "multiple-choice",
+    "choices": [
+      { "id": "A", "text": "Graph A" },
+      { "id": "B", "text": "Graph B" },
+      { "id": "C", "text": "Graph C" },
+      { "id": "D", "text": "Graph D" }
+    ],
+    "answer": "D",
+    "explanation": "Rewriting the given line gives y = −(2/5)x + 2, whose slope is −2/5. A perpendicular line has slope 5/2. Graph D rises 5 units for a run of 2 units, so it has slope 5/2.",
+    "calculatorTip": "Rewrite the equation in slope-intercept form and use the negative reciprocal of its slope.",
+    "assets": [
+      {
+        "id": "p190-q11-graph",
+        "type": "graph",
+        "src": "./banks/princeton-ready-visuals/assets/p190_11_graph.png",
+        "alt": "Four candidate coordinate graphs labeled A through D. Graph D is an increasing line with slope 5 over 2.",
+        "sourcePage": 190
+      }
+    ],
+    "sourceType": "qa-approved-visual-extract",
+    "sourcePage": 190,
+    "sourceQuestion": "11",
+    "needsReview": false,
+    "sourceNotes": "QA-approved crop from the supplied ready folder."
+  },
+  {
+    "id": "PRV-P246-Q10",
+    "domain": "Problem-Solving and Data Analysis",
+    "skill": "Comparing medians",
+    "difficulty": 2,
+    "prompt": "The table gives the milligrams of gold in five samples of three rock types. How much larger is the median for granite than the median for limestone?",
+    "type": "multiple-choice",
+    "choices": [
+      { "id": "A", "text": "0.00" },
+      { "id": "B", "text": "0.37" },
+      { "id": "C", "text": "0.45" },
+      { "id": "D", "text": "0.55" }
+    ],
+    "answer": "B",
+    "explanation": "After sorting, the limestone values have median 0.45 and the granite values have median 0.82. The difference is 0.82 − 0.45 = 0.37 milligram.",
+    "calculatorTip": "Sort each five-value list and subtract the middle limestone value from the middle granite value.",
+    "assets": [
+      {
+        "id": "p246-q10-table",
+        "type": "table",
+        "src": "./banks/princeton-ready-visuals/assets/p246_10_table.png",
+        "alt": "Gold-content table. Limestone: 0.45, 0.58, 0.55, 0.42, 0.41; granite: 0.94, 0.87, 0.82, 0.55, 0.73; gneiss: 0.38, 0.60, 0.37, 0.40, 0.34.",
+        "sourcePage": 246
+      }
+    ],
+    "sourceType": "qa-approved-visual-extract",
+    "sourcePage": 246,
+    "sourceQuestion": "10",
+    "needsReview": false,
+    "sourceNotes": "QA-approved crop from the supplied ready folder."
+  },
+  {
+    "id": "PRV-P253-Q14",
+    "domain": "Problem-Solving and Data Analysis",
+    "skill": "Median, mode, and range",
+    "difficulty": 2,
+    "prompt": "The frequency table shows the numbers of ice cream scoops ordered by 24 customers. Which option correctly orders the median, mode, and range?",
+    "type": "multiple-choice",
+    "choices": [
+      { "id": "A", "text": "mode < median < range" },
+      { "id": "B", "text": "median < mode < range" },
+      { "id": "C", "text": "median < range < mode" },
+      { "id": "D", "text": "range < median < mode" }
+    ],
+    "answer": "B",
+    "explanation": "The 12th value is 2 and the 13th is 3, so the median is 2.5. The most frequent value is 3, and the range is 8 − 1 = 7. Thus median < mode < range.",
+    "calculatorTip": "Expand the frequency table conceptually to locate the 12th and 13th observations.",
+    "assets": [
+      {
+        "id": "p253-q14-table",
+        "type": "table",
+        "src": "./banks/princeton-ready-visuals/assets/p253_14_table.png",
+        "alt": "Frequency table: 8 scoops occurs 1 time, 5 occurs 2 times, 4 occurs 2 times, 3 occurs 7 times, 2 occurs 6 times, and 1 occurs 6 times.",
+        "sourcePage": 253
+      }
+    ],
+    "sourceType": "qa-approved-visual-extract",
+    "sourcePage": 253,
+    "sourceQuestion": "14",
+    "needsReview": false,
+    "sourceNotes": "QA-approved crop from the supplied ready folder."
+  },
+  {
+    "id": "PRV-P287-Q2",
+    "domain": "Geometry and Trigonometry",
+    "skill": "Parallel lines and transversals",
+    "difficulty": 2,
+    "prompt": "In the figure, line l₂ is parallel to line l₃. If b = 130°, what is the value of e?",
+    "type": "multiple-choice",
+    "choices": [
+      { "id": "A", "text": "40" },
+      { "id": "B", "text": "50" },
+      { "id": "C", "text": "90" },
+      { "id": "D", "text": "130" }
+    ],
+    "answer": "B",
+    "explanation": "Angles b and e are same-side exterior angles formed by a transversal crossing parallel lines l₂ and l₃, so they are supplementary. Therefore e = 180° − 130° = 50°.",
+    "assets": [
+      {
+        "id": "p287-q2-figure",
+        "type": "figure",
+        "src": "./banks/princeton-ready-visuals/assets/p287_2_figure.png",
+        "alt": "Two parallel horizontal lines l₂ and l₃ crossed by diagonal line l₄, with angle b above l₂ and angle e below l₃ on the same side of the transversal.",
+        "sourcePage": 287
+      }
+    ],
+    "sourceType": "qa-approved-visual-extract",
+    "sourcePage": 287,
+    "sourceQuestion": "2",
+    "needsReview": false,
+    "sourceNotes": "QA-approved crop from the supplied ready folder; figure is not drawn to scale."
+  },
+  {
+    "id": "PRV-P295-Q4",
+    "domain": "Geometry and Trigonometry",
+    "skill": "Right-triangle trigonometry and area",
+    "difficulty": 2,
+    "prompt": "In the right triangle, the hypotenuse is 10, sin x = 0.8, and cos x = 0.6. What is the area of the triangle?",
+    "type": "multiple-choice",
+    "choices": [
+      { "id": "A", "text": "0.48" },
+      { "id": "B", "text": "4.8" },
+      { "id": "C", "text": "24" },
+      { "id": "D", "text": "48" }
+    ],
+    "answer": "C",
+    "explanation": "The leg opposite x is 10(0.8) = 8 and the adjacent leg is 10(0.6) = 6. The area is (1/2)(8)(6) = 24.",
+    "calculatorTip": "Multiply the hypotenuse by sine and cosine to obtain the two legs.",
+    "assets": [
+      {
+        "id": "p295-q4-figure",
+        "type": "figure",
+        "src": "./banks/princeton-ready-visuals/assets/p295_4_figure.png",
+        "alt": "Right triangle with hypotenuse 10 and acute angle x at the lower-right vertex.",
+        "sourcePage": 295
+      }
+    ],
+    "sourceType": "qa-approved-visual-extract",
+    "sourcePage": 295,
+    "sourceQuestion": "4",
+    "needsReview": false,
+    "sourceNotes": "QA-approved crop from the supplied ready folder."
+  },
+  {
+    "id": "PRV-P325-Q2",
+    "domain": "Geometry and Trigonometry",
+    "skill": "Tangent in a right triangle",
+    "difficulty": 1,
+    "prompt": "The right triangle has legs XY = 7 and XZ = 8. What is tan(Z)?",
+    "type": "multiple-choice",
+    "choices": [
+      { "id": "A", "text": "7√115/115" },
+      { "id": "B", "text": "8√115/115" },
+      { "id": "C", "text": "7/8" },
+      { "id": "D", "text": "8/7" }
+    ],
+    "answer": "C",
+    "explanation": "Relative to angle Z, the opposite leg is XY = 7 and the adjacent leg is XZ = 8. Therefore tan(Z) = opposite/adjacent = 7/8.",
+    "assets": [
+      {
+        "id": "p325-q2-diagram",
+        "type": "diagram",
+        "src": "./banks/princeton-ready-visuals/assets/p325_2_diagram.png",
+        "alt": "Right triangle XYZ with right angle at X, vertical leg XY labeled 7, and horizontal leg XZ labeled 8.",
+        "sourcePage": 325
+      }
+    ],
+    "sourceType": "qa-approved-visual-extract",
+    "sourcePage": 325,
+    "sourceQuestion": "2",
+    "needsReview": false,
+    "sourceNotes": "QA-approved crop from the supplied ready folder."
+  },
+  {
+    "id": "PRV-P406-Q19",
+    "domain": "Algebra",
+    "skill": "Linear functions from tables",
+    "difficulty": 2,
+    "prompt": "The table gives values of the linear function g(x) = cx + d. What is c + d?",
+    "type": "multiple-choice",
+    "choices": [
+      { "id": "A", "text": "−23" },
+      { "id": "B", "text": "69" },
+      { "id": "C", "text": "92" },
+      { "id": "D", "text": "115" }
+    ],
+    "answer": "B",
+    "explanation": "When x increases by 2, g(x) decreases by 46, so c = −46/2 = −23. Since g(4) = 0, 0 = −23(4) + d, giving d = 92. Thus c + d = −23 + 92 = 69.",
+    "calculatorTip": "Use two table rows to find c, then substitute one point to find d.",
+    "calculatorStrategy": {
+      "recommended": true,
+      "provider": "either",
+      "table": {
+        "columns": [
+          { "latex": "x_1", "values": [2, 4, 6, 8] },
+          { "latex": "y_1", "values": [46, 0, -46, -92] }
+        ]
+      },
+      "instructions": "Use the table to determine the slope c and y-intercept d without entering an answer expression."
+    },
+    "assets": [
+      {
+        "id": "p406-q19-table",
+        "type": "table",
+        "src": "./banks/princeton-ready-visuals/assets/p406_19_table.png",
+        "alt": "Table with x-values 2, 4, 6, 8 and corresponding g(x)-values 46, 0, −46, −92.",
+        "sourcePage": 406
+      }
+    ],
+    "sourceType": "qa-approved-visual-extract",
+    "sourcePage": 406,
+    "sourceQuestion": "19",
+    "needsReview": false,
+    "sourceNotes": "QA-approved crop from the supplied ready folder."
+  }
+]

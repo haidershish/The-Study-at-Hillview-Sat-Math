@@ -6,11 +6,29 @@ const escapeHtml = (value: string): string =>
 const escapeAttr = (value: string): string =>
   value.replace(/[&"']/g, ch => ({ '&': '&amp;', '"': '&quot;', "'": '&#39;' }[ch] as string));
 
+const SELF_CONTAINED_SRC = /^(?:[a-z][a-z\d+.-]*:|\/|#)/i;
+
+/**
+ * Resolve bank-relative image paths at the bank boundary. Data/blob URLs from
+ * ZIP imports and root/fully-qualified URLs are already self-contained.
+ */
+export function resolveAssetSrc(src: string, assetBase: string): string {
+  if (!assetBase || SELF_CONTAINED_SRC.test(src)) return src;
+  const base = assetBase.replace(/\/+$/, '');
+  const path = src.replace(/^\.\//, '').replace(/^\/+/, '');
+  return `${base}/${path}`;
+}
+
+/** Return render-ready copies without mutating the source question bank. */
+export function resolveAssets(assets: QuestionAsset[] | undefined, assetBase: string): QuestionAsset[] | undefined {
+  return assets?.map(asset => ({ ...asset, src: resolveAssetSrc(asset.src, assetBase) }));
+}
+
 /** Render a question's image assets as responsive figures. */
 export function renderAssetsHTML(assets: QuestionAsset[] | undefined): string {
   if (!assets || assets.length === 0) return '';
   const figures = assets.map((asset, index) => `
-    <figure class="question-asset ${asset.placement ? `placement-${asset.placement}` : 'placement-after-prompt'}" data-asset-index="${index}">
+    <figure class="question-asset asset-type-${escapeAttr(asset.type)} ${asset.placement ? `placement-${escapeAttr(asset.placement)}` : 'placement-after-prompt'}" data-asset-index="${index}" data-asset-type="${escapeAttr(asset.type)}">
       <div class="question-asset-frame">
         <img src="${escapeAttr(asset.src)}" alt="${escapeAttr(asset.alt)}"${asset.width ? ` width="${asset.width}"` : ''}${asset.height ? ` height="${asset.height}"` : ''} loading="lazy" decoding="async">
         <div class="question-asset-missing" hidden>Image unavailable</div>

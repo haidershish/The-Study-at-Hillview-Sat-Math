@@ -1,5 +1,5 @@
 import { beforeEach, describe, expect, it } from 'vitest';
-import { allBanks, builtinBanks, findQuestionByKey, registerImportedBank, resetImportedBanks } from '../src/questions/banks';
+import { allBanks, builtinBanks, findQuestionByKey, normalizeImportedBank, registerImportedBank, resetImportedBanks } from '../src/questions/banks';
 import type { Question } from '../src/types';
 
 beforeEach(() => resetImportedBanks());
@@ -10,6 +10,7 @@ describe('question banks', () => {
     expect(banks.length).toBeGreaterThanOrEqual(2);
     expect(banks.map(b => b.id)).toContain('questions-2');
     expect(banks.map(b => b.id)).toContain('questions-3');
+    expect(banks.map(b => b.id)).toContain('princeton-ready-visuals');
   });
 
   it('reports title, description, count, domains, and difficulties', () => {
@@ -41,5 +42,17 @@ describe('question banks', () => {
     registerImportedBank({ id: 'my-bank', title: 'My Bank', description: 'd', questions: [q], assetBase: '' });
     expect(allBanks().map(b => b.id)).toContain('my-bank');
     expect(allBanks().find(b => b.id === 'my-bank')?.builtin).toBe(false);
+  });
+
+  it('migrates persisted Questions4 image paths without changing its bank id', () => {
+    const q: Question = {
+      id: 'PRV-P180-Q7', domain: 'Algebra', skill: 's', difficulty: 2, prompt: 'p',
+      type: 'multiple-choice', choices: [{ id: 'A', text: 'a' }, { id: 'B', text: 'b' }],
+      answer: 'A', explanation: 'e',
+      assets: [{ id: 'table', type: 'table', src: 'assets/p180_7_table.png', alt: 'table' }],
+    };
+    const migrated = normalizeImportedBank({ id: 'questions4', title: 'Questions4', description: 'd', questions: [q], assetBase: '' });
+    expect(migrated.id).toBe('questions4');
+    expect(migrated.questions[0].assets?.[0].src).toBe('./banks/princeton-ready-visuals/assets/p180_7_table.png');
   });
 });

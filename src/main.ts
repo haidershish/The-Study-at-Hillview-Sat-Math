@@ -13,7 +13,7 @@ import { OpenSourceCalculatorProvider, type OpenSourceState } from './calculator
 import { DesmosCalculatorProvider } from './calculator/desmos-provider';
 import type { CalculatorExpression, CalculatorProvider, ProviderInfo } from './calculator/types';
 import { strategyAngleMode, strategyNeedsDesmos, strategyToExpressions } from './questions/strategy';
-import { preloadImages, renderAssetsHTML, wireAssets } from './questions/images';
+import { preloadImages, renderAssetsHTML, resolveAssets, wireAssets } from './questions/images';
 
 const app = document.querySelector<HTMLDivElement>('#app');
 if (!app) throw new Error('Application root was not found.');
@@ -343,7 +343,7 @@ function renderQuestion(): void {
   $('review-button').classList.toggle('marked', marked);
 
   const answer = state.responses[key] ?? '';
-  const assets = renderAssetsHTML(q.assets);
+  const assets = renderAssetsHTML(resolveAssets(q.assets, bank.assetBase));
   const controls = q.type === 'multiple-choice'
     ? `<div class="choices">${q.choices?.map(choice => `<label class="choice ${answer === choice.id ? 'selected' : ''}"><input type="radio" name="answer" value="${choice.id}" ${answer === choice.id ? 'checked' : ''}><span class="choice-letter">${choice.id}</span><span>${clean(choice.text)}</span></label>`).join('') ?? ''}</div>`
     : `<label class="spr-label">Enter your answer<input class="spr" id="spr" inputmode="decimal" value="${clean(answer)}" placeholder="Answer"></label>`;
@@ -371,7 +371,7 @@ function preloadNext(): void {
   const nextKey = state.order[state.current + 1];
   if (!nextKey) return;
   const resolved = findQuestionByKey(nextKey);
-  if (resolved) preloadImages(resolved.question.assets);
+  if (resolved) preloadImages(resolveAssets(resolved.question.assets, resolved.bank.assetBase));
 }
 
 function renderMenu(): void {
