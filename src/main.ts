@@ -379,11 +379,16 @@ function renderQuestion(): void {
   $('review-button').classList.toggle('marked', marked);
 
   const answer = state.responses[key] ?? '';
+  const isReadingWriting = READING_WRITING_DOMAINS.includes(q.domain);
   const assets = renderAssetsHTML(resolveAssets(q.assets, bank.assetBase));
   const controls = q.type === 'multiple-choice'
     ? `<div class="choices">${q.choices?.map(choice => `<label class="choice ${answer === choice.id ? 'selected' : ''}"><input type="radio" name="answer" value="${choice.id}" ${answer === choice.id ? 'checked' : ''}><span class="choice-letter">${choice.id}</span><span>${clean(choice.text)}</span></label>`).join('') ?? ''}</div>`
     : `<label class="spr-label">Enter your answer<input class="spr" id="spr" inputmode="decimal" value="${clean(answer)}" placeholder="Answer"></label>`;
-  $('question').innerHTML = `<div class="skill-line">${clean(q.skill)} · Difficulty ${q.difficulty}</div><h1>${clean(q.prompt)}</h1>${assets}${controls}`;
+  const questionMarkup = isReadingWriting
+    ? renderReadingWritingQuestion(q, assets, controls)
+    : `<div class="skill-line">${clean(q.skill)} · Difficulty ${q.difficulty}</div><h1>${clean(q.prompt)}</h1>${assets}${controls}`;
+  $('question').classList.toggle('reading-writing-question', isReadingWriting);
+  $('question').innerHTML = questionMarkup;
   wireAssets($('question'));
 
   const tip = $('question-tip');
@@ -401,6 +406,30 @@ function renderQuestion(): void {
   renderMenu();
   updateSetupButton();
   preloadNext();
+}
+
+function splitReadingPrompt(prompt: string): { passage: string; question: string } {
+  const marker = /\b(Which|What|According|Based|As used|How|Why|The student\b|The text primarily serves to|The text primarily aims to|The main purpose is to|The quoted sentence(?: primarily)?|The opening question primarily|Both authors would most likely agree that|They disagree mainly about|The texts differ mainly in their emphasis on|Text 2 most directly challenges|Both texts support|Text 2 would urge caution because)/gi;
+  let match: RegExpExecArray | null;
+  let last: RegExpExecArray | null = null;
+  while ((match = marker.exec(prompt))) last = match;
+  if (!last || last.index === undefined) return { passage: prompt, question: '' };
+  return { passage: prompt.slice(0, last.index).trim(), question: prompt.slice(last.index).trim() };
+}
+
+function renderReadingWritingQuestion(q: Question, assets: string, controls: string): string {
+  const { passage, question } = splitReadingPrompt(q.prompt);
+  return `<div class="rw-layout">
+    <section class="rw-passage" aria-label="Passage">
+      <div class="skill-line">${clean(q.skill)} · Difficulty ${q.difficulty}</div>
+      <div class="rw-passage-text">${clean(passage)}</div>
+      ${assets}
+    </section>
+    <section class="rw-answer" aria-label="Question and answer choices">
+      <h1 class="rw-question-text">${clean(question || q.prompt)}</h1>
+      ${controls}
+    </section>
+  </div>`;
 }
 
 function preloadNext(): void {
