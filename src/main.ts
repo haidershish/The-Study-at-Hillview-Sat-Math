@@ -380,14 +380,16 @@ function renderQuestion(): void {
 
   const answer = state.responses[key] ?? '';
   const isReadingWriting = READING_WRITING_DOMAINS.includes(q.domain);
+  const visualOnly = bank.id.startsWith('practice-test-2');
   const assets = renderAssetsHTML(resolveAssets(q.assets, bank.assetBase));
   const controls = q.type === 'multiple-choice'
     ? `<div class="choices">${q.choices?.map(choice => `<label class="choice ${answer === choice.id ? 'selected' : ''}"><input type="radio" name="answer" value="${choice.id}" ${answer === choice.id ? 'checked' : ''}><span class="choice-letter">${choice.id}</span><span>${clean(choice.text)}</span></label>`).join('') ?? ''}</div>`
     : `<label class="spr-label">Enter your answer<input class="spr" id="spr" inputmode="decimal" value="${clean(answer)}" placeholder="Answer"></label>`;
   const questionMarkup = isReadingWriting
-    ? renderReadingWritingQuestion(q, assets, controls)
-    : `<div class="skill-line">${clean(q.skill)} · Difficulty ${q.difficulty}</div><h1>${clean(q.prompt)}</h1>${assets}${controls}`;
+    ? renderReadingWritingQuestion(q, assets, controls, visualOnly)
+    : renderMathQuestion(q, assets, controls, visualOnly);
   $('question').classList.toggle('reading-writing-question', isReadingWriting);
+  $('question').classList.toggle('math-question', !isReadingWriting);
   $('question').innerHTML = questionMarkup;
   wireAssets($('question'));
 
@@ -417,18 +419,28 @@ function splitReadingPrompt(prompt: string): { passage: string; question: string
   return { passage: prompt.slice(0, last.index).trim(), question: prompt.slice(last.index).trim() };
 }
 
-function renderReadingWritingQuestion(q: Question, assets: string, controls: string): string {
+function renderReadingWritingQuestion(q: Question, assets: string, controls: string, visualOnly: boolean): string {
   const { passage, question } = splitReadingPrompt(q.prompt);
   return `<div class="rw-layout">
     <section class="rw-passage" aria-label="Passage">
       <div class="skill-line">${clean(q.skill)} · Difficulty ${q.difficulty}</div>
-      <div class="rw-passage-text">${clean(passage)}</div>
+      ${visualOnly ? '' : `<div class="rw-passage-text">${clean(passage)}</div>`}
       ${assets}
     </section>
     <section class="rw-answer" aria-label="Question and answer choices">
-      <h1 class="rw-question-text">${clean(question || q.prompt)}</h1>
+      ${visualOnly ? '' : `<h1 class="rw-question-text">${clean(question || q.prompt)}</h1>`}
       ${controls}
     </section>
+  </div>`;
+}
+
+function renderMathQuestion(q: Question, assets: string, controls: string, visualOnly: boolean): string {
+  return `<div class="math-layout">
+    <section class="math-prompt" aria-label="Question">
+      <div class="skill-line">${clean(q.skill)} · Difficulty ${q.difficulty}</div>
+      ${visualOnly ? assets : `<h1>${clean(q.prompt)}</h1>${assets}`}
+    </section>
+    <section class="math-answer" aria-label="Answer choices">${controls}</section>
   </div>`;
 }
 
@@ -694,6 +706,7 @@ function bindEvents(): void {
   $('tools-button').addEventListener('click', showTools);
   $('calculator-toggle').addEventListener('click', () => {
     const hidden = $('calculator-panel').classList.toggle('closed');
+    document.querySelector('.question-panel')?.classList.toggle('calculator-open', !hidden);
     $('calculator-toggle').setAttribute('aria-expanded', String(!hidden));
     if (!hidden) window.setTimeout(() => provider?.resize(), 60);
   });

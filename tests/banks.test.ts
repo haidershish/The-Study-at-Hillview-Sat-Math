@@ -9,7 +9,7 @@ describe('question banks', () => {
     const banks = builtinBanks();
     expect(banks.length).toBeGreaterThanOrEqual(2);
     expect(banks.map(b => b.id)).toContain('questions-2');
-    expect(banks.map(b => b.id)).toContain('questions-3');
+    expect(banks.map(b => b.id)).not.toContain('questions-3');
     expect(banks.map(b => b.id)).toContain('princeton-ready-visuals');
     expect(banks.map(b => b.id)).toContain('reading-writing-craft');
   });
@@ -34,12 +34,8 @@ describe('question banks', () => {
     expect(readingWriting?.questions).toHaveLength(24);
   });
 
-  it('resolves colliding question ids via bankId::questionId', () => {
-    const a = findQuestionByKey('questions-2::ALG-001');
-    const b = findQuestionByKey('questions-3::ALG-001');
-    expect(a).toBeTruthy();
-    expect(b).toBeTruthy();
-    expect(a!.question.prompt).not.toBe(b!.question.prompt);
+  it('does not resolve questions from the retired extracted bank', () => {
+    expect(findQuestionByKey('questions-3::ALG-001')).toBeUndefined();
   });
 
   it('registers imported banks', () => {

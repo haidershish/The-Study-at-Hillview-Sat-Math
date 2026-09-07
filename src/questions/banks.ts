@@ -1,5 +1,4 @@
 import questionBank2 from '../../Questions 2.json';
-import questionBank3 from '../../Questions3.json';
 import questionBank4 from '../../Questions4.json';
 import { READING_WRITING_DOMAINS, type Bank, type PracticeSection, type Question } from '../types';
 import questionBankRW from '../../Questions RW.json';
@@ -29,14 +28,6 @@ export const BUILTIN_BANKS: BuiltinBankEntry[] = [
     title: 'Digital SAT — Calculator Practice',
     description: 'Core 12-question bank covering all four SAT domains.',
     questions: questionBank2 as Question[],
-    assetBase: '.',
-    section: 'math',
-  },
-  {
-    id: 'questions-3',
-    title: 'Extracted SAT Questions',
-    description: 'Questions extracted from SAT practice materials (source metadata preserved).',
-    questions: questionBank3 as Question[],
     assetBase: '.',
     section: 'math',
   },
