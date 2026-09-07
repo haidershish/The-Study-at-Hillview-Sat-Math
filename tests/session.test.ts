@@ -34,4 +34,14 @@ describe('session persistence', () => {
     expect(Array.isArray(s.order)).toBe(true);
     expect(s.screen).toBe('home');
   });
+
+  it('migrates the legacy seeded graph pair to an empty calculator', () => {
+    const state = initialState();
+    state.expressions = [
+      { id: 'legacy-a', source: 'y=2x+1', color: '#c74440', visible: true },
+      { id: 'legacy-b', source: 'y=-x+7', color: '#2d70b3', visible: true },
+    ];
+    saveState(state);
+    expect(loadState().expressions).toEqual([]);
+  });
 });

@@ -24,7 +24,15 @@ export function loadState(): SessionState {
     const value = localStorage.getItem(KEY);
     if (!value) return initialState();
     const parsed = JSON.parse(value) as Partial<SessionState>;
-    return { ...initialState(), ...parsed };
+    const state = { ...initialState(), ...parsed };
+    const expressions = parsed.expressions;
+    // Migrate the old seeded graph pair, but preserve all user-created expressions.
+    if (Array.isArray(expressions) && expressions.length === 2
+      && expressions[0]?.source === 'y=2x+1' && expressions[0]?.color === colors[0]
+      && expressions[1]?.source === 'y=-x+7' && expressions[1]?.color === colors[1]) {
+      state.expressions = [];
+    }
+    return state;
   } catch {
     return initialState();
   }
