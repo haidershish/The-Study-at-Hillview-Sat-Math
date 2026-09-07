@@ -3,6 +3,11 @@ import questionBank3 from '../../Questions3.json';
 import questionBank4 from '../../Questions4.json';
 import { READING_WRITING_DOMAINS, type Bank, type PracticeSection, type Question } from '../types';
 import questionBankRW from '../../Questions RW.json';
+import practiceTest2Math from '../../Questions Practice Test 2 Math.json';
+import practiceTest2ReadingWriting from '../../Questions Practice Test 2 Reading and Writing.json';
+import rwInformationIdeas from '../../Questions RW Information_and_Ideas.json';
+import rwExpressionIdeas from '../../Questions RW Expression_of_Ideas.json';
+import rwConventions from '../../Questions RW Standard_English_Conventions.json';
 
 /**
  * Central bank manifest. Adding a future built-in bank requires only:
@@ -51,6 +56,46 @@ export const BUILTIN_BANKS: BuiltinBankEntry[] = [
     description: '24 original Reading and Writing practice questions in sequence.',
     questions: questionBankRW as Question[],
     assetBase: '.',
+    section: 'reading-writing',
+  },
+  {
+    id: 'practice-test-2-math',
+    title: 'Princeton Review — Practice Test 2 Math (66 extracted questions)',
+    description: 'Verified Practice Test 2 Math extraction, including both adaptive routes.',
+    questions: practiceTest2Math as Question[],
+    assetBase: './banks/practice-test-2',
+    section: 'math',
+  },
+  {
+    id: 'practice-test-2-reading-writing',
+    title: 'Princeton Review — Practice Test 2 Reading and Writing (79 extracted questions)',
+    description: 'Verified Practice Test 2 Reading and Writing extraction, including both adaptive routes.',
+    questions: practiceTest2ReadingWriting as Question[],
+    assetBase: './banks/practice-test-2',
+    section: 'reading-writing',
+  },
+  {
+    id: 'practice-test-2-rw-information-ideas',
+    title: 'Practice Test 2 — Information and Ideas',
+    description: 'Practice Test 2 Reading and Writing questions focused on Information and Ideas.',
+    questions: rwInformationIdeas as Question[],
+    assetBase: './banks/practice-test-2',
+    section: 'reading-writing',
+  },
+  {
+    id: 'practice-test-2-rw-expression-ideas',
+    title: 'Practice Test 2 — Expression of Ideas',
+    description: 'Practice Test 2 Reading and Writing questions focused on Expression of Ideas.',
+    questions: rwExpressionIdeas as Question[],
+    assetBase: './banks/practice-test-2',
+    section: 'reading-writing',
+  },
+  {
+    id: 'practice-test-2-rw-conventions',
+    title: 'Practice Test 2 — Standard English Conventions',
+    description: 'Practice Test 2 Reading and Writing questions focused on Standard English Conventions.',
+    questions: rwConventions as Question[],
+    assetBase: './banks/practice-test-2',
     section: 'reading-writing',
   },
 ];

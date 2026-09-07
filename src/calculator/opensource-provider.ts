@@ -112,6 +112,10 @@ export class OpenSourceCalculatorProvider implements CalculatorProvider {
   clear(): void {
     this.expressions = [];
     this.tableRows = [{ x: '', y: '' }];
+    if (this.container) {
+      this.require<HTMLInputElement>('#scientific-input').value = '';
+      this.require<HTMLElement>('#science-result').textContent = 'Result appears here';
+    }
     this.emit();
   }
 
@@ -193,7 +197,7 @@ export class OpenSourceCalculatorProvider implements CalculatorProvider {
       </section>
       <section class="calc-view scientific-view" data-view="scientific">
         <label class="math-label" for="scientific-input">Expression</label>
-        <input class="formula-input" id="scientific-input" value="sqrt(144)+5!" autocomplete="off" spellcheck="false">
+        <input class="formula-input" id="scientific-input" value="" autocomplete="off" spellcheck="false">
         <div class="science-actions"><button class="primary" id="evaluate">Evaluate</button><button class="quiet" id="clear-science">Clear</button></div>
         <output class="result" id="science-result" aria-live="polite">Result appears here</output>
         <div class="quick-keys" id="quick-keys">

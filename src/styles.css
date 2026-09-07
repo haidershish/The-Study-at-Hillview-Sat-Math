@@ -39,3 +39,4 @@ dialog{width:min(720px,calc(100vw - 32px));max-height:min(780px,calc(100vh - 40p
 /* ---- responsive ---- */
 @media(max-width:900px){.mode-row{grid-template-columns:1fr}.results-grid{grid-template-columns:1fr}}
 @media(max-width:620px){.home-hero,.results-header{padding:8px 14px}.home-main,.results-main{padding:22px 16px 60px}.score-hero{flex-direction:column;align-items:flex-start}.bank-grid{grid-template-columns:1fr}}
+.graph-coordinate-bubble{position:absolute;z-index:2;pointer-events:none;padding:5px 8px;border:1px solid #b8c9c1;border-radius:7px;color:#173b2d;background:#fff;box-shadow:0 3px 10px #19372a26;font:600 12px ui-monospace,SFMono-Regular,Consolas,monospace;white-space:nowrap}

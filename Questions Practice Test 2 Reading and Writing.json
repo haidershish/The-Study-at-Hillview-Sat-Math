@@ -1,0 +1,3478 @@
+[
+  {
+    "id": "sat-binder-test-1-rw-m1-common-q03",
+    "domain": "Craft and Structure",
+    "skill": "Purpose Questions",
+    "difficulty": 2,
+    "prompt": "Since the 1950s, scientists have known that rapid eye movement, or REM, occurs when someone is sleeping. Previous studies attempting to determine the meaning of these eye movements have been unsuccessful in part because these studies relied on human subjects recalling the content of their dreams. A recent study by physiologists Yuta Senzai and Massimo Scanziani has avoided this issue by studying dreaming mice instead. Their results suggest that REM is correlated to changes in direction during the dream.\n\nWhich choice best describes the function of the second sentence in the overall structure of the text?",
+    "type": "multiple-choice",
+    "choices": [
+      {
+        "id": "A",
+        "text": "It names a problem in the approach taken by Senzai and Scanziani."
+      },
+      {
+        "id": "B",
+        "text": "It introduces the difficulty that the study by Senzai and Scanziani was designed to bypass."
+      },
+      {
+        "id": "C",
+        "text": "It presents the findings of studies done prior to the study by Senzai and Scanziani."
+      },
+      {
+        "id": "D",
+        "text": "It clarifies how others studying REM sleep interpret the study by Senzai and Scanziani."
+      }
+    ],
+    "answer": "B",
+    "explanation": "Official diagnostic answer: B. Review the source figure and choices above; this item is from the publisher's Practice Test 2 diagnostic key.",
+    "assets": [
+      {
+        "id": "question-image",
+        "type": "figure",
+        "src": "assets/questions/sat-binder-test-1-rw-m1-common-q03.png",
+        "alt": "Practice Test 2 question image (rw-m1-common question 3)",
+        "width": 756,
+        "height": 1068,
+        "sourcePage": 1
+      }
+    ],
+    "sourceType": "Princeton Review Digital SAT Premium Prep 2025",
+    "sourcePage": 1,
+    "sourceQuestion": "rw-m1-common question 3",
+    "needsReview": false,
+    "sourceNotes": "Question image and extracted text were visually verified. Answer letter/value comes from the publisher diagnostic answer key."
+  },
+  {
+    "id": "sat-binder-test-1-rw-m1-common-q04",
+    "domain": "Craft and Structure",
+    "skill": "Purpose Questions",
+    "difficulty": 2,
+    "prompt": "Electroreception is the ability of an animal to sense the flow of electricity around it by using specialized organs known as electroreceptors. Most species known to use electroreception are fish, including many sharks, elephant fishes, and eels. However, electroreception is not limited to fish. Monotremes, a group of mammals that includes the platypus and some echidnas, have electroreceptors on or near their mouths to help locate prey. There is also some evidence that bees can detect static electricity on flowers.\n\nWhich choice best describes the function of the third sentence in the overall structure of the text?",
+    "type": "multiple-choice",
+    "choices": [
+      {
+        "id": "A",
+        "text": "It generalizes the phenomenon discussed beyond fishes."
+      },
+      {
+        "id": "B",
+        "text": "It offers another explanation of electroreception that is different from the explanation of how electroreception is used by fishes."
+      },
+      {
+        "id": "C",
+        "text": "It provides more examples of animals with electroreception."
+      },
+      {
+        "id": "D",
+        "text": "It explains how electroreception evolved in monotremes and bees."
+      }
+    ],
+    "answer": "A",
+    "explanation": "Official diagnostic answer: A. Review the source figure and choices above; this item is from the publisher's Practice Test 2 diagnostic key.",
+    "assets": [
+      {
+        "id": "question-image",
+        "type": "figure",
+        "src": "assets/questions/sat-binder-test-1-rw-m1-common-q04.png",
+        "alt": "Practice Test 2 question image (rw-m1-common question 4)",
+        "width": 756,
+        "height": 1103,
+        "sourcePage": 1
+      }
+    ],
+    "sourceType": "Princeton Review Digital SAT Premium Prep 2025",
+    "sourcePage": 1,
+    "sourceQuestion": "rw-m1-common question 4",
+    "needsReview": false,
+    "sourceNotes": "Question image and extracted text were visually verified. Answer letter/value comes from the publisher diagnostic answer key."
+  },
+  {
+    "id": "sat-binder-test-1-rw-m1-common-q05",
+    "domain": "Craft and Structure",
+    "skill": "Dual Texts Questions",
+    "difficulty": 2,
+    "prompt": "Text 1\n\nAn animal is said to have a theory of mind when it is able to act according to the mental states of other individuals. Psychologists David Premack and Guy Woodruff studied whether chimpanzees have such a theory of mind. They showed videos of human actors struggling with various problems. The chimpanzees were able to select photographs that showed the best tool to solve each actor’s problem.\n\nText 2\n\nBiologist Daniel J. Povinelli and psychologists Kurt E. Nelson and Sarah T. Boysen have argued that previous research into whether chimpanzees have a theory of mind have not adequately addressed alternative explanations for the chimpanzees’ behaviors. Specifically, it may be the case that chimpanzees are following learned behaviors in a known environment, rather than applying a theory of mind in a novel situation.\n\nBased on the texts, how would Povinelli, Nelson, and Boysen (Text 2) most likely respond to Premack and Woodruff (Text 1)?",
+    "type": "multiple-choice",
+    "choices": [
+      {
+        "id": "A",
+        "text": "They would argue that nonhuman primates other than chimpanzees, such as baboons and gorillas, may also have a theory of mind."
+      },
+      {
+        "id": "B",
+        "text": "They would argue that the chimpanzees would be able to solve the problems themselves without referencing the photographs by struggling with the situation themselves and eventually determining the correct solution."
+      },
+      {
+        "id": "C",
+        "text": "They would encourage Premack and Woodruff to show the same videos and photographs to other nonhuman primates and compare the other nonhuman primates’ reactions to the chimpanzees’ reactions."
+      },
+      {
+        "id": "D",
+        "text": "They would suggest that placing the chimpanzee subjects in novel environments, such as rooms distinct from the chimpanzees’ regular enclosures, may help better ascertain whether chimpanzees have a theory of mind."
+      }
+    ],
+    "answer": "D",
+    "explanation": "Official diagnostic answer: D. Review the source figure and choices above; this item is from the publisher's Practice Test 2 diagnostic key.",
+    "assets": [
+      {
+        "id": "question-image",
+        "type": "figure",
+        "src": "assets/questions/sat-binder-test-1-rw-m1-common-q05.png",
+        "alt": "Practice Test 2 question image (rw-m1-common question 5)",
+        "width": 756,
+        "height": 1801,
+        "sourcePage": 2
+      }
+    ],
+    "sourceType": "Princeton Review Digital SAT Premium Prep 2025",
+    "sourcePage": 2,
+    "sourceQuestion": "rw-m1-common question 5",
+    "needsReview": false,
+    "sourceNotes": "Question image and extracted text were visually verified. Answer letter/value comes from the publisher diagnostic answer key."
+  },
+  {
+    "id": "sat-binder-test-1-rw-m1-common-q06",
+    "domain": "Information and Ideas",
+    "skill": "Retrieval Questions",
+    "difficulty": 2,
+    "prompt": "The following text is from Oscar Wilde’s 1890 novel The Picture of Dorian Gray. Dorian is seeing his portrait, painted by Basil Hallward, for the first time.\n\nDorian made no answer, but passed listlessly in front of his picture and turned towards it. When he saw it he drew back, and his cheeks flushed for a moment with pleasure. A look of joy came into his eyes, as if he had recognized himself for the first time. He stood there motionless and in wonder, dimly conscious that Hallward was speaking to him, but not catching the meaning of his words. The sense of his own beauty came on him like a revelation. He had never felt it before.\n\nAccording to the text, what is true about Dorian?",
+    "type": "multiple-choice",
+    "choices": [
+      {
+        "id": "A",
+        "text": "Dorian is distracted by the beauty of the painting."
+      },
+      {
+        "id": "B",
+        "text": "Dorian believes that what Hallward is saying is unimportant."
+      },
+      {
+        "id": "C",
+        "text": "Dorian does not recognize his own image."
+      },
+      {
+        "id": "D",
+        "text": "Dorian is prone to embarrassment."
+      }
+    ],
+    "answer": "A",
+    "explanation": "Official diagnostic answer: A. Review the source figure and choices above; this item is from the publisher's Practice Test 2 diagnostic key.",
+    "assets": [
+      {
+        "id": "question-image",
+        "type": "figure",
+        "src": "assets/questions/sat-binder-test-1-rw-m1-common-q06.png",
+        "alt": "Practice Test 2 question image (rw-m1-common question 6)",
+        "width": 756,
+        "height": 1068,
+        "sourcePage": 2
+      }
+    ],
+    "sourceType": "Princeton Review Digital SAT Premium Prep 2025",
+    "sourcePage": 2,
+    "sourceQuestion": "rw-m1-common question 6",
+    "needsReview": false,
+    "sourceNotes": "Question image and extracted text were visually verified. Answer letter/value comes from the publisher diagnostic answer key."
+  },
+  {
+    "id": "sat-binder-test-1-rw-m1-common-q07",
+    "domain": "Information and Ideas",
+    "skill": "Retrieval Questions",
+    "difficulty": 2,
+    "prompt": "The following text is from Frederick Marryat’s 1847 novel The Children of the New Forest.\n\nThe old forester lay awake the whole of this night, reflecting how he should act relative to the children; he felt the great responsibility that he had incurred, and was alarmed when he considered what might be the consequences if his days were shortened. What would become of them—living in so sequestered a spot that few knew even of its existence—totally shut out from the world, and left to their own resources?\n\nBased on the text, what is true about the children?",
+    "type": "multiple-choice",
+    "choices": [
+      {
+        "id": "A",
+        "text": "They are isolated from people other than the old forester."
+      },
+      {
+        "id": "B",
+        "text": "They are completely unable to take care of themselves."
+      },
+      {
+        "id": "C",
+        "text": "The old forester is resentful of having to take care of them."
+      },
+      {
+        "id": "D",
+        "text": "They attempt to help the old forester with his responsibilities."
+      }
+    ],
+    "answer": "A",
+    "explanation": "Official diagnostic answer: A. Review the source figure and choices above; this item is from the publisher's Practice Test 2 diagnostic key.",
+    "assets": [
+      {
+        "id": "question-image",
+        "type": "figure",
+        "src": "assets/questions/sat-binder-test-1-rw-m1-common-q07.png",
+        "alt": "Practice Test 2 question image (rw-m1-common question 7)",
+        "width": 756,
+        "height": 1034,
+        "sourcePage": 3
+      }
+    ],
+    "sourceType": "Princeton Review Digital SAT Premium Prep 2025",
+    "sourcePage": 3,
+    "sourceQuestion": "rw-m1-common question 7",
+    "needsReview": false,
+    "sourceNotes": "Question image and extracted text were visually verified. Answer letter/value comes from the publisher diagnostic answer key."
+  },
+  {
+    "id": "sat-binder-test-1-rw-m1-common-q08",
+    "domain": "Information and Ideas",
+    "skill": "Main Idea Questions",
+    "difficulty": 2,
+    "prompt": "The following text is Baron George Gordon Byron’s poem “Answer to _______’s Professions of Affection,” written around 1814. The poem is addressed to an unknown person.\n\nIn hearts like thine ne’er may I hold a place\nTill I renounce all sense, all shame, all grace—\nThat seat,—like seats, the bane of Freedom’s realm,\nBut dear to those presiding at the helm—\nIs basely purchased, not with gold alone;\nAdd Conscience, too, this bargain is your own—\n‘Tis thine to offer with corrupting art\nThe rotten borough of the human heart.\n\nWhat is the main idea of the text?",
+    "type": "multiple-choice",
+    "choices": [
+      {
+        "id": "A",
+        "text": "The speaker is expressing disapproval towards the unknown person."
+      },
+      {
+        "id": "B",
+        "text": "The speaker is unimportant to the unknown person."
+      },
+      {
+        "id": "C",
+        "text": "The speaker is thinking of purchasing a seat."
+      },
+      {
+        "id": "D",
+        "text": "The speaker holds a place in the heart of the unknown person."
+      }
+    ],
+    "answer": "A",
+    "explanation": "Official diagnostic answer: A. Review the source figure and choices above; this item is from the publisher's Practice Test 2 diagnostic key.",
+    "assets": [
+      {
+        "id": "question-image",
+        "type": "figure",
+        "src": "assets/questions/sat-binder-test-1-rw-m1-common-q08.png",
+        "alt": "Practice Test 2 question image (rw-m1-common question 8)",
+        "width": 756,
+        "height": 1068,
+        "sourcePage": 3
+      }
+    ],
+    "sourceType": "Princeton Review Digital SAT Premium Prep 2025",
+    "sourcePage": 3,
+    "sourceQuestion": "rw-m1-common question 8",
+    "needsReview": false,
+    "sourceNotes": "Question image and extracted text were visually verified. Answer letter/value comes from the publisher diagnostic answer key."
+  },
+  {
+    "id": "sat-binder-test-1-rw-m1-common-q09",
+    "domain": "Information and Ideas",
+    "skill": "Claims Questions",
+    "difficulty": 2,
+    "prompt": "Sepsis is a life-threatening condition caused by the body’s response to an infection. These infections are typically bacterial but may be fungal, parasitic, or viral. The body’s response to these infections leads to increased inflammation and organ damage. This damage, in turn, results in a weakened immune system, which increases the likelihood of reinfection. In a recent study, a team of doctors and pharmacologists led by Shubham Soni claims that administering ketone esters can reduce inflammation and immune system weakening caused by sepsis.\n\nWhich finding from the team led by Soni, if true, would most directly support its claim?",
+    "type": "multiple-choice",
+    "choices": [
+      {
+        "id": "A",
+        "text": "Patients with sepsis who were administered ketone esters had fewer signs of inflammation and less organ damage than those administered standard antibiotics."
+      },
+      {
+        "id": "B",
+        "text": "When administered, ketone esters are known to increase blood ketone levels, which in turn are a source of energy for the brain."
+      },
+      {
+        "id": "C",
+        "text": "Both those patients administered ketone esters and those administered standard antibiotics did not have reduced inflammation when treated with medication intended to reduce fever."
+      },
+      {
+        "id": "D",
+        "text": "Those sepsis patients administered ketone esters had reduced inflammation but greater organ damage than those administered standard antibiotics."
+      }
+    ],
+    "answer": "A",
+    "explanation": "Official diagnostic answer: A. Review the source figure and choices above; this item is from the publisher's Practice Test 2 diagnostic key.",
+    "assets": [
+      {
+        "id": "question-image",
+        "type": "figure",
+        "src": "assets/questions/sat-binder-test-1-rw-m1-common-q09.png",
+        "alt": "Practice Test 2 question image (rw-m1-common question 9)",
+        "width": 756,
+        "height": 1344,
+        "sourcePage": 4
+      }
+    ],
+    "sourceType": "Princeton Review Digital SAT Premium Prep 2025",
+    "sourcePage": 4,
+    "sourceQuestion": "rw-m1-common question 9",
+    "needsReview": false,
+    "sourceNotes": "Question image and extracted text were visually verified. Answer letter/value comes from the publisher diagnostic answer key."
+  },
+  {
+    "id": "sat-binder-test-1-rw-m1-common-q10",
+    "domain": "Information and Ideas",
+    "skill": "Charts Questions",
+    "difficulty": 2,
+    "prompt": "Horses have been domesticated for thousands of years. Therefore, they show great sensitivity to the emotions of humans. Biologist Océane Liehrmann from the University of Turku, Finland, led a team of researchers in a study of horses to determine the effect of the number of handlers (either only one person or multiple people) on the horses’ responses to a novel object. The researchers determined that horses with only one handler were less reluctant to interact with the novel object than were horses with multiple handlers. For example, 45% of horses with only one handler had no reluctance when interacting with a novel object while __________\n\nWhich choice most effectively uses data from the table to complete the example?",
+    "type": "multiple-choice",
+    "choices": [
+      {
+        "id": "A",
+        "text": "13% of horses with only one handler had strong reluctance."
+      },
+      {
+        "id": "B",
+        "text": "25% of horses with multiple handlers had no reluctance."
+      },
+      {
+        "id": "C",
+        "text": "26% of horses with multiple handlers had strong reluctance."
+      },
+      {
+        "id": "D",
+        "text": "42% of horses with only one handler had mild reluctance."
+      }
+    ],
+    "answer": "B",
+    "explanation": "Official diagnostic answer: B. Review the source figure and choices above; this item is from the publisher's Practice Test 2 diagnostic key.",
+    "assets": [
+      {
+        "id": "question-image",
+        "type": "figure",
+        "src": "assets/questions/sat-binder-test-1-rw-m1-common-q10.png",
+        "alt": "Practice Test 2 question image (rw-m1-common question 10)",
+        "width": 756,
+        "height": 1553,
+        "sourcePage": 4
+      }
+    ],
+    "sourceType": "Princeton Review Digital SAT Premium Prep 2025",
+    "sourcePage": 4,
+    "sourceQuestion": "rw-m1-common question 10",
+    "needsReview": false,
+    "sourceNotes": "Question image and extracted text were visually verified. Answer letter/value comes from the publisher diagnostic answer key."
+  },
+  {
+    "id": "sat-binder-test-1-rw-m1-common-q11",
+    "domain": "Information and Ideas",
+    "skill": "Charts Questions",
+    "difficulty": 2,
+    "prompt": "India is the largest democracy in the world, with over 614 million people voting in the 2019 election for the Lok Sabha, the parliament of the federal government. In the early years of Indian independence, from the first election in 1951–52 through the eighth Lok Sabha in 1984, each election resulted in one party winning the majority of seats. However, starting with the 1989 election, the party with the largest number of seats failed to win more than half of the total seats. This trend was eventually broken by the Bharatiya Janata Party, which __________\n\nWhich choice most effectively uses data from the graph to illustrate the claim?",
+    "type": "multiple-choice",
+    "choices": [
+      {
+        "id": "A",
+        "text": "went from holding the second most seats among the top 3 parties in parliament in 2004 and 2009 to holding a majority of seats in 2014 and 2019."
+      },
+      {
+        "id": "B",
+        "text": "reached its highest percentage of seats the same year that the Indian National Congress had its lowest percentage of seats over the same time period."
+      },
+      {
+        "id": "C",
+        "text": "won a lower percentage of seats in the 2009 election than in the 2004 election."
+      },
+      {
+        "id": "D",
+        "text": "had a lower percentage of seats than the Indian National Congress in 2004 but a higher percentage of seats than the Indian National Congress in 1999."
+      }
+    ],
+    "answer": "A",
+    "explanation": "Official diagnostic answer: A. Review the source figure and choices above; this item is from the publisher's Practice Test 2 diagnostic key.",
+    "assets": [
+      {
+        "id": "question-image",
+        "type": "figure",
+        "src": "assets/questions/sat-binder-test-1-rw-m1-common-q11.png",
+        "alt": "Practice Test 2 question image (rw-m1-common question 11)",
+        "width": 1577,
+        "height": 1675,
+        "sourcePage": 5
+      }
+    ],
+    "sourceType": "Princeton Review Digital SAT Premium Prep 2025",
+    "sourcePage": 5,
+    "sourceQuestion": "rw-m1-common question 11",
+    "needsReview": false,
+    "sourceNotes": "Question image and extracted text were visually verified. Answer letter/value comes from the publisher diagnostic answer key."
+  },
+  {
+    "id": "sat-binder-test-1-rw-m1-common-q12",
+    "domain": "Information and Ideas",
+    "skill": "Charts Questions",
+    "difficulty": 2,
+    "prompt": "Fatty liver disease (FLD) occurs when excess fat builds up in the liver. While there are often few or no symptoms of FLD, if left untreated, it can lead to cirrhosis or liver cancer. Because FLD is often asymptomatic, doctors and researchers rely on indicators such as steatosis (retention of fat in the liver), fibrosis (scarring), blood glucose (sugar), serum insulin, and insulin resistance to measure and track the development of FLD. A group of researchers led by radiologist Hamid Reza Talari hypothesized that those who take vitamin B12 would experience improvements in fibrosis and insulin resistance when compared to a control group over the same time period.\n\nWhich choice best describes data from the table that support the researchers’ hypothesis?",
+    "type": "multiple-choice",
+    "choices": [
+      {
+        "id": "A",
+        "text": "Those in the control group had decreases in their steatosis values and fasting blood glucose but had increases in fibrosis values and HOMA-IR."
+      },
+      {
+        "id": "B",
+        "text": "Those in the vitamin B12 group had decreases in fibrosis values and HOMA-IR levels, whereas those in the control group had increases in these same values."
+      },
+      {
+        "id": "C",
+        "text": "Both those in the vitamin B12 group and the control group had decreases in their steatosis values."
+      },
+      {
+        "id": "D",
+        "text": "Those in the control group had a decrease in their fasting blood glucose, but those in the vitamin B12 group had an increase in their fasting blood glucose."
+      }
+    ],
+    "answer": "B",
+    "explanation": "Official diagnostic answer: B. Review the source figure and choices above; this item is from the publisher's Practice Test 2 diagnostic key.",
+    "assets": [
+      {
+        "id": "question-image",
+        "type": "figure",
+        "src": "assets/questions/sat-binder-test-1-rw-m1-common-q12.png",
+        "alt": "Practice Test 2 question image (rw-m1-common question 12)",
+        "width": 1575,
+        "height": 1897,
+        "sourcePage": 6
+      }
+    ],
+    "sourceType": "Princeton Review Digital SAT Premium Prep 2025",
+    "sourcePage": 6,
+    "sourceQuestion": "rw-m1-common question 12",
+    "needsReview": false,
+    "sourceNotes": "Question image and extracted text were visually verified. Answer letter/value comes from the publisher diagnostic answer key."
+  },
+  {
+    "id": "sat-binder-test-1-rw-m1-common-q13",
+    "domain": "Information and Ideas",
+    "skill": "Charts Questions",
+    "difficulty": 2,
+    "prompt": "The air pollution produced in an area is only one factor in that area’s air quality. Weather patterns, in particular wind and the movement of air masses, can affect the concentration of pollutants such as carbon monoxide. During a smog event that occurred in the northeastern United States in November 1966, levels of carbon monoxide were recorded in Newark, New Jersey, the origin of the smog event, as well as neighboring city New York, NY, and more distant cities such as Philadelphia, PA, and Washington, D.C. The localized nature of weather patterns during this event can be seen by comparing Newark, NJ, and New York, NY, with __________\n\nWhich choice most effectively uses data from the table to complete the statement?",
+    "type": "multiple-choice",
+    "choices": [
+      {
+        "id": "A",
+        "text": "Washington, D.C., on the 18th and the 19th."
+      },
+      {
+        "id": "B",
+        "text": "Philadelphia, PA, on the 23rd and the 25th"
+      },
+      {
+        "id": "C",
+        "text": "Philadelphia, PA, on the 24th and the 26th."
+      },
+      {
+        "id": "D",
+        "text": "Washington, D.C., on the 23rd and the 24th."
+      }
+    ],
+    "answer": "D",
+    "explanation": "Official diagnostic answer: D. Review the source figure and choices above; this item is from the publisher's Practice Test 2 diagnostic key.",
+    "assets": [
+      {
+        "id": "question-image",
+        "type": "figure",
+        "src": "assets/questions/sat-binder-test-1-rw-m1-common-q13.png",
+        "alt": "Practice Test 2 question image (rw-m1-common question 13)",
+        "width": 756,
+        "height": 1490,
+        "sourcePage": 7
+      }
+    ],
+    "sourceType": "Princeton Review Digital SAT Premium Prep 2025",
+    "sourcePage": 7,
+    "sourceQuestion": "rw-m1-common question 13",
+    "needsReview": false,
+    "sourceNotes": "Question image and extracted text were visually verified. Answer letter/value comes from the publisher diagnostic answer key."
+  },
+  {
+    "id": "sat-binder-test-1-rw-m1-common-q14",
+    "domain": "Information and Ideas",
+    "skill": "Conclusions",
+    "difficulty": 2,
+    "prompt": "Neurons respond to stimuli from sensory organs or other neurons. Learning occurs when neurons change how they respond to stimuli based on previous experience, which is a property of memory. Electrical engineers seek to replicate similar processes in their development of computer memory. Recently, research by electrical engineer Mohammad Samizadeh Nikoo has demonstrated that vanadium dioxide (VO₂) has a similar memory property to that of neurons, suggesting that __________\n\nWhich choice most logically completes the text?",
+    "type": "multiple-choice",
+    "choices": [
+      {
+        "id": "A",
+        "text": "VO₂ could be used in the development of computer memory."
+      },
+      {
+        "id": "B",
+        "text": "neurons use VO₂ when forming memories."
+      },
+      {
+        "id": "C",
+        "text": "VO₂ can learn to respond to stimuli from sensory organs."
+      },
+      {
+        "id": "D",
+        "text": "electrical engineers can now use neurons to develop computer memory."
+      }
+    ],
+    "answer": "A",
+    "explanation": "Official diagnostic answer: A. Review the source figure and choices above; this item is from the publisher's Practice Test 2 diagnostic key.",
+    "assets": [
+      {
+        "id": "question-image",
+        "type": "figure",
+        "src": "assets/questions/sat-binder-test-1-rw-m1-common-q14.png",
+        "alt": "Practice Test 2 question image (rw-m1-common question 14)",
+        "width": 756,
+        "height": 999,
+        "sourcePage": 7
+      }
+    ],
+    "sourceType": "Princeton Review Digital SAT Premium Prep 2025",
+    "sourcePage": 7,
+    "sourceQuestion": "rw-m1-common question 14",
+    "needsReview": false,
+    "sourceNotes": "Question image and extracted text were visually verified. Answer letter/value comes from the publisher diagnostic answer key."
+  },
+  {
+    "id": "sat-binder-test-1-rw-m1-common-q15",
+    "domain": "Standard English Conventions",
+    "skill": "Pronouns",
+    "difficulty": 2,
+    "prompt": "Uruguayan-Spanish author Carmen Posadas has written the children’s books Juego de Niños (Child’s Play) and La Cinta Roja (The Red Ribbon). Currently, __________ available in over fifty countries and thirty languages.\n\nWhich choice completes the text so that it conforms to the conventions of Standard English?",
+    "type": "multiple-choice",
+    "choices": [
+      {
+        "id": "A",
+        "text": "some are"
+      },
+      {
+        "id": "B",
+        "text": "this is"
+      },
+      {
+        "id": "C",
+        "text": "they are"
+      },
+      {
+        "id": "D",
+        "text": "it is"
+      }
+    ],
+    "answer": "C",
+    "explanation": "Official diagnostic answer: C. Review the source figure and choices above; this item is from the publisher's Practice Test 2 diagnostic key.",
+    "assets": [
+      {
+        "id": "question-image",
+        "type": "figure",
+        "src": "assets/questions/sat-binder-test-1-rw-m1-common-q15.png",
+        "alt": "Practice Test 2 question image (rw-m1-common question 15)",
+        "width": 756,
+        "height": 723,
+        "sourcePage": 8
+      }
+    ],
+    "sourceType": "Princeton Review Digital SAT Premium Prep 2025",
+    "sourcePage": 8,
+    "sourceQuestion": "rw-m1-common question 15",
+    "needsReview": false,
+    "sourceNotes": "Question image and extracted text were visually verified. Answer letter/value comes from the publisher diagnostic answer key."
+  },
+  {
+    "id": "sat-binder-test-1-rw-m1-common-q16",
+    "domain": "Standard English Conventions",
+    "skill": "Who or What Are You Talking About?",
+    "difficulty": 2,
+    "prompt": "During a meeting, a group of twelve young deaf people shared their feelings of isolation and their desire for support. In 1988, the group worked together to form Action Deaf Youth, an __________  provides services and programs for deaf children and youth throughout Northern Ireland.\n\nWhich choice completes the text so that it conforms to the conventions of Standard English?",
+    "type": "multiple-choice",
+    "choices": [
+      {
+        "id": "A",
+        "text": "organization, that"
+      },
+      {
+        "id": "B",
+        "text": "organization"
+      },
+      {
+        "id": "C",
+        "text": "organization that"
+      },
+      {
+        "id": "D",
+        "text": "organization,"
+      }
+    ],
+    "answer": "C",
+    "explanation": "Official diagnostic answer: C. Review the source figure and choices above; this item is from the publisher's Practice Test 2 diagnostic key.",
+    "assets": [
+      {
+        "id": "question-image",
+        "type": "figure",
+        "src": "assets/questions/sat-binder-test-1-rw-m1-common-q16.png",
+        "alt": "Practice Test 2 question image (rw-m1-common question 16)",
+        "width": 756,
+        "height": 792,
+        "sourcePage": 8
+      }
+    ],
+    "sourceType": "Princeton Review Digital SAT Premium Prep 2025",
+    "sourcePage": 8,
+    "sourceQuestion": "rw-m1-common question 16",
+    "needsReview": false,
+    "sourceNotes": "Question image and extracted text were visually verified. Answer letter/value comes from the publisher diagnostic answer key."
+  },
+  {
+    "id": "sat-binder-test-1-rw-m1-common-q17",
+    "domain": "Standard English Conventions",
+    "skill": "Verb Forms in Complete Sentences",
+    "difficulty": 2,
+    "prompt": "In 1986, after a 56-day expedition, Ann Bancroft became the first woman to reach the North Pole. Her experience as a physical education teacher and her leadership of the first all-female team to cross the ice to the South __________  her to create a foundation that supports girls in pursuing their dreams.\n\nWhich choice completes the text so that it conforms to the conventions of Standard English?",
+    "type": "multiple-choice",
+    "choices": [
+      {
+        "id": "A",
+        "text": "Pole to inspire"
+      },
+      {
+        "id": "B",
+        "text": "Pole that inspired"
+      },
+      {
+        "id": "C",
+        "text": "Pole, inspiring"
+      },
+      {
+        "id": "D",
+        "text": "Pole inspired"
+      }
+    ],
+    "answer": "D",
+    "explanation": "Official diagnostic answer: D. Review the source figure and choices above; this item is from the publisher's Practice Test 2 diagnostic key.",
+    "assets": [
+      {
+        "id": "question-image",
+        "type": "figure",
+        "src": "assets/questions/sat-binder-test-1-rw-m1-common-q17.png",
+        "alt": "Practice Test 2 question image (rw-m1-common question 17)",
+        "width": 756,
+        "height": 792,
+        "sourcePage": 8
+      }
+    ],
+    "sourceType": "Princeton Review Digital SAT Premium Prep 2025",
+    "sourcePage": 8,
+    "sourceQuestion": "rw-m1-common question 17",
+    "needsReview": false,
+    "sourceNotes": "Question image and extracted text were visually verified. Answer letter/value comes from the publisher diagnostic answer key."
+  },
+  {
+    "id": "sat-binder-test-1-rw-m1-common-q18",
+    "domain": "Standard English Conventions",
+    "skill": "How to Connect Independent Clauses",
+    "difficulty": 2,
+    "prompt": "American artist Simone Leigh creates art in various mediums, including sculptures, video, and __________ the themes and images in her artwork, Leigh has emphasized that Black women are her primary audience and that they would be familiar with the allusions in her work.\n\nWhich choice completes the text so that it conforms to the conventions of Standard English?",
+    "type": "multiple-choice",
+    "choices": [
+      {
+        "id": "A",
+        "text": "performance. Discussing"
+      },
+      {
+        "id": "B",
+        "text": "performance discussing"
+      },
+      {
+        "id": "C",
+        "text": "performance and discussing"
+      },
+      {
+        "id": "D",
+        "text": "performance, discussing"
+      }
+    ],
+    "answer": "A",
+    "explanation": "Official diagnostic answer: A. Review the source figure and choices above; this item is from the publisher's Practice Test 2 diagnostic key.",
+    "assets": [
+      {
+        "id": "question-image",
+        "type": "figure",
+        "src": "assets/questions/sat-binder-test-1-rw-m1-common-q18.png",
+        "alt": "Practice Test 2 question image (rw-m1-common question 18)",
+        "width": 756,
+        "height": 792,
+        "sourcePage": 8
+      }
+    ],
+    "sourceType": "Princeton Review Digital SAT Premium Prep 2025",
+    "sourcePage": 8,
+    "sourceQuestion": "rw-m1-common question 18",
+    "needsReview": false,
+    "sourceNotes": "Question image and extracted text were visually verified. Answer letter/value comes from the publisher diagnostic answer key."
+  },
+  {
+    "id": "sat-binder-test-1-rw-m1-common-q19",
+    "domain": "Standard English Conventions",
+    "skill": "Pronouns",
+    "difficulty": 2,
+    "prompt": "Japanese origamist Akira Yoshizawa is considered the grandmaster of origami, creating more than 50,000 models as well as wet-folding, the most well-known of his invented techniques. __________  dampening the paper before folding, leading to origami models with rounder and more sculpted looks.\n\nWhich choice completes the text so that it conforms to the conventions of Standard English?",
+    "type": "multiple-choice",
+    "choices": [
+      {
+        "id": "A",
+        "text": "It involves"
+      },
+      {
+        "id": "B",
+        "text": "They involve"
+      },
+      {
+        "id": "C",
+        "text": "One involves"
+      },
+      {
+        "id": "D",
+        "text": "These involve"
+      }
+    ],
+    "answer": "A",
+    "explanation": "Official diagnostic answer: A. Review the source figure and choices above; this item is from the publisher's Practice Test 2 diagnostic key.",
+    "assets": [
+      {
+        "id": "question-image",
+        "type": "figure",
+        "src": "assets/questions/sat-binder-test-1-rw-m1-common-q19.png",
+        "alt": "Practice Test 2 question image (rw-m1-common question 19)",
+        "width": 756,
+        "height": 792,
+        "sourcePage": 9
+      }
+    ],
+    "sourceType": "Princeton Review Digital SAT Premium Prep 2025",
+    "sourcePage": 9,
+    "sourceQuestion": "rw-m1-common question 19",
+    "needsReview": false,
+    "sourceNotes": "Question image and extracted text were visually verified. Answer letter/value comes from the publisher diagnostic answer key."
+  },
+  {
+    "id": "sat-binder-test-1-rw-m1-common-q20",
+    "domain": "Standard English Conventions",
+    "skill": "Where Punctuation is Not Needed",
+    "difficulty": 2,
+    "prompt": "Chinese artist Xu Bing is known for his art installations that showcase his printmaking skills and his creative use of languages and texts. His 1991 installation A Book from the Sky, for example, consists of volumes and scrolls printed with characters he invented, while his 2004 installation The Glassy Surface of a __________  uses the text of Henry David Thoreau’s Walden to create the illusion of a lake.\n\nWhich choice completes the text so that it conforms to the conventions of Standard English?",
+    "type": "multiple-choice",
+    "choices": [
+      {
+        "id": "A",
+        "text": "Lake:"
+      },
+      {
+        "id": "B",
+        "text": "Lake"
+      },
+      {
+        "id": "C",
+        "text": "Lake,"
+      },
+      {
+        "id": "D",
+        "text": "Lake—"
+      }
+    ],
+    "answer": "B",
+    "explanation": "Official diagnostic answer: B. Review the source figure and choices above; this item is from the publisher's Practice Test 2 diagnostic key.",
+    "assets": [
+      {
+        "id": "question-image",
+        "type": "figure",
+        "src": "assets/questions/sat-binder-test-1-rw-m1-common-q20.png",
+        "alt": "Practice Test 2 question image (rw-m1-common question 20)",
+        "width": 756,
+        "height": 861,
+        "sourcePage": 9
+      }
+    ],
+    "sourceType": "Princeton Review Digital SAT Premium Prep 2025",
+    "sourcePage": 9,
+    "sourceQuestion": "rw-m1-common question 20",
+    "needsReview": false,
+    "sourceNotes": "Question image and extracted text were visually verified. Answer letter/value comes from the publisher diagnostic answer key."
+  },
+  {
+    "id": "sat-binder-test-1-rw-m1-common-q21",
+    "domain": "Expression of Ideas",
+    "skill": "Punctuation with Transitions",
+    "difficulty": 2,
+    "prompt": "Developed along with the swing style of jazz music in the 1920s, swing dance is a group of social dances that once comprised hundreds of styles. Not all of the styles survived beyond that time __________  the dances that are still popular today include Lindy Hop, Balboa, Collegiate Shag, and Charleston.\n\nWhich choice completes the text so that it conforms to the conventions of Standard English?",
+    "type": "multiple-choice",
+    "choices": [
+      {
+        "id": "A",
+        "text": "period; however,"
+      },
+      {
+        "id": "B",
+        "text": "period, however;"
+      },
+      {
+        "id": "C",
+        "text": "period, however,"
+      },
+      {
+        "id": "D",
+        "text": "period, however"
+      }
+    ],
+    "answer": "B",
+    "explanation": "Official diagnostic answer: B. Review the source figure and choices above; this item is from the publisher's Practice Test 2 diagnostic key.",
+    "assets": [
+      {
+        "id": "question-image",
+        "type": "figure",
+        "src": "assets/questions/sat-binder-test-1-rw-m1-common-q21.png",
+        "alt": "Practice Test 2 question image (rw-m1-common question 21)",
+        "width": 756,
+        "height": 792,
+        "sourcePage": 9
+      }
+    ],
+    "sourceType": "Princeton Review Digital SAT Premium Prep 2025",
+    "sourcePage": 9,
+    "sourceQuestion": "rw-m1-common question 21",
+    "needsReview": false,
+    "sourceNotes": "Question image and extracted text were visually verified. Answer letter/value comes from the publisher diagnostic answer key."
+  },
+  {
+    "id": "sat-binder-test-1-rw-m1-common-q22",
+    "domain": "Expression of Ideas",
+    "skill": "Transition Questions",
+    "difficulty": 2,
+    "prompt": "Evolutionary biologist Jonathan Calede may have discovered the oldest amphibious beaver species in the world. Calede first compared measurements of the beaver’s ankle to those of almost 350 other rodent species to learn more about how it moved. __________ Calede dated the species to approximately 30 million years ago based on its location between rock and ash layers.\n\nWhich choice completes the text with the most logical transition?",
+    "type": "multiple-choice",
+    "choices": [
+      {
+        "id": "A",
+        "text": "For example,"
+      },
+      {
+        "id": "B",
+        "text": "In conclusion,"
+      },
+      {
+        "id": "C",
+        "text": "Next,"
+      },
+      {
+        "id": "D",
+        "text": "In fact,"
+      }
+    ],
+    "answer": "C",
+    "explanation": "Official diagnostic answer: C. Review the source figure and choices above; this item is from the publisher's Practice Test 2 diagnostic key.",
+    "assets": [
+      {
+        "id": "question-image",
+        "type": "figure",
+        "src": "assets/questions/sat-binder-test-1-rw-m1-common-q22.png",
+        "alt": "Practice Test 2 question image (rw-m1-common question 22)",
+        "width": 756,
+        "height": 861,
+        "sourcePage": 9
+      }
+    ],
+    "sourceType": "Princeton Review Digital SAT Premium Prep 2025",
+    "sourcePage": 9,
+    "sourceQuestion": "rw-m1-common question 22",
+    "needsReview": false,
+    "sourceNotes": "Question image and extracted text were visually verified. Answer letter/value comes from the publisher diagnostic answer key."
+  },
+  {
+    "id": "sat-binder-test-1-rw-m1-common-q23",
+    "domain": "Expression of Ideas",
+    "skill": "Transition Questions",
+    "difficulty": 2,
+    "prompt": "Male and female American citizens had starkly different roles during World War II. Men served as soldiers or took part in the workforce to create weapons and other wartime materials. __________  women were responsible for maintaining the home and supporting the men. Some women also ventured into the workforce for the first time, and the famous “We Can Do It” poster featuring “Rosie the Riveter” was created to motivate women to pursue this new role.\n\nWhich choice completes the text with the most logical transition?",
+    "type": "multiple-choice",
+    "choices": [
+      {
+        "id": "A",
+        "text": "Besides,"
+      },
+      {
+        "id": "B",
+        "text": "Instead,"
+      },
+      {
+        "id": "C",
+        "text": "Likewise,"
+      },
+      {
+        "id": "D",
+        "text": "Meanwhile,"
+      }
+    ],
+    "answer": "D",
+    "explanation": "Official diagnostic answer: D. Review the source figure and choices above; this item is from the publisher's Practice Test 2 diagnostic key.",
+    "assets": [
+      {
+        "id": "question-image",
+        "type": "figure",
+        "src": "assets/questions/sat-binder-test-1-rw-m1-common-q23.png",
+        "alt": "Practice Test 2 question image (rw-m1-common question 23)",
+        "width": 756,
+        "height": 896,
+        "sourcePage": 10
+      }
+    ],
+    "sourceType": "Princeton Review Digital SAT Premium Prep 2025",
+    "sourcePage": 10,
+    "sourceQuestion": "rw-m1-common question 23",
+    "needsReview": false,
+    "sourceNotes": "Question image and extracted text were visually verified. Answer letter/value comes from the publisher diagnostic answer key."
+  },
+  {
+    "id": "sat-binder-test-1-rw-m1-common-q24",
+    "domain": "Expression of Ideas",
+    "skill": "Transition Questions",
+    "difficulty": 2,
+    "prompt": "While treatment for hearing loss is typically associated with the ears, some patients with damaged ear structures are not able to use traditional cochlear implants. __________  researchers are working to develop hearing aids anchored to patients’ bones in order to combat hearing loss through vibrations in the skull.\n\nWhich choice completes the text with the most logical transition?",
+    "type": "multiple-choice",
+    "choices": [
+      {
+        "id": "A",
+        "text": "Secondly,"
+      },
+      {
+        "id": "B",
+        "text": "In addition,"
+      },
+      {
+        "id": "C",
+        "text": "Finally,"
+      },
+      {
+        "id": "D",
+        "text": "Hence,"
+      }
+    ],
+    "answer": "D",
+    "explanation": "Official diagnostic answer: D. Review the source figure and choices above; this item is from the publisher's Practice Test 2 diagnostic key.",
+    "assets": [
+      {
+        "id": "question-image",
+        "type": "figure",
+        "src": "assets/questions/sat-binder-test-1-rw-m1-common-q24.png",
+        "alt": "Practice Test 2 question image (rw-m1-common question 24)",
+        "width": 756,
+        "height": 792,
+        "sourcePage": 10
+      }
+    ],
+    "sourceType": "Princeton Review Digital SAT Premium Prep 2025",
+    "sourcePage": 10,
+    "sourceQuestion": "rw-m1-common question 24",
+    "needsReview": false,
+    "sourceNotes": "Question image and extracted text were visually verified. Answer letter/value comes from the publisher diagnostic answer key."
+  },
+  {
+    "id": "sat-binder-test-1-rw-m1-common-q25",
+    "domain": "Expression of Ideas",
+    "skill": "Transition Questions",
+    "difficulty": 2,
+    "prompt": "Korean artist Anicka Yi uses a unique process and materials to generate her art installations. Her materials are often perishable and biological, such as soap and flowers, and are not traditionally used for artwork. __________  Yi spends almost as much time transforming these substances into completely new materials as she does creating the actual art pieces.\n\nWhich choice completes the text with the most logical transition?",
+    "type": "multiple-choice",
+    "choices": [
+      {
+        "id": "A",
+        "text": "Meanwhile,"
+      },
+      {
+        "id": "B",
+        "text": "Instead,"
+      },
+      {
+        "id": "C",
+        "text": "In fact,"
+      },
+      {
+        "id": "D",
+        "text": "To conclude,"
+      }
+    ],
+    "answer": "C",
+    "explanation": "Official diagnostic answer: C. Review the source figure and choices above; this item is from the publisher's Practice Test 2 diagnostic key.",
+    "assets": [
+      {
+        "id": "question-image",
+        "type": "figure",
+        "src": "assets/questions/sat-binder-test-1-rw-m1-common-q25.png",
+        "alt": "Practice Test 2 question image (rw-m1-common question 25)",
+        "width": 756,
+        "height": 827,
+        "sourcePage": 10
+      }
+    ],
+    "sourceType": "Princeton Review Digital SAT Premium Prep 2025",
+    "sourcePage": 10,
+    "sourceQuestion": "rw-m1-common question 25",
+    "needsReview": false,
+    "sourceNotes": "Question image and extracted text were visually verified. Answer letter/value comes from the publisher diagnostic answer key."
+  },
+  {
+    "id": "sat-binder-test-1-rw-m1-common-q26",
+    "domain": "Expression of Ideas",
+    "skill": "Rhetorical Synthesis Questions",
+    "difficulty": 2,
+    "prompt": "While researching a topic, a student has taken the following notes:\n\n• A writing system for expressing numbers is a numeral system.\n\n• Two examples of numeral systems from history are Babylonian cuneiform numerals and Roman numerals.\n\n• The Babylonian cuneiform numeral system is a base-60 system and lacks a zero digit.\n\n• It’s a positional numeral system in which the position of a digit affects its value.\n\n• The Roman numeral system is a base-10 system and lacks a zero digit.\n\n• It’s a non-positional numeral system in which the position of a digit does not affect its value.\n\nThe student wants to emphasize a difference between the two numeral systems. Which choice most effectively uses relevant information from the notes to accomplish this goal?",
+    "type": "multiple-choice",
+    "choices": [
+      {
+        "id": "A",
+        "text": "Babylonian cuneiform numerals and Roman numerals are two writing systems for expressing numbers."
+      },
+      {
+        "id": "B",
+        "text": "The Roman numeral system is a base-10 non-positional system that lacks a zero digit."
+      },
+      {
+        "id": "C",
+        "text": "One system for expressing numbers is Babylonian cuneiform; however, another one is the Roman numeral system."
+      },
+      {
+        "id": "D",
+        "text": "The Babylonian cuneiform numeral system is base-60 and positional, while the Roman numeral system is base-10 and non-positional."
+      }
+    ],
+    "answer": "D",
+    "explanation": "Official diagnostic answer: D. Review the source figure and choices above; this item is from the publisher's Practice Test 2 diagnostic key.",
+    "assets": [
+      {
+        "id": "question-image",
+        "type": "figure",
+        "src": "assets/questions/sat-binder-test-1-rw-m1-common-q26.png",
+        "alt": "Practice Test 2 question image (rw-m1-common question 26)",
+        "width": 756,
+        "height": 1491,
+        "sourcePage": 11
+      }
+    ],
+    "sourceType": "Princeton Review Digital SAT Premium Prep 2025",
+    "sourcePage": 11,
+    "sourceQuestion": "rw-m1-common question 26",
+    "needsReview": false,
+    "sourceNotes": "Question image and extracted text were visually verified. Answer letter/value comes from the publisher diagnostic answer key."
+  },
+  {
+    "id": "sat-binder-test-1-rw-m1-common-q27",
+    "domain": "Expression of Ideas",
+    "skill": "Rhetorical Synthesis Questions",
+    "difficulty": 2,
+    "prompt": "While researching a topic, a student has taken the following notes:\n\n• Archaeologists studied the burial of an individual at the Newen Antug site in Argentinian Patagonia.\n\n• The individual was buried in a wooden structure over 800 years ago.\n\n• An analysis of the structure revealed that it was carved from a tree with excellent buoyancy.\n\n• The wooden structure was a canoe, suggesting that canoes were used as coffins at that time.\n\nThe student wants to present the Newen Antug study and its conclusions. Which choice most effectively uses relevant information from the notes to accomplish this goal?",
+    "type": "multiple-choice",
+    "choices": [
+      {
+        "id": "A",
+        "text": "The burial site of an individual over 800 years ago was found at the Newen Antug site in Argentinian Patagonia."
+      },
+      {
+        "id": "B",
+        "text": "Archaeologists studied the burial site of an individual who was buried at the Newen Antug site over 800 years ago."
+      },
+      {
+        "id": "C",
+        "text": "An analysis of a burial site at the Newen Antug site in Argentinian Patagonia provided evidence that canoes were used as coffins over 800 years ago."
+      },
+      {
+        "id": "D",
+        "text": "As part of a study of a burial site at the Newen Antug site in Argentinian Patagonia, a wooden structure buried with an individual was analyzed."
+      }
+    ],
+    "answer": "C",
+    "explanation": "Official diagnostic answer: C. Review the source figure and choices above; this item is from the publisher's Practice Test 2 diagnostic key.",
+    "assets": [
+      {
+        "id": "question-image",
+        "type": "figure",
+        "src": "assets/questions/sat-binder-test-1-rw-m1-common-q27.png",
+        "alt": "Practice Test 2 question image (rw-m1-common question 27)",
+        "width": 756,
+        "height": 1396,
+        "sourcePage": 11
+      }
+    ],
+    "sourceType": "Princeton Review Digital SAT Premium Prep 2025",
+    "sourcePage": 11,
+    "sourceQuestion": "rw-m1-common question 27",
+    "needsReview": false,
+    "sourceNotes": "Question image and extracted text were visually verified. Answer letter/value comes from the publisher diagnostic answer key."
+  },
+  {
+    "id": "sat-binder-test-1-rw-m2-easier-q01",
+    "domain": "Craft and Structure",
+    "skill": "Vocabulary Questions",
+    "difficulty": 1,
+    "prompt": "Shakespeare intentionally provided no stage directions for his play Macbeth regarding whether to have Banquo’s ghost physically present on stage or simply to have Macbeth react fearfully to something invisible, thus providing future directors with the __________  to indulge their own artistic interpretations.\n\nWhich choice completes the text with the most logical and precise word or phrase?",
+    "type": "multiple-choice",
+    "choices": [
+      {
+        "id": "A",
+        "text": "confusion"
+      },
+      {
+        "id": "B",
+        "text": "dedication"
+      },
+      {
+        "id": "C",
+        "text": "instruction"
+      },
+      {
+        "id": "D",
+        "text": "liberty"
+      }
+    ],
+    "answer": "D",
+    "explanation": "Official diagnostic answer: D. Review the source figure and choices above; this item is from the publisher's Practice Test 2 diagnostic key.",
+    "assets": [
+      {
+        "id": "question-image",
+        "type": "figure",
+        "src": "assets/questions/sat-binder-test-1-rw-m2-easier-q01.png",
+        "alt": "Practice Test 2 question image (rw-m2-easier question 1)",
+        "width": 756,
+        "height": 792,
+        "sourcePage": 12
+      }
+    ],
+    "sourceType": "Princeton Review Digital SAT Premium Prep 2025",
+    "sourcePage": 12,
+    "sourceQuestion": "rw-m2-easier question 1",
+    "needsReview": false,
+    "sourceNotes": "Question image and extracted text were visually verified. Answer letter/value comes from the publisher diagnostic answer key."
+  },
+  {
+    "id": "sat-binder-test-1-rw-m2-easier-q02",
+    "domain": "Craft and Structure",
+    "skill": "Vocabulary Questions",
+    "difficulty": 1,
+    "prompt": "German-Dutch paleontologist Ralph von Koenigswald was the first to discover the fossilized remains of Gigantopithecus blacki, a gargantuan ape believed to have lived during the Pleistocene Epoch. Because the fossils were exclusively found in caves in southern China, many experts believe that the species was __________  that region—that is, anyone claiming to have found remains of Gigantopithecus elsewhere would be mistaken.\n\nWhich choice completes the text with the most logical and precise word or phrase?",
+    "type": "multiple-choice",
+    "choices": [
+      {
+        "id": "A",
+        "text": "restricted to"
+      },
+      {
+        "id": "B",
+        "text": "eliminated from"
+      },
+      {
+        "id": "C",
+        "text": "common in"
+      },
+      {
+        "id": "D",
+        "text": "unknown to"
+      }
+    ],
+    "answer": "A",
+    "explanation": "Official diagnostic answer: A. Review the source figure and choices above; this item is from the publisher's Practice Test 2 diagnostic key.",
+    "assets": [
+      {
+        "id": "question-image",
+        "type": "figure",
+        "src": "assets/questions/sat-binder-test-1-rw-m2-easier-q02.png",
+        "alt": "Practice Test 2 question image (rw-m2-easier question 2)",
+        "width": 756,
+        "height": 896,
+        "sourcePage": 12
+      }
+    ],
+    "sourceType": "Princeton Review Digital SAT Premium Prep 2025",
+    "sourcePage": 12,
+    "sourceQuestion": "rw-m2-easier question 2",
+    "needsReview": false,
+    "sourceNotes": "Question image and extracted text were visually verified. Answer letter/value comes from the publisher diagnostic answer key."
+  },
+  {
+    "id": "sat-binder-test-1-rw-m2-easier-q03",
+    "domain": "Craft and Structure",
+    "skill": "Vocabulary Questions",
+    "difficulty": 1,
+    "prompt": "Computer scientist Ray Kurzweil __________  that although artificial intelligence will not displace human beings, it will undoubtedly become smarter than people within this generation. This possibility has been the domain of science fiction writers for decades, whose works explore the ramifications of just such a future.\n\nWhich choice completes the text with the most logical and precise word or phrase?",
+    "type": "multiple-choice",
+    "choices": [
+      {
+        "id": "A",
+        "text": "proves"
+      },
+      {
+        "id": "B",
+        "text": "requires"
+      },
+      {
+        "id": "C",
+        "text": "predicts"
+      },
+      {
+        "id": "D",
+        "text": "denies"
+      }
+    ],
+    "answer": "C",
+    "explanation": "Official diagnostic answer: C. Review the source figure and choices above; this item is from the publisher's Practice Test 2 diagnostic key.",
+    "assets": [
+      {
+        "id": "question-image",
+        "type": "figure",
+        "src": "assets/questions/sat-binder-test-1-rw-m2-easier-q03.png",
+        "alt": "Practice Test 2 question image (rw-m2-easier question 3)",
+        "width": 756,
+        "height": 792,
+        "sourcePage": 13
+      }
+    ],
+    "sourceType": "Princeton Review Digital SAT Premium Prep 2025",
+    "sourcePage": 13,
+    "sourceQuestion": "rw-m2-easier question 3",
+    "needsReview": false,
+    "sourceNotes": "Question image and extracted text were visually verified. Answer letter/value comes from the publisher diagnostic answer key."
+  },
+  {
+    "id": "sat-binder-test-1-rw-m2-easier-q04",
+    "domain": "Craft and Structure",
+    "skill": "Vocabulary Questions",
+    "difficulty": 1,
+    "prompt": "In psychology, it’s critical not to generalize from the results of studies in which the subjects are not representative of the larger population. The infamous Stanford Prison Experiment __________  this principle: the participants, whose behavior supposedly demonstrated the “human” tendency towards alarming aggression in authoritarian situations, were a handful of male college-age individuals from the same private university in California rather than a diverse sampling of subjects.\n\nWhich choice completes the text with the most logical and precise word or phrase?",
+    "type": "multiple-choice",
+    "choices": [
+      {
+        "id": "A",
+        "text": "illustrates"
+      },
+      {
+        "id": "B",
+        "text": "refutes"
+      },
+      {
+        "id": "C",
+        "text": "supersedes"
+      },
+      {
+        "id": "D",
+        "text": "critiques"
+      }
+    ],
+    "answer": "A",
+    "explanation": "Official diagnostic answer: A. Review the source figure and choices above; this item is from the publisher's Practice Test 2 diagnostic key.",
+    "assets": [
+      {
+        "id": "question-image",
+        "type": "figure",
+        "src": "assets/questions/sat-binder-test-1-rw-m2-easier-q04.png",
+        "alt": "Practice Test 2 question image (rw-m2-easier question 4)",
+        "width": 756,
+        "height": 930,
+        "sourcePage": 13
+      }
+    ],
+    "sourceType": "Princeton Review Digital SAT Premium Prep 2025",
+    "sourcePage": 13,
+    "sourceQuestion": "rw-m2-easier question 4",
+    "needsReview": false,
+    "sourceNotes": "Question image and extracted text were visually verified. Answer letter/value comes from the publisher diagnostic answer key."
+  },
+  {
+    "id": "sat-binder-test-1-rw-m2-easier-q05",
+    "domain": "Craft and Structure",
+    "skill": "Vocabulary Questions",
+    "difficulty": 1,
+    "prompt": "Neurologists know that prosopagnosia—the __________  to recognize faces—involves a specific lesion in the brain and can be caused by disease or head injury. However, prominent author Dr. Oliver Sacks believes that this “face blindness” also has a definite genetic component.\n\nWhich choice completes the text with the most logical and precise word or phrase?",
+    "type": "multiple-choice",
+    "choices": [
+      {
+        "id": "A",
+        "text": "capability"
+      },
+      {
+        "id": "B",
+        "text": "incapacity"
+      },
+      {
+        "id": "C",
+        "text": "tendency"
+      },
+      {
+        "id": "D",
+        "text": "reluctance"
+      }
+    ],
+    "answer": "B",
+    "explanation": "Official diagnostic answer: B. Review the source figure and choices above; this item is from the publisher's Practice Test 2 diagnostic key.",
+    "assets": [
+      {
+        "id": "question-image",
+        "type": "figure",
+        "src": "assets/questions/sat-binder-test-1-rw-m2-easier-q05.png",
+        "alt": "Practice Test 2 question image (rw-m2-easier question 5)",
+        "width": 756,
+        "height": 758,
+        "sourcePage": 13
+      }
+    ],
+    "sourceType": "Princeton Review Digital SAT Premium Prep 2025",
+    "sourcePage": 13,
+    "sourceQuestion": "rw-m2-easier question 5",
+    "needsReview": false,
+    "sourceNotes": "Question image and extracted text were visually verified. Answer letter/value comes from the publisher diagnostic answer key."
+  },
+  {
+    "id": "sat-binder-test-1-rw-m2-easier-q06",
+    "domain": "Craft and Structure",
+    "skill": "Vocabulary Questions",
+    "difficulty": 1,
+    "prompt": "The shark’s competitive advantage in the oceanic ecosystem is principally due to electroreception, or the ability to detect electrical impulses. Marine biologists believe that this heightened __________  to electrical stimuli allows the shark to easily find its prey, for as fish swim through water, their movement produces minute electrical signals.\n\nWhich choice completes the text with the most logical and precise word or phrase?",
+    "type": "multiple-choice",
+    "choices": [
+      {
+        "id": "A",
+        "text": "allergy"
+      },
+      {
+        "id": "B",
+        "text": "sensitivity"
+      },
+      {
+        "id": "C",
+        "text": "indifference"
+      },
+      {
+        "id": "D",
+        "text": "aversion"
+      }
+    ],
+    "answer": "B",
+    "explanation": "Official diagnostic answer: B. Review the source figure and choices above; this item is from the publisher's Practice Test 2 diagnostic key.",
+    "assets": [
+      {
+        "id": "question-image",
+        "type": "figure",
+        "src": "assets/questions/sat-binder-test-1-rw-m2-easier-q06.png",
+        "alt": "Practice Test 2 question image (rw-m2-easier question 6)",
+        "width": 756,
+        "height": 827,
+        "sourcePage": 13
+      }
+    ],
+    "sourceType": "Princeton Review Digital SAT Premium Prep 2025",
+    "sourcePage": 13,
+    "sourceQuestion": "rw-m2-easier question 6",
+    "needsReview": false,
+    "sourceNotes": "Question image and extracted text were visually verified. Answer letter/value comes from the publisher diagnostic answer key."
+  },
+  {
+    "id": "sat-binder-test-1-rw-m2-easier-q07",
+    "domain": "Craft and Structure",
+    "skill": "Vocabulary Questions",
+    "difficulty": 1,
+    "prompt": "The Voynich manuscript was written on vellum dating from the fifteenth century in a script that is not found in any other source. Since cryptographers have yet to demonstrably decipher any portion of the text, the meaning and purpose of the Voynich manuscript remain __________ .\n\nWhich choice completes the text with the most logical and precise word or phrase?",
+    "type": "multiple-choice",
+    "choices": [
+      {
+        "id": "A",
+        "text": "enigmatic"
+      },
+      {
+        "id": "B",
+        "text": "venerable"
+      },
+      {
+        "id": "C",
+        "text": "multifarious"
+      },
+      {
+        "id": "D",
+        "text": "coherent"
+      }
+    ],
+    "answer": "A",
+    "explanation": "Official diagnostic answer: A. Review the source figure and choices above; this item is from the publisher's Practice Test 2 diagnostic key.",
+    "assets": [
+      {
+        "id": "question-image",
+        "type": "figure",
+        "src": "assets/questions/sat-binder-test-1-rw-m2-easier-q07.png",
+        "alt": "Practice Test 2 question image (rw-m2-easier question 7)",
+        "width": 756,
+        "height": 792,
+        "sourcePage": 14
+      }
+    ],
+    "sourceType": "Princeton Review Digital SAT Premium Prep 2025",
+    "sourcePage": 14,
+    "sourceQuestion": "rw-m2-easier question 7",
+    "needsReview": false,
+    "sourceNotes": "Question image and extracted text were visually verified. Answer letter/value comes from the publisher diagnostic answer key."
+  },
+  {
+    "id": "sat-binder-test-1-rw-m2-easier-q08",
+    "domain": "Craft and Structure",
+    "skill": "Vocabulary Questions",
+    "difficulty": 1,
+    "prompt": "It is commonly believed that, in the complex ecosystem of the Nile River in Africa, the crocodile and the Egyptian plover bird have formed an __________ relationship: the crocodile opens its mouth and keeps it open while the bird instinctively eats the food particles remaining in the crocodile’s teeth, thus nourishing the bird while simultaneously promoting the crocodile’s dental health.\n\nWhich choice completes the text with the most logical and precise word or phrase?",
+    "type": "multiple-choice",
+    "choices": [
+      {
+        "id": "A",
+        "text": "interdependent"
+      },
+      {
+        "id": "B",
+        "text": "inexplicable"
+      },
+      {
+        "id": "C",
+        "text": "enthralling"
+      },
+      {
+        "id": "D",
+        "text": "inarticulate"
+      }
+    ],
+    "answer": "A",
+    "explanation": "Official diagnostic answer: A. Review the source figure and choices above; this item is from the publisher's Practice Test 2 diagnostic key.",
+    "assets": [
+      {
+        "id": "question-image",
+        "type": "figure",
+        "src": "assets/questions/sat-binder-test-1-rw-m2-easier-q08.png",
+        "alt": "Practice Test 2 question image (rw-m2-easier question 8)",
+        "width": 756,
+        "height": 861,
+        "sourcePage": 14
+      }
+    ],
+    "sourceType": "Princeton Review Digital SAT Premium Prep 2025",
+    "sourcePage": 14,
+    "sourceQuestion": "rw-m2-easier question 8",
+    "needsReview": false,
+    "sourceNotes": "Question image and extracted text were visually verified. Answer letter/value comes from the publisher diagnostic answer key."
+  },
+  {
+    "id": "sat-binder-test-1-rw-m2-easier-q09",
+    "domain": "Information and Ideas",
+    "skill": "Retrieval Questions",
+    "difficulty": 1,
+    "prompt": "The following text is from Herman Melville’s 1924 short novel Billy Budd and pertains to Edward Vere, the captain of the ship on which Billy is sailing.\n\nCaptain the Honorable Edward Fairfax Vere, to give his full title, was a bachelor of forty or thereabouts, a sailor of distinction even in a time prolific of renowned seamen. Though allied to the higher nobility, his advancement had not been altogether owing to influences connected with that circumstance. He had seen much service, been in various engagements, always acquitting himself as an officer mindful of the welfare of his men, but never tolerating an infraction of discipline; thoroughly versed in the science of his profession, and intrepid to the verge of temerity, though never injudiciously so.\n\nAccording to the text, what is true of Captain Vere?",
+    "type": "multiple-choice",
+    "choices": [
+      {
+        "id": "A",
+        "text": "He dislikes many of the men who serve under him."
+      },
+      {
+        "id": "B",
+        "text": "He is proud of his aristocratic background."
+      },
+      {
+        "id": "C",
+        "text": "He is a capable and evenhanded naval officer."
+      },
+      {
+        "id": "D",
+        "text": "He prefers navy life to life outside the navy."
+      }
+    ],
+    "answer": "C",
+    "explanation": "Official diagnostic answer: C. Review the source figure and choices above; this item is from the publisher's Practice Test 2 diagnostic key.",
+    "assets": [
+      {
+        "id": "question-image",
+        "type": "figure",
+        "src": "assets/questions/sat-binder-test-1-rw-m2-easier-q09.png",
+        "alt": "Practice Test 2 question image (rw-m2-easier question 9)",
+        "width": 756,
+        "height": 1103,
+        "sourcePage": 14
+      }
+    ],
+    "sourceType": "Princeton Review Digital SAT Premium Prep 2025",
+    "sourcePage": 14,
+    "sourceQuestion": "rw-m2-easier question 9",
+    "needsReview": false,
+    "sourceNotes": "Question image and extracted text were visually verified. Answer letter/value comes from the publisher diagnostic answer key."
+  },
+  {
+    "id": "sat-binder-test-1-rw-m2-easier-q10",
+    "domain": "Information and Ideas",
+    "skill": "Claims Questions",
+    "difficulty": 1,
+    "prompt": "I Remember, I Remember is an 1844 poem by Thomas Hood. The poem conveys the speaker’s sadness that his life as an adult does not compare favorably to his childhood: __________\n\nWhich quotation from the poem most effectively illustrates the claim?",
+    "type": "multiple-choice",
+    "choices": [
+      {
+        "id": "A",
+        "text": "“The lilacs where the robin built, / And where my brother set / The laburnum on his birthday,— / The tree is living yet!”"
+      },
+      {
+        "id": "B",
+        "text": "“I remember, I remember, / The house where I was born, / The little window where the sun / Came peeping in at morn.”"
+      },
+      {
+        "id": "C",
+        "text": "“I remember, I remember, / The roses, red and white, / The vi’lets, and the lily-cups, / Those flowers made of light!”"
+      },
+      {
+        "id": "D",
+        "text": "“It was a childish ignorance,/ But now ‘tis little joy / To know I’m farther off from heav’n / Than when I was a boy.”"
+      }
+    ],
+    "answer": "D",
+    "explanation": "Official diagnostic answer: D. Review the source figure and choices above; this item is from the publisher's Practice Test 2 diagnostic key.",
+    "assets": [
+      {
+        "id": "question-image",
+        "type": "figure",
+        "src": "assets/questions/sat-binder-test-1-rw-m2-easier-q10.png",
+        "alt": "Practice Test 2 question image (rw-m2-easier question 10)",
+        "width": 756,
+        "height": 999,
+        "sourcePage": 15
+      }
+    ],
+    "sourceType": "Princeton Review Digital SAT Premium Prep 2025",
+    "sourcePage": 15,
+    "sourceQuestion": "rw-m2-easier question 10",
+    "needsReview": false,
+    "sourceNotes": "Question image and extracted text were visually verified. Answer letter/value comes from the publisher diagnostic answer key."
+  },
+  {
+    "id": "sat-binder-test-1-rw-m2-easier-q11",
+    "domain": "Information and Ideas",
+    "skill": "Claims Questions",
+    "difficulty": 1,
+    "prompt": "Dracula is an 1897 novel by Bram Stoker. In the story, English lawyer Jonathan Harker has traveled to Transylvania to conduct business with Count Dracula at his castle. In his journal, Harker conveys his belief that he has become Dracula’s prisoner: __________\n\nWhich quotation from Jonathan Harker’s journal most effectively illustrates the claim?",
+    "type": "multiple-choice",
+    "choices": [
+      {
+        "id": "A",
+        "text": "“What manner of man is this, or what manner of creature, is it in the semblance of man? I feel the dread of this horrible place overpowering me.”"
+      },
+      {
+        "id": "B",
+        "text": "“My lamp seemed to be of little effect in the brilliant moonlight, but I was glad to have it with me, for there was a dread loneliness in the place which chilled my heart and made my nerves tremble.”"
+      },
+      {
+        "id": "C",
+        "text": "“I start at my own shadow, and am full of all sorts of horrible imaginings. God knows that there is ground for my terrible fear in this accursed place!”"
+      },
+      {
+        "id": "D",
+        "text": "“I rushed up and down the stairs, trying every door and peering out of every window I could find, but after a little the conviction of my helplessness overpowered all other feelings.”"
+      }
+    ],
+    "answer": "D",
+    "explanation": "Official diagnostic answer: D. Review the source figure and choices above; this item is from the publisher's Practice Test 2 diagnostic key.",
+    "assets": [
+      {
+        "id": "question-image",
+        "type": "figure",
+        "src": "assets/questions/sat-binder-test-1-rw-m2-easier-q11.png",
+        "alt": "Practice Test 2 question image (rw-m2-easier question 11)",
+        "width": 756,
+        "height": 1225,
+        "sourcePage": 15
+      }
+    ],
+    "sourceType": "Princeton Review Digital SAT Premium Prep 2025",
+    "sourcePage": 15,
+    "sourceQuestion": "rw-m2-easier question 11",
+    "needsReview": false,
+    "sourceNotes": "Question image and extracted text were visually verified. Answer letter/value comes from the publisher diagnostic answer key."
+  },
+  {
+    "id": "sat-binder-test-1-rw-m2-easier-q12",
+    "domain": "Information and Ideas",
+    "skill": "Claims Questions",
+    "difficulty": 1,
+    "prompt": "“In Flanders Fields” is a 1915 poem written by Lieutenant-Colonel John McCrae, a Canadian military officer who died three years later in World War I. The poem is meant to be a plea towards others to join the war effort, as is evident by the following lines: __________\n\nWhich quotation from “In Flanders Fields” most effectively illustrates the claim?",
+    "type": "multiple-choice",
+    "choices": [
+      {
+        "id": "A",
+        "text": "“Loved and were loved and now we lie / In Flanders fields”"
+      },
+      {
+        "id": "B",
+        "text": "“In Flanders fields the poppies blow / Between the crosses row on row”"
+      },
+      {
+        "id": "C",
+        "text": "“To you from failing hands we throw / The torch; be yours to hold it high”"
+      },
+      {
+        "id": "D",
+        "text": "“We are the dead. Short days ago / We lived, felt dawn, saw sunset glow”"
+      }
+    ],
+    "answer": "C",
+    "explanation": "Official diagnostic answer: C. Review the source figure and choices above; this item is from the publisher's Practice Test 2 diagnostic key.",
+    "assets": [
+      {
+        "id": "question-image",
+        "type": "figure",
+        "src": "assets/questions/sat-binder-test-1-rw-m2-easier-q12.png",
+        "alt": "Practice Test 2 question image (rw-m2-easier question 12)",
+        "width": 756,
+        "height": 896,
+        "sourcePage": 16
+      }
+    ],
+    "sourceType": "Princeton Review Digital SAT Premium Prep 2025",
+    "sourcePage": 16,
+    "sourceQuestion": "rw-m2-easier question 12",
+    "needsReview": false,
+    "sourceNotes": "Question image and extracted text were visually verified. Answer letter/value comes from the publisher diagnostic answer key."
+  },
+  {
+    "id": "sat-binder-test-1-rw-m2-easier-q13",
+    "domain": "Information and Ideas",
+    "skill": "Conclusions",
+    "difficulty": 1,
+    "prompt": "The curator of a museum claims that a dress in his possession was worn by the wife of one of Lincoln’s generals at the presidential inauguration in 1865. Radiocarbon dating, which dates organic material with an error range of about thirty years in either direction, was performed on the sleeves of the dress, revealing that they date back to the 1975–2005 period. If both the curator’s claim and the radiocarbon dating analysis are correct, that would suggest that __________\n\nWhich choice most logically completes the text?",
+    "type": "multiple-choice",
+    "choices": [
+      {
+        "id": "A",
+        "text": "the dress was made sometime between 1835 and 1895 and then damaged sometime after 1975."
+      },
+      {
+        "id": "B",
+        "text": "vintage dresses are more commonly recovered from the late twentieth and early twenty-first centuries than from the mid-nineteenth century."
+      },
+      {
+        "id": "C",
+        "text": "over one hundred years after the dress was made, its sleeves were replaced."
+      },
+      {
+        "id": "D",
+        "text": "the dress was made from material different from that used for most dresses in the nineteenth century."
+      }
+    ],
+    "answer": "C",
+    "explanation": "Official diagnostic answer: C. Review the source figure and choices above; this item is from the publisher's Practice Test 2 diagnostic key.",
+    "assets": [
+      {
+        "id": "question-image",
+        "type": "figure",
+        "src": "assets/questions/sat-binder-test-1-rw-m2-easier-q13.png",
+        "alt": "Practice Test 2 question image (rw-m2-easier question 13)",
+        "width": 756,
+        "height": 1068,
+        "sourcePage": 16
+      }
+    ],
+    "sourceType": "Princeton Review Digital SAT Premium Prep 2025",
+    "sourcePage": 16,
+    "sourceQuestion": "rw-m2-easier question 13",
+    "needsReview": false,
+    "sourceNotes": "Question image and extracted text were visually verified. Answer letter/value comes from the publisher diagnostic answer key."
+  },
+  {
+    "id": "sat-binder-test-1-rw-m2-easier-q14",
+    "domain": "Information and Ideas",
+    "skill": "Conclusions",
+    "difficulty": 1,
+    "prompt": "In the early 1900s, paleontologists largely believed that there were no undocumented prehistoric aquatic species that had survived to the present day because it would be impossible for such a species to have enough animals to sustain a breeding population while escaping detection in the modern era. However, a coelacanth, a large lobe-finned fish universally believed by scientists to have gone extinct sixty-six million years ago, was found off the coast of South Africa as recently as 1938. This event may suggest that __________\n\nWhich choice most logically completes the text?",
+    "type": "multiple-choice",
+    "choices": [
+      {
+        "id": "A",
+        "text": "fewer coelacanths are required to sustain a breeding population than was previously thought."
+      },
+      {
+        "id": "B",
+        "text": "it is possible for a prehistoric species to go undiscovered for longer than expected."
+      },
+      {
+        "id": "C",
+        "text": "the scientists who determined that the coelacanth was extinct ignored critical evidence."
+      },
+      {
+        "id": "D",
+        "text": "the same environmental conditions that eliminated the dinosaurs nearly killed off the coelacanths."
+      }
+    ],
+    "answer": "B",
+    "explanation": "Official diagnostic answer: B. Review the source figure and choices above; this item is from the publisher's Practice Test 2 diagnostic key.",
+    "assets": [
+      {
+        "id": "question-image",
+        "type": "figure",
+        "src": "assets/questions/sat-binder-test-1-rw-m2-easier-q14.png",
+        "alt": "Practice Test 2 question image (rw-m2-easier question 14)",
+        "width": 756,
+        "height": 1103,
+        "sourcePage": 17
+      }
+    ],
+    "sourceType": "Princeton Review Digital SAT Premium Prep 2025",
+    "sourcePage": 17,
+    "sourceQuestion": "rw-m2-easier question 14",
+    "needsReview": false,
+    "sourceNotes": "Question image and extracted text were visually verified. Answer letter/value comes from the publisher diagnostic answer key."
+  },
+  {
+    "id": "sat-binder-test-1-rw-m2-easier-q15",
+    "domain": "Information and Ideas",
+    "skill": "Conclusions",
+    "difficulty": 1,
+    "prompt": "The door-in-the-face technique involves initially making an outrageous or unappealing request or offer, which the other person is highly likely to refuse, then following up with a more reasonable one. The subject is more likely to look favorably upon this second request or offer because it seems acceptable compared to the initial proposition. So, if an employee wants the best raise in annual salary from her boss that she can get, she might succeed by asking for a __________\n\nWhich choice most logically completes the text?",
+    "type": "multiple-choice",
+    "choices": [
+      {
+        "id": "A",
+        "text": "50% raise, then asking for a 5% raise."
+      },
+      {
+        "id": "B",
+        "text": "3% raise, then asking for a 2% raise."
+      },
+      {
+        "id": "C",
+        "text": "10% raise, then asking for a 50% raise."
+      },
+      {
+        "id": "D",
+        "text": "3% raise, then asking for a 3% raise again."
+      }
+    ],
+    "answer": "A",
+    "explanation": "Official diagnostic answer: A. Review the source figure and choices above; this item is from the publisher's Practice Test 2 diagnostic key.",
+    "assets": [
+      {
+        "id": "question-image",
+        "type": "figure",
+        "src": "assets/questions/sat-binder-test-1-rw-m2-easier-q15.png",
+        "alt": "Practice Test 2 question image (rw-m2-easier question 15)",
+        "width": 756,
+        "height": 861,
+        "sourcePage": 17
+      }
+    ],
+    "sourceType": "Princeton Review Digital SAT Premium Prep 2025",
+    "sourcePage": 17,
+    "sourceQuestion": "rw-m2-easier question 15",
+    "needsReview": false,
+    "sourceNotes": "Question image and extracted text were visually verified. Answer letter/value comes from the publisher diagnostic answer key."
+  },
+  {
+    "id": "sat-binder-test-1-rw-m2-easier-q16",
+    "domain": "Information and Ideas",
+    "skill": "Conclusions",
+    "difficulty": 1,
+    "prompt": "The North American Free Trade Agreement (NAFTA) was an agreement among the United States, Canada, and Mexico that was in effect between 1994 and 2020. During this time, the number of manufacturing jobs in the United States and Canada declined, but the total number of manufacturing jobs in the countries covered by NAFTA increased. This suggests that, between 1994 and 2020, __________\n\nWhich choice most logically completes the text?",
+    "type": "multiple-choice",
+    "choices": [
+      {
+        "id": "A",
+        "text": "the number of manufacturing jobs in Mexico increased by a greater amount than the combined decreases in the United States and Canada."
+      },
+      {
+        "id": "B",
+        "text": "NAFTA made it more difficult for manufacturers to establish factories in the United States and Canada."
+      },
+      {
+        "id": "C",
+        "text": "the cost of manufacturing goods in the area covered by NAFTA decreased."
+      },
+      {
+        "id": "D",
+        "text": "complex goods, such as automobiles and electronics, were increasingly manufactured in the United States, Canada, and Mexico."
+      }
+    ],
+    "answer": "A",
+    "explanation": "Official diagnostic answer: A. Review the source figure and choices above; this item is from the publisher's Practice Test 2 diagnostic key.",
+    "assets": [
+      {
+        "id": "question-image",
+        "type": "figure",
+        "src": "assets/questions/sat-binder-test-1-rw-m2-easier-q16.png",
+        "alt": "Practice Test 2 question image (rw-m2-easier question 16)",
+        "width": 756,
+        "height": 1103,
+        "sourcePage": 18
+      }
+    ],
+    "sourceType": "Princeton Review Digital SAT Premium Prep 2025",
+    "sourcePage": 18,
+    "sourceQuestion": "rw-m2-easier question 16",
+    "needsReview": false,
+    "sourceNotes": "Question image and extracted text were visually verified. Answer letter/value comes from the publisher diagnostic answer key."
+  },
+  {
+    "id": "sat-binder-test-1-rw-m2-easier-q17",
+    "domain": "Standard English Conventions",
+    "skill": "Verb Forms in Complete Sentences",
+    "difficulty": 1,
+    "prompt": "American chef Alice Waters is well-known for opening the restaurant Chez Panisse, which __________  the farm-to-table movement by serving local and seasonal food.\n\nWhich choice completes the text so that it conforms to the conventions of Standard English?",
+    "type": "multiple-choice",
+    "choices": [
+      {
+        "id": "A",
+        "text": "originating"
+      },
+      {
+        "id": "B",
+        "text": "to originate"
+      },
+      {
+        "id": "C",
+        "text": "having originated"
+      },
+      {
+        "id": "D",
+        "text": "originated"
+      }
+    ],
+    "answer": "D",
+    "explanation": "Official diagnostic answer: D. Review the source figure and choices above; this item is from the publisher's Practice Test 2 diagnostic key.",
+    "assets": [
+      {
+        "id": "question-image",
+        "type": "figure",
+        "src": "assets/questions/sat-binder-test-1-rw-m2-easier-q17.png",
+        "alt": "Practice Test 2 question image (rw-m2-easier question 17)",
+        "width": 756,
+        "height": 689,
+        "sourcePage": 18
+      }
+    ],
+    "sourceType": "Princeton Review Digital SAT Premium Prep 2025",
+    "sourcePage": 18,
+    "sourceQuestion": "rw-m2-easier question 17",
+    "needsReview": false,
+    "sourceNotes": "Question image and extracted text were visually verified. Answer letter/value comes from the publisher diagnostic answer key."
+  },
+  {
+    "id": "sat-binder-test-1-rw-m2-easier-q18",
+    "domain": "Standard English Conventions",
+    "skill": "Pronouns and Apostrophes",
+    "difficulty": 1,
+    "prompt": "American activists Dolores Huerta and Cesar Chavez founded the National Farm Workers Association in 1962 to defend the rights of farm workers through nonviolent organizing tactics, such as marches and boycotts. __________  organization merged with the Agricultural Workers Organizing Committee, led by Larry Itliong, to form United Farm Workers, a labor union that advocates on behalf of farm workers across the U.S.\n\nWhich choice completes the text so that it conforms to the conventions of Standard English?",
+    "type": "multiple-choice",
+    "choices": [
+      {
+        "id": "A",
+        "text": "Its"
+      },
+      {
+        "id": "B",
+        "text": "Their"
+      },
+      {
+        "id": "C",
+        "text": "It’s"
+      },
+      {
+        "id": "D",
+        "text": "They’re"
+      }
+    ],
+    "answer": "B",
+    "explanation": "Official diagnostic answer: B. Review the source figure and choices above; this item is from the publisher's Practice Test 2 diagnostic key.",
+    "assets": [
+      {
+        "id": "question-image",
+        "type": "figure",
+        "src": "assets/questions/sat-binder-test-1-rw-m2-easier-q18.png",
+        "alt": "Practice Test 2 question image (rw-m2-easier question 18)",
+        "width": 756,
+        "height": 861,
+        "sourcePage": 18
+      }
+    ],
+    "sourceType": "Princeton Review Digital SAT Premium Prep 2025",
+    "sourcePage": 18,
+    "sourceQuestion": "rw-m2-easier question 18",
+    "needsReview": false,
+    "sourceNotes": "Question image and extracted text were visually verified. Answer letter/value comes from the publisher diagnostic answer key."
+  },
+  {
+    "id": "sat-binder-test-1-rw-m2-easier-q19",
+    "domain": "Standard English Conventions",
+    "skill": "Pronouns",
+    "difficulty": 1,
+    "prompt": "Researchers at the University of York found that people who are highly individualistic feel less connected to the natural world and engage in fewer activities to improve the environment; however, engaging with nature through activities such as walking and bird-watching can reconnect __________  to the natural world and encourage environmentally-friendly behaviors.\n\nWhich choice completes the text so that it conforms to the conventions of Standard English?",
+    "type": "multiple-choice",
+    "choices": [
+      {
+        "id": "A",
+        "text": "it"
+      },
+      {
+        "id": "B",
+        "text": "you"
+      },
+      {
+        "id": "C",
+        "text": "one"
+      },
+      {
+        "id": "D",
+        "text": "them"
+      }
+    ],
+    "answer": "D",
+    "explanation": "Official diagnostic answer: D. Review the source figure and choices above; this item is from the publisher's Practice Test 2 diagnostic key.",
+    "assets": [
+      {
+        "id": "question-image",
+        "type": "figure",
+        "src": "assets/questions/sat-binder-test-1-rw-m2-easier-q19.png",
+        "alt": "Practice Test 2 question image (rw-m2-easier question 19)",
+        "width": 756,
+        "height": 827,
+        "sourcePage": 19
+      }
+    ],
+    "sourceType": "Princeton Review Digital SAT Premium Prep 2025",
+    "sourcePage": 19,
+    "sourceQuestion": "rw-m2-easier question 19",
+    "needsReview": false,
+    "sourceNotes": "Question image and extracted text were visually verified. Answer letter/value comes from the publisher diagnostic answer key."
+  },
+  {
+    "id": "sat-binder-test-1-rw-m2-easier-q20",
+    "domain": "Standard English Conventions",
+    "skill": "How to Connect Independent Clauses",
+    "difficulty": 1,
+    "prompt": "National flags are designed to best represent and symbolize the individual __________  when countries share a history or culture, their flags are designed to look similar, thus creating a flag family that shares colors, shapes, or other elements.\n\nWhich choice completes the text so that it conforms to the conventions of Standard English?",
+    "type": "multiple-choice",
+    "choices": [
+      {
+        "id": "A",
+        "text": "country but"
+      },
+      {
+        "id": "B",
+        "text": "country,"
+      },
+      {
+        "id": "C",
+        "text": "country"
+      },
+      {
+        "id": "D",
+        "text": "country, but"
+      }
+    ],
+    "answer": "D",
+    "explanation": "Official diagnostic answer: D. Review the source figure and choices above; this item is from the publisher's Practice Test 2 diagnostic key.",
+    "assets": [
+      {
+        "id": "question-image",
+        "type": "figure",
+        "src": "assets/questions/sat-binder-test-1-rw-m2-easier-q20.png",
+        "alt": "Practice Test 2 question image (rw-m2-easier question 20)",
+        "width": 756,
+        "height": 758,
+        "sourcePage": 19
+      }
+    ],
+    "sourceType": "Princeton Review Digital SAT Premium Prep 2025",
+    "sourcePage": 19,
+    "sourceQuestion": "rw-m2-easier question 20",
+    "needsReview": false,
+    "sourceNotes": "Question image and extracted text were visually verified. Answer letter/value comes from the publisher diagnostic answer key."
+  },
+  {
+    "id": "sat-binder-test-1-rw-m2-easier-q21",
+    "domain": "Standard English Conventions",
+    "skill": "Question or Statement?",
+    "difficulty": 1,
+    "prompt": "Scientists at the University of Illinois and the University of Lancaster observed that plants under very bright sunlight enter a protective mode for several minutes, during which they stop photosynthesizing and growing. If the crops were genetically modified to have a shorter time in protective mode, __________  The scientists resolved to find out.\n\nWhich choice completes the text so that it conforms to the conventions of Standard English?",
+    "type": "multiple-choice",
+    "choices": [
+      {
+        "id": "A",
+        "text": "could the crop yield increase?"
+      },
+      {
+        "id": "B",
+        "text": "the crop yield could increase?"
+      },
+      {
+        "id": "C",
+        "text": "the crop yield could increase."
+      },
+      {
+        "id": "D",
+        "text": "could the crop yield increase."
+      }
+    ],
+    "answer": "A",
+    "explanation": "Official diagnostic answer: A. Review the source figure and choices above; this item is from the publisher's Practice Test 2 diagnostic key.",
+    "assets": [
+      {
+        "id": "question-image",
+        "type": "figure",
+        "src": "assets/questions/sat-binder-test-1-rw-m2-easier-q21.png",
+        "alt": "Practice Test 2 question image (rw-m2-easier question 21)",
+        "width": 756,
+        "height": 827,
+        "sourcePage": 19
+      }
+    ],
+    "sourceType": "Princeton Review Digital SAT Premium Prep 2025",
+    "sourcePage": 19,
+    "sourceQuestion": "rw-m2-easier question 21",
+    "needsReview": false,
+    "sourceNotes": "Question image and extracted text were visually verified. Answer letter/value comes from the publisher diagnostic answer key."
+  },
+  {
+    "id": "sat-binder-test-1-rw-m2-easier-q22",
+    "domain": "Standard English Conventions",
+    "skill": "Verbs",
+    "difficulty": 1,
+    "prompt": "Take Our Daughters and Sons to Work Day originally started as a day focused on engaging girls with the workforce, Take Our Daughters to Work Day. On the national day, the fourth Tuesday in April, parents and caregivers go to work with their children; shadowing their parents or caregivers __________  children real-world experience and ideas for potential future careers.\n\nWhich choice completes the text so that it conforms to the conventions of Standard English?",
+    "type": "multiple-choice",
+    "choices": [
+      {
+        "id": "A",
+        "text": "offer"
+      },
+      {
+        "id": "B",
+        "text": "have offered"
+      },
+      {
+        "id": "C",
+        "text": "are offering"
+      },
+      {
+        "id": "D",
+        "text": "offers"
+      }
+    ],
+    "answer": "D",
+    "explanation": "Official diagnostic answer: D. Review the source figure and choices above; this item is from the publisher's Practice Test 2 diagnostic key.",
+    "assets": [
+      {
+        "id": "question-image",
+        "type": "figure",
+        "src": "assets/questions/sat-binder-test-1-rw-m2-easier-q22.png",
+        "alt": "Practice Test 2 question image (rw-m2-easier question 22)",
+        "width": 756,
+        "height": 827,
+        "sourcePage": 19
+      }
+    ],
+    "sourceType": "Princeton Review Digital SAT Premium Prep 2025",
+    "sourcePage": 19,
+    "sourceQuestion": "rw-m2-easier question 22",
+    "needsReview": false,
+    "sourceNotes": "Question image and extracted text were visually verified. Answer letter/value comes from the publisher diagnostic answer key."
+  },
+  {
+    "id": "sat-binder-test-1-rw-m2-easier-q23",
+    "domain": "Standard English Conventions",
+    "skill": "Verb Forms in Complete Sentences",
+    "difficulty": 1,
+    "prompt": "In order to allow olive ridley turtles to lay eggs on Versova Beach in Mumbai, community activist Afroz Shah organized a large group of volunteers to remove over 11 million pounds of trash. The beach now allows community members to connect with the natural world and __________  a healthy habitat for olive ridley turtles to use after a twenty-year absence.\n\nWhich choice completes the text so that it conforms to the conventions of Standard English?",
+    "type": "multiple-choice",
+    "choices": [
+      {
+        "id": "A",
+        "text": "provided"
+      },
+      {
+        "id": "B",
+        "text": "providing"
+      },
+      {
+        "id": "C",
+        "text": "provides"
+      },
+      {
+        "id": "D",
+        "text": "provide"
+      }
+    ],
+    "answer": "C",
+    "explanation": "Official diagnostic answer: C. Review the source figure and choices above; this item is from the publisher's Practice Test 2 diagnostic key.",
+    "assets": [
+      {
+        "id": "question-image",
+        "type": "figure",
+        "src": "assets/questions/sat-binder-test-1-rw-m2-easier-q23.png",
+        "alt": "Practice Test 2 question image (rw-m2-easier question 23)",
+        "width": 756,
+        "height": 827,
+        "sourcePage": 20
+      }
+    ],
+    "sourceType": "Princeton Review Digital SAT Premium Prep 2025",
+    "sourcePage": 20,
+    "sourceQuestion": "rw-m2-easier question 23",
+    "needsReview": false,
+    "sourceNotes": "Question image and extracted text were visually verified. Answer letter/value comes from the publisher diagnostic answer key."
+  },
+  {
+    "id": "sat-binder-test-1-rw-m2-easier-q24",
+    "domain": "Expression of Ideas",
+    "skill": "Transition Questions",
+    "difficulty": 1,
+    "prompt": "Yoga is an ancient discipline from India that aims to combine physical fitness with mental and spiritual control and calm and has expanded to become popular with many different cultures. __________  yoga is shifting into different forms to allow a wider range of people to participate. For example, accessible yoga provides opportunities for those with physical disabilities to access the health and mental benefits of the practice.\n\nWhich choice completes the text with the most logical transition?",
+    "type": "multiple-choice",
+    "choices": [
+      {
+        "id": "A",
+        "text": "Nevertheless,"
+      },
+      {
+        "id": "B",
+        "text": "Similarly,"
+      },
+      {
+        "id": "C",
+        "text": "Thus,"
+      },
+      {
+        "id": "D",
+        "text": "Currently,"
+      }
+    ],
+    "answer": "D",
+    "explanation": "Official diagnostic answer: D. Review the source figure and choices above; this item is from the publisher's Practice Test 2 diagnostic key.",
+    "assets": [
+      {
+        "id": "question-image",
+        "type": "figure",
+        "src": "assets/questions/sat-binder-test-1-rw-m2-easier-q24.png",
+        "alt": "Practice Test 2 question image (rw-m2-easier question 24)",
+        "width": 756,
+        "height": 861,
+        "sourcePage": 20
+      }
+    ],
+    "sourceType": "Princeton Review Digital SAT Premium Prep 2025",
+    "sourcePage": 20,
+    "sourceQuestion": "rw-m2-easier question 24",
+    "needsReview": false,
+    "sourceNotes": "Question image and extracted text were visually verified. Answer letter/value comes from the publisher diagnostic answer key."
+  },
+  {
+    "id": "sat-binder-test-1-rw-m2-easier-q25",
+    "domain": "Expression of Ideas",
+    "skill": "Transition Questions",
+    "difficulty": 1,
+    "prompt": "Scientists often disagree about what traits to use to place newly discovered species in the tree of life and debate different ways to organize evolutionary relationships. Chimerarachne yingi, __________  is an extinct arachnid species that is sometimes placed near modern spiders based on its acquisition of silk-spinning organs or near other arachnids based on its loss of a tail.\n\nWhich choice completes the text with the most logical transition?",
+    "type": "multiple-choice",
+    "choices": [
+      {
+        "id": "A",
+        "text": "as a result,"
+      },
+      {
+        "id": "B",
+        "text": "in comparison,"
+      },
+      {
+        "id": "C",
+        "text": "for example,"
+      },
+      {
+        "id": "D",
+        "text": "still,"
+      }
+    ],
+    "answer": "C",
+    "explanation": "Official diagnostic answer: C. Review the source figure and choices above; this item is from the publisher's Practice Test 2 diagnostic key.",
+    "assets": [
+      {
+        "id": "question-image",
+        "type": "figure",
+        "src": "assets/questions/sat-binder-test-1-rw-m2-easier-q25.png",
+        "alt": "Practice Test 2 question image (rw-m2-easier question 25)",
+        "width": 756,
+        "height": 827,
+        "sourcePage": 20
+      }
+    ],
+    "sourceType": "Princeton Review Digital SAT Premium Prep 2025",
+    "sourcePage": 20,
+    "sourceQuestion": "rw-m2-easier question 25",
+    "needsReview": false,
+    "sourceNotes": "Question image and extracted text were visually verified. Answer letter/value comes from the publisher diagnostic answer key."
+  },
+  {
+    "id": "sat-binder-test-1-rw-m2-easier-q26",
+    "domain": "Expression of Ideas",
+    "skill": "Transition Questions",
+    "difficulty": 1,
+    "prompt": "In 2011, a seismometer detected seismic activity from a magnitude 8.9 earthquake and automatically cut the power to all 30 bullet trains in Japan, potentially avoiding mass architectural damage to the tracks. __________  the cut to the power prevented citizens from being caught in a dangerous location during the earthquake and allowed riders to seek shelter.\n\nWhich choice completes the text with the most logical transition?",
+    "type": "multiple-choice",
+    "choices": [
+      {
+        "id": "A",
+        "text": "In addition,"
+      },
+      {
+        "id": "B",
+        "text": "In comparison,"
+      },
+      {
+        "id": "C",
+        "text": "For example,"
+      },
+      {
+        "id": "D",
+        "text": "Specifically,"
+      }
+    ],
+    "answer": "A",
+    "explanation": "Official diagnostic answer: A. Review the source figure and choices above; this item is from the publisher's Practice Test 2 diagnostic key.",
+    "assets": [
+      {
+        "id": "question-image",
+        "type": "figure",
+        "src": "assets/questions/sat-binder-test-1-rw-m2-easier-q26.png",
+        "alt": "Practice Test 2 question image (rw-m2-easier question 26)",
+        "width": 756,
+        "height": 827,
+        "sourcePage": 20
+      }
+    ],
+    "sourceType": "Princeton Review Digital SAT Premium Prep 2025",
+    "sourcePage": 20,
+    "sourceQuestion": "rw-m2-easier question 26",
+    "needsReview": false,
+    "sourceNotes": "Question image and extracted text were visually verified. Answer letter/value comes from the publisher diagnostic answer key."
+  },
+  {
+    "id": "sat-binder-test-1-rw-m2-easier-q27",
+    "domain": "Expression of Ideas",
+    "skill": "Rhetorical Synthesis Questions",
+    "difficulty": 1,
+    "prompt": "While researching a topic, a student has taken the following notes:\n\n• The Endangered Species Act (ESA) was enacted in 1973 to recover species and prevent extinction.\n\n• A species is listed under the ESA when it’s determined that the species needs protection and delisted when the population has recovered.\n\n• Only 54 of the over 1,000 listed species have been delisted from the ESA, raising concerns about the effectiveness of the ESA.\n\n• Erich Eberhard, David Wilcove, and Andrew Dobson conducted an analysis of population trends of species listed under the ESA.\n\n• They found that most species had to wait multiple years before being listed and by then their populations were already so low that recovery was much more difficult.\n\nThe student wants to make a generalization about the kind of study conducted by Eberhard, Wilcove, and Dobson. Which choice most effectively uses relevant information from the notes to accomplish this goal?",
+    "type": "multiple-choice",
+    "choices": [
+      {
+        "id": "A",
+        "text": "Scientists have analyzed population trends to find out the impact of legal protections in the realm of conservation."
+      },
+      {
+        "id": "B",
+        "text": "Species listed under the ESA have low population levels when they are listed."
+      },
+      {
+        "id": "C",
+        "text": "Only 54 once-listed species have been delisted; many more species have not recovered and are still listed."
+      },
+      {
+        "id": "D",
+        "text": "Based on an analysis of population trends, Eberhard, Wilcove, and Dobson found that species listed under the ESA have very small populations when listed."
+      }
+    ],
+    "answer": "A",
+    "explanation": "Official diagnostic answer: A. Review the source figure and choices above; this item is from the publisher's Practice Test 2 diagnostic key.",
+    "assets": [
+      {
+        "id": "question-image",
+        "type": "figure",
+        "src": "assets/questions/sat-binder-test-1-rw-m2-easier-q27.png",
+        "alt": "Practice Test 2 question image (rw-m2-easier question 27)",
+        "width": 756,
+        "height": 1581,
+        "sourcePage": 21
+      }
+    ],
+    "sourceType": "Princeton Review Digital SAT Premium Prep 2025",
+    "sourcePage": 21,
+    "sourceQuestion": "rw-m2-easier question 27",
+    "needsReview": false,
+    "sourceNotes": "Question image and extracted text were visually verified. Answer letter/value comes from the publisher diagnostic answer key."
+  },
+  {
+    "id": "sat-binder-test-1-rw-m2-harder-q01",
+    "domain": "Craft and Structure",
+    "skill": "Vocabulary Questions",
+    "difficulty": 3,
+    "prompt": "Dutch philosopher Baruch Spinoza argued as part of his rejection of dualism that all things, living or not, have the inclination to continue to exist and enhance themselves, a property he named “conatus.” All things, he believed, had the tendency to __________  and would only cease to be if acted upon by outside forces.\n\nWhich choice completes the text with the most logical and precise word or phrase?",
+    "type": "multiple-choice",
+    "choices": [
+      {
+        "id": "A",
+        "text": "deteriorate"
+      },
+      {
+        "id": "B",
+        "text": "perish"
+      },
+      {
+        "id": "C",
+        "text": "persevere"
+      },
+      {
+        "id": "D",
+        "text": "disappear"
+      }
+    ],
+    "answer": "C",
+    "explanation": "Official diagnostic answer: C. Review the source figure and choices above; this item is from the publisher's Practice Test 2 diagnostic key.",
+    "assets": [
+      {
+        "id": "question-image",
+        "type": "figure",
+        "src": "assets/questions/sat-binder-test-1-rw-m2-harder-q01.png",
+        "alt": "Practice Test 2 question image (rw-m2-harder question 1)",
+        "width": 757,
+        "height": 792,
+        "sourcePage": 22
+      }
+    ],
+    "sourceType": "Princeton Review Digital SAT Premium Prep 2025",
+    "sourcePage": 22,
+    "sourceQuestion": "rw-m2-harder question 1",
+    "needsReview": false,
+    "sourceNotes": "Question image and extracted text were visually verified. Answer letter/value comes from the publisher diagnostic answer key."
+  },
+  {
+    "id": "sat-binder-test-1-rw-m2-harder-q02",
+    "domain": "Craft and Structure",
+    "skill": "Vocabulary Questions",
+    "difficulty": 3,
+    "prompt": "Many species demonstrate rescue behavior, a behavior in which an individual will help another in distress without any obvious benefit to the helper. In fact, this behavior __________  a recent study of Australian magpies when some birds in the study helped other birds remove the trackers that researchers had placed upon them, making it more difficult for the researchers to obtain data.\n\nWhich choice completes the text with the most logical and precise word or phrase?",
+    "type": "multiple-choice",
+    "choices": [
+      {
+        "id": "A",
+        "text": "aided"
+      },
+      {
+        "id": "B",
+        "text": "impeded"
+      },
+      {
+        "id": "C",
+        "text": "clarified"
+      },
+      {
+        "id": "D",
+        "text": "exposed"
+      }
+    ],
+    "answer": "B",
+    "explanation": "Official diagnostic answer: B. Review the source figure and choices above; this item is from the publisher's Practice Test 2 diagnostic key.",
+    "assets": [
+      {
+        "id": "question-image",
+        "type": "figure",
+        "src": "assets/questions/sat-binder-test-1-rw-m2-harder-q02.png",
+        "alt": "Practice Test 2 question image (rw-m2-harder question 2)",
+        "width": 756,
+        "height": 861,
+        "sourcePage": 22
+      }
+    ],
+    "sourceType": "Princeton Review Digital SAT Premium Prep 2025",
+    "sourcePage": 22,
+    "sourceQuestion": "rw-m2-harder question 2",
+    "needsReview": false,
+    "sourceNotes": "Question image and extracted text were visually verified. Answer letter/value comes from the publisher diagnostic answer key."
+  },
+  {
+    "id": "sat-binder-test-1-rw-m2-harder-q03",
+    "domain": "Craft and Structure",
+    "skill": "Vocabulary Questions",
+    "difficulty": 3,
+    "prompt": "Dutch artist M.C. Escher’s work uses __________  to engage viewers by employing mathematical and intuitive processes to create images of objects that at first appear normal but on closer inspection are, in fact, impossible.\n\nWhich choice completes the text with the most logical and precise word or phrase?",
+    "type": "multiple-choice",
+    "choices": [
+      {
+        "id": "A",
+        "text": "geometry"
+      },
+      {
+        "id": "B",
+        "text": "beauty"
+      },
+      {
+        "id": "C",
+        "text": "paradox"
+      },
+      {
+        "id": "D",
+        "text": "color"
+      }
+    ],
+    "answer": "C",
+    "explanation": "Official diagnostic answer: C. Review the source figure and choices above; this item is from the publisher's Practice Test 2 diagnostic key.",
+    "assets": [
+      {
+        "id": "question-image",
+        "type": "figure",
+        "src": "assets/questions/sat-binder-test-1-rw-m2-harder-q03.png",
+        "alt": "Practice Test 2 question image (rw-m2-harder question 3)",
+        "width": 756,
+        "height": 723,
+        "sourcePage": 23
+      }
+    ],
+    "sourceType": "Princeton Review Digital SAT Premium Prep 2025",
+    "sourcePage": 23,
+    "sourceQuestion": "rw-m2-harder question 3",
+    "needsReview": false,
+    "sourceNotes": "Question image and extracted text were visually verified. Answer letter/value comes from the publisher diagnostic answer key."
+  },
+  {
+    "id": "sat-binder-test-1-rw-m2-harder-q04",
+    "domain": "Craft and Structure",
+    "skill": "Vocabulary Questions",
+    "difficulty": 3,
+    "prompt": "Typically, pure water is not considered particularly __________ , but a team of scientists led by Richard Zare has discovered how microdroplets of water can turn into caustic hydrogen peroxide. When microdroplets of water hit a solid surface, an electric charge jumps between the water and the solid, producing hydroxyl radicals that, in turn, combine with remaining oxygen to form hydrogen peroxide.\n\nWhich choice completes the text with the most logical and precise word or phrase?",
+    "type": "multiple-choice",
+    "choices": [
+      {
+        "id": "A",
+        "text": "viable"
+      },
+      {
+        "id": "B",
+        "text": "contaminated"
+      },
+      {
+        "id": "C",
+        "text": "common"
+      },
+      {
+        "id": "D",
+        "text": "reactive"
+      }
+    ],
+    "answer": "D",
+    "explanation": "Official diagnostic answer: D. Review the source figure and choices above; this item is from the publisher's Practice Test 2 diagnostic key.",
+    "assets": [
+      {
+        "id": "question-image",
+        "type": "figure",
+        "src": "assets/questions/sat-binder-test-1-rw-m2-harder-q04.png",
+        "alt": "Practice Test 2 question image (rw-m2-harder question 4)",
+        "width": 756,
+        "height": 861,
+        "sourcePage": 23
+      }
+    ],
+    "sourceType": "Princeton Review Digital SAT Premium Prep 2025",
+    "sourcePage": 23,
+    "sourceQuestion": "rw-m2-harder question 4",
+    "needsReview": false,
+    "sourceNotes": "Question image and extracted text were visually verified. Answer letter/value comes from the publisher diagnostic answer key."
+  },
+  {
+    "id": "sat-binder-test-1-rw-m2-harder-q05",
+    "domain": "Craft and Structure",
+    "skill": "Vocabulary Questions",
+    "difficulty": 3,
+    "prompt": "The Beat Generation, a literary subculture movement featured in works such as Allen Ginsberg’s Howl (1956) and William S. Burroughs’s Naked Lunch (1959), was characterized by its __________  the traditional values of the 1950s. The movement’s central message of nonconformity would be criticized by American literary critic Manuel Luis Martinez, who believed that the Beat Generation’s lack of attention to the politics of individualism undermined the movement’s goals.\n\nWhich choice completes the text with the most logical and precise word or phrase?",
+    "type": "multiple-choice",
+    "choices": [
+      {
+        "id": "A",
+        "text": "dissension from"
+      },
+      {
+        "id": "B",
+        "text": "gratitude towards"
+      },
+      {
+        "id": "C",
+        "text": "adherence to"
+      },
+      {
+        "id": "D",
+        "text": "deference to"
+      }
+    ],
+    "answer": "A",
+    "explanation": "Official diagnostic answer: A. Review the source figure and choices above; this item is from the publisher's Practice Test 2 diagnostic key.",
+    "assets": [
+      {
+        "id": "question-image",
+        "type": "figure",
+        "src": "assets/questions/sat-binder-test-1-rw-m2-harder-q05.png",
+        "alt": "Practice Test 2 question image (rw-m2-harder question 5)",
+        "width": 756,
+        "height": 896,
+        "sourcePage": 23
+      }
+    ],
+    "sourceType": "Princeton Review Digital SAT Premium Prep 2025",
+    "sourcePage": 23,
+    "sourceQuestion": "rw-m2-harder question 5",
+    "needsReview": false,
+    "sourceNotes": "Question image and extracted text were visually verified. Answer letter/value comes from the publisher diagnostic answer key."
+  },
+  {
+    "id": "sat-binder-test-1-rw-m2-harder-q06",
+    "domain": "Craft and Structure",
+    "skill": "Vocabulary Questions",
+    "difficulty": 3,
+    "prompt": "The possibility of recycling used car tires as building materials is __________  indeed: the disposal of used tires is a major environmental problem, so potentially reusing them would be beneficial. Furthermore, initial studies have shown that walls made of used tires and dirt are more structurally robust than those made of concrete.\n\nWhich choice completes the text with the most logical and precise word or phrase?",
+    "type": "multiple-choice",
+    "choices": [
+      {
+        "id": "A",
+        "text": "derivative"
+      },
+      {
+        "id": "B",
+        "text": "ludicrous"
+      },
+      {
+        "id": "C",
+        "text": "auspicious"
+      },
+      {
+        "id": "D",
+        "text": "innovative"
+      }
+    ],
+    "answer": "C",
+    "explanation": "Official diagnostic answer: C. Review the source figure and choices above; this item is from the publisher's Practice Test 2 diagnostic key.",
+    "assets": [
+      {
+        "id": "question-image",
+        "type": "figure",
+        "src": "assets/questions/sat-binder-test-1-rw-m2-harder-q06.png",
+        "alt": "Practice Test 2 question image (rw-m2-harder question 6)",
+        "width": 756,
+        "height": 792,
+        "sourcePage": 23
+      }
+    ],
+    "sourceType": "Princeton Review Digital SAT Premium Prep 2025",
+    "sourcePage": 23,
+    "sourceQuestion": "rw-m2-harder question 6",
+    "needsReview": false,
+    "sourceNotes": "Question image and extracted text were visually verified. Answer letter/value comes from the publisher diagnostic answer key."
+  },
+  {
+    "id": "sat-binder-test-1-rw-m2-harder-q07",
+    "domain": "Craft and Structure",
+    "skill": "Vocabulary Questions",
+    "difficulty": 3,
+    "prompt": "The Voynich manuscript was written on vellum dating from the fifteenth century in a script that is not found in any other source. Since cryptographers have yet to demonstrably decipher any portion of the text, the meaning and purpose of the Voynich manuscript remain __________ .\n\nWhich choice completes the text with the most logical and precise word or phrase?",
+    "type": "multiple-choice",
+    "choices": [
+      {
+        "id": "A",
+        "text": "enigmatic"
+      },
+      {
+        "id": "B",
+        "text": "venerable"
+      },
+      {
+        "id": "C",
+        "text": "multifarious"
+      },
+      {
+        "id": "D",
+        "text": "coherent"
+      }
+    ],
+    "answer": "A",
+    "explanation": "Official diagnostic answer: A. Review the source figure and choices above; this item is from the publisher's Practice Test 2 diagnostic key.",
+    "assets": [
+      {
+        "id": "question-image",
+        "type": "figure",
+        "src": "assets/questions/sat-binder-test-1-rw-m2-harder-q07.png",
+        "alt": "Practice Test 2 question image (rw-m2-harder question 7)",
+        "width": 756,
+        "height": 792,
+        "sourcePage": 24
+      }
+    ],
+    "sourceType": "Princeton Review Digital SAT Premium Prep 2025",
+    "sourcePage": 24,
+    "sourceQuestion": "rw-m2-harder question 7",
+    "needsReview": false,
+    "sourceNotes": "Question image and extracted text were visually verified. Answer letter/value comes from the publisher diagnostic answer key."
+  },
+  {
+    "id": "sat-binder-test-1-rw-m2-harder-q08",
+    "domain": "Craft and Structure",
+    "skill": "Vocabulary Questions",
+    "difficulty": 3,
+    "prompt": "Astronautics owes much to the __________  contributions of Charles E. Whitsett. His ground-breaking development of the manned maneuvering unit enabled the first spacewalks in which astronauts were not tethered to a spacecraft.\n\nWhich choice completes the text with the most logical and precise word or phrase?",
+    "type": "multiple-choice",
+    "choices": [
+      {
+        "id": "A",
+        "text": "dubious"
+      },
+      {
+        "id": "B",
+        "text": "futile"
+      },
+      {
+        "id": "C",
+        "text": "galvanizing"
+      },
+      {
+        "id": "D",
+        "text": "avant-garde"
+      }
+    ],
+    "answer": "D",
+    "explanation": "Official diagnostic answer: D. Review the source figure and choices above; this item is from the publisher's Practice Test 2 diagnostic key.",
+    "assets": [
+      {
+        "id": "question-image",
+        "type": "figure",
+        "src": "assets/questions/sat-binder-test-1-rw-m2-harder-q08.png",
+        "alt": "Practice Test 2 question image (rw-m2-harder question 8)",
+        "width": 756,
+        "height": 757,
+        "sourcePage": 24
+      }
+    ],
+    "sourceType": "Princeton Review Digital SAT Premium Prep 2025",
+    "sourcePage": 24,
+    "sourceQuestion": "rw-m2-harder question 8",
+    "needsReview": false,
+    "sourceNotes": "Question image and extracted text were visually verified. Answer letter/value comes from the publisher diagnostic answer key."
+  },
+  {
+    "id": "sat-binder-test-1-rw-m2-harder-q09",
+    "domain": "Information and Ideas",
+    "skill": "Retrieval Questions",
+    "difficulty": 3,
+    "prompt": "The following text is adapted from Charles Dickens’s 1859 novel A Tale of Two Cities. Mr. Lorry, traveling to France on business, is delivering some news to Miss Manette, the daughter of one of his friends.\n\n“Miss Manette, I am a man of business. I have a business charge to acquit myself of. In your reception of it, don’t heed me any more than if I was a speaking machine—truly, I am not much else. I will, with your leave, relate to you, miss, the story of one of our customers.”\n\n“Story!”\n\nHe seemed wilfully to mistake the word she had repeated, when he added, in a hurry, “Yes, customers; in the banking business we usually call our connection our customers. He was a French gentleman; a scientific gentleman; a man of great acquirements—a Doctor.”\n\nBased on the text, how does Mr. Lorry interact with Miss Manette?",
+    "type": "multiple-choice",
+    "choices": [
+      {
+        "id": "A",
+        "text": "Although he claims to be uninterested in the news, he makes purposeful decisions during his conversation with Miss Manette."
+      },
+      {
+        "id": "B",
+        "text": "Although he is a professional, he misunderstands Miss Manette’s interjection."
+      },
+      {
+        "id": "C",
+        "text": "Although he acts as if the news has no importance to him, he cannot keep the details of the story accurate."
+      },
+      {
+        "id": "D",
+        "text": "Although he is unthinkingly following directions, he is flustered by Miss Manette’s rudeness."
+      }
+    ],
+    "answer": "A",
+    "explanation": "Official diagnostic answer: A. Review the source figure and choices above; this item is from the publisher's Practice Test 2 diagnostic key.",
+    "assets": [
+      {
+        "id": "question-image",
+        "type": "figure",
+        "src": "assets/questions/sat-binder-test-1-rw-m2-harder-q09.png",
+        "alt": "Practice Test 2 question image (rw-m2-harder question 9)",
+        "width": 756,
+        "height": 1457,
+        "sourcePage": 24
+      }
+    ],
+    "sourceType": "Princeton Review Digital SAT Premium Prep 2025",
+    "sourcePage": 24,
+    "sourceQuestion": "rw-m2-harder question 9",
+    "needsReview": false,
+    "sourceNotes": "Question image and extracted text were visually verified. Answer letter/value comes from the publisher diagnostic answer key."
+  },
+  {
+    "id": "sat-binder-test-1-rw-m2-harder-q10",
+    "domain": "Information and Ideas",
+    "skill": "Claims Questions",
+    "difficulty": 3,
+    "prompt": "Nisga’a poet Jordan Abel addresses the experiences of Indigenous people as European settlers and their descendants took over North America. Abel’s first book of poetry, The Place of Scraps (2014), uses Totem Poles, a 1929 book by anthropologist Marius Barbeau, as source material. Abel claims that his use of Barbeau’s text shows how anthropological texts can be used to portray Indigenous people differently based on the author.\n\nWhich finding, if true, would most directly support Abel’s claim?",
+    "type": "multiple-choice",
+    "choices": [
+      {
+        "id": "A",
+        "text": "Abel intersperses Barbeau’s text with images of Indigenous people and personal anecdotes written in the third person."
+      },
+      {
+        "id": "B",
+        "text": "Abel explains that Barbeau presented two chiefs feuding over constructing the largest pole as unreasonable, yet other anthropologists claim that such arguments between chiefs of Indigenous tribes were important political exchanges."
+      },
+      {
+        "id": "C",
+        "text": "The Place of Scraps won the Dorothy Livesay Poetry Prize and was a finalist for the Gerald Lampert Award."
+      },
+      {
+        "id": "D",
+        "text": "Before Abel wrote The Place of Scraps, other Indigenous writers had used texts from anthropologists in their works."
+      }
+    ],
+    "answer": "B",
+    "explanation": "Official diagnostic answer: B. Review the source figure and choices above; this item is from the publisher's Practice Test 2 diagnostic key.",
+    "assets": [
+      {
+        "id": "question-image",
+        "type": "figure",
+        "src": "assets/questions/sat-binder-test-1-rw-m2-harder-q10.png",
+        "alt": "Practice Test 2 question image (rw-m2-harder question 10)",
+        "width": 756,
+        "height": 1294,
+        "sourcePage": 25
+      }
+    ],
+    "sourceType": "Princeton Review Digital SAT Premium Prep 2025",
+    "sourcePage": 25,
+    "sourceQuestion": "rw-m2-harder question 10",
+    "needsReview": false,
+    "sourceNotes": "Question image and extracted text were visually verified. Answer letter/value comes from the publisher diagnostic answer key."
+  },
+  {
+    "id": "sat-binder-test-1-rw-m2-harder-q11",
+    "domain": "Information and Ideas",
+    "skill": "Claims Questions",
+    "difficulty": 3,
+    "prompt": "In Japan, adults may be legally adopted into a family. The practice may have started as early as the 13th century CE, but widespread adult adoption dates from the Tokugawa shogunate, a military government which began around 1600 CE. During this time, members of the ruling class would adopt competent adult males, who would then ensure that the family’s political and business interests would be sustained. While adult adoption remains a way for individuals to improve their economic and social status, the practice has its detractors as well, with some researchers arguing that it can lead to issues with the adoptee developing a firm sense of identity in his or her new environment.\n\nWhich of the following best illustrates the researchers’ claim?",
+    "type": "multiple-choice",
+    "choices": [
+      {
+        "id": "A",
+        "text": "Adult adoptees are entitled to an inheritance from their adoptive families, strengthening the ties between them, which further encourages the adult adoptee to work to enhance the new family’s prosperity."
+      },
+      {
+        "id": "B",
+        "text": "While most adult adoptees typically report improved financial status after adoption, many of those same adoptees also experience higher-than-normal rates of depression and anxiety."
+      },
+      {
+        "id": "C",
+        "text": "Elsewhere in East Asia, such as in China and Korea, families have a traditional obligation to adopt blood relatives who lack more closely-related living kin, but adoptions in Japan are almost exclusively between those with no blood relations."
+      },
+      {
+        "id": "D",
+        "text": "Families with ancestors who were adult adoptees do not distinguish between those ancestors who were members of the family by birth and those who were adopted into the family."
+      }
+    ],
+    "answer": "B",
+    "explanation": "Official diagnostic answer: B. Review the source figure and choices above; this item is from the publisher's Practice Test 2 diagnostic key.",
+    "assets": [
+      {
+        "id": "question-image",
+        "type": "figure",
+        "src": "assets/questions/sat-binder-test-1-rw-m2-harder-q11.png",
+        "alt": "Practice Test 2 question image (rw-m2-harder question 11)",
+        "width": 756,
+        "height": 1551,
+        "sourcePage": 25
+      }
+    ],
+    "sourceType": "Princeton Review Digital SAT Premium Prep 2025",
+    "sourcePage": 25,
+    "sourceQuestion": "rw-m2-harder question 11",
+    "needsReview": false,
+    "sourceNotes": "Question image and extracted text were visually verified. Answer letter/value comes from the publisher diagnostic answer key."
+  },
+  {
+    "id": "sat-binder-test-1-rw-m2-harder-q12",
+    "domain": "Information and Ideas",
+    "skill": "Claims Questions",
+    "difficulty": 3,
+    "prompt": "Neurologists have hypothesized that tau protein, the mutation of which is known to cause Alzheimer’s disease, is key to controlling glutamate receptors, which are involved in the production of memories. Tau protein does not directly affect glutamate receptors but does inhibit NSF, an enzyme found in the brain.\n\nWhich finding, if true, would most directly support the neurologists’ hypothesis?",
+    "type": "multiple-choice",
+    "choices": [
+      {
+        "id": "A",
+        "text": "Other studies have shown that an excess of NSF has been shown to lead to abnormal glutamate receptor behavior."
+      },
+      {
+        "id": "B",
+        "text": "Patients with Alzheimer’s disease have been found to have an excess of NSF in their brains during autopsies."
+      },
+      {
+        "id": "C",
+        "text": "Neurologists do not yet know what causes mutations of tau protein; one hypothesis is that disease leads to these mutations."
+      },
+      {
+        "id": "D",
+        "text": "Other types of dementia are not caused by mutations in tau protein but rather physical damage to the brain."
+      }
+    ],
+    "answer": "A",
+    "explanation": "Official diagnostic answer: A. Review the source figure and choices above; this item is from the publisher's Practice Test 2 diagnostic key.",
+    "assets": [
+      {
+        "id": "question-image",
+        "type": "figure",
+        "src": "assets/questions/sat-binder-test-1-rw-m2-harder-q12.png",
+        "alt": "Practice Test 2 question image (rw-m2-harder question 12)",
+        "width": 756,
+        "height": 1068,
+        "sourcePage": 26
+      }
+    ],
+    "sourceType": "Princeton Review Digital SAT Premium Prep 2025",
+    "sourcePage": 26,
+    "sourceQuestion": "rw-m2-harder question 12",
+    "needsReview": false,
+    "sourceNotes": "Question image and extracted text were visually verified. Answer letter/value comes from the publisher diagnostic answer key."
+  },
+  {
+    "id": "sat-binder-test-1-rw-m2-harder-q13",
+    "domain": "Information and Ideas",
+    "skill": "Conclusions",
+    "difficulty": 3,
+    "prompt": "From 1634 to 1637 CE, tulips in the Dutch Republic sold for extraordinarily high prices, sometimes as much as 10 times the annual wage of a skilled worker, in a phenomenon known as tulip mania. Some economists, such as Charles Kindleberger, argue that tulip mania was the first speculative bubble in history, during which the prices of a commodity (in this case tulip bulbs) do not follow the typical rules of economics. Others, such as Peter Garber, believe that tulip mania is explainable by fundamental economic concepts such as supply and demand.\n\nWhich finding, if true, would most directly support Garber’s argument?",
+    "type": "multiple-choice",
+    "choices": [
+      {
+        "id": "A",
+        "text": "Tulips during this period were very rare, and demand for tulips was fueled in part by the ability to reproduce and sell bulbs, enabling some purchasers to make profits."
+      },
+      {
+        "id": "B",
+        "text": "Some common bulbs, such as the Witte Croonen bulb, saw price increases as dramatic as those of rare bulbs."
+      },
+      {
+        "id": "C",
+        "text": "The prices of tulip bulbs were much higher than could be supported by the banking system in place in 17th century Europe."
+      },
+      {
+        "id": "D",
+        "text": "The tulip mania led to an increase of the supply of gold coins in the Dutch Republic."
+      }
+    ],
+    "answer": "A",
+    "explanation": "Official diagnostic answer: A. Review the source figure and choices above; this item is from the publisher's Practice Test 2 diagnostic key.",
+    "assets": [
+      {
+        "id": "question-image",
+        "type": "figure",
+        "src": "assets/questions/sat-binder-test-1-rw-m2-harder-q13.png",
+        "alt": "Practice Test 2 question image (rw-m2-harder question 13)",
+        "width": 756,
+        "height": 1241,
+        "sourcePage": 26
+      }
+    ],
+    "sourceType": "Princeton Review Digital SAT Premium Prep 2025",
+    "sourcePage": 26,
+    "sourceQuestion": "rw-m2-harder question 13",
+    "needsReview": false,
+    "sourceNotes": "Question image and extracted text were visually verified. Answer letter/value comes from the publisher diagnostic answer key."
+  },
+  {
+    "id": "sat-binder-test-1-rw-m2-harder-q14",
+    "domain": "Information and Ideas",
+    "skill": "Conclusions",
+    "difficulty": 3,
+    "prompt": "The use of pesticides in agriculture poses risks to both humans and the environment, so finding alternative methods of pest control is an important area of research. The use of ants to control pests in China goes back to at least the 4th century CE, and farmers in places such as Kenya, Ghana, and Canada have also used ants to control various organisms. Entomologist Diego Anjos and others have identified several positive effects (services) of ants, such as reducing both the abundance of non-honeydew-producing species and plant damage. However, ants also have negative effects, such as increasing the abundance of honeydew-producing species and spreading pathogens, suggesting that __________\n\nWhich choice most logically completes the text?",
+    "type": "multiple-choice",
+    "choices": [
+      {
+        "id": "A",
+        "text": "ants may have unintended environmental consequences when used to control pests in certain circumstances."
+      },
+      {
+        "id": "B",
+        "text": "other species may also be effective in providing services to farmers."
+      },
+      {
+        "id": "C",
+        "text": "ants as pest control provide numerous services without serious ramifications."
+      },
+      {
+        "id": "D",
+        "text": "scientists do not yet know whether using ants to control organisms is a net positive in any situation."
+      }
+    ],
+    "answer": "A",
+    "explanation": "Official diagnostic answer: A. Review the source figure and choices above; this item is from the publisher's Practice Test 2 diagnostic key.",
+    "assets": [
+      {
+        "id": "question-image",
+        "type": "figure",
+        "src": "assets/questions/sat-binder-test-1-rw-m2-harder-q14.png",
+        "alt": "Practice Test 2 question image (rw-m2-harder question 14)",
+        "width": 756,
+        "height": 1241,
+        "sourcePage": 27
+      }
+    ],
+    "sourceType": "Princeton Review Digital SAT Premium Prep 2025",
+    "sourcePage": 27,
+    "sourceQuestion": "rw-m2-harder question 14",
+    "needsReview": false,
+    "sourceNotes": "Question image and extracted text were visually verified. Answer letter/value comes from the publisher diagnostic answer key."
+  },
+  {
+    "id": "sat-binder-test-1-rw-m2-harder-q15",
+    "domain": "Information and Ideas",
+    "skill": "Conclusions",
+    "difficulty": 3,
+    "prompt": "Among many animals, such as mice, fruit flies, and humans, each odor that an animal can smell is detected by a particular kind of sensory neuron that has a particular kind of receptor; eliminating that receptor through illness or genetic manipulation results in the inability to smell that odor. A team led by neurobiologist Margo Herre tested whether mosquitoes modified to lack the receptor for smelling blood would be unable to find humans. These mosquitoes were still able to find humans, suggesting that __________\n\nWhich choice most logically completes the text?",
+    "type": "multiple-choice",
+    "choices": [
+      {
+        "id": "A",
+        "text": "mosquitoes without damage to their odor receptors are more capable of finding humans than those with damage."
+      },
+      {
+        "id": "B",
+        "text": "like mice, fruit flies, and humans, individual mosquitoes with damage to particular receptors will be unable to detect certain odors."
+      },
+      {
+        "id": "C",
+        "text": "researchers cannot assume that mosquitoes have the same correlation between receptors and the ability to sense certain odors that mice, fruit flies, and humans have."
+      },
+      {
+        "id": "D",
+        "text": "researchers can assume that interfering with mosquitoes’ odor receptors is a potential way to prevent mosquitoes from feeding on humans."
+      }
+    ],
+    "answer": "C",
+    "explanation": "Official diagnostic answer: C. Review the source figure and choices above; this item is from the publisher's Practice Test 2 diagnostic key.",
+    "assets": [
+      {
+        "id": "question-image",
+        "type": "figure",
+        "src": "assets/questions/sat-binder-test-1-rw-m2-harder-q15.png",
+        "alt": "Practice Test 2 question image (rw-m2-harder question 15)",
+        "width": 756,
+        "height": 1206,
+        "sourcePage": 27
+      }
+    ],
+    "sourceType": "Princeton Review Digital SAT Premium Prep 2025",
+    "sourcePage": 27,
+    "sourceQuestion": "rw-m2-harder question 15",
+    "needsReview": false,
+    "sourceNotes": "Question image and extracted text were visually verified. Answer letter/value comes from the publisher diagnostic answer key."
+  },
+  {
+    "id": "sat-binder-test-1-rw-m2-harder-q16",
+    "domain": "Information and Ideas",
+    "skill": "Conclusions",
+    "difficulty": 3,
+    "prompt": "The North American Free Trade Agreement (NAFTA) was an agreement among the United States, Canada, and Mexico that was in effect between 1994 and 2020. During this time, the number of manufacturing jobs in the United States and Canada declined, but the total number of manufacturing jobs in the countries covered by NAFTA increased. This suggests that, between 1994 and 2020, __________\n\nWhich choice most logically completes the text?",
+    "type": "multiple-choice",
+    "choices": [
+      {
+        "id": "A",
+        "text": "the number of manufacturing jobs in Mexico increased by a greater amount than the combined decreases in the United States and Canada."
+      },
+      {
+        "id": "B",
+        "text": "NAFTA made it more difficult for manufacturers to establish factories in the United States and Canada."
+      },
+      {
+        "id": "C",
+        "text": "the cost of manufacturing goods in the area covered by NAFTA decreased."
+      },
+      {
+        "id": "D",
+        "text": "complex goods, such as automobiles and electronics, were increasingly manufactured in the United States, Canada, and Mexico."
+      }
+    ],
+    "answer": "A",
+    "explanation": "Official diagnostic answer: A. Review the source figure and choices above; this item is from the publisher's Practice Test 2 diagnostic key.",
+    "assets": [
+      {
+        "id": "question-image",
+        "type": "figure",
+        "src": "assets/questions/sat-binder-test-1-rw-m2-harder-q16.png",
+        "alt": "Practice Test 2 question image (rw-m2-harder question 16)",
+        "width": 756,
+        "height": 1103,
+        "sourcePage": 28
+      }
+    ],
+    "sourceType": "Princeton Review Digital SAT Premium Prep 2025",
+    "sourcePage": 28,
+    "sourceQuestion": "rw-m2-harder question 16",
+    "needsReview": false,
+    "sourceNotes": "Question image and extracted text were visually verified. Answer letter/value comes from the publisher diagnostic answer key."
+  },
+  {
+    "id": "sat-binder-test-1-rw-m2-harder-q17",
+    "domain": "Standard English Conventions",
+    "skill": "Verbs",
+    "difficulty": 3,
+    "prompt": "Researchers studying the recent eruption of Hunga Tonga–Hunga Ha’apai, a submarine volcano located near the islands of Tonga in the South Pacific, found that the volcanic cloud, compared to those of other eruptions, __________  the highest ever recorded.\n\nWhich choice completes the text so that it conforms to the conventions of Standard English?",
+    "type": "multiple-choice",
+    "choices": [
+      {
+        "id": "A",
+        "text": "have been"
+      },
+      {
+        "id": "B",
+        "text": "are"
+      },
+      {
+        "id": "C",
+        "text": "was"
+      },
+      {
+        "id": "D",
+        "text": "were"
+      }
+    ],
+    "answer": "C",
+    "explanation": "Official diagnostic answer: C. Review the source figure and choices above; this item is from the publisher's Practice Test 2 diagnostic key.",
+    "assets": [
+      {
+        "id": "question-image",
+        "type": "figure",
+        "src": "assets/questions/sat-binder-test-1-rw-m2-harder-q17.png",
+        "alt": "Practice Test 2 question image (rw-m2-harder question 17)",
+        "width": 756,
+        "height": 758,
+        "sourcePage": 28
+      }
+    ],
+    "sourceType": "Princeton Review Digital SAT Premium Prep 2025",
+    "sourcePage": 28,
+    "sourceQuestion": "rw-m2-harder question 17",
+    "needsReview": false,
+    "sourceNotes": "Question image and extracted text were visually verified. Answer letter/value comes from the publisher diagnostic answer key."
+  },
+  {
+    "id": "sat-binder-test-1-rw-m2-harder-q18",
+    "domain": "Standard English Conventions",
+    "skill": "Who or What Are You Talking About?",
+    "difficulty": 3,
+    "prompt": "Connectomes, extensive maps of neural connections in the brain, reveal that each person has a distinct pattern of connections known as a functional fingerprint. In a 2017 study, behavioral __________  found that about one-third of the functional fingerprint is unique to an individual and that other parts are inherited.\n\nWhich choice completes the text so that it conforms to the conventions of Standard English?",
+    "type": "multiple-choice",
+    "choices": [
+      {
+        "id": "A",
+        "text": "neuroscientist, Damien Fair,"
+      },
+      {
+        "id": "B",
+        "text": "neuroscientist Damien Fair"
+      },
+      {
+        "id": "C",
+        "text": "neuroscientist Damien Fair,"
+      },
+      {
+        "id": "D",
+        "text": "neuroscientist, Damien Fair"
+      }
+    ],
+    "answer": "B",
+    "explanation": "Official diagnostic answer: B. Review the source figure and choices above; this item is from the publisher's Practice Test 2 diagnostic key.",
+    "assets": [
+      {
+        "id": "question-image",
+        "type": "figure",
+        "src": "assets/questions/sat-binder-test-1-rw-m2-harder-q18.png",
+        "alt": "Practice Test 2 question image (rw-m2-harder question 18)",
+        "width": 756,
+        "height": 792,
+        "sourcePage": 28
+      }
+    ],
+    "sourceType": "Princeton Review Digital SAT Premium Prep 2025",
+    "sourcePage": 28,
+    "sourceQuestion": "rw-m2-harder question 18",
+    "needsReview": false,
+    "sourceNotes": "Question image and extracted text were visually verified. Answer letter/value comes from the publisher diagnostic answer key."
+  },
+  {
+    "id": "sat-binder-test-1-rw-m2-harder-q19",
+    "domain": "Standard English Conventions",
+    "skill": "Verbs",
+    "difficulty": 3,
+    "prompt": "Throughout her career, Muscogee Nation member and poet Joy Harjo has edited multiple anthologies that have highlighted Native voices in the U.S. For example, a map showcasing 47 Native Nations poets __________ her signature project during her time as the U.S. Poet Laureate.\n\nWhich choice completes the text so that it conforms to the conventions of Standard English?",
+    "type": "multiple-choice",
+    "choices": [
+      {
+        "id": "A",
+        "text": "was"
+      },
+      {
+        "id": "B",
+        "text": "are"
+      },
+      {
+        "id": "C",
+        "text": "have been"
+      },
+      {
+        "id": "D",
+        "text": "were"
+      }
+    ],
+    "answer": "A",
+    "explanation": "Official diagnostic answer: A. Review the source figure and choices above; this item is from the publisher's Practice Test 2 diagnostic key.",
+    "assets": [
+      {
+        "id": "question-image",
+        "type": "figure",
+        "src": "assets/questions/sat-binder-test-1-rw-m2-harder-q19.png",
+        "alt": "Practice Test 2 question image (rw-m2-harder question 19)",
+        "width": 756,
+        "height": 792,
+        "sourcePage": 29
+      }
+    ],
+    "sourceType": "Princeton Review Digital SAT Premium Prep 2025",
+    "sourcePage": 29,
+    "sourceQuestion": "rw-m2-harder question 19",
+    "needsReview": false,
+    "sourceNotes": "Question image and extracted text were visually verified. Answer letter/value comes from the publisher diagnostic answer key."
+  },
+  {
+    "id": "sat-binder-test-1-rw-m2-harder-q20",
+    "domain": "Standard English Conventions",
+    "skill": "Who or What Are You Talking About?",
+    "difficulty": 3,
+    "prompt": "When bees pollinate flowers, they may be exposed to insecticides, potentially affecting their nervous systems. Recently, Dr. Rachel Parkinson of the University of Oxford added the common __________  to a sucralose solution to examine the insecticide’s impact on honeybees’ ability to walk in a straight line.\n\nWhich choice completes the text so that it conforms to the conventions of Standard English?",
+    "type": "multiple-choice",
+    "choices": [
+      {
+        "id": "A",
+        "text": "insecticide sulfoxaflor"
+      },
+      {
+        "id": "B",
+        "text": "insecticide, sulfoxaflor,"
+      },
+      {
+        "id": "C",
+        "text": "insecticide sulfoxaflor,"
+      },
+      {
+        "id": "D",
+        "text": "insecticide, sulfoxaflor"
+      }
+    ],
+    "answer": "A",
+    "explanation": "Official diagnostic answer: A. Review the source figure and choices above; this item is from the publisher's Practice Test 2 diagnostic key.",
+    "assets": [
+      {
+        "id": "question-image",
+        "type": "figure",
+        "src": "assets/questions/sat-binder-test-1-rw-m2-harder-q20.png",
+        "alt": "Practice Test 2 question image (rw-m2-harder question 20)",
+        "width": 756,
+        "height": 792,
+        "sourcePage": 29
+      }
+    ],
+    "sourceType": "Princeton Review Digital SAT Premium Prep 2025",
+    "sourcePage": 29,
+    "sourceQuestion": "rw-m2-harder question 20",
+    "needsReview": false,
+    "sourceNotes": "Question image and extracted text were visually verified. Answer letter/value comes from the publisher diagnostic answer key."
+  },
+  {
+    "id": "sat-binder-test-1-rw-m2-harder-q21",
+    "domain": "Expression of Ideas",
+    "skill": "Punctuation with Transitions",
+    "difficulty": 3,
+    "prompt": "In 1946, Juliet Rice Wichman acquired 1,000 acres on Kaua’i, one of the Hawaiian islands, to transform the land into a garden by removing grazing cattle and restoring terraces to grow taro. Wichman’s work to preserve the culture of Kaua’i wasn’t __________  as the first director of the Kaua’i Museum, she oversaw exhibits celebrating the history, culture, and art of Native Hawaiians.\n\nWhich choice completes the text so that it conforms to the conventions of Standard English?",
+    "type": "multiple-choice",
+    "choices": [
+      {
+        "id": "A",
+        "text": "finished though"
+      },
+      {
+        "id": "B",
+        "text": "finished. Though,"
+      },
+      {
+        "id": "C",
+        "text": "finished, though,"
+      },
+      {
+        "id": "D",
+        "text": "finished, though:"
+      }
+    ],
+    "answer": "D",
+    "explanation": "Official diagnostic answer: D. Review the source figure and choices above; this item is from the publisher's Practice Test 2 diagnostic key.",
+    "assets": [
+      {
+        "id": "question-image",
+        "type": "figure",
+        "src": "assets/questions/sat-binder-test-1-rw-m2-harder-q21.png",
+        "alt": "Practice Test 2 question image (rw-m2-harder question 21)",
+        "width": 756,
+        "height": 861,
+        "sourcePage": 29
+      }
+    ],
+    "sourceType": "Princeton Review Digital SAT Premium Prep 2025",
+    "sourcePage": 29,
+    "sourceQuestion": "rw-m2-harder question 21",
+    "needsReview": false,
+    "sourceNotes": "Question image and extracted text were visually verified. Answer letter/value comes from the publisher diagnostic answer key."
+  },
+  {
+    "id": "sat-binder-test-1-rw-m2-harder-q22",
+    "domain": "Standard English Conventions",
+    "skill": "How to Connect Independent Clauses",
+    "difficulty": 3,
+    "prompt": "Researchers studying bacteria have solved a 50-year mystery of how bacteria are able to move using appendages that are made of a single __________  the subunits of the protein can exist in 11 different shapes, allowing the appendages to “supercoil” into corkscrews that the bacteria use to propel themselves.\n\nWhich choice completes the text so that it conforms to the conventions of Standard English?",
+    "type": "multiple-choice",
+    "choices": [
+      {
+        "id": "A",
+        "text": "protein"
+      },
+      {
+        "id": "B",
+        "text": "protein while"
+      },
+      {
+        "id": "C",
+        "text": "protein,"
+      },
+      {
+        "id": "D",
+        "text": "protein:"
+      }
+    ],
+    "answer": "D",
+    "explanation": "Official diagnostic answer: D. Review the source figure and choices above; this item is from the publisher's Practice Test 2 diagnostic key.",
+    "assets": [
+      {
+        "id": "question-image",
+        "type": "figure",
+        "src": "assets/questions/sat-binder-test-1-rw-m2-harder-q22.png",
+        "alt": "Practice Test 2 question image (rw-m2-harder question 22)",
+        "width": 756,
+        "height": 792,
+        "sourcePage": 29
+      }
+    ],
+    "sourceType": "Princeton Review Digital SAT Premium Prep 2025",
+    "sourcePage": 29,
+    "sourceQuestion": "rw-m2-harder question 22",
+    "needsReview": false,
+    "sourceNotes": "Question image and extracted text were visually verified. Answer letter/value comes from the publisher diagnostic answer key."
+  },
+  {
+    "id": "sat-binder-test-1-rw-m2-harder-q23",
+    "domain": "Expression of Ideas",
+    "skill": "Transition Questions",
+    "difficulty": 3,
+    "prompt": "Fault tree analysis was originally used in engineering to enhance safety practices in high-risk fields, such as nuclear power and pharmaceuticals, but other fields are experimenting with ways to utilize this process to benefit their work. __________  fault tree analysis is also being used in low-risk fields, such as social services and software engineering.\n\nWhich choice completes the text with the most logical transition?",
+    "type": "multiple-choice",
+    "choices": [
+      {
+        "id": "A",
+        "text": "Increasingly,"
+      },
+      {
+        "id": "B",
+        "text": "Nevertheless,"
+      },
+      {
+        "id": "C",
+        "text": "Therefore,"
+      },
+      {
+        "id": "D",
+        "text": "In addition,"
+      }
+    ],
+    "answer": "A",
+    "explanation": "Official diagnostic answer: A. Review the source figure and choices above; this item is from the publisher's Practice Test 2 diagnostic key.",
+    "assets": [
+      {
+        "id": "question-image",
+        "type": "figure",
+        "src": "assets/questions/sat-binder-test-1-rw-m2-harder-q23.png",
+        "alt": "Practice Test 2 question image (rw-m2-harder question 23)",
+        "width": 756,
+        "height": 827,
+        "sourcePage": 30
+      }
+    ],
+    "sourceType": "Princeton Review Digital SAT Premium Prep 2025",
+    "sourcePage": 30,
+    "sourceQuestion": "rw-m2-harder question 23",
+    "needsReview": false,
+    "sourceNotes": "Question image and extracted text were visually verified. Answer letter/value comes from the publisher diagnostic answer key."
+  },
+  {
+    "id": "sat-binder-test-1-rw-m2-harder-q24",
+    "domain": "Expression of Ideas",
+    "skill": "Transition Questions",
+    "difficulty": 3,
+    "prompt": "When Monika Sosnowska began her career in Amsterdam as a painter, she never expected to branch out into other media. __________  she had primarily worked on canvas, but she quickly found her works evolving to include the three-dimensional space around her.\n\nWhich choice completes the text with the most logical transition?",
+    "type": "multiple-choice",
+    "choices": [
+      {
+        "id": "A",
+        "text": "Instead,"
+      },
+      {
+        "id": "B",
+        "text": "Consequently,"
+      },
+      {
+        "id": "C",
+        "text": "Previously,"
+      },
+      {
+        "id": "D",
+        "text": "Similarly,"
+      }
+    ],
+    "answer": "C",
+    "explanation": "Official diagnostic answer: C. Review the source figure and choices above; this item is from the publisher's Practice Test 2 diagnostic key.",
+    "assets": [
+      {
+        "id": "question-image",
+        "type": "figure",
+        "src": "assets/questions/sat-binder-test-1-rw-m2-harder-q24.png",
+        "alt": "Practice Test 2 question image (rw-m2-harder question 24)",
+        "width": 756,
+        "height": 758,
+        "sourcePage": 30
+      }
+    ],
+    "sourceType": "Princeton Review Digital SAT Premium Prep 2025",
+    "sourcePage": 30,
+    "sourceQuestion": "rw-m2-harder question 24",
+    "needsReview": false,
+    "sourceNotes": "Question image and extracted text were visually verified. Answer letter/value comes from the publisher diagnostic answer key."
+  },
+  {
+    "id": "sat-binder-test-1-rw-m2-harder-q25",
+    "domain": "Expression of Ideas",
+    "skill": "Transition Questions",
+    "difficulty": 3,
+    "prompt": "Fish sometimes appear in otherwise uninhabited bodies of water, seemingly emerging out of nowhere. Some scientists believe that the fish are carried to these locations in the beaks or talons of birds. __________ new research suggests that the fish eggs enter a state of hibernation and are actually eaten by birds and excreted out into the bodies of water.\n\nWhich choice completes the text with the most logical transition?",
+    "type": "multiple-choice",
+    "choices": [
+      {
+        "id": "A",
+        "text": "For instance,"
+      },
+      {
+        "id": "B",
+        "text": "Next,"
+      },
+      {
+        "id": "C",
+        "text": "Likewise,"
+      },
+      {
+        "id": "D",
+        "text": "Alternatively,"
+      }
+    ],
+    "answer": "D",
+    "explanation": "Official diagnostic answer: D. Review the source figure and choices above; this item is from the publisher's Practice Test 2 diagnostic key.",
+    "assets": [
+      {
+        "id": "question-image",
+        "type": "figure",
+        "src": "assets/questions/sat-binder-test-1-rw-m2-harder-q25.png",
+        "alt": "Practice Test 2 question image (rw-m2-harder question 25)",
+        "width": 756,
+        "height": 827,
+        "sourcePage": 30
+      }
+    ],
+    "sourceType": "Princeton Review Digital SAT Premium Prep 2025",
+    "sourcePage": 30,
+    "sourceQuestion": "rw-m2-harder question 25",
+    "needsReview": false,
+    "sourceNotes": "Question image and extracted text were visually verified. Answer letter/value comes from the publisher diagnostic answer key."
+  },
+  {
+    "id": "sat-binder-test-1-rw-m2-harder-q26",
+    "domain": "Expression of Ideas",
+    "skill": "Rhetorical Synthesis Questions",
+    "difficulty": 3,
+    "prompt": "While researching a topic, a student has taken the following notes:\n\n• To restore oyster reefs in Australia, limestone boulders are submerged to provide habitats, but baby oysters need help finding the boulders.\n\n• A team from University of Adelaide looked into using sound as a way to encourage the baby oysters to attach to the boulders.\n\n• The research team recorded sounds at the healthy Port Noarlunga Reef to play near the submerged boulders.\n\n• Boulders in the area with the soundscape attracted around 17,000 more oysters per square meter compared to boulders without the soundscape.\n\n• Soundscapes can indicate a healthy place for baby oysters to grow and can be a cost-effective way to restore oyster reefs.\n\nThe student wants to emphasize the aim of the research study. Which choice most effectively uses relevant information from the notes to accomplish this goal?",
+    "type": "multiple-choice",
+    "choices": [
+      {
+        "id": "A",
+        "text": "Researchers obtained a soundscape at Port Noarlunga Reef to help in the restoration of oyster reefs in Australia."
+      },
+      {
+        "id": "B",
+        "text": "Researchers now know that the soundscape of a healthy marine ecosystem can attract baby oysters to attach to submerged limestone boulders."
+      },
+      {
+        "id": "C",
+        "text": "After they measured the number of oysters attracted to boulders in the soundscape area compared to no soundscape, researchers determined that the soundscape attracted more baby oysters."
+      },
+      {
+        "id": "D",
+        "text": "Researchers wanted to know whether a soundscape of a healthy marine ecosystem could encourage baby oysters to attach to submerged limestone boulders."
+      }
+    ],
+    "answer": "D",
+    "explanation": "Official diagnostic answer: D. Review the source figure and choices above; this item is from the publisher's Practice Test 2 diagnostic key.",
+    "assets": [
+      {
+        "id": "question-image",
+        "type": "figure",
+        "src": "assets/questions/sat-binder-test-1-rw-m2-harder-q26.png",
+        "alt": "Practice Test 2 question image (rw-m2-harder question 26)",
+        "width": 756,
+        "height": 1685,
+        "sourcePage": 31
+      }
+    ],
+    "sourceType": "Princeton Review Digital SAT Premium Prep 2025",
+    "sourcePage": 31,
+    "sourceQuestion": "rw-m2-harder question 26",
+    "needsReview": false,
+    "sourceNotes": "Question image and extracted text were visually verified. Answer letter/value comes from the publisher diagnostic answer key."
+  },
+  {
+    "id": "sat-binder-test-1-rw-m2-harder-q27",
+    "domain": "Expression of Ideas",
+    "skill": "Rhetorical Synthesis Questions",
+    "difficulty": 3,
+    "prompt": "While researching a topic, a student has taken the following notes:\n\n• Neanderthals are an extinct species of humans who died out about 40,000 years ago and are the closest evolutionary relatives of present-day humans.\n\n• Studying the genomes of Neanderthals provides insight into human evolution.\n\n• Professor Svante Pääbo is a Swedish geneticist and the director of the Department of Genetics at the Max Planck Institute for Evolutionary Anthropology.\n\n• His landmark study presented the first draft sequence of the Neanderthal genome.\n\n• Laurits Skov of the Max Planck Institute for Evolutionary Anthropology has a doctorate in bioinformatics and studied evolutionary anthropology.\n\n• One of his recent studies revealed the genomes of a family of Neanderthals.\n\nThe student wants to emphasize the affiliation and purpose of Pääbo’s and Skov’s work. Which choice most effectively uses relevant information from the notes to accomplish this goal?",
+    "type": "multiple-choice",
+    "choices": [
+      {
+        "id": "A",
+        "text": "The closest evolutionary relatives of present-day humans, Neanderthals went extinct about 40,000 years ago."
+      },
+      {
+        "id": "B",
+        "text": "By studying the genomes of Neanderthals, Svante Pääbo and Laurits Skov of the Max Planck Institute for Evolutionary Anthropology provide insight into human evolution."
+      },
+      {
+        "id": "C",
+        "text": "Svante Pääbo and Laurits Skov study the genome of Neanderthals, an extinct species of humans."
+      },
+      {
+        "id": "D",
+        "text": "Studies by Svante Pääbo and Laurits Skov reveal information about Neanderthals, who died out about 40,000 years ago."
+      }
+    ],
+    "answer": "B",
+    "explanation": "Official diagnostic answer: B. Review the source figure and choices above; this item is from the publisher's Practice Test 2 diagnostic key.",
+    "assets": [
+      {
+        "id": "question-image",
+        "type": "figure",
+        "src": "assets/questions/sat-binder-test-1-rw-m2-harder-q27.png",
+        "alt": "Practice Test 2 question image (rw-m2-harder question 27)",
+        "width": 756,
+        "height": 1698,
+        "sourcePage": 31
+      }
+    ],
+    "sourceType": "Princeton Review Digital SAT Premium Prep 2025",
+    "sourcePage": 31,
+    "sourceQuestion": "rw-m2-harder question 27",
+    "needsReview": false,
+    "sourceNotes": "Question image and extracted text were visually verified. Answer letter/value comes from the publisher diagnostic answer key."
+  }
+]

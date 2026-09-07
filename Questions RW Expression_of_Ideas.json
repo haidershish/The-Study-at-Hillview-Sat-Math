@@ -1,0 +1,750 @@
+[
+  {
+    "id": "sat-binder-test-1-rw-m1-common-q21",
+    "domain": "Expression of Ideas",
+    "skill": "Punctuation with Transitions",
+    "difficulty": 2,
+    "prompt": "Developed along with the swing style of jazz music in the 1920s, swing dance is a group of social dances that once comprised hundreds of styles. Not all of the styles survived beyond that time __________  the dances that are still popular today include Lindy Hop, Balboa, Collegiate Shag, and Charleston.\n\nWhich choice completes the text so that it conforms to the conventions of Standard English?",
+    "type": "multiple-choice",
+    "choices": [
+      {
+        "id": "A",
+        "text": "period; however,"
+      },
+      {
+        "id": "B",
+        "text": "period, however;"
+      },
+      {
+        "id": "C",
+        "text": "period, however,"
+      },
+      {
+        "id": "D",
+        "text": "period, however"
+      }
+    ],
+    "answer": "B",
+    "explanation": "Official diagnostic answer: B. Review the source figure and choices above; this item is from the publisher's Practice Test 2 diagnostic key.",
+    "assets": [
+      {
+        "id": "question-image",
+        "type": "figure",
+        "src": "assets/questions/sat-binder-test-1-rw-m1-common-q21.png",
+        "alt": "Practice Test 2 question image (rw-m1-common question 21)",
+        "width": 756,
+        "height": 792,
+        "sourcePage": 9
+      }
+    ],
+    "sourceType": "Princeton Review Digital SAT Premium Prep 2025",
+    "sourcePage": 9,
+    "sourceQuestion": "rw-m1-common question 21",
+    "needsReview": false,
+    "sourceNotes": "Question image and extracted text were visually verified. Answer letter/value comes from the publisher diagnostic answer key."
+  },
+  {
+    "id": "sat-binder-test-1-rw-m1-common-q22",
+    "domain": "Expression of Ideas",
+    "skill": "Transition Questions",
+    "difficulty": 2,
+    "prompt": "Evolutionary biologist Jonathan Calede may have discovered the oldest amphibious beaver species in the world. Calede first compared measurements of the beaver’s ankle to those of almost 350 other rodent species to learn more about how it moved. __________ Calede dated the species to approximately 30 million years ago based on its location between rock and ash layers.\n\nWhich choice completes the text with the most logical transition?",
+    "type": "multiple-choice",
+    "choices": [
+      {
+        "id": "A",
+        "text": "For example,"
+      },
+      {
+        "id": "B",
+        "text": "In conclusion,"
+      },
+      {
+        "id": "C",
+        "text": "Next,"
+      },
+      {
+        "id": "D",
+        "text": "In fact,"
+      }
+    ],
+    "answer": "C",
+    "explanation": "Official diagnostic answer: C. Review the source figure and choices above; this item is from the publisher's Practice Test 2 diagnostic key.",
+    "assets": [
+      {
+        "id": "question-image",
+        "type": "figure",
+        "src": "assets/questions/sat-binder-test-1-rw-m1-common-q22.png",
+        "alt": "Practice Test 2 question image (rw-m1-common question 22)",
+        "width": 756,
+        "height": 861,
+        "sourcePage": 9
+      }
+    ],
+    "sourceType": "Princeton Review Digital SAT Premium Prep 2025",
+    "sourcePage": 9,
+    "sourceQuestion": "rw-m1-common question 22",
+    "needsReview": false,
+    "sourceNotes": "Question image and extracted text were visually verified. Answer letter/value comes from the publisher diagnostic answer key."
+  },
+  {
+    "id": "sat-binder-test-1-rw-m1-common-q23",
+    "domain": "Expression of Ideas",
+    "skill": "Transition Questions",
+    "difficulty": 2,
+    "prompt": "Male and female American citizens had starkly different roles during World War II. Men served as soldiers or took part in the workforce to create weapons and other wartime materials. __________  women were responsible for maintaining the home and supporting the men. Some women also ventured into the workforce for the first time, and the famous “We Can Do It” poster featuring “Rosie the Riveter” was created to motivate women to pursue this new role.\n\nWhich choice completes the text with the most logical transition?",
+    "type": "multiple-choice",
+    "choices": [
+      {
+        "id": "A",
+        "text": "Besides,"
+      },
+      {
+        "id": "B",
+        "text": "Instead,"
+      },
+      {
+        "id": "C",
+        "text": "Likewise,"
+      },
+      {
+        "id": "D",
+        "text": "Meanwhile,"
+      }
+    ],
+    "answer": "D",
+    "explanation": "Official diagnostic answer: D. Review the source figure and choices above; this item is from the publisher's Practice Test 2 diagnostic key.",
+    "assets": [
+      {
+        "id": "question-image",
+        "type": "figure",
+        "src": "assets/questions/sat-binder-test-1-rw-m1-common-q23.png",
+        "alt": "Practice Test 2 question image (rw-m1-common question 23)",
+        "width": 756,
+        "height": 896,
+        "sourcePage": 10
+      }
+    ],
+    "sourceType": "Princeton Review Digital SAT Premium Prep 2025",
+    "sourcePage": 10,
+    "sourceQuestion": "rw-m1-common question 23",
+    "needsReview": false,
+    "sourceNotes": "Question image and extracted text were visually verified. Answer letter/value comes from the publisher diagnostic answer key."
+  },
+  {
+    "id": "sat-binder-test-1-rw-m1-common-q24",
+    "domain": "Expression of Ideas",
+    "skill": "Transition Questions",
+    "difficulty": 2,
+    "prompt": "While treatment for hearing loss is typically associated with the ears, some patients with damaged ear structures are not able to use traditional cochlear implants. __________  researchers are working to develop hearing aids anchored to patients’ bones in order to combat hearing loss through vibrations in the skull.\n\nWhich choice completes the text with the most logical transition?",
+    "type": "multiple-choice",
+    "choices": [
+      {
+        "id": "A",
+        "text": "Secondly,"
+      },
+      {
+        "id": "B",
+        "text": "In addition,"
+      },
+      {
+        "id": "C",
+        "text": "Finally,"
+      },
+      {
+        "id": "D",
+        "text": "Hence,"
+      }
+    ],
+    "answer": "D",
+    "explanation": "Official diagnostic answer: D. Review the source figure and choices above; this item is from the publisher's Practice Test 2 diagnostic key.",
+    "assets": [
+      {
+        "id": "question-image",
+        "type": "figure",
+        "src": "assets/questions/sat-binder-test-1-rw-m1-common-q24.png",
+        "alt": "Practice Test 2 question image (rw-m1-common question 24)",
+        "width": 756,
+        "height": 792,
+        "sourcePage": 10
+      }
+    ],
+    "sourceType": "Princeton Review Digital SAT Premium Prep 2025",
+    "sourcePage": 10,
+    "sourceQuestion": "rw-m1-common question 24",
+    "needsReview": false,
+    "sourceNotes": "Question image and extracted text were visually verified. Answer letter/value comes from the publisher diagnostic answer key."
+  },
+  {
+    "id": "sat-binder-test-1-rw-m1-common-q25",
+    "domain": "Expression of Ideas",
+    "skill": "Transition Questions",
+    "difficulty": 2,
+    "prompt": "Korean artist Anicka Yi uses a unique process and materials to generate her art installations. Her materials are often perishable and biological, such as soap and flowers, and are not traditionally used for artwork. __________  Yi spends almost as much time transforming these substances into completely new materials as she does creating the actual art pieces.\n\nWhich choice completes the text with the most logical transition?",
+    "type": "multiple-choice",
+    "choices": [
+      {
+        "id": "A",
+        "text": "Meanwhile,"
+      },
+      {
+        "id": "B",
+        "text": "Instead,"
+      },
+      {
+        "id": "C",
+        "text": "In fact,"
+      },
+      {
+        "id": "D",
+        "text": "To conclude,"
+      }
+    ],
+    "answer": "C",
+    "explanation": "Official diagnostic answer: C. Review the source figure and choices above; this item is from the publisher's Practice Test 2 diagnostic key.",
+    "assets": [
+      {
+        "id": "question-image",
+        "type": "figure",
+        "src": "assets/questions/sat-binder-test-1-rw-m1-common-q25.png",
+        "alt": "Practice Test 2 question image (rw-m1-common question 25)",
+        "width": 756,
+        "height": 827,
+        "sourcePage": 10
+      }
+    ],
+    "sourceType": "Princeton Review Digital SAT Premium Prep 2025",
+    "sourcePage": 10,
+    "sourceQuestion": "rw-m1-common question 25",
+    "needsReview": false,
+    "sourceNotes": "Question image and extracted text were visually verified. Answer letter/value comes from the publisher diagnostic answer key."
+  },
+  {
+    "id": "sat-binder-test-1-rw-m1-common-q26",
+    "domain": "Expression of Ideas",
+    "skill": "Rhetorical Synthesis Questions",
+    "difficulty": 2,
+    "prompt": "While researching a topic, a student has taken the following notes:\n\n• A writing system for expressing numbers is a numeral system.\n\n• Two examples of numeral systems from history are Babylonian cuneiform numerals and Roman numerals.\n\n• The Babylonian cuneiform numeral system is a base-60 system and lacks a zero digit.\n\n• It’s a positional numeral system in which the position of a digit affects its value.\n\n• The Roman numeral system is a base-10 system and lacks a zero digit.\n\n• It’s a non-positional numeral system in which the position of a digit does not affect its value.\n\nThe student wants to emphasize a difference between the two numeral systems. Which choice most effectively uses relevant information from the notes to accomplish this goal?",
+    "type": "multiple-choice",
+    "choices": [
+      {
+        "id": "A",
+        "text": "Babylonian cuneiform numerals and Roman numerals are two writing systems for expressing numbers."
+      },
+      {
+        "id": "B",
+        "text": "The Roman numeral system is a base-10 non-positional system that lacks a zero digit."
+      },
+      {
+        "id": "C",
+        "text": "One system for expressing numbers is Babylonian cuneiform; however, another one is the Roman numeral system."
+      },
+      {
+        "id": "D",
+        "text": "The Babylonian cuneiform numeral system is base-60 and positional, while the Roman numeral system is base-10 and non-positional."
+      }
+    ],
+    "answer": "D",
+    "explanation": "Official diagnostic answer: D. Review the source figure and choices above; this item is from the publisher's Practice Test 2 diagnostic key.",
+    "assets": [
+      {
+        "id": "question-image",
+        "type": "figure",
+        "src": "assets/questions/sat-binder-test-1-rw-m1-common-q26.png",
+        "alt": "Practice Test 2 question image (rw-m1-common question 26)",
+        "width": 756,
+        "height": 1491,
+        "sourcePage": 11
+      }
+    ],
+    "sourceType": "Princeton Review Digital SAT Premium Prep 2025",
+    "sourcePage": 11,
+    "sourceQuestion": "rw-m1-common question 26",
+    "needsReview": false,
+    "sourceNotes": "Question image and extracted text were visually verified. Answer letter/value comes from the publisher diagnostic answer key."
+  },
+  {
+    "id": "sat-binder-test-1-rw-m1-common-q27",
+    "domain": "Expression of Ideas",
+    "skill": "Rhetorical Synthesis Questions",
+    "difficulty": 2,
+    "prompt": "While researching a topic, a student has taken the following notes:\n\n• Archaeologists studied the burial of an individual at the Newen Antug site in Argentinian Patagonia.\n\n• The individual was buried in a wooden structure over 800 years ago.\n\n• An analysis of the structure revealed that it was carved from a tree with excellent buoyancy.\n\n• The wooden structure was a canoe, suggesting that canoes were used as coffins at that time.\n\nThe student wants to present the Newen Antug study and its conclusions. Which choice most effectively uses relevant information from the notes to accomplish this goal?",
+    "type": "multiple-choice",
+    "choices": [
+      {
+        "id": "A",
+        "text": "The burial site of an individual over 800 years ago was found at the Newen Antug site in Argentinian Patagonia."
+      },
+      {
+        "id": "B",
+        "text": "Archaeologists studied the burial site of an individual who was buried at the Newen Antug site over 800 years ago."
+      },
+      {
+        "id": "C",
+        "text": "An analysis of a burial site at the Newen Antug site in Argentinian Patagonia provided evidence that canoes were used as coffins over 800 years ago."
+      },
+      {
+        "id": "D",
+        "text": "As part of a study of a burial site at the Newen Antug site in Argentinian Patagonia, a wooden structure buried with an individual was analyzed."
+      }
+    ],
+    "answer": "C",
+    "explanation": "Official diagnostic answer: C. Review the source figure and choices above; this item is from the publisher's Practice Test 2 diagnostic key.",
+    "assets": [
+      {
+        "id": "question-image",
+        "type": "figure",
+        "src": "assets/questions/sat-binder-test-1-rw-m1-common-q27.png",
+        "alt": "Practice Test 2 question image (rw-m1-common question 27)",
+        "width": 756,
+        "height": 1396,
+        "sourcePage": 11
+      }
+    ],
+    "sourceType": "Princeton Review Digital SAT Premium Prep 2025",
+    "sourcePage": 11,
+    "sourceQuestion": "rw-m1-common question 27",
+    "needsReview": false,
+    "sourceNotes": "Question image and extracted text were visually verified. Answer letter/value comes from the publisher diagnostic answer key."
+  },
+  {
+    "id": "sat-binder-test-1-rw-m2-easier-q24",
+    "domain": "Expression of Ideas",
+    "skill": "Transition Questions",
+    "difficulty": 1,
+    "prompt": "Yoga is an ancient discipline from India that aims to combine physical fitness with mental and spiritual control and calm and has expanded to become popular with many different cultures. __________  yoga is shifting into different forms to allow a wider range of people to participate. For example, accessible yoga provides opportunities for those with physical disabilities to access the health and mental benefits of the practice.\n\nWhich choice completes the text with the most logical transition?",
+    "type": "multiple-choice",
+    "choices": [
+      {
+        "id": "A",
+        "text": "Nevertheless,"
+      },
+      {
+        "id": "B",
+        "text": "Similarly,"
+      },
+      {
+        "id": "C",
+        "text": "Thus,"
+      },
+      {
+        "id": "D",
+        "text": "Currently,"
+      }
+    ],
+    "answer": "D",
+    "explanation": "Official diagnostic answer: D. Review the source figure and choices above; this item is from the publisher's Practice Test 2 diagnostic key.",
+    "assets": [
+      {
+        "id": "question-image",
+        "type": "figure",
+        "src": "assets/questions/sat-binder-test-1-rw-m2-easier-q24.png",
+        "alt": "Practice Test 2 question image (rw-m2-easier question 24)",
+        "width": 756,
+        "height": 861,
+        "sourcePage": 20
+      }
+    ],
+    "sourceType": "Princeton Review Digital SAT Premium Prep 2025",
+    "sourcePage": 20,
+    "sourceQuestion": "rw-m2-easier question 24",
+    "needsReview": false,
+    "sourceNotes": "Question image and extracted text were visually verified. Answer letter/value comes from the publisher diagnostic answer key."
+  },
+  {
+    "id": "sat-binder-test-1-rw-m2-easier-q25",
+    "domain": "Expression of Ideas",
+    "skill": "Transition Questions",
+    "difficulty": 1,
+    "prompt": "Scientists often disagree about what traits to use to place newly discovered species in the tree of life and debate different ways to organize evolutionary relationships. Chimerarachne yingi, __________  is an extinct arachnid species that is sometimes placed near modern spiders based on its acquisition of silk-spinning organs or near other arachnids based on its loss of a tail.\n\nWhich choice completes the text with the most logical transition?",
+    "type": "multiple-choice",
+    "choices": [
+      {
+        "id": "A",
+        "text": "as a result,"
+      },
+      {
+        "id": "B",
+        "text": "in comparison,"
+      },
+      {
+        "id": "C",
+        "text": "for example,"
+      },
+      {
+        "id": "D",
+        "text": "still,"
+      }
+    ],
+    "answer": "C",
+    "explanation": "Official diagnostic answer: C. Review the source figure and choices above; this item is from the publisher's Practice Test 2 diagnostic key.",
+    "assets": [
+      {
+        "id": "question-image",
+        "type": "figure",
+        "src": "assets/questions/sat-binder-test-1-rw-m2-easier-q25.png",
+        "alt": "Practice Test 2 question image (rw-m2-easier question 25)",
+        "width": 756,
+        "height": 827,
+        "sourcePage": 20
+      }
+    ],
+    "sourceType": "Princeton Review Digital SAT Premium Prep 2025",
+    "sourcePage": 20,
+    "sourceQuestion": "rw-m2-easier question 25",
+    "needsReview": false,
+    "sourceNotes": "Question image and extracted text were visually verified. Answer letter/value comes from the publisher diagnostic answer key."
+  },
+  {
+    "id": "sat-binder-test-1-rw-m2-easier-q26",
+    "domain": "Expression of Ideas",
+    "skill": "Transition Questions",
+    "difficulty": 1,
+    "prompt": "In 2011, a seismometer detected seismic activity from a magnitude 8.9 earthquake and automatically cut the power to all 30 bullet trains in Japan, potentially avoiding mass architectural damage to the tracks. __________  the cut to the power prevented citizens from being caught in a dangerous location during the earthquake and allowed riders to seek shelter.\n\nWhich choice completes the text with the most logical transition?",
+    "type": "multiple-choice",
+    "choices": [
+      {
+        "id": "A",
+        "text": "In addition,"
+      },
+      {
+        "id": "B",
+        "text": "In comparison,"
+      },
+      {
+        "id": "C",
+        "text": "For example,"
+      },
+      {
+        "id": "D",
+        "text": "Specifically,"
+      }
+    ],
+    "answer": "A",
+    "explanation": "Official diagnostic answer: A. Review the source figure and choices above; this item is from the publisher's Practice Test 2 diagnostic key.",
+    "assets": [
+      {
+        "id": "question-image",
+        "type": "figure",
+        "src": "assets/questions/sat-binder-test-1-rw-m2-easier-q26.png",
+        "alt": "Practice Test 2 question image (rw-m2-easier question 26)",
+        "width": 756,
+        "height": 827,
+        "sourcePage": 20
+      }
+    ],
+    "sourceType": "Princeton Review Digital SAT Premium Prep 2025",
+    "sourcePage": 20,
+    "sourceQuestion": "rw-m2-easier question 26",
+    "needsReview": false,
+    "sourceNotes": "Question image and extracted text were visually verified. Answer letter/value comes from the publisher diagnostic answer key."
+  },
+  {
+    "id": "sat-binder-test-1-rw-m2-easier-q27",
+    "domain": "Expression of Ideas",
+    "skill": "Rhetorical Synthesis Questions",
+    "difficulty": 1,
+    "prompt": "While researching a topic, a student has taken the following notes:\n\n• The Endangered Species Act (ESA) was enacted in 1973 to recover species and prevent extinction.\n\n• A species is listed under the ESA when it’s determined that the species needs protection and delisted when the population has recovered.\n\n• Only 54 of the over 1,000 listed species have been delisted from the ESA, raising concerns about the effectiveness of the ESA.\n\n• Erich Eberhard, David Wilcove, and Andrew Dobson conducted an analysis of population trends of species listed under the ESA.\n\n• They found that most species had to wait multiple years before being listed and by then their populations were already so low that recovery was much more difficult.\n\nThe student wants to make a generalization about the kind of study conducted by Eberhard, Wilcove, and Dobson. Which choice most effectively uses relevant information from the notes to accomplish this goal?",
+    "type": "multiple-choice",
+    "choices": [
+      {
+        "id": "A",
+        "text": "Scientists have analyzed population trends to find out the impact of legal protections in the realm of conservation."
+      },
+      {
+        "id": "B",
+        "text": "Species listed under the ESA have low population levels when they are listed."
+      },
+      {
+        "id": "C",
+        "text": "Only 54 once-listed species have been delisted; many more species have not recovered and are still listed."
+      },
+      {
+        "id": "D",
+        "text": "Based on an analysis of population trends, Eberhard, Wilcove, and Dobson found that species listed under the ESA have very small populations when listed."
+      }
+    ],
+    "answer": "A",
+    "explanation": "Official diagnostic answer: A. Review the source figure and choices above; this item is from the publisher's Practice Test 2 diagnostic key.",
+    "assets": [
+      {
+        "id": "question-image",
+        "type": "figure",
+        "src": "assets/questions/sat-binder-test-1-rw-m2-easier-q27.png",
+        "alt": "Practice Test 2 question image (rw-m2-easier question 27)",
+        "width": 756,
+        "height": 1581,
+        "sourcePage": 21
+      }
+    ],
+    "sourceType": "Princeton Review Digital SAT Premium Prep 2025",
+    "sourcePage": 21,
+    "sourceQuestion": "rw-m2-easier question 27",
+    "needsReview": false,
+    "sourceNotes": "Question image and extracted text were visually verified. Answer letter/value comes from the publisher diagnostic answer key."
+  },
+  {
+    "id": "sat-binder-test-1-rw-m2-harder-q21",
+    "domain": "Expression of Ideas",
+    "skill": "Punctuation with Transitions",
+    "difficulty": 3,
+    "prompt": "In 1946, Juliet Rice Wichman acquired 1,000 acres on Kaua’i, one of the Hawaiian islands, to transform the land into a garden by removing grazing cattle and restoring terraces to grow taro. Wichman’s work to preserve the culture of Kaua’i wasn’t __________  as the first director of the Kaua’i Museum, she oversaw exhibits celebrating the history, culture, and art of Native Hawaiians.\n\nWhich choice completes the text so that it conforms to the conventions of Standard English?",
+    "type": "multiple-choice",
+    "choices": [
+      {
+        "id": "A",
+        "text": "finished though"
+      },
+      {
+        "id": "B",
+        "text": "finished. Though,"
+      },
+      {
+        "id": "C",
+        "text": "finished, though,"
+      },
+      {
+        "id": "D",
+        "text": "finished, though:"
+      }
+    ],
+    "answer": "D",
+    "explanation": "Official diagnostic answer: D. Review the source figure and choices above; this item is from the publisher's Practice Test 2 diagnostic key.",
+    "assets": [
+      {
+        "id": "question-image",
+        "type": "figure",
+        "src": "assets/questions/sat-binder-test-1-rw-m2-harder-q21.png",
+        "alt": "Practice Test 2 question image (rw-m2-harder question 21)",
+        "width": 756,
+        "height": 861,
+        "sourcePage": 29
+      }
+    ],
+    "sourceType": "Princeton Review Digital SAT Premium Prep 2025",
+    "sourcePage": 29,
+    "sourceQuestion": "rw-m2-harder question 21",
+    "needsReview": false,
+    "sourceNotes": "Question image and extracted text were visually verified. Answer letter/value comes from the publisher diagnostic answer key."
+  },
+  {
+    "id": "sat-binder-test-1-rw-m2-harder-q23",
+    "domain": "Expression of Ideas",
+    "skill": "Transition Questions",
+    "difficulty": 3,
+    "prompt": "Fault tree analysis was originally used in engineering to enhance safety practices in high-risk fields, such as nuclear power and pharmaceuticals, but other fields are experimenting with ways to utilize this process to benefit their work. __________  fault tree analysis is also being used in low-risk fields, such as social services and software engineering.\n\nWhich choice completes the text with the most logical transition?",
+    "type": "multiple-choice",
+    "choices": [
+      {
+        "id": "A",
+        "text": "Increasingly,"
+      },
+      {
+        "id": "B",
+        "text": "Nevertheless,"
+      },
+      {
+        "id": "C",
+        "text": "Therefore,"
+      },
+      {
+        "id": "D",
+        "text": "In addition,"
+      }
+    ],
+    "answer": "A",
+    "explanation": "Official diagnostic answer: A. Review the source figure and choices above; this item is from the publisher's Practice Test 2 diagnostic key.",
+    "assets": [
+      {
+        "id": "question-image",
+        "type": "figure",
+        "src": "assets/questions/sat-binder-test-1-rw-m2-harder-q23.png",
+        "alt": "Practice Test 2 question image (rw-m2-harder question 23)",
+        "width": 756,
+        "height": 827,
+        "sourcePage": 30
+      }
+    ],
+    "sourceType": "Princeton Review Digital SAT Premium Prep 2025",
+    "sourcePage": 30,
+    "sourceQuestion": "rw-m2-harder question 23",
+    "needsReview": false,
+    "sourceNotes": "Question image and extracted text were visually verified. Answer letter/value comes from the publisher diagnostic answer key."
+  },
+  {
+    "id": "sat-binder-test-1-rw-m2-harder-q24",
+    "domain": "Expression of Ideas",
+    "skill": "Transition Questions",
+    "difficulty": 3,
+    "prompt": "When Monika Sosnowska began her career in Amsterdam as a painter, she never expected to branch out into other media. __________  she had primarily worked on canvas, but she quickly found her works evolving to include the three-dimensional space around her.\n\nWhich choice completes the text with the most logical transition?",
+    "type": "multiple-choice",
+    "choices": [
+      {
+        "id": "A",
+        "text": "Instead,"
+      },
+      {
+        "id": "B",
+        "text": "Consequently,"
+      },
+      {
+        "id": "C",
+        "text": "Previously,"
+      },
+      {
+        "id": "D",
+        "text": "Similarly,"
+      }
+    ],
+    "answer": "C",
+    "explanation": "Official diagnostic answer: C. Review the source figure and choices above; this item is from the publisher's Practice Test 2 diagnostic key.",
+    "assets": [
+      {
+        "id": "question-image",
+        "type": "figure",
+        "src": "assets/questions/sat-binder-test-1-rw-m2-harder-q24.png",
+        "alt": "Practice Test 2 question image (rw-m2-harder question 24)",
+        "width": 756,
+        "height": 758,
+        "sourcePage": 30
+      }
+    ],
+    "sourceType": "Princeton Review Digital SAT Premium Prep 2025",
+    "sourcePage": 30,
+    "sourceQuestion": "rw-m2-harder question 24",
+    "needsReview": false,
+    "sourceNotes": "Question image and extracted text were visually verified. Answer letter/value comes from the publisher diagnostic answer key."
+  },
+  {
+    "id": "sat-binder-test-1-rw-m2-harder-q25",
+    "domain": "Expression of Ideas",
+    "skill": "Transition Questions",
+    "difficulty": 3,
+    "prompt": "Fish sometimes appear in otherwise uninhabited bodies of water, seemingly emerging out of nowhere. Some scientists believe that the fish are carried to these locations in the beaks or talons of birds. __________ new research suggests that the fish eggs enter a state of hibernation and are actually eaten by birds and excreted out into the bodies of water.\n\nWhich choice completes the text with the most logical transition?",
+    "type": "multiple-choice",
+    "choices": [
+      {
+        "id": "A",
+        "text": "For instance,"
+      },
+      {
+        "id": "B",
+        "text": "Next,"
+      },
+      {
+        "id": "C",
+        "text": "Likewise,"
+      },
+      {
+        "id": "D",
+        "text": "Alternatively,"
+      }
+    ],
+    "answer": "D",
+    "explanation": "Official diagnostic answer: D. Review the source figure and choices above; this item is from the publisher's Practice Test 2 diagnostic key.",
+    "assets": [
+      {
+        "id": "question-image",
+        "type": "figure",
+        "src": "assets/questions/sat-binder-test-1-rw-m2-harder-q25.png",
+        "alt": "Practice Test 2 question image (rw-m2-harder question 25)",
+        "width": 756,
+        "height": 827,
+        "sourcePage": 30
+      }
+    ],
+    "sourceType": "Princeton Review Digital SAT Premium Prep 2025",
+    "sourcePage": 30,
+    "sourceQuestion": "rw-m2-harder question 25",
+    "needsReview": false,
+    "sourceNotes": "Question image and extracted text were visually verified. Answer letter/value comes from the publisher diagnostic answer key."
+  },
+  {
+    "id": "sat-binder-test-1-rw-m2-harder-q26",
+    "domain": "Expression of Ideas",
+    "skill": "Rhetorical Synthesis Questions",
+    "difficulty": 3,
+    "prompt": "While researching a topic, a student has taken the following notes:\n\n• To restore oyster reefs in Australia, limestone boulders are submerged to provide habitats, but baby oysters need help finding the boulders.\n\n• A team from University of Adelaide looked into using sound as a way to encourage the baby oysters to attach to the boulders.\n\n• The research team recorded sounds at the healthy Port Noarlunga Reef to play near the submerged boulders.\n\n• Boulders in the area with the soundscape attracted around 17,000 more oysters per square meter compared to boulders without the soundscape.\n\n• Soundscapes can indicate a healthy place for baby oysters to grow and can be a cost-effective way to restore oyster reefs.\n\nThe student wants to emphasize the aim of the research study. Which choice most effectively uses relevant information from the notes to accomplish this goal?",
+    "type": "multiple-choice",
+    "choices": [
+      {
+        "id": "A",
+        "text": "Researchers obtained a soundscape at Port Noarlunga Reef to help in the restoration of oyster reefs in Australia."
+      },
+      {
+        "id": "B",
+        "text": "Researchers now know that the soundscape of a healthy marine ecosystem can attract baby oysters to attach to submerged limestone boulders."
+      },
+      {
+        "id": "C",
+        "text": "After they measured the number of oysters attracted to boulders in the soundscape area compared to no soundscape, researchers determined that the soundscape attracted more baby oysters."
+      },
+      {
+        "id": "D",
+        "text": "Researchers wanted to know whether a soundscape of a healthy marine ecosystem could encourage baby oysters to attach to submerged limestone boulders."
+      }
+    ],
+    "answer": "D",
+    "explanation": "Official diagnostic answer: D. Review the source figure and choices above; this item is from the publisher's Practice Test 2 diagnostic key.",
+    "assets": [
+      {
+        "id": "question-image",
+        "type": "figure",
+        "src": "assets/questions/sat-binder-test-1-rw-m2-harder-q26.png",
+        "alt": "Practice Test 2 question image (rw-m2-harder question 26)",
+        "width": 756,
+        "height": 1685,
+        "sourcePage": 31
+      }
+    ],
+    "sourceType": "Princeton Review Digital SAT Premium Prep 2025",
+    "sourcePage": 31,
+    "sourceQuestion": "rw-m2-harder question 26",
+    "needsReview": false,
+    "sourceNotes": "Question image and extracted text were visually verified. Answer letter/value comes from the publisher diagnostic answer key."
+  },
+  {
+    "id": "sat-binder-test-1-rw-m2-harder-q27",
+    "domain": "Expression of Ideas",
+    "skill": "Rhetorical Synthesis Questions",
+    "difficulty": 3,
+    "prompt": "While researching a topic, a student has taken the following notes:\n\n• Neanderthals are an extinct species of humans who died out about 40,000 years ago and are the closest evolutionary relatives of present-day humans.\n\n• Studying the genomes of Neanderthals provides insight into human evolution.\n\n• Professor Svante Pääbo is a Swedish geneticist and the director of the Department of Genetics at the Max Planck Institute for Evolutionary Anthropology.\n\n• His landmark study presented the first draft sequence of the Neanderthal genome.\n\n• Laurits Skov of the Max Planck Institute for Evolutionary Anthropology has a doctorate in bioinformatics and studied evolutionary anthropology.\n\n• One of his recent studies revealed the genomes of a family of Neanderthals.\n\nThe student wants to emphasize the affiliation and purpose of Pääbo’s and Skov’s work. Which choice most effectively uses relevant information from the notes to accomplish this goal?",
+    "type": "multiple-choice",
+    "choices": [
+      {
+        "id": "A",
+        "text": "The closest evolutionary relatives of present-day humans, Neanderthals went extinct about 40,000 years ago."
+      },
+      {
+        "id": "B",
+        "text": "By studying the genomes of Neanderthals, Svante Pääbo and Laurits Skov of the Max Planck Institute for Evolutionary Anthropology provide insight into human evolution."
+      },
+      {
+        "id": "C",
+        "text": "Svante Pääbo and Laurits Skov study the genome of Neanderthals, an extinct species of humans."
+      },
+      {
+        "id": "D",
+        "text": "Studies by Svante Pääbo and Laurits Skov reveal information about Neanderthals, who died out about 40,000 years ago."
+      }
+    ],
+    "answer": "B",
+    "explanation": "Official diagnostic answer: B. Review the source figure and choices above; this item is from the publisher's Practice Test 2 diagnostic key.",
+    "assets": [
+      {
+        "id": "question-image",
+        "type": "figure",
+        "src": "assets/questions/sat-binder-test-1-rw-m2-harder-q27.png",
+        "alt": "Practice Test 2 question image (rw-m2-harder question 27)",
+        "width": 756,
+        "height": 1698,
+        "sourcePage": 31
+      }
+    ],
+    "sourceType": "Princeton Review Digital SAT Premium Prep 2025",
+    "sourcePage": 31,
+    "sourceQuestion": "rw-m2-harder question 27",
+    "needsReview": false,
+    "sourceNotes": "Question image and extracted text were visually verified. Answer letter/value comes from the publisher diagnostic answer key."
+  }
+]

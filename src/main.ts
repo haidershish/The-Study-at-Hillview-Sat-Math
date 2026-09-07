@@ -348,6 +348,14 @@ function startTest(): void {
 
 function returnHome(): void {
   stopTimer();
+  state.expressions = [];
+  state.tableRows = [{ x: '', y: '' }];
+  state.connectPoints = false;
+  state.calculatorState = undefined;
+  state.angleMode = 'radians';
+  provider?.clear();
+  provider?.setAngleMode('radians');
+  provider?.resetViewport();
   state.screen = 'home';
   persist();
   showScreen('home');

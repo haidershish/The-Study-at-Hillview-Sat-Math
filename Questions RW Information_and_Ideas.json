@@ -1,0 +1,1102 @@
+[
+  {
+    "id": "sat-binder-test-1-rw-m1-common-q06",
+    "domain": "Information and Ideas",
+    "skill": "Retrieval Questions",
+    "difficulty": 2,
+    "prompt": "The following text is from Oscar Wilde’s 1890 novel The Picture of Dorian Gray. Dorian is seeing his portrait, painted by Basil Hallward, for the first time.\n\nDorian made no answer, but passed listlessly in front of his picture and turned towards it. When he saw it he drew back, and his cheeks flushed for a moment with pleasure. A look of joy came into his eyes, as if he had recognized himself for the first time. He stood there motionless and in wonder, dimly conscious that Hallward was speaking to him, but not catching the meaning of his words. The sense of his own beauty came on him like a revelation. He had never felt it before.\n\nAccording to the text, what is true about Dorian?",
+    "type": "multiple-choice",
+    "choices": [
+      {
+        "id": "A",
+        "text": "Dorian is distracted by the beauty of the painting."
+      },
+      {
+        "id": "B",
+        "text": "Dorian believes that what Hallward is saying is unimportant."
+      },
+      {
+        "id": "C",
+        "text": "Dorian does not recognize his own image."
+      },
+      {
+        "id": "D",
+        "text": "Dorian is prone to embarrassment."
+      }
+    ],
+    "answer": "A",
+    "explanation": "Official diagnostic answer: A. Review the source figure and choices above; this item is from the publisher's Practice Test 2 diagnostic key.",
+    "assets": [
+      {
+        "id": "question-image",
+        "type": "figure",
+        "src": "assets/questions/sat-binder-test-1-rw-m1-common-q06.png",
+        "alt": "Practice Test 2 question image (rw-m1-common question 6)",
+        "width": 756,
+        "height": 1068,
+        "sourcePage": 2
+      }
+    ],
+    "sourceType": "Princeton Review Digital SAT Premium Prep 2025",
+    "sourcePage": 2,
+    "sourceQuestion": "rw-m1-common question 6",
+    "needsReview": false,
+    "sourceNotes": "Question image and extracted text were visually verified. Answer letter/value comes from the publisher diagnostic answer key."
+  },
+  {
+    "id": "sat-binder-test-1-rw-m1-common-q07",
+    "domain": "Information and Ideas",
+    "skill": "Retrieval Questions",
+    "difficulty": 2,
+    "prompt": "The following text is from Frederick Marryat’s 1847 novel The Children of the New Forest.\n\nThe old forester lay awake the whole of this night, reflecting how he should act relative to the children; he felt the great responsibility that he had incurred, and was alarmed when he considered what might be the consequences if his days were shortened. What would become of them—living in so sequestered a spot that few knew even of its existence—totally shut out from the world, and left to their own resources?\n\nBased on the text, what is true about the children?",
+    "type": "multiple-choice",
+    "choices": [
+      {
+        "id": "A",
+        "text": "They are isolated from people other than the old forester."
+      },
+      {
+        "id": "B",
+        "text": "They are completely unable to take care of themselves."
+      },
+      {
+        "id": "C",
+        "text": "The old forester is resentful of having to take care of them."
+      },
+      {
+        "id": "D",
+        "text": "They attempt to help the old forester with his responsibilities."
+      }
+    ],
+    "answer": "A",
+    "explanation": "Official diagnostic answer: A. Review the source figure and choices above; this item is from the publisher's Practice Test 2 diagnostic key.",
+    "assets": [
+      {
+        "id": "question-image",
+        "type": "figure",
+        "src": "assets/questions/sat-binder-test-1-rw-m1-common-q07.png",
+        "alt": "Practice Test 2 question image (rw-m1-common question 7)",
+        "width": 756,
+        "height": 1034,
+        "sourcePage": 3
+      }
+    ],
+    "sourceType": "Princeton Review Digital SAT Premium Prep 2025",
+    "sourcePage": 3,
+    "sourceQuestion": "rw-m1-common question 7",
+    "needsReview": false,
+    "sourceNotes": "Question image and extracted text were visually verified. Answer letter/value comes from the publisher diagnostic answer key."
+  },
+  {
+    "id": "sat-binder-test-1-rw-m1-common-q08",
+    "domain": "Information and Ideas",
+    "skill": "Main Idea Questions",
+    "difficulty": 2,
+    "prompt": "The following text is Baron George Gordon Byron’s poem “Answer to _______’s Professions of Affection,” written around 1814. The poem is addressed to an unknown person.\n\nIn hearts like thine ne’er may I hold a place\nTill I renounce all sense, all shame, all grace—\nThat seat,—like seats, the bane of Freedom’s realm,\nBut dear to those presiding at the helm—\nIs basely purchased, not with gold alone;\nAdd Conscience, too, this bargain is your own—\n‘Tis thine to offer with corrupting art\nThe rotten borough of the human heart.\n\nWhat is the main idea of the text?",
+    "type": "multiple-choice",
+    "choices": [
+      {
+        "id": "A",
+        "text": "The speaker is expressing disapproval towards the unknown person."
+      },
+      {
+        "id": "B",
+        "text": "The speaker is unimportant to the unknown person."
+      },
+      {
+        "id": "C",
+        "text": "The speaker is thinking of purchasing a seat."
+      },
+      {
+        "id": "D",
+        "text": "The speaker holds a place in the heart of the unknown person."
+      }
+    ],
+    "answer": "A",
+    "explanation": "Official diagnostic answer: A. Review the source figure and choices above; this item is from the publisher's Practice Test 2 diagnostic key.",
+    "assets": [
+      {
+        "id": "question-image",
+        "type": "figure",
+        "src": "assets/questions/sat-binder-test-1-rw-m1-common-q08.png",
+        "alt": "Practice Test 2 question image (rw-m1-common question 8)",
+        "width": 756,
+        "height": 1068,
+        "sourcePage": 3
+      }
+    ],
+    "sourceType": "Princeton Review Digital SAT Premium Prep 2025",
+    "sourcePage": 3,
+    "sourceQuestion": "rw-m1-common question 8",
+    "needsReview": false,
+    "sourceNotes": "Question image and extracted text were visually verified. Answer letter/value comes from the publisher diagnostic answer key."
+  },
+  {
+    "id": "sat-binder-test-1-rw-m1-common-q09",
+    "domain": "Information and Ideas",
+    "skill": "Claims Questions",
+    "difficulty": 2,
+    "prompt": "Sepsis is a life-threatening condition caused by the body’s response to an infection. These infections are typically bacterial but may be fungal, parasitic, or viral. The body’s response to these infections leads to increased inflammation and organ damage. This damage, in turn, results in a weakened immune system, which increases the likelihood of reinfection. In a recent study, a team of doctors and pharmacologists led by Shubham Soni claims that administering ketone esters can reduce inflammation and immune system weakening caused by sepsis.\n\nWhich finding from the team led by Soni, if true, would most directly support its claim?",
+    "type": "multiple-choice",
+    "choices": [
+      {
+        "id": "A",
+        "text": "Patients with sepsis who were administered ketone esters had fewer signs of inflammation and less organ damage than those administered standard antibiotics."
+      },
+      {
+        "id": "B",
+        "text": "When administered, ketone esters are known to increase blood ketone levels, which in turn are a source of energy for the brain."
+      },
+      {
+        "id": "C",
+        "text": "Both those patients administered ketone esters and those administered standard antibiotics did not have reduced inflammation when treated with medication intended to reduce fever."
+      },
+      {
+        "id": "D",
+        "text": "Those sepsis patients administered ketone esters had reduced inflammation but greater organ damage than those administered standard antibiotics."
+      }
+    ],
+    "answer": "A",
+    "explanation": "Official diagnostic answer: A. Review the source figure and choices above; this item is from the publisher's Practice Test 2 diagnostic key.",
+    "assets": [
+      {
+        "id": "question-image",
+        "type": "figure",
+        "src": "assets/questions/sat-binder-test-1-rw-m1-common-q09.png",
+        "alt": "Practice Test 2 question image (rw-m1-common question 9)",
+        "width": 756,
+        "height": 1344,
+        "sourcePage": 4
+      }
+    ],
+    "sourceType": "Princeton Review Digital SAT Premium Prep 2025",
+    "sourcePage": 4,
+    "sourceQuestion": "rw-m1-common question 9",
+    "needsReview": false,
+    "sourceNotes": "Question image and extracted text were visually verified. Answer letter/value comes from the publisher diagnostic answer key."
+  },
+  {
+    "id": "sat-binder-test-1-rw-m1-common-q10",
+    "domain": "Information and Ideas",
+    "skill": "Charts Questions",
+    "difficulty": 2,
+    "prompt": "Horses have been domesticated for thousands of years. Therefore, they show great sensitivity to the emotions of humans. Biologist Océane Liehrmann from the University of Turku, Finland, led a team of researchers in a study of horses to determine the effect of the number of handlers (either only one person or multiple people) on the horses’ responses to a novel object. The researchers determined that horses with only one handler were less reluctant to interact with the novel object than were horses with multiple handlers. For example, 45% of horses with only one handler had no reluctance when interacting with a novel object while __________\n\nWhich choice most effectively uses data from the table to complete the example?",
+    "type": "multiple-choice",
+    "choices": [
+      {
+        "id": "A",
+        "text": "13% of horses with only one handler had strong reluctance."
+      },
+      {
+        "id": "B",
+        "text": "25% of horses with multiple handlers had no reluctance."
+      },
+      {
+        "id": "C",
+        "text": "26% of horses with multiple handlers had strong reluctance."
+      },
+      {
+        "id": "D",
+        "text": "42% of horses with only one handler had mild reluctance."
+      }
+    ],
+    "answer": "B",
+    "explanation": "Official diagnostic answer: B. Review the source figure and choices above; this item is from the publisher's Practice Test 2 diagnostic key.",
+    "assets": [
+      {
+        "id": "question-image",
+        "type": "figure",
+        "src": "assets/questions/sat-binder-test-1-rw-m1-common-q10.png",
+        "alt": "Practice Test 2 question image (rw-m1-common question 10)",
+        "width": 756,
+        "height": 1553,
+        "sourcePage": 4
+      }
+    ],
+    "sourceType": "Princeton Review Digital SAT Premium Prep 2025",
+    "sourcePage": 4,
+    "sourceQuestion": "rw-m1-common question 10",
+    "needsReview": false,
+    "sourceNotes": "Question image and extracted text were visually verified. Answer letter/value comes from the publisher diagnostic answer key."
+  },
+  {
+    "id": "sat-binder-test-1-rw-m1-common-q11",
+    "domain": "Information and Ideas",
+    "skill": "Charts Questions",
+    "difficulty": 2,
+    "prompt": "India is the largest democracy in the world, with over 614 million people voting in the 2019 election for the Lok Sabha, the parliament of the federal government. In the early years of Indian independence, from the first election in 1951–52 through the eighth Lok Sabha in 1984, each election resulted in one party winning the majority of seats. However, starting with the 1989 election, the party with the largest number of seats failed to win more than half of the total seats. This trend was eventually broken by the Bharatiya Janata Party, which __________\n\nWhich choice most effectively uses data from the graph to illustrate the claim?",
+    "type": "multiple-choice",
+    "choices": [
+      {
+        "id": "A",
+        "text": "went from holding the second most seats among the top 3 parties in parliament in 2004 and 2009 to holding a majority of seats in 2014 and 2019."
+      },
+      {
+        "id": "B",
+        "text": "reached its highest percentage of seats the same year that the Indian National Congress had its lowest percentage of seats over the same time period."
+      },
+      {
+        "id": "C",
+        "text": "won a lower percentage of seats in the 2009 election than in the 2004 election."
+      },
+      {
+        "id": "D",
+        "text": "had a lower percentage of seats than the Indian National Congress in 2004 but a higher percentage of seats than the Indian National Congress in 1999."
+      }
+    ],
+    "answer": "A",
+    "explanation": "Official diagnostic answer: A. Review the source figure and choices above; this item is from the publisher's Practice Test 2 diagnostic key.",
+    "assets": [
+      {
+        "id": "question-image",
+        "type": "figure",
+        "src": "assets/questions/sat-binder-test-1-rw-m1-common-q11.png",
+        "alt": "Practice Test 2 question image (rw-m1-common question 11)",
+        "width": 1577,
+        "height": 1675,
+        "sourcePage": 5
+      }
+    ],
+    "sourceType": "Princeton Review Digital SAT Premium Prep 2025",
+    "sourcePage": 5,
+    "sourceQuestion": "rw-m1-common question 11",
+    "needsReview": false,
+    "sourceNotes": "Question image and extracted text were visually verified. Answer letter/value comes from the publisher diagnostic answer key."
+  },
+  {
+    "id": "sat-binder-test-1-rw-m1-common-q12",
+    "domain": "Information and Ideas",
+    "skill": "Charts Questions",
+    "difficulty": 2,
+    "prompt": "Fatty liver disease (FLD) occurs when excess fat builds up in the liver. While there are often few or no symptoms of FLD, if left untreated, it can lead to cirrhosis or liver cancer. Because FLD is often asymptomatic, doctors and researchers rely on indicators such as steatosis (retention of fat in the liver), fibrosis (scarring), blood glucose (sugar), serum insulin, and insulin resistance to measure and track the development of FLD. A group of researchers led by radiologist Hamid Reza Talari hypothesized that those who take vitamin B12 would experience improvements in fibrosis and insulin resistance when compared to a control group over the same time period.\n\nWhich choice best describes data from the table that support the researchers’ hypothesis?",
+    "type": "multiple-choice",
+    "choices": [
+      {
+        "id": "A",
+        "text": "Those in the control group had decreases in their steatosis values and fasting blood glucose but had increases in fibrosis values and HOMA-IR."
+      },
+      {
+        "id": "B",
+        "text": "Those in the vitamin B12 group had decreases in fibrosis values and HOMA-IR levels, whereas those in the control group had increases in these same values."
+      },
+      {
+        "id": "C",
+        "text": "Both those in the vitamin B12 group and the control group had decreases in their steatosis values."
+      },
+      {
+        "id": "D",
+        "text": "Those in the control group had a decrease in their fasting blood glucose, but those in the vitamin B12 group had an increase in their fasting blood glucose."
+      }
+    ],
+    "answer": "B",
+    "explanation": "Official diagnostic answer: B. Review the source figure and choices above; this item is from the publisher's Practice Test 2 diagnostic key.",
+    "assets": [
+      {
+        "id": "question-image",
+        "type": "figure",
+        "src": "assets/questions/sat-binder-test-1-rw-m1-common-q12.png",
+        "alt": "Practice Test 2 question image (rw-m1-common question 12)",
+        "width": 1575,
+        "height": 1897,
+        "sourcePage": 6
+      }
+    ],
+    "sourceType": "Princeton Review Digital SAT Premium Prep 2025",
+    "sourcePage": 6,
+    "sourceQuestion": "rw-m1-common question 12",
+    "needsReview": false,
+    "sourceNotes": "Question image and extracted text were visually verified. Answer letter/value comes from the publisher diagnostic answer key."
+  },
+  {
+    "id": "sat-binder-test-1-rw-m1-common-q13",
+    "domain": "Information and Ideas",
+    "skill": "Charts Questions",
+    "difficulty": 2,
+    "prompt": "The air pollution produced in an area is only one factor in that area’s air quality. Weather patterns, in particular wind and the movement of air masses, can affect the concentration of pollutants such as carbon monoxide. During a smog event that occurred in the northeastern United States in November 1966, levels of carbon monoxide were recorded in Newark, New Jersey, the origin of the smog event, as well as neighboring city New York, NY, and more distant cities such as Philadelphia, PA, and Washington, D.C. The localized nature of weather patterns during this event can be seen by comparing Newark, NJ, and New York, NY, with __________\n\nWhich choice most effectively uses data from the table to complete the statement?",
+    "type": "multiple-choice",
+    "choices": [
+      {
+        "id": "A",
+        "text": "Washington, D.C., on the 18th and the 19th."
+      },
+      {
+        "id": "B",
+        "text": "Philadelphia, PA, on the 23rd and the 25th"
+      },
+      {
+        "id": "C",
+        "text": "Philadelphia, PA, on the 24th and the 26th."
+      },
+      {
+        "id": "D",
+        "text": "Washington, D.C., on the 23rd and the 24th."
+      }
+    ],
+    "answer": "D",
+    "explanation": "Official diagnostic answer: D. Review the source figure and choices above; this item is from the publisher's Practice Test 2 diagnostic key.",
+    "assets": [
+      {
+        "id": "question-image",
+        "type": "figure",
+        "src": "assets/questions/sat-binder-test-1-rw-m1-common-q13.png",
+        "alt": "Practice Test 2 question image (rw-m1-common question 13)",
+        "width": 756,
+        "height": 1490,
+        "sourcePage": 7
+      }
+    ],
+    "sourceType": "Princeton Review Digital SAT Premium Prep 2025",
+    "sourcePage": 7,
+    "sourceQuestion": "rw-m1-common question 13",
+    "needsReview": false,
+    "sourceNotes": "Question image and extracted text were visually verified. Answer letter/value comes from the publisher diagnostic answer key."
+  },
+  {
+    "id": "sat-binder-test-1-rw-m1-common-q14",
+    "domain": "Information and Ideas",
+    "skill": "Conclusions",
+    "difficulty": 2,
+    "prompt": "Neurons respond to stimuli from sensory organs or other neurons. Learning occurs when neurons change how they respond to stimuli based on previous experience, which is a property of memory. Electrical engineers seek to replicate similar processes in their development of computer memory. Recently, research by electrical engineer Mohammad Samizadeh Nikoo has demonstrated that vanadium dioxide (VO₂) has a similar memory property to that of neurons, suggesting that __________\n\nWhich choice most logically completes the text?",
+    "type": "multiple-choice",
+    "choices": [
+      {
+        "id": "A",
+        "text": "VO₂ could be used in the development of computer memory."
+      },
+      {
+        "id": "B",
+        "text": "neurons use VO₂ when forming memories."
+      },
+      {
+        "id": "C",
+        "text": "VO₂ can learn to respond to stimuli from sensory organs."
+      },
+      {
+        "id": "D",
+        "text": "electrical engineers can now use neurons to develop computer memory."
+      }
+    ],
+    "answer": "A",
+    "explanation": "Official diagnostic answer: A. Review the source figure and choices above; this item is from the publisher's Practice Test 2 diagnostic key.",
+    "assets": [
+      {
+        "id": "question-image",
+        "type": "figure",
+        "src": "assets/questions/sat-binder-test-1-rw-m1-common-q14.png",
+        "alt": "Practice Test 2 question image (rw-m1-common question 14)",
+        "width": 756,
+        "height": 999,
+        "sourcePage": 7
+      }
+    ],
+    "sourceType": "Princeton Review Digital SAT Premium Prep 2025",
+    "sourcePage": 7,
+    "sourceQuestion": "rw-m1-common question 14",
+    "needsReview": false,
+    "sourceNotes": "Question image and extracted text were visually verified. Answer letter/value comes from the publisher diagnostic answer key."
+  },
+  {
+    "id": "sat-binder-test-1-rw-m2-easier-q09",
+    "domain": "Information and Ideas",
+    "skill": "Retrieval Questions",
+    "difficulty": 1,
+    "prompt": "The following text is from Herman Melville’s 1924 short novel Billy Budd and pertains to Edward Vere, the captain of the ship on which Billy is sailing.\n\nCaptain the Honorable Edward Fairfax Vere, to give his full title, was a bachelor of forty or thereabouts, a sailor of distinction even in a time prolific of renowned seamen. Though allied to the higher nobility, his advancement had not been altogether owing to influences connected with that circumstance. He had seen much service, been in various engagements, always acquitting himself as an officer mindful of the welfare of his men, but never tolerating an infraction of discipline; thoroughly versed in the science of his profession, and intrepid to the verge of temerity, though never injudiciously so.\n\nAccording to the text, what is true of Captain Vere?",
+    "type": "multiple-choice",
+    "choices": [
+      {
+        "id": "A",
+        "text": "He dislikes many of the men who serve under him."
+      },
+      {
+        "id": "B",
+        "text": "He is proud of his aristocratic background."
+      },
+      {
+        "id": "C",
+        "text": "He is a capable and evenhanded naval officer."
+      },
+      {
+        "id": "D",
+        "text": "He prefers navy life to life outside the navy."
+      }
+    ],
+    "answer": "C",
+    "explanation": "Official diagnostic answer: C. Review the source figure and choices above; this item is from the publisher's Practice Test 2 diagnostic key.",
+    "assets": [
+      {
+        "id": "question-image",
+        "type": "figure",
+        "src": "assets/questions/sat-binder-test-1-rw-m2-easier-q09.png",
+        "alt": "Practice Test 2 question image (rw-m2-easier question 9)",
+        "width": 756,
+        "height": 1103,
+        "sourcePage": 14
+      }
+    ],
+    "sourceType": "Princeton Review Digital SAT Premium Prep 2025",
+    "sourcePage": 14,
+    "sourceQuestion": "rw-m2-easier question 9",
+    "needsReview": false,
+    "sourceNotes": "Question image and extracted text were visually verified. Answer letter/value comes from the publisher diagnostic answer key."
+  },
+  {
+    "id": "sat-binder-test-1-rw-m2-easier-q10",
+    "domain": "Information and Ideas",
+    "skill": "Claims Questions",
+    "difficulty": 1,
+    "prompt": "I Remember, I Remember is an 1844 poem by Thomas Hood. The poem conveys the speaker’s sadness that his life as an adult does not compare favorably to his childhood: __________\n\nWhich quotation from the poem most effectively illustrates the claim?",
+    "type": "multiple-choice",
+    "choices": [
+      {
+        "id": "A",
+        "text": "“The lilacs where the robin built, / And where my brother set / The laburnum on his birthday,— / The tree is living yet!”"
+      },
+      {
+        "id": "B",
+        "text": "“I remember, I remember, / The house where I was born, / The little window where the sun / Came peeping in at morn.”"
+      },
+      {
+        "id": "C",
+        "text": "“I remember, I remember, / The roses, red and white, / The vi’lets, and the lily-cups, / Those flowers made of light!”"
+      },
+      {
+        "id": "D",
+        "text": "“It was a childish ignorance,/ But now ‘tis little joy / To know I’m farther off from heav’n / Than when I was a boy.”"
+      }
+    ],
+    "answer": "D",
+    "explanation": "Official diagnostic answer: D. Review the source figure and choices above; this item is from the publisher's Practice Test 2 diagnostic key.",
+    "assets": [
+      {
+        "id": "question-image",
+        "type": "figure",
+        "src": "assets/questions/sat-binder-test-1-rw-m2-easier-q10.png",
+        "alt": "Practice Test 2 question image (rw-m2-easier question 10)",
+        "width": 756,
+        "height": 999,
+        "sourcePage": 15
+      }
+    ],
+    "sourceType": "Princeton Review Digital SAT Premium Prep 2025",
+    "sourcePage": 15,
+    "sourceQuestion": "rw-m2-easier question 10",
+    "needsReview": false,
+    "sourceNotes": "Question image and extracted text were visually verified. Answer letter/value comes from the publisher diagnostic answer key."
+  },
+  {
+    "id": "sat-binder-test-1-rw-m2-easier-q11",
+    "domain": "Information and Ideas",
+    "skill": "Claims Questions",
+    "difficulty": 1,
+    "prompt": "Dracula is an 1897 novel by Bram Stoker. In the story, English lawyer Jonathan Harker has traveled to Transylvania to conduct business with Count Dracula at his castle. In his journal, Harker conveys his belief that he has become Dracula’s prisoner: __________\n\nWhich quotation from Jonathan Harker’s journal most effectively illustrates the claim?",
+    "type": "multiple-choice",
+    "choices": [
+      {
+        "id": "A",
+        "text": "“What manner of man is this, or what manner of creature, is it in the semblance of man? I feel the dread of this horrible place overpowering me.”"
+      },
+      {
+        "id": "B",
+        "text": "“My lamp seemed to be of little effect in the brilliant moonlight, but I was glad to have it with me, for there was a dread loneliness in the place which chilled my heart and made my nerves tremble.”"
+      },
+      {
+        "id": "C",
+        "text": "“I start at my own shadow, and am full of all sorts of horrible imaginings. God knows that there is ground for my terrible fear in this accursed place!”"
+      },
+      {
+        "id": "D",
+        "text": "“I rushed up and down the stairs, trying every door and peering out of every window I could find, but after a little the conviction of my helplessness overpowered all other feelings.”"
+      }
+    ],
+    "answer": "D",
+    "explanation": "Official diagnostic answer: D. Review the source figure and choices above; this item is from the publisher's Practice Test 2 diagnostic key.",
+    "assets": [
+      {
+        "id": "question-image",
+        "type": "figure",
+        "src": "assets/questions/sat-binder-test-1-rw-m2-easier-q11.png",
+        "alt": "Practice Test 2 question image (rw-m2-easier question 11)",
+        "width": 756,
+        "height": 1225,
+        "sourcePage": 15
+      }
+    ],
+    "sourceType": "Princeton Review Digital SAT Premium Prep 2025",
+    "sourcePage": 15,
+    "sourceQuestion": "rw-m2-easier question 11",
+    "needsReview": false,
+    "sourceNotes": "Question image and extracted text were visually verified. Answer letter/value comes from the publisher diagnostic answer key."
+  },
+  {
+    "id": "sat-binder-test-1-rw-m2-easier-q12",
+    "domain": "Information and Ideas",
+    "skill": "Claims Questions",
+    "difficulty": 1,
+    "prompt": "“In Flanders Fields” is a 1915 poem written by Lieutenant-Colonel John McCrae, a Canadian military officer who died three years later in World War I. The poem is meant to be a plea towards others to join the war effort, as is evident by the following lines: __________\n\nWhich quotation from “In Flanders Fields” most effectively illustrates the claim?",
+    "type": "multiple-choice",
+    "choices": [
+      {
+        "id": "A",
+        "text": "“Loved and were loved and now we lie / In Flanders fields”"
+      },
+      {
+        "id": "B",
+        "text": "“In Flanders fields the poppies blow / Between the crosses row on row”"
+      },
+      {
+        "id": "C",
+        "text": "“To you from failing hands we throw / The torch; be yours to hold it high”"
+      },
+      {
+        "id": "D",
+        "text": "“We are the dead. Short days ago / We lived, felt dawn, saw sunset glow”"
+      }
+    ],
+    "answer": "C",
+    "explanation": "Official diagnostic answer: C. Review the source figure and choices above; this item is from the publisher's Practice Test 2 diagnostic key.",
+    "assets": [
+      {
+        "id": "question-image",
+        "type": "figure",
+        "src": "assets/questions/sat-binder-test-1-rw-m2-easier-q12.png",
+        "alt": "Practice Test 2 question image (rw-m2-easier question 12)",
+        "width": 756,
+        "height": 896,
+        "sourcePage": 16
+      }
+    ],
+    "sourceType": "Princeton Review Digital SAT Premium Prep 2025",
+    "sourcePage": 16,
+    "sourceQuestion": "rw-m2-easier question 12",
+    "needsReview": false,
+    "sourceNotes": "Question image and extracted text were visually verified. Answer letter/value comes from the publisher diagnostic answer key."
+  },
+  {
+    "id": "sat-binder-test-1-rw-m2-easier-q13",
+    "domain": "Information and Ideas",
+    "skill": "Conclusions",
+    "difficulty": 1,
+    "prompt": "The curator of a museum claims that a dress in his possession was worn by the wife of one of Lincoln’s generals at the presidential inauguration in 1865. Radiocarbon dating, which dates organic material with an error range of about thirty years in either direction, was performed on the sleeves of the dress, revealing that they date back to the 1975–2005 period. If both the curator’s claim and the radiocarbon dating analysis are correct, that would suggest that __________\n\nWhich choice most logically completes the text?",
+    "type": "multiple-choice",
+    "choices": [
+      {
+        "id": "A",
+        "text": "the dress was made sometime between 1835 and 1895 and then damaged sometime after 1975."
+      },
+      {
+        "id": "B",
+        "text": "vintage dresses are more commonly recovered from the late twentieth and early twenty-first centuries than from the mid-nineteenth century."
+      },
+      {
+        "id": "C",
+        "text": "over one hundred years after the dress was made, its sleeves were replaced."
+      },
+      {
+        "id": "D",
+        "text": "the dress was made from material different from that used for most dresses in the nineteenth century."
+      }
+    ],
+    "answer": "C",
+    "explanation": "Official diagnostic answer: C. Review the source figure and choices above; this item is from the publisher's Practice Test 2 diagnostic key.",
+    "assets": [
+      {
+        "id": "question-image",
+        "type": "figure",
+        "src": "assets/questions/sat-binder-test-1-rw-m2-easier-q13.png",
+        "alt": "Practice Test 2 question image (rw-m2-easier question 13)",
+        "width": 756,
+        "height": 1068,
+        "sourcePage": 16
+      }
+    ],
+    "sourceType": "Princeton Review Digital SAT Premium Prep 2025",
+    "sourcePage": 16,
+    "sourceQuestion": "rw-m2-easier question 13",
+    "needsReview": false,
+    "sourceNotes": "Question image and extracted text were visually verified. Answer letter/value comes from the publisher diagnostic answer key."
+  },
+  {
+    "id": "sat-binder-test-1-rw-m2-easier-q14",
+    "domain": "Information and Ideas",
+    "skill": "Conclusions",
+    "difficulty": 1,
+    "prompt": "In the early 1900s, paleontologists largely believed that there were no undocumented prehistoric aquatic species that had survived to the present day because it would be impossible for such a species to have enough animals to sustain a breeding population while escaping detection in the modern era. However, a coelacanth, a large lobe-finned fish universally believed by scientists to have gone extinct sixty-six million years ago, was found off the coast of South Africa as recently as 1938. This event may suggest that __________\n\nWhich choice most logically completes the text?",
+    "type": "multiple-choice",
+    "choices": [
+      {
+        "id": "A",
+        "text": "fewer coelacanths are required to sustain a breeding population than was previously thought."
+      },
+      {
+        "id": "B",
+        "text": "it is possible for a prehistoric species to go undiscovered for longer than expected."
+      },
+      {
+        "id": "C",
+        "text": "the scientists who determined that the coelacanth was extinct ignored critical evidence."
+      },
+      {
+        "id": "D",
+        "text": "the same environmental conditions that eliminated the dinosaurs nearly killed off the coelacanths."
+      }
+    ],
+    "answer": "B",
+    "explanation": "Official diagnostic answer: B. Review the source figure and choices above; this item is from the publisher's Practice Test 2 diagnostic key.",
+    "assets": [
+      {
+        "id": "question-image",
+        "type": "figure",
+        "src": "assets/questions/sat-binder-test-1-rw-m2-easier-q14.png",
+        "alt": "Practice Test 2 question image (rw-m2-easier question 14)",
+        "width": 756,
+        "height": 1103,
+        "sourcePage": 17
+      }
+    ],
+    "sourceType": "Princeton Review Digital SAT Premium Prep 2025",
+    "sourcePage": 17,
+    "sourceQuestion": "rw-m2-easier question 14",
+    "needsReview": false,
+    "sourceNotes": "Question image and extracted text were visually verified. Answer letter/value comes from the publisher diagnostic answer key."
+  },
+  {
+    "id": "sat-binder-test-1-rw-m2-easier-q15",
+    "domain": "Information and Ideas",
+    "skill": "Conclusions",
+    "difficulty": 1,
+    "prompt": "The door-in-the-face technique involves initially making an outrageous or unappealing request or offer, which the other person is highly likely to refuse, then following up with a more reasonable one. The subject is more likely to look favorably upon this second request or offer because it seems acceptable compared to the initial proposition. So, if an employee wants the best raise in annual salary from her boss that she can get, she might succeed by asking for a __________\n\nWhich choice most logically completes the text?",
+    "type": "multiple-choice",
+    "choices": [
+      {
+        "id": "A",
+        "text": "50% raise, then asking for a 5% raise."
+      },
+      {
+        "id": "B",
+        "text": "3% raise, then asking for a 2% raise."
+      },
+      {
+        "id": "C",
+        "text": "10% raise, then asking for a 50% raise."
+      },
+      {
+        "id": "D",
+        "text": "3% raise, then asking for a 3% raise again."
+      }
+    ],
+    "answer": "A",
+    "explanation": "Official diagnostic answer: A. Review the source figure and choices above; this item is from the publisher's Practice Test 2 diagnostic key.",
+    "assets": [
+      {
+        "id": "question-image",
+        "type": "figure",
+        "src": "assets/questions/sat-binder-test-1-rw-m2-easier-q15.png",
+        "alt": "Practice Test 2 question image (rw-m2-easier question 15)",
+        "width": 756,
+        "height": 861,
+        "sourcePage": 17
+      }
+    ],
+    "sourceType": "Princeton Review Digital SAT Premium Prep 2025",
+    "sourcePage": 17,
+    "sourceQuestion": "rw-m2-easier question 15",
+    "needsReview": false,
+    "sourceNotes": "Question image and extracted text were visually verified. Answer letter/value comes from the publisher diagnostic answer key."
+  },
+  {
+    "id": "sat-binder-test-1-rw-m2-easier-q16",
+    "domain": "Information and Ideas",
+    "skill": "Conclusions",
+    "difficulty": 1,
+    "prompt": "The North American Free Trade Agreement (NAFTA) was an agreement among the United States, Canada, and Mexico that was in effect between 1994 and 2020. During this time, the number of manufacturing jobs in the United States and Canada declined, but the total number of manufacturing jobs in the countries covered by NAFTA increased. This suggests that, between 1994 and 2020, __________\n\nWhich choice most logically completes the text?",
+    "type": "multiple-choice",
+    "choices": [
+      {
+        "id": "A",
+        "text": "the number of manufacturing jobs in Mexico increased by a greater amount than the combined decreases in the United States and Canada."
+      },
+      {
+        "id": "B",
+        "text": "NAFTA made it more difficult for manufacturers to establish factories in the United States and Canada."
+      },
+      {
+        "id": "C",
+        "text": "the cost of manufacturing goods in the area covered by NAFTA decreased."
+      },
+      {
+        "id": "D",
+        "text": "complex goods, such as automobiles and electronics, were increasingly manufactured in the United States, Canada, and Mexico."
+      }
+    ],
+    "answer": "A",
+    "explanation": "Official diagnostic answer: A. Review the source figure and choices above; this item is from the publisher's Practice Test 2 diagnostic key.",
+    "assets": [
+      {
+        "id": "question-image",
+        "type": "figure",
+        "src": "assets/questions/sat-binder-test-1-rw-m2-easier-q16.png",
+        "alt": "Practice Test 2 question image (rw-m2-easier question 16)",
+        "width": 756,
+        "height": 1103,
+        "sourcePage": 18
+      }
+    ],
+    "sourceType": "Princeton Review Digital SAT Premium Prep 2025",
+    "sourcePage": 18,
+    "sourceQuestion": "rw-m2-easier question 16",
+    "needsReview": false,
+    "sourceNotes": "Question image and extracted text were visually verified. Answer letter/value comes from the publisher diagnostic answer key."
+  },
+  {
+    "id": "sat-binder-test-1-rw-m2-harder-q09",
+    "domain": "Information and Ideas",
+    "skill": "Retrieval Questions",
+    "difficulty": 3,
+    "prompt": "The following text is adapted from Charles Dickens’s 1859 novel A Tale of Two Cities. Mr. Lorry, traveling to France on business, is delivering some news to Miss Manette, the daughter of one of his friends.\n\n“Miss Manette, I am a man of business. I have a business charge to acquit myself of. In your reception of it, don’t heed me any more than if I was a speaking machine—truly, I am not much else. I will, with your leave, relate to you, miss, the story of one of our customers.”\n\n“Story!”\n\nHe seemed wilfully to mistake the word she had repeated, when he added, in a hurry, “Yes, customers; in the banking business we usually call our connection our customers. He was a French gentleman; a scientific gentleman; a man of great acquirements—a Doctor.”\n\nBased on the text, how does Mr. Lorry interact with Miss Manette?",
+    "type": "multiple-choice",
+    "choices": [
+      {
+        "id": "A",
+        "text": "Although he claims to be uninterested in the news, he makes purposeful decisions during his conversation with Miss Manette."
+      },
+      {
+        "id": "B",
+        "text": "Although he is a professional, he misunderstands Miss Manette’s interjection."
+      },
+      {
+        "id": "C",
+        "text": "Although he acts as if the news has no importance to him, he cannot keep the details of the story accurate."
+      },
+      {
+        "id": "D",
+        "text": "Although he is unthinkingly following directions, he is flustered by Miss Manette’s rudeness."
+      }
+    ],
+    "answer": "A",
+    "explanation": "Official diagnostic answer: A. Review the source figure and choices above; this item is from the publisher's Practice Test 2 diagnostic key.",
+    "assets": [
+      {
+        "id": "question-image",
+        "type": "figure",
+        "src": "assets/questions/sat-binder-test-1-rw-m2-harder-q09.png",
+        "alt": "Practice Test 2 question image (rw-m2-harder question 9)",
+        "width": 756,
+        "height": 1457,
+        "sourcePage": 24
+      }
+    ],
+    "sourceType": "Princeton Review Digital SAT Premium Prep 2025",
+    "sourcePage": 24,
+    "sourceQuestion": "rw-m2-harder question 9",
+    "needsReview": false,
+    "sourceNotes": "Question image and extracted text were visually verified. Answer letter/value comes from the publisher diagnostic answer key."
+  },
+  {
+    "id": "sat-binder-test-1-rw-m2-harder-q10",
+    "domain": "Information and Ideas",
+    "skill": "Claims Questions",
+    "difficulty": 3,
+    "prompt": "Nisga’a poet Jordan Abel addresses the experiences of Indigenous people as European settlers and their descendants took over North America. Abel’s first book of poetry, The Place of Scraps (2014), uses Totem Poles, a 1929 book by anthropologist Marius Barbeau, as source material. Abel claims that his use of Barbeau’s text shows how anthropological texts can be used to portray Indigenous people differently based on the author.\n\nWhich finding, if true, would most directly support Abel’s claim?",
+    "type": "multiple-choice",
+    "choices": [
+      {
+        "id": "A",
+        "text": "Abel intersperses Barbeau’s text with images of Indigenous people and personal anecdotes written in the third person."
+      },
+      {
+        "id": "B",
+        "text": "Abel explains that Barbeau presented two chiefs feuding over constructing the largest pole as unreasonable, yet other anthropologists claim that such arguments between chiefs of Indigenous tribes were important political exchanges."
+      },
+      {
+        "id": "C",
+        "text": "The Place of Scraps won the Dorothy Livesay Poetry Prize and was a finalist for the Gerald Lampert Award."
+      },
+      {
+        "id": "D",
+        "text": "Before Abel wrote The Place of Scraps, other Indigenous writers had used texts from anthropologists in their works."
+      }
+    ],
+    "answer": "B",
+    "explanation": "Official diagnostic answer: B. Review the source figure and choices above; this item is from the publisher's Practice Test 2 diagnostic key.",
+    "assets": [
+      {
+        "id": "question-image",
+        "type": "figure",
+        "src": "assets/questions/sat-binder-test-1-rw-m2-harder-q10.png",
+        "alt": "Practice Test 2 question image (rw-m2-harder question 10)",
+        "width": 756,
+        "height": 1294,
+        "sourcePage": 25
+      }
+    ],
+    "sourceType": "Princeton Review Digital SAT Premium Prep 2025",
+    "sourcePage": 25,
+    "sourceQuestion": "rw-m2-harder question 10",
+    "needsReview": false,
+    "sourceNotes": "Question image and extracted text were visually verified. Answer letter/value comes from the publisher diagnostic answer key."
+  },
+  {
+    "id": "sat-binder-test-1-rw-m2-harder-q11",
+    "domain": "Information and Ideas",
+    "skill": "Claims Questions",
+    "difficulty": 3,
+    "prompt": "In Japan, adults may be legally adopted into a family. The practice may have started as early as the 13th century CE, but widespread adult adoption dates from the Tokugawa shogunate, a military government which began around 1600 CE. During this time, members of the ruling class would adopt competent adult males, who would then ensure that the family’s political and business interests would be sustained. While adult adoption remains a way for individuals to improve their economic and social status, the practice has its detractors as well, with some researchers arguing that it can lead to issues with the adoptee developing a firm sense of identity in his or her new environment.\n\nWhich of the following best illustrates the researchers’ claim?",
+    "type": "multiple-choice",
+    "choices": [
+      {
+        "id": "A",
+        "text": "Adult adoptees are entitled to an inheritance from their adoptive families, strengthening the ties between them, which further encourages the adult adoptee to work to enhance the new family’s prosperity."
+      },
+      {
+        "id": "B",
+        "text": "While most adult adoptees typically report improved financial status after adoption, many of those same adoptees also experience higher-than-normal rates of depression and anxiety."
+      },
+      {
+        "id": "C",
+        "text": "Elsewhere in East Asia, such as in China and Korea, families have a traditional obligation to adopt blood relatives who lack more closely-related living kin, but adoptions in Japan are almost exclusively between those with no blood relations."
+      },
+      {
+        "id": "D",
+        "text": "Families with ancestors who were adult adoptees do not distinguish between those ancestors who were members of the family by birth and those who were adopted into the family."
+      }
+    ],
+    "answer": "B",
+    "explanation": "Official diagnostic answer: B. Review the source figure and choices above; this item is from the publisher's Practice Test 2 diagnostic key.",
+    "assets": [
+      {
+        "id": "question-image",
+        "type": "figure",
+        "src": "assets/questions/sat-binder-test-1-rw-m2-harder-q11.png",
+        "alt": "Practice Test 2 question image (rw-m2-harder question 11)",
+        "width": 756,
+        "height": 1551,
+        "sourcePage": 25
+      }
+    ],
+    "sourceType": "Princeton Review Digital SAT Premium Prep 2025",
+    "sourcePage": 25,
+    "sourceQuestion": "rw-m2-harder question 11",
+    "needsReview": false,
+    "sourceNotes": "Question image and extracted text were visually verified. Answer letter/value comes from the publisher diagnostic answer key."
+  },
+  {
+    "id": "sat-binder-test-1-rw-m2-harder-q12",
+    "domain": "Information and Ideas",
+    "skill": "Claims Questions",
+    "difficulty": 3,
+    "prompt": "Neurologists have hypothesized that tau protein, the mutation of which is known to cause Alzheimer’s disease, is key to controlling glutamate receptors, which are involved in the production of memories. Tau protein does not directly affect glutamate receptors but does inhibit NSF, an enzyme found in the brain.\n\nWhich finding, if true, would most directly support the neurologists’ hypothesis?",
+    "type": "multiple-choice",
+    "choices": [
+      {
+        "id": "A",
+        "text": "Other studies have shown that an excess of NSF has been shown to lead to abnormal glutamate receptor behavior."
+      },
+      {
+        "id": "B",
+        "text": "Patients with Alzheimer’s disease have been found to have an excess of NSF in their brains during autopsies."
+      },
+      {
+        "id": "C",
+        "text": "Neurologists do not yet know what causes mutations of tau protein; one hypothesis is that disease leads to these mutations."
+      },
+      {
+        "id": "D",
+        "text": "Other types of dementia are not caused by mutations in tau protein but rather physical damage to the brain."
+      }
+    ],
+    "answer": "A",
+    "explanation": "Official diagnostic answer: A. Review the source figure and choices above; this item is from the publisher's Practice Test 2 diagnostic key.",
+    "assets": [
+      {
+        "id": "question-image",
+        "type": "figure",
+        "src": "assets/questions/sat-binder-test-1-rw-m2-harder-q12.png",
+        "alt": "Practice Test 2 question image (rw-m2-harder question 12)",
+        "width": 756,
+        "height": 1068,
+        "sourcePage": 26
+      }
+    ],
+    "sourceType": "Princeton Review Digital SAT Premium Prep 2025",
+    "sourcePage": 26,
+    "sourceQuestion": "rw-m2-harder question 12",
+    "needsReview": false,
+    "sourceNotes": "Question image and extracted text were visually verified. Answer letter/value comes from the publisher diagnostic answer key."
+  },
+  {
+    "id": "sat-binder-test-1-rw-m2-harder-q13",
+    "domain": "Information and Ideas",
+    "skill": "Conclusions",
+    "difficulty": 3,
+    "prompt": "From 1634 to 1637 CE, tulips in the Dutch Republic sold for extraordinarily high prices, sometimes as much as 10 times the annual wage of a skilled worker, in a phenomenon known as tulip mania. Some economists, such as Charles Kindleberger, argue that tulip mania was the first speculative bubble in history, during which the prices of a commodity (in this case tulip bulbs) do not follow the typical rules of economics. Others, such as Peter Garber, believe that tulip mania is explainable by fundamental economic concepts such as supply and demand.\n\nWhich finding, if true, would most directly support Garber’s argument?",
+    "type": "multiple-choice",
+    "choices": [
+      {
+        "id": "A",
+        "text": "Tulips during this period were very rare, and demand for tulips was fueled in part by the ability to reproduce and sell bulbs, enabling some purchasers to make profits."
+      },
+      {
+        "id": "B",
+        "text": "Some common bulbs, such as the Witte Croonen bulb, saw price increases as dramatic as those of rare bulbs."
+      },
+      {
+        "id": "C",
+        "text": "The prices of tulip bulbs were much higher than could be supported by the banking system in place in 17th century Europe."
+      },
+      {
+        "id": "D",
+        "text": "The tulip mania led to an increase of the supply of gold coins in the Dutch Republic."
+      }
+    ],
+    "answer": "A",
+    "explanation": "Official diagnostic answer: A. Review the source figure and choices above; this item is from the publisher's Practice Test 2 diagnostic key.",
+    "assets": [
+      {
+        "id": "question-image",
+        "type": "figure",
+        "src": "assets/questions/sat-binder-test-1-rw-m2-harder-q13.png",
+        "alt": "Practice Test 2 question image (rw-m2-harder question 13)",
+        "width": 756,
+        "height": 1241,
+        "sourcePage": 26
+      }
+    ],
+    "sourceType": "Princeton Review Digital SAT Premium Prep 2025",
+    "sourcePage": 26,
+    "sourceQuestion": "rw-m2-harder question 13",
+    "needsReview": false,
+    "sourceNotes": "Question image and extracted text were visually verified. Answer letter/value comes from the publisher diagnostic answer key."
+  },
+  {
+    "id": "sat-binder-test-1-rw-m2-harder-q14",
+    "domain": "Information and Ideas",
+    "skill": "Conclusions",
+    "difficulty": 3,
+    "prompt": "The use of pesticides in agriculture poses risks to both humans and the environment, so finding alternative methods of pest control is an important area of research. The use of ants to control pests in China goes back to at least the 4th century CE, and farmers in places such as Kenya, Ghana, and Canada have also used ants to control various organisms. Entomologist Diego Anjos and others have identified several positive effects (services) of ants, such as reducing both the abundance of non-honeydew-producing species and plant damage. However, ants also have negative effects, such as increasing the abundance of honeydew-producing species and spreading pathogens, suggesting that __________\n\nWhich choice most logically completes the text?",
+    "type": "multiple-choice",
+    "choices": [
+      {
+        "id": "A",
+        "text": "ants may have unintended environmental consequences when used to control pests in certain circumstances."
+      },
+      {
+        "id": "B",
+        "text": "other species may also be effective in providing services to farmers."
+      },
+      {
+        "id": "C",
+        "text": "ants as pest control provide numerous services without serious ramifications."
+      },
+      {
+        "id": "D",
+        "text": "scientists do not yet know whether using ants to control organisms is a net positive in any situation."
+      }
+    ],
+    "answer": "A",
+    "explanation": "Official diagnostic answer: A. Review the source figure and choices above; this item is from the publisher's Practice Test 2 diagnostic key.",
+    "assets": [
+      {
+        "id": "question-image",
+        "type": "figure",
+        "src": "assets/questions/sat-binder-test-1-rw-m2-harder-q14.png",
+        "alt": "Practice Test 2 question image (rw-m2-harder question 14)",
+        "width": 756,
+        "height": 1241,
+        "sourcePage": 27
+      }
+    ],
+    "sourceType": "Princeton Review Digital SAT Premium Prep 2025",
+    "sourcePage": 27,
+    "sourceQuestion": "rw-m2-harder question 14",
+    "needsReview": false,
+    "sourceNotes": "Question image and extracted text were visually verified. Answer letter/value comes from the publisher diagnostic answer key."
+  },
+  {
+    "id": "sat-binder-test-1-rw-m2-harder-q15",
+    "domain": "Information and Ideas",
+    "skill": "Conclusions",
+    "difficulty": 3,
+    "prompt": "Among many animals, such as mice, fruit flies, and humans, each odor that an animal can smell is detected by a particular kind of sensory neuron that has a particular kind of receptor; eliminating that receptor through illness or genetic manipulation results in the inability to smell that odor. A team led by neurobiologist Margo Herre tested whether mosquitoes modified to lack the receptor for smelling blood would be unable to find humans. These mosquitoes were still able to find humans, suggesting that __________\n\nWhich choice most logically completes the text?",
+    "type": "multiple-choice",
+    "choices": [
+      {
+        "id": "A",
+        "text": "mosquitoes without damage to their odor receptors are more capable of finding humans than those with damage."
+      },
+      {
+        "id": "B",
+        "text": "like mice, fruit flies, and humans, individual mosquitoes with damage to particular receptors will be unable to detect certain odors."
+      },
+      {
+        "id": "C",
+        "text": "researchers cannot assume that mosquitoes have the same correlation between receptors and the ability to sense certain odors that mice, fruit flies, and humans have."
+      },
+      {
+        "id": "D",
+        "text": "researchers can assume that interfering with mosquitoes’ odor receptors is a potential way to prevent mosquitoes from feeding on humans."
+      }
+    ],
+    "answer": "C",
+    "explanation": "Official diagnostic answer: C. Review the source figure and choices above; this item is from the publisher's Practice Test 2 diagnostic key.",
+    "assets": [
+      {
+        "id": "question-image",
+        "type": "figure",
+        "src": "assets/questions/sat-binder-test-1-rw-m2-harder-q15.png",
+        "alt": "Practice Test 2 question image (rw-m2-harder question 15)",
+        "width": 756,
+        "height": 1206,
+        "sourcePage": 27
+      }
+    ],
+    "sourceType": "Princeton Review Digital SAT Premium Prep 2025",
+    "sourcePage": 27,
+    "sourceQuestion": "rw-m2-harder question 15",
+    "needsReview": false,
+    "sourceNotes": "Question image and extracted text were visually verified. Answer letter/value comes from the publisher diagnostic answer key."
+  },
+  {
+    "id": "sat-binder-test-1-rw-m2-harder-q16",
+    "domain": "Information and Ideas",
+    "skill": "Conclusions",
+    "difficulty": 3,
+    "prompt": "The North American Free Trade Agreement (NAFTA) was an agreement among the United States, Canada, and Mexico that was in effect between 1994 and 2020. During this time, the number of manufacturing jobs in the United States and Canada declined, but the total number of manufacturing jobs in the countries covered by NAFTA increased. This suggests that, between 1994 and 2020, __________\n\nWhich choice most logically completes the text?",
+    "type": "multiple-choice",
+    "choices": [
+      {
+        "id": "A",
+        "text": "the number of manufacturing jobs in Mexico increased by a greater amount than the combined decreases in the United States and Canada."
+      },
+      {
+        "id": "B",
+        "text": "NAFTA made it more difficult for manufacturers to establish factories in the United States and Canada."
+      },
+      {
+        "id": "C",
+        "text": "the cost of manufacturing goods in the area covered by NAFTA decreased."
+      },
+      {
+        "id": "D",
+        "text": "complex goods, such as automobiles and electronics, were increasingly manufactured in the United States, Canada, and Mexico."
+      }
+    ],
+    "answer": "A",
+    "explanation": "Official diagnostic answer: A. Review the source figure and choices above; this item is from the publisher's Practice Test 2 diagnostic key.",
+    "assets": [
+      {
+        "id": "question-image",
+        "type": "figure",
+        "src": "assets/questions/sat-binder-test-1-rw-m2-harder-q16.png",
+        "alt": "Practice Test 2 question image (rw-m2-harder question 16)",
+        "width": 756,
+        "height": 1103,
+        "sourcePage": 28
+      }
+    ],
+    "sourceType": "Princeton Review Digital SAT Premium Prep 2025",
+    "sourcePage": 28,
+    "sourceQuestion": "rw-m2-harder question 16",
+    "needsReview": false,
+    "sourceNotes": "Question image and extracted text were visually verified. Answer letter/value comes from the publisher diagnostic answer key."
+  }
+]

@@ -1,0 +1,794 @@
+[
+  {
+    "id": "sat-binder-test-1-rw-m1-common-q15",
+    "domain": "Standard English Conventions",
+    "skill": "Pronouns",
+    "difficulty": 2,
+    "prompt": "Uruguayan-Spanish author Carmen Posadas has written the children’s books Juego de Niños (Child’s Play) and La Cinta Roja (The Red Ribbon). Currently, __________ available in over fifty countries and thirty languages.\n\nWhich choice completes the text so that it conforms to the conventions of Standard English?",
+    "type": "multiple-choice",
+    "choices": [
+      {
+        "id": "A",
+        "text": "some are"
+      },
+      {
+        "id": "B",
+        "text": "this is"
+      },
+      {
+        "id": "C",
+        "text": "they are"
+      },
+      {
+        "id": "D",
+        "text": "it is"
+      }
+    ],
+    "answer": "C",
+    "explanation": "Official diagnostic answer: C. Review the source figure and choices above; this item is from the publisher's Practice Test 2 diagnostic key.",
+    "assets": [
+      {
+        "id": "question-image",
+        "type": "figure",
+        "src": "assets/questions/sat-binder-test-1-rw-m1-common-q15.png",
+        "alt": "Practice Test 2 question image (rw-m1-common question 15)",
+        "width": 756,
+        "height": 723,
+        "sourcePage": 8
+      }
+    ],
+    "sourceType": "Princeton Review Digital SAT Premium Prep 2025",
+    "sourcePage": 8,
+    "sourceQuestion": "rw-m1-common question 15",
+    "needsReview": false,
+    "sourceNotes": "Question image and extracted text were visually verified. Answer letter/value comes from the publisher diagnostic answer key."
+  },
+  {
+    "id": "sat-binder-test-1-rw-m1-common-q16",
+    "domain": "Standard English Conventions",
+    "skill": "Who or What Are You Talking About?",
+    "difficulty": 2,
+    "prompt": "During a meeting, a group of twelve young deaf people shared their feelings of isolation and their desire for support. In 1988, the group worked together to form Action Deaf Youth, an __________  provides services and programs for deaf children and youth throughout Northern Ireland.\n\nWhich choice completes the text so that it conforms to the conventions of Standard English?",
+    "type": "multiple-choice",
+    "choices": [
+      {
+        "id": "A",
+        "text": "organization, that"
+      },
+      {
+        "id": "B",
+        "text": "organization"
+      },
+      {
+        "id": "C",
+        "text": "organization that"
+      },
+      {
+        "id": "D",
+        "text": "organization,"
+      }
+    ],
+    "answer": "C",
+    "explanation": "Official diagnostic answer: C. Review the source figure and choices above; this item is from the publisher's Practice Test 2 diagnostic key.",
+    "assets": [
+      {
+        "id": "question-image",
+        "type": "figure",
+        "src": "assets/questions/sat-binder-test-1-rw-m1-common-q16.png",
+        "alt": "Practice Test 2 question image (rw-m1-common question 16)",
+        "width": 756,
+        "height": 792,
+        "sourcePage": 8
+      }
+    ],
+    "sourceType": "Princeton Review Digital SAT Premium Prep 2025",
+    "sourcePage": 8,
+    "sourceQuestion": "rw-m1-common question 16",
+    "needsReview": false,
+    "sourceNotes": "Question image and extracted text were visually verified. Answer letter/value comes from the publisher diagnostic answer key."
+  },
+  {
+    "id": "sat-binder-test-1-rw-m1-common-q17",
+    "domain": "Standard English Conventions",
+    "skill": "Verb Forms in Complete Sentences",
+    "difficulty": 2,
+    "prompt": "In 1986, after a 56-day expedition, Ann Bancroft became the first woman to reach the North Pole. Her experience as a physical education teacher and her leadership of the first all-female team to cross the ice to the South __________  her to create a foundation that supports girls in pursuing their dreams.\n\nWhich choice completes the text so that it conforms to the conventions of Standard English?",
+    "type": "multiple-choice",
+    "choices": [
+      {
+        "id": "A",
+        "text": "Pole to inspire"
+      },
+      {
+        "id": "B",
+        "text": "Pole that inspired"
+      },
+      {
+        "id": "C",
+        "text": "Pole, inspiring"
+      },
+      {
+        "id": "D",
+        "text": "Pole inspired"
+      }
+    ],
+    "answer": "D",
+    "explanation": "Official diagnostic answer: D. Review the source figure and choices above; this item is from the publisher's Practice Test 2 diagnostic key.",
+    "assets": [
+      {
+        "id": "question-image",
+        "type": "figure",
+        "src": "assets/questions/sat-binder-test-1-rw-m1-common-q17.png",
+        "alt": "Practice Test 2 question image (rw-m1-common question 17)",
+        "width": 756,
+        "height": 792,
+        "sourcePage": 8
+      }
+    ],
+    "sourceType": "Princeton Review Digital SAT Premium Prep 2025",
+    "sourcePage": 8,
+    "sourceQuestion": "rw-m1-common question 17",
+    "needsReview": false,
+    "sourceNotes": "Question image and extracted text were visually verified. Answer letter/value comes from the publisher diagnostic answer key."
+  },
+  {
+    "id": "sat-binder-test-1-rw-m1-common-q18",
+    "domain": "Standard English Conventions",
+    "skill": "How to Connect Independent Clauses",
+    "difficulty": 2,
+    "prompt": "American artist Simone Leigh creates art in various mediums, including sculptures, video, and __________ the themes and images in her artwork, Leigh has emphasized that Black women are her primary audience and that they would be familiar with the allusions in her work.\n\nWhich choice completes the text so that it conforms to the conventions of Standard English?",
+    "type": "multiple-choice",
+    "choices": [
+      {
+        "id": "A",
+        "text": "performance. Discussing"
+      },
+      {
+        "id": "B",
+        "text": "performance discussing"
+      },
+      {
+        "id": "C",
+        "text": "performance and discussing"
+      },
+      {
+        "id": "D",
+        "text": "performance, discussing"
+      }
+    ],
+    "answer": "A",
+    "explanation": "Official diagnostic answer: A. Review the source figure and choices above; this item is from the publisher's Practice Test 2 diagnostic key.",
+    "assets": [
+      {
+        "id": "question-image",
+        "type": "figure",
+        "src": "assets/questions/sat-binder-test-1-rw-m1-common-q18.png",
+        "alt": "Practice Test 2 question image (rw-m1-common question 18)",
+        "width": 756,
+        "height": 792,
+        "sourcePage": 8
+      }
+    ],
+    "sourceType": "Princeton Review Digital SAT Premium Prep 2025",
+    "sourcePage": 8,
+    "sourceQuestion": "rw-m1-common question 18",
+    "needsReview": false,
+    "sourceNotes": "Question image and extracted text were visually verified. Answer letter/value comes from the publisher diagnostic answer key."
+  },
+  {
+    "id": "sat-binder-test-1-rw-m1-common-q19",
+    "domain": "Standard English Conventions",
+    "skill": "Pronouns",
+    "difficulty": 2,
+    "prompt": "Japanese origamist Akira Yoshizawa is considered the grandmaster of origami, creating more than 50,000 models as well as wet-folding, the most well-known of his invented techniques. __________  dampening the paper before folding, leading to origami models with rounder and more sculpted looks.\n\nWhich choice completes the text so that it conforms to the conventions of Standard English?",
+    "type": "multiple-choice",
+    "choices": [
+      {
+        "id": "A",
+        "text": "It involves"
+      },
+      {
+        "id": "B",
+        "text": "They involve"
+      },
+      {
+        "id": "C",
+        "text": "One involves"
+      },
+      {
+        "id": "D",
+        "text": "These involve"
+      }
+    ],
+    "answer": "A",
+    "explanation": "Official diagnostic answer: A. Review the source figure and choices above; this item is from the publisher's Practice Test 2 diagnostic key.",
+    "assets": [
+      {
+        "id": "question-image",
+        "type": "figure",
+        "src": "assets/questions/sat-binder-test-1-rw-m1-common-q19.png",
+        "alt": "Practice Test 2 question image (rw-m1-common question 19)",
+        "width": 756,
+        "height": 792,
+        "sourcePage": 9
+      }
+    ],
+    "sourceType": "Princeton Review Digital SAT Premium Prep 2025",
+    "sourcePage": 9,
+    "sourceQuestion": "rw-m1-common question 19",
+    "needsReview": false,
+    "sourceNotes": "Question image and extracted text were visually verified. Answer letter/value comes from the publisher diagnostic answer key."
+  },
+  {
+    "id": "sat-binder-test-1-rw-m1-common-q20",
+    "domain": "Standard English Conventions",
+    "skill": "Where Punctuation is Not Needed",
+    "difficulty": 2,
+    "prompt": "Chinese artist Xu Bing is known for his art installations that showcase his printmaking skills and his creative use of languages and texts. His 1991 installation A Book from the Sky, for example, consists of volumes and scrolls printed with characters he invented, while his 2004 installation The Glassy Surface of a __________  uses the text of Henry David Thoreau’s Walden to create the illusion of a lake.\n\nWhich choice completes the text so that it conforms to the conventions of Standard English?",
+    "type": "multiple-choice",
+    "choices": [
+      {
+        "id": "A",
+        "text": "Lake:"
+      },
+      {
+        "id": "B",
+        "text": "Lake"
+      },
+      {
+        "id": "C",
+        "text": "Lake,"
+      },
+      {
+        "id": "D",
+        "text": "Lake—"
+      }
+    ],
+    "answer": "B",
+    "explanation": "Official diagnostic answer: B. Review the source figure and choices above; this item is from the publisher's Practice Test 2 diagnostic key.",
+    "assets": [
+      {
+        "id": "question-image",
+        "type": "figure",
+        "src": "assets/questions/sat-binder-test-1-rw-m1-common-q20.png",
+        "alt": "Practice Test 2 question image (rw-m1-common question 20)",
+        "width": 756,
+        "height": 861,
+        "sourcePage": 9
+      }
+    ],
+    "sourceType": "Princeton Review Digital SAT Premium Prep 2025",
+    "sourcePage": 9,
+    "sourceQuestion": "rw-m1-common question 20",
+    "needsReview": false,
+    "sourceNotes": "Question image and extracted text were visually verified. Answer letter/value comes from the publisher diagnostic answer key."
+  },
+  {
+    "id": "sat-binder-test-1-rw-m2-easier-q17",
+    "domain": "Standard English Conventions",
+    "skill": "Verb Forms in Complete Sentences",
+    "difficulty": 1,
+    "prompt": "American chef Alice Waters is well-known for opening the restaurant Chez Panisse, which __________  the farm-to-table movement by serving local and seasonal food.\n\nWhich choice completes the text so that it conforms to the conventions of Standard English?",
+    "type": "multiple-choice",
+    "choices": [
+      {
+        "id": "A",
+        "text": "originating"
+      },
+      {
+        "id": "B",
+        "text": "to originate"
+      },
+      {
+        "id": "C",
+        "text": "having originated"
+      },
+      {
+        "id": "D",
+        "text": "originated"
+      }
+    ],
+    "answer": "D",
+    "explanation": "Official diagnostic answer: D. Review the source figure and choices above; this item is from the publisher's Practice Test 2 diagnostic key.",
+    "assets": [
+      {
+        "id": "question-image",
+        "type": "figure",
+        "src": "assets/questions/sat-binder-test-1-rw-m2-easier-q17.png",
+        "alt": "Practice Test 2 question image (rw-m2-easier question 17)",
+        "width": 756,
+        "height": 689,
+        "sourcePage": 18
+      }
+    ],
+    "sourceType": "Princeton Review Digital SAT Premium Prep 2025",
+    "sourcePage": 18,
+    "sourceQuestion": "rw-m2-easier question 17",
+    "needsReview": false,
+    "sourceNotes": "Question image and extracted text were visually verified. Answer letter/value comes from the publisher diagnostic answer key."
+  },
+  {
+    "id": "sat-binder-test-1-rw-m2-easier-q18",
+    "domain": "Standard English Conventions",
+    "skill": "Pronouns and Apostrophes",
+    "difficulty": 1,
+    "prompt": "American activists Dolores Huerta and Cesar Chavez founded the National Farm Workers Association in 1962 to defend the rights of farm workers through nonviolent organizing tactics, such as marches and boycotts. __________  organization merged with the Agricultural Workers Organizing Committee, led by Larry Itliong, to form United Farm Workers, a labor union that advocates on behalf of farm workers across the U.S.\n\nWhich choice completes the text so that it conforms to the conventions of Standard English?",
+    "type": "multiple-choice",
+    "choices": [
+      {
+        "id": "A",
+        "text": "Its"
+      },
+      {
+        "id": "B",
+        "text": "Their"
+      },
+      {
+        "id": "C",
+        "text": "It’s"
+      },
+      {
+        "id": "D",
+        "text": "They’re"
+      }
+    ],
+    "answer": "B",
+    "explanation": "Official diagnostic answer: B. Review the source figure and choices above; this item is from the publisher's Practice Test 2 diagnostic key.",
+    "assets": [
+      {
+        "id": "question-image",
+        "type": "figure",
+        "src": "assets/questions/sat-binder-test-1-rw-m2-easier-q18.png",
+        "alt": "Practice Test 2 question image (rw-m2-easier question 18)",
+        "width": 756,
+        "height": 861,
+        "sourcePage": 18
+      }
+    ],
+    "sourceType": "Princeton Review Digital SAT Premium Prep 2025",
+    "sourcePage": 18,
+    "sourceQuestion": "rw-m2-easier question 18",
+    "needsReview": false,
+    "sourceNotes": "Question image and extracted text were visually verified. Answer letter/value comes from the publisher diagnostic answer key."
+  },
+  {
+    "id": "sat-binder-test-1-rw-m2-easier-q19",
+    "domain": "Standard English Conventions",
+    "skill": "Pronouns",
+    "difficulty": 1,
+    "prompt": "Researchers at the University of York found that people who are highly individualistic feel less connected to the natural world and engage in fewer activities to improve the environment; however, engaging with nature through activities such as walking and bird-watching can reconnect __________  to the natural world and encourage environmentally-friendly behaviors.\n\nWhich choice completes the text so that it conforms to the conventions of Standard English?",
+    "type": "multiple-choice",
+    "choices": [
+      {
+        "id": "A",
+        "text": "it"
+      },
+      {
+        "id": "B",
+        "text": "you"
+      },
+      {
+        "id": "C",
+        "text": "one"
+      },
+      {
+        "id": "D",
+        "text": "them"
+      }
+    ],
+    "answer": "D",
+    "explanation": "Official diagnostic answer: D. Review the source figure and choices above; this item is from the publisher's Practice Test 2 diagnostic key.",
+    "assets": [
+      {
+        "id": "question-image",
+        "type": "figure",
+        "src": "assets/questions/sat-binder-test-1-rw-m2-easier-q19.png",
+        "alt": "Practice Test 2 question image (rw-m2-easier question 19)",
+        "width": 756,
+        "height": 827,
+        "sourcePage": 19
+      }
+    ],
+    "sourceType": "Princeton Review Digital SAT Premium Prep 2025",
+    "sourcePage": 19,
+    "sourceQuestion": "rw-m2-easier question 19",
+    "needsReview": false,
+    "sourceNotes": "Question image and extracted text were visually verified. Answer letter/value comes from the publisher diagnostic answer key."
+  },
+  {
+    "id": "sat-binder-test-1-rw-m2-easier-q20",
+    "domain": "Standard English Conventions",
+    "skill": "How to Connect Independent Clauses",
+    "difficulty": 1,
+    "prompt": "National flags are designed to best represent and symbolize the individual __________  when countries share a history or culture, their flags are designed to look similar, thus creating a flag family that shares colors, shapes, or other elements.\n\nWhich choice completes the text so that it conforms to the conventions of Standard English?",
+    "type": "multiple-choice",
+    "choices": [
+      {
+        "id": "A",
+        "text": "country but"
+      },
+      {
+        "id": "B",
+        "text": "country,"
+      },
+      {
+        "id": "C",
+        "text": "country"
+      },
+      {
+        "id": "D",
+        "text": "country, but"
+      }
+    ],
+    "answer": "D",
+    "explanation": "Official diagnostic answer: D. Review the source figure and choices above; this item is from the publisher's Practice Test 2 diagnostic key.",
+    "assets": [
+      {
+        "id": "question-image",
+        "type": "figure",
+        "src": "assets/questions/sat-binder-test-1-rw-m2-easier-q20.png",
+        "alt": "Practice Test 2 question image (rw-m2-easier question 20)",
+        "width": 756,
+        "height": 758,
+        "sourcePage": 19
+      }
+    ],
+    "sourceType": "Princeton Review Digital SAT Premium Prep 2025",
+    "sourcePage": 19,
+    "sourceQuestion": "rw-m2-easier question 20",
+    "needsReview": false,
+    "sourceNotes": "Question image and extracted text were visually verified. Answer letter/value comes from the publisher diagnostic answer key."
+  },
+  {
+    "id": "sat-binder-test-1-rw-m2-easier-q21",
+    "domain": "Standard English Conventions",
+    "skill": "Question or Statement?",
+    "difficulty": 1,
+    "prompt": "Scientists at the University of Illinois and the University of Lancaster observed that plants under very bright sunlight enter a protective mode for several minutes, during which they stop photosynthesizing and growing. If the crops were genetically modified to have a shorter time in protective mode, __________  The scientists resolved to find out.\n\nWhich choice completes the text so that it conforms to the conventions of Standard English?",
+    "type": "multiple-choice",
+    "choices": [
+      {
+        "id": "A",
+        "text": "could the crop yield increase?"
+      },
+      {
+        "id": "B",
+        "text": "the crop yield could increase?"
+      },
+      {
+        "id": "C",
+        "text": "the crop yield could increase."
+      },
+      {
+        "id": "D",
+        "text": "could the crop yield increase."
+      }
+    ],
+    "answer": "A",
+    "explanation": "Official diagnostic answer: A. Review the source figure and choices above; this item is from the publisher's Practice Test 2 diagnostic key.",
+    "assets": [
+      {
+        "id": "question-image",
+        "type": "figure",
+        "src": "assets/questions/sat-binder-test-1-rw-m2-easier-q21.png",
+        "alt": "Practice Test 2 question image (rw-m2-easier question 21)",
+        "width": 756,
+        "height": 827,
+        "sourcePage": 19
+      }
+    ],
+    "sourceType": "Princeton Review Digital SAT Premium Prep 2025",
+    "sourcePage": 19,
+    "sourceQuestion": "rw-m2-easier question 21",
+    "needsReview": false,
+    "sourceNotes": "Question image and extracted text were visually verified. Answer letter/value comes from the publisher diagnostic answer key."
+  },
+  {
+    "id": "sat-binder-test-1-rw-m2-easier-q22",
+    "domain": "Standard English Conventions",
+    "skill": "Verbs",
+    "difficulty": 1,
+    "prompt": "Take Our Daughters and Sons to Work Day originally started as a day focused on engaging girls with the workforce, Take Our Daughters to Work Day. On the national day, the fourth Tuesday in April, parents and caregivers go to work with their children; shadowing their parents or caregivers __________  children real-world experience and ideas for potential future careers.\n\nWhich choice completes the text so that it conforms to the conventions of Standard English?",
+    "type": "multiple-choice",
+    "choices": [
+      {
+        "id": "A",
+        "text": "offer"
+      },
+      {
+        "id": "B",
+        "text": "have offered"
+      },
+      {
+        "id": "C",
+        "text": "are offering"
+      },
+      {
+        "id": "D",
+        "text": "offers"
+      }
+    ],
+    "answer": "D",
+    "explanation": "Official diagnostic answer: D. Review the source figure and choices above; this item is from the publisher's Practice Test 2 diagnostic key.",
+    "assets": [
+      {
+        "id": "question-image",
+        "type": "figure",
+        "src": "assets/questions/sat-binder-test-1-rw-m2-easier-q22.png",
+        "alt": "Practice Test 2 question image (rw-m2-easier question 22)",
+        "width": 756,
+        "height": 827,
+        "sourcePage": 19
+      }
+    ],
+    "sourceType": "Princeton Review Digital SAT Premium Prep 2025",
+    "sourcePage": 19,
+    "sourceQuestion": "rw-m2-easier question 22",
+    "needsReview": false,
+    "sourceNotes": "Question image and extracted text were visually verified. Answer letter/value comes from the publisher diagnostic answer key."
+  },
+  {
+    "id": "sat-binder-test-1-rw-m2-easier-q23",
+    "domain": "Standard English Conventions",
+    "skill": "Verb Forms in Complete Sentences",
+    "difficulty": 1,
+    "prompt": "In order to allow olive ridley turtles to lay eggs on Versova Beach in Mumbai, community activist Afroz Shah organized a large group of volunteers to remove over 11 million pounds of trash. The beach now allows community members to connect with the natural world and __________  a healthy habitat for olive ridley turtles to use after a twenty-year absence.\n\nWhich choice completes the text so that it conforms to the conventions of Standard English?",
+    "type": "multiple-choice",
+    "choices": [
+      {
+        "id": "A",
+        "text": "provided"
+      },
+      {
+        "id": "B",
+        "text": "providing"
+      },
+      {
+        "id": "C",
+        "text": "provides"
+      },
+      {
+        "id": "D",
+        "text": "provide"
+      }
+    ],
+    "answer": "C",
+    "explanation": "Official diagnostic answer: C. Review the source figure and choices above; this item is from the publisher's Practice Test 2 diagnostic key.",
+    "assets": [
+      {
+        "id": "question-image",
+        "type": "figure",
+        "src": "assets/questions/sat-binder-test-1-rw-m2-easier-q23.png",
+        "alt": "Practice Test 2 question image (rw-m2-easier question 23)",
+        "width": 756,
+        "height": 827,
+        "sourcePage": 20
+      }
+    ],
+    "sourceType": "Princeton Review Digital SAT Premium Prep 2025",
+    "sourcePage": 20,
+    "sourceQuestion": "rw-m2-easier question 23",
+    "needsReview": false,
+    "sourceNotes": "Question image and extracted text were visually verified. Answer letter/value comes from the publisher diagnostic answer key."
+  },
+  {
+    "id": "sat-binder-test-1-rw-m2-harder-q17",
+    "domain": "Standard English Conventions",
+    "skill": "Verbs",
+    "difficulty": 3,
+    "prompt": "Researchers studying the recent eruption of Hunga Tonga–Hunga Ha’apai, a submarine volcano located near the islands of Tonga in the South Pacific, found that the volcanic cloud, compared to those of other eruptions, __________  the highest ever recorded.\n\nWhich choice completes the text so that it conforms to the conventions of Standard English?",
+    "type": "multiple-choice",
+    "choices": [
+      {
+        "id": "A",
+        "text": "have been"
+      },
+      {
+        "id": "B",
+        "text": "are"
+      },
+      {
+        "id": "C",
+        "text": "was"
+      },
+      {
+        "id": "D",
+        "text": "were"
+      }
+    ],
+    "answer": "C",
+    "explanation": "Official diagnostic answer: C. Review the source figure and choices above; this item is from the publisher's Practice Test 2 diagnostic key.",
+    "assets": [
+      {
+        "id": "question-image",
+        "type": "figure",
+        "src": "assets/questions/sat-binder-test-1-rw-m2-harder-q17.png",
+        "alt": "Practice Test 2 question image (rw-m2-harder question 17)",
+        "width": 756,
+        "height": 758,
+        "sourcePage": 28
+      }
+    ],
+    "sourceType": "Princeton Review Digital SAT Premium Prep 2025",
+    "sourcePage": 28,
+    "sourceQuestion": "rw-m2-harder question 17",
+    "needsReview": false,
+    "sourceNotes": "Question image and extracted text were visually verified. Answer letter/value comes from the publisher diagnostic answer key."
+  },
+  {
+    "id": "sat-binder-test-1-rw-m2-harder-q18",
+    "domain": "Standard English Conventions",
+    "skill": "Who or What Are You Talking About?",
+    "difficulty": 3,
+    "prompt": "Connectomes, extensive maps of neural connections in the brain, reveal that each person has a distinct pattern of connections known as a functional fingerprint. In a 2017 study, behavioral __________  found that about one-third of the functional fingerprint is unique to an individual and that other parts are inherited.\n\nWhich choice completes the text so that it conforms to the conventions of Standard English?",
+    "type": "multiple-choice",
+    "choices": [
+      {
+        "id": "A",
+        "text": "neuroscientist, Damien Fair,"
+      },
+      {
+        "id": "B",
+        "text": "neuroscientist Damien Fair"
+      },
+      {
+        "id": "C",
+        "text": "neuroscientist Damien Fair,"
+      },
+      {
+        "id": "D",
+        "text": "neuroscientist, Damien Fair"
+      }
+    ],
+    "answer": "B",
+    "explanation": "Official diagnostic answer: B. Review the source figure and choices above; this item is from the publisher's Practice Test 2 diagnostic key.",
+    "assets": [
+      {
+        "id": "question-image",
+        "type": "figure",
+        "src": "assets/questions/sat-binder-test-1-rw-m2-harder-q18.png",
+        "alt": "Practice Test 2 question image (rw-m2-harder question 18)",
+        "width": 756,
+        "height": 792,
+        "sourcePage": 28
+      }
+    ],
+    "sourceType": "Princeton Review Digital SAT Premium Prep 2025",
+    "sourcePage": 28,
+    "sourceQuestion": "rw-m2-harder question 18",
+    "needsReview": false,
+    "sourceNotes": "Question image and extracted text were visually verified. Answer letter/value comes from the publisher diagnostic answer key."
+  },
+  {
+    "id": "sat-binder-test-1-rw-m2-harder-q19",
+    "domain": "Standard English Conventions",
+    "skill": "Verbs",
+    "difficulty": 3,
+    "prompt": "Throughout her career, Muscogee Nation member and poet Joy Harjo has edited multiple anthologies that have highlighted Native voices in the U.S. For example, a map showcasing 47 Native Nations poets __________ her signature project during her time as the U.S. Poet Laureate.\n\nWhich choice completes the text so that it conforms to the conventions of Standard English?",
+    "type": "multiple-choice",
+    "choices": [
+      {
+        "id": "A",
+        "text": "was"
+      },
+      {
+        "id": "B",
+        "text": "are"
+      },
+      {
+        "id": "C",
+        "text": "have been"
+      },
+      {
+        "id": "D",
+        "text": "were"
+      }
+    ],
+    "answer": "A",
+    "explanation": "Official diagnostic answer: A. Review the source figure and choices above; this item is from the publisher's Practice Test 2 diagnostic key.",
+    "assets": [
+      {
+        "id": "question-image",
+        "type": "figure",
+        "src": "assets/questions/sat-binder-test-1-rw-m2-harder-q19.png",
+        "alt": "Practice Test 2 question image (rw-m2-harder question 19)",
+        "width": 756,
+        "height": 792,
+        "sourcePage": 29
+      }
+    ],
+    "sourceType": "Princeton Review Digital SAT Premium Prep 2025",
+    "sourcePage": 29,
+    "sourceQuestion": "rw-m2-harder question 19",
+    "needsReview": false,
+    "sourceNotes": "Question image and extracted text were visually verified. Answer letter/value comes from the publisher diagnostic answer key."
+  },
+  {
+    "id": "sat-binder-test-1-rw-m2-harder-q20",
+    "domain": "Standard English Conventions",
+    "skill": "Who or What Are You Talking About?",
+    "difficulty": 3,
+    "prompt": "When bees pollinate flowers, they may be exposed to insecticides, potentially affecting their nervous systems. Recently, Dr. Rachel Parkinson of the University of Oxford added the common __________  to a sucralose solution to examine the insecticide’s impact on honeybees’ ability to walk in a straight line.\n\nWhich choice completes the text so that it conforms to the conventions of Standard English?",
+    "type": "multiple-choice",
+    "choices": [
+      {
+        "id": "A",
+        "text": "insecticide sulfoxaflor"
+      },
+      {
+        "id": "B",
+        "text": "insecticide, sulfoxaflor,"
+      },
+      {
+        "id": "C",
+        "text": "insecticide sulfoxaflor,"
+      },
+      {
+        "id": "D",
+        "text": "insecticide, sulfoxaflor"
+      }
+    ],
+    "answer": "A",
+    "explanation": "Official diagnostic answer: A. Review the source figure and choices above; this item is from the publisher's Practice Test 2 diagnostic key.",
+    "assets": [
+      {
+        "id": "question-image",
+        "type": "figure",
+        "src": "assets/questions/sat-binder-test-1-rw-m2-harder-q20.png",
+        "alt": "Practice Test 2 question image (rw-m2-harder question 20)",
+        "width": 756,
+        "height": 792,
+        "sourcePage": 29
+      }
+    ],
+    "sourceType": "Princeton Review Digital SAT Premium Prep 2025",
+    "sourcePage": 29,
+    "sourceQuestion": "rw-m2-harder question 20",
+    "needsReview": false,
+    "sourceNotes": "Question image and extracted text were visually verified. Answer letter/value comes from the publisher diagnostic answer key."
+  },
+  {
+    "id": "sat-binder-test-1-rw-m2-harder-q22",
+    "domain": "Standard English Conventions",
+    "skill": "How to Connect Independent Clauses",
+    "difficulty": 3,
+    "prompt": "Researchers studying bacteria have solved a 50-year mystery of how bacteria are able to move using appendages that are made of a single __________  the subunits of the protein can exist in 11 different shapes, allowing the appendages to “supercoil” into corkscrews that the bacteria use to propel themselves.\n\nWhich choice completes the text so that it conforms to the conventions of Standard English?",
+    "type": "multiple-choice",
+    "choices": [
+      {
+        "id": "A",
+        "text": "protein"
+      },
+      {
+        "id": "B",
+        "text": "protein while"
+      },
+      {
+        "id": "C",
+        "text": "protein,"
+      },
+      {
+        "id": "D",
+        "text": "protein:"
+      }
+    ],
+    "answer": "D",
+    "explanation": "Official diagnostic answer: D. Review the source figure and choices above; this item is from the publisher's Practice Test 2 diagnostic key.",
+    "assets": [
+      {
+        "id": "question-image",
+        "type": "figure",
+        "src": "assets/questions/sat-binder-test-1-rw-m2-harder-q22.png",
+        "alt": "Practice Test 2 question image (rw-m2-harder question 22)",
+        "width": 756,
+        "height": 792,
+        "sourcePage": 29
+      }
+    ],
+    "sourceType": "Princeton Review Digital SAT Premium Prep 2025",
+    "sourcePage": 29,
+    "sourceQuestion": "rw-m2-harder question 22",
+    "needsReview": false,
+    "sourceNotes": "Question image and extracted text were visually verified. Answer letter/value comes from the publisher diagnostic answer key."
+  }
+]

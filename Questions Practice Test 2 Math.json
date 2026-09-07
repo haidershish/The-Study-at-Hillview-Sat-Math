@@ -1,0 +1,2651 @@
+[
+  {
+    "id": "sat-binder-test-1-math-m1-common-q01",
+    "domain": "Problem-Solving and Data Analysis",
+    "skill": "What is a Frequency Table?",
+    "difficulty": 2,
+    "prompt": "A data set containing only the values 2, 2, 9, 9, 9, 16, 16, 16, 16, 26, 26, and 26 is represented by a frequency table. Which of the following is the correct representation of this data set?",
+    "type": "multiple-choice",
+    "choices": [
+      {
+        "id": "A",
+        "text": "| Number | Frequency |\n| --- | --- |\n| 2 | 4 |\n| 9 | 27 |\n| 16 | 64 |\n| 26 | 78 |"
+      },
+      {
+        "id": "B",
+        "text": "| Number | Frequency |\n| --- | --- |\n| 2 | 2 |\n| 9 | 3 |\n| 16 | 4 |\n| 26 | 3 |"
+      },
+      {
+        "id": "C",
+        "text": "| Number | Frequency |\n| --- | --- |\n| 2 | 2 |\n| 3 | 9 |\n| 4 | 16 |\n| 3 | 26 |"
+      },
+      {
+        "id": "D",
+        "text": "| Number | Frequency |\n| --- | --- |\n| 4 | 2 |\n| 27 | 9 |\n| 64 | 16 |\n| 78 | 26 |"
+      }
+    ],
+    "answer": "B",
+    "explanation": "Official diagnostic answer: B. Review the source figure and choices above; this item is from the publisher's Practice Test 2 diagnostic key.",
+    "assets": [
+      {
+        "id": "question-image",
+        "type": "figure",
+        "src": "assets/questions/sat-binder-test-1-math-m1-common-q01.png",
+        "alt": "Practice Test 2 question image (math-m1-common question 1)",
+        "width": 756,
+        "height": 1588,
+        "sourcePage": 34
+      }
+    ],
+    "sourceType": "Princeton Review Digital SAT Premium Prep 2025",
+    "sourcePage": 34,
+    "sourceQuestion": "math-m1-common question 1",
+    "needsReview": false,
+    "sourceNotes": "Question image and extracted text were visually verified. Answer letter/value comes from the publisher diagnostic answer key."
+  },
+  {
+    "id": "sat-binder-test-1-math-m1-common-q02",
+    "domain": "Advanced Math",
+    "skill": "Equations of a Parabola",
+    "difficulty": 2,
+    "prompt": "The expression $x^2 - x - 56$ is equivalent to which of the following?",
+    "type": "multiple-choice",
+    "choices": [
+      {
+        "id": "A",
+        "text": "$(x - 14)(x + 4)$"
+      },
+      {
+        "id": "B",
+        "text": "$(x - 7)(x + 8)$"
+      },
+      {
+        "id": "C",
+        "text": "$(x - 8)(x + 7)$"
+      },
+      {
+        "id": "D",
+        "text": "$(x - 4)(x + 14)$"
+      }
+    ],
+    "answer": "C",
+    "explanation": "Official diagnostic answer: C. Review the source figure and choices above; this item is from the publisher's Practice Test 2 diagnostic key.",
+    "assets": [
+      {
+        "id": "question-image",
+        "type": "figure",
+        "src": "assets/questions/sat-binder-test-1-math-m1-common-q02.png",
+        "alt": "Practice Test 2 question image (math-m1-common question 2)",
+        "width": 756,
+        "height": 554,
+        "sourcePage": 34
+      }
+    ],
+    "sourceType": "Princeton Review Digital SAT Premium Prep 2025",
+    "sourcePage": 34,
+    "sourceQuestion": "math-m1-common question 2",
+    "needsReview": false,
+    "sourceNotes": "Question image and extracted text were visually verified. Answer letter/value comes from the publisher diagnostic answer key."
+  },
+  {
+    "id": "sat-binder-test-1-math-m1-common-q03",
+    "domain": "Algebra",
+    "skill": "Write Your Own Equations",
+    "difficulty": 2,
+    "prompt": "A carpenter hammers 10 nails per minute and installs 7 screws per minute during a project. Which of the following equations represents the scenario if the carpenter hammers nails for $x$ minutes, installs screws for $y$ minutes, and uses a combined total of 200 nails and screws?",
+    "type": "multiple-choice",
+    "choices": [
+      {
+        "id": "A",
+        "text": "$\\frac{1}{10}x + \\frac{1}{7}y = 200$"
+      },
+      {
+        "id": "B",
+        "text": "$\\frac{1}{10}x + \\frac{1}{7}y = 3{,}420$"
+      },
+      {
+        "id": "C",
+        "text": "$10x + 7y = 200$"
+      },
+      {
+        "id": "D",
+        "text": "$10x + 7y = 3{,}420$"
+      }
+    ],
+    "answer": "C",
+    "explanation": "Official diagnostic answer: C. Review the source figure and choices above; this item is from the publisher's Practice Test 2 diagnostic key.",
+    "assets": [
+      {
+        "id": "question-image",
+        "type": "figure",
+        "src": "assets/questions/sat-binder-test-1-math-m1-common-q03.png",
+        "alt": "Practice Test 2 question image (math-m1-common question 3)",
+        "width": 756,
+        "height": 692,
+        "sourcePage": 34
+      }
+    ],
+    "sourceType": "Princeton Review Digital SAT Premium Prep 2025",
+    "sourcePage": 34,
+    "sourceQuestion": "math-m1-common question 3",
+    "needsReview": false,
+    "sourceNotes": "Question image and extracted text were visually verified. Answer letter/value comes from the publisher diagnostic answer key."
+  },
+  {
+    "id": "sat-binder-test-1-math-m1-common-q04",
+    "domain": "Geometry and Trigonometry",
+    "skill": "Triangles",
+    "difficulty": 2,
+    "prompt": "What is the measure of angle $F$ in the triangle $DEF$, where angle $D$ is $73^\\circ$ and angle $E$ is $35^\\circ$?",
+    "type": "multiple-choice",
+    "choices": [
+      {
+        "id": "A",
+        "text": "$38^\\circ$"
+      },
+      {
+        "id": "B",
+        "text": "$72^\\circ$"
+      },
+      {
+        "id": "C",
+        "text": "$108^\\circ$"
+      },
+      {
+        "id": "D",
+        "text": "$126^\\circ$"
+      }
+    ],
+    "answer": "B",
+    "explanation": "Official diagnostic answer: B. Review the source figure and choices above; this item is from the publisher's Practice Test 2 diagnostic key.",
+    "assets": [
+      {
+        "id": "question-image",
+        "type": "figure",
+        "src": "assets/questions/sat-binder-test-1-math-m1-common-q04.png",
+        "alt": "Practice Test 2 question image (math-m1-common question 4)",
+        "width": 756,
+        "height": 553,
+        "sourcePage": 35
+      }
+    ],
+    "sourceType": "Princeton Review Digital SAT Premium Prep 2025",
+    "sourcePage": 35,
+    "sourceQuestion": "math-m1-common question 4",
+    "needsReview": false,
+    "sourceNotes": "Question image and extracted text were visually verified. Answer letter/value comes from the publisher diagnostic answer key."
+  },
+  {
+    "id": "sat-binder-test-1-math-m1-common-q05",
+    "domain": "Problem-Solving and Data Analysis",
+    "skill": "Meaning In Context",
+    "difficulty": 2,
+    "prompt": "The total amount of plastic remaining to be recycled in a facility over $x$ shifts is represented by the graph above. Which of the following represents the $y$-intercept of the graph?",
+    "type": "multiple-choice",
+    "choices": [
+      {
+        "id": "A",
+        "text": "The total amount of plastic remaining at any given time"
+      },
+      {
+        "id": "B",
+        "text": "The number of shifts it will take to finish recycling the plastic"
+      },
+      {
+        "id": "C",
+        "text": "The amount of plastic that is recycled per shift"
+      },
+      {
+        "id": "D",
+        "text": "The initial amount of plastic to be recycled"
+      }
+    ],
+    "answer": "D",
+    "explanation": "Official diagnostic answer: D. Review the source figure and choices above; this item is from the publisher's Practice Test 2 diagnostic key.",
+    "assets": [
+      {
+        "id": "question-image",
+        "type": "figure",
+        "src": "assets/questions/sat-binder-test-1-math-m1-common-q05.png",
+        "alt": "Practice Test 2 question image (math-m1-common question 5)",
+        "width": 756,
+        "height": 1235,
+        "sourcePage": 35
+      }
+    ],
+    "sourceType": "Princeton Review Digital SAT Premium Prep 2025",
+    "sourcePage": 35,
+    "sourceQuestion": "math-m1-common question 5",
+    "needsReview": false,
+    "sourceNotes": "Question image and extracted text were visually verified. Answer letter/value comes from the publisher diagnostic answer key."
+  },
+  {
+    "id": "sat-binder-test-1-math-m1-common-q06",
+    "domain": "Problem-Solving and Data Analysis",
+    "skill": "Probability",
+    "difficulty": 2,
+    "prompt": "The table below shows the condition and subject type for 200 textbooks at a bookstore.\n\n|  | Biology | Chemistry | Physics | Anatomy | Total |\n| --- | --- | --- | --- | --- | --- |\n| Used | 10 | 25 | 30 | 15 | 80 |\n| New | 30 | 25 | 10 | 55 | 120 |\n| Total | 40 | 50 | 40 | 70 | 200 |\n\nWhat is the probability that a textbook chosen at random will be a new textbook? (Express your answer as a decimal or fraction, not as a percent.)",
+    "type": "student-produced-response",
+    "choices": [],
+    "answer": "0.6",
+    "explanation": "Official diagnostic answer: 0.6. Review the source figure and choices above; this item is from the publisher's Practice Test 2 diagnostic key.",
+    "assets": [
+      {
+        "id": "question-image",
+        "type": "figure",
+        "src": "assets/questions/sat-binder-test-1-math-m1-common-q06.png",
+        "alt": "Practice Test 2 question image (math-m1-common question 6)",
+        "width": 756,
+        "height": 673,
+        "sourcePage": 35
+      }
+    ],
+    "sourceType": "Princeton Review Digital SAT Premium Prep 2025",
+    "sourcePage": 35,
+    "sourceQuestion": "math-m1-common question 6",
+    "needsReview": false,
+    "sourceNotes": "Question image and extracted text were visually verified. Answer letter/value comes from the publisher diagnostic answer key."
+  },
+  {
+    "id": "sat-binder-test-1-math-m1-common-q07",
+    "domain": "Problem-Solving and Data Analysis",
+    "skill": "What is Margin of Error?",
+    "difficulty": 2,
+    "prompt": "A random sample of 5,000 students out of 60,000 undergraduate students at a university were surveyed about a potential change to the registration system. According to the survey results, 75% of the respondents did not support the existing registration system, with a 4% margin of error. Which of the following represents a reasonable total number of students who did not support the existing registration system?",
+    "type": "multiple-choice",
+    "choices": [
+      {
+        "id": "A",
+        "text": "1,250"
+      },
+      {
+        "id": "B",
+        "text": "3,750"
+      },
+      {
+        "id": "C",
+        "text": "13,800"
+      },
+      {
+        "id": "D",
+        "text": "43,800"
+      }
+    ],
+    "answer": "D",
+    "explanation": "Official diagnostic answer: D. Review the source figure and choices above; this item is from the publisher's Practice Test 2 diagnostic key.",
+    "assets": [
+      {
+        "id": "question-image",
+        "type": "figure",
+        "src": "assets/questions/sat-binder-test-1-math-m1-common-q07.png",
+        "alt": "Practice Test 2 question image (math-m1-common question 7)",
+        "width": 756,
+        "height": 760,
+        "sourcePage": 35
+      }
+    ],
+    "sourceType": "Princeton Review Digital SAT Premium Prep 2025",
+    "sourcePage": 35,
+    "sourceQuestion": "math-m1-common question 7",
+    "needsReview": false,
+    "sourceNotes": "Question image and extracted text were visually verified. Answer letter/value comes from the publisher diagnostic answer key."
+  },
+  {
+    "id": "sat-binder-test-1-math-m1-common-q08",
+    "domain": "Advanced Math",
+    "skill": "Solving Quadratic Equations",
+    "difficulty": 2,
+    "prompt": "What is the negative solution to the equation $\\frac{32}{a} = a - 4$?",
+    "type": "student-produced-response",
+    "choices": [],
+    "answer": "-4",
+    "explanation": "Official diagnostic answer: -4. Review the source figure and choices above; this item is from the publisher's Practice Test 2 diagnostic key.",
+    "assets": [
+      {
+        "id": "question-image",
+        "type": "figure",
+        "src": "assets/questions/sat-binder-test-1-math-m1-common-q08.png",
+        "alt": "Practice Test 2 question image (math-m1-common question 8)",
+        "width": 756,
+        "height": 290,
+        "sourcePage": 36
+      }
+    ],
+    "sourceType": "Princeton Review Digital SAT Premium Prep 2025",
+    "sourcePage": 36,
+    "sourceQuestion": "math-m1-common question 8",
+    "needsReview": false,
+    "sourceNotes": "Question image and extracted text were visually verified. Answer letter/value comes from the publisher diagnostic answer key."
+  },
+  {
+    "id": "sat-binder-test-1-math-m1-common-q09",
+    "domain": "Advanced Math",
+    "skill": "Growth and Decay",
+    "difficulty": 2,
+    "prompt": "After a hot air balloon is launched from a plateau 1,000 meters above sea level, it rises at a constant rate of 750 meters per minute. Which of the following best describes the function used to model the balloon’s distance above sea level over time?",
+    "type": "multiple-choice",
+    "choices": [
+      {
+        "id": "A",
+        "text": "Increasing linear"
+      },
+      {
+        "id": "B",
+        "text": "Increasing exponential"
+      },
+      {
+        "id": "C",
+        "text": "Decreasing linear"
+      },
+      {
+        "id": "D",
+        "text": "Decreasing exponential"
+      }
+    ],
+    "answer": "A",
+    "explanation": "Official diagnostic answer: A. Review the source figure and choices above; this item is from the publisher's Practice Test 2 diagnostic key.",
+    "assets": [
+      {
+        "id": "question-image",
+        "type": "figure",
+        "src": "assets/questions/sat-binder-test-1-math-m1-common-q09.png",
+        "alt": "Practice Test 2 question image (math-m1-common question 9)",
+        "width": 756,
+        "height": 657,
+        "sourcePage": 36
+      }
+    ],
+    "sourceType": "Princeton Review Digital SAT Premium Prep 2025",
+    "sourcePage": 36,
+    "sourceQuestion": "math-m1-common question 9",
+    "needsReview": false,
+    "sourceNotes": "Question image and extracted text were visually verified. Answer letter/value comes from the publisher diagnostic answer key."
+  },
+  {
+    "id": "sat-binder-test-1-math-m1-common-q10",
+    "domain": "Algebra",
+    "skill": "Plug In the Answers (PITA)",
+    "difficulty": 2,
+    "prompt": "What is the $x$-intercept of the function $f(x) = (22)^x - 1$ when it is graphed in the $xy$-plane, where $y = f(x)$?",
+    "type": "multiple-choice",
+    "choices": [
+      {
+        "id": "A",
+        "text": "$(-1, 0)$"
+      },
+      {
+        "id": "B",
+        "text": "$(0, 0)$"
+      },
+      {
+        "id": "C",
+        "text": "$(21, 0)$"
+      },
+      {
+        "id": "D",
+        "text": "$(22, 0)$"
+      }
+    ],
+    "answer": "B",
+    "explanation": "Official diagnostic answer: B. Review the source figure and choices above; this item is from the publisher's Practice Test 2 diagnostic key.",
+    "assets": [
+      {
+        "id": "question-image",
+        "type": "figure",
+        "src": "assets/questions/sat-binder-test-1-math-m1-common-q10.png",
+        "alt": "Practice Test 2 question image (math-m1-common question 10)",
+        "width": 756,
+        "height": 553,
+        "sourcePage": 36
+      }
+    ],
+    "sourceType": "Princeton Review Digital SAT Premium Prep 2025",
+    "sourcePage": 36,
+    "sourceQuestion": "math-m1-common question 10",
+    "needsReview": false,
+    "sourceNotes": "Question image and extracted text were visually verified. Answer letter/value comes from the publisher diagnostic answer key."
+  },
+  {
+    "id": "sat-binder-test-1-math-m1-common-q11",
+    "domain": "Algebra",
+    "skill": "Plug In the Answers (PITA)",
+    "difficulty": 2,
+    "prompt": "Note: Figure not drawn to scale.\n\nIn parallelogram $ABCD$ shown above, the length of $\\overline{AB}$ is one-third the length of $\\overline{AD}$. The perimeter of the parallelogram is 64. What is the length of $\\overline{AB}$?",
+    "type": "multiple-choice",
+    "choices": [
+      {
+        "id": "A",
+        "text": "8"
+      },
+      {
+        "id": "B",
+        "text": "16"
+      },
+      {
+        "id": "C",
+        "text": "24"
+      },
+      {
+        "id": "D",
+        "text": "32"
+      }
+    ],
+    "answer": "A",
+    "explanation": "Official diagnostic answer: A. Review the source figure and choices above; this item is from the publisher's Practice Test 2 diagnostic key.",
+    "assets": [
+      {
+        "id": "question-image",
+        "type": "figure",
+        "src": "assets/questions/sat-binder-test-1-math-m1-common-q11.png",
+        "alt": "Practice Test 2 question image (math-m1-common question 11)",
+        "width": 756,
+        "height": 932,
+        "sourcePage": 36
+      }
+    ],
+    "sourceType": "Princeton Review Digital SAT Premium Prep 2025",
+    "sourcePage": 36,
+    "sourceQuestion": "math-m1-common question 11",
+    "needsReview": false,
+    "sourceNotes": "Question image and extracted text were visually verified. Answer letter/value comes from the publisher diagnostic answer key."
+  },
+  {
+    "id": "sat-binder-test-1-math-m1-common-q12",
+    "domain": "Algebra",
+    "skill": "Plug In the Answers (PITA)",
+    "difficulty": 2,
+    "prompt": "A triangle with an area of 18 square units has a base of $(m + 5)$ units and a height of $m$ units. What is the value of $m$?",
+    "type": "multiple-choice",
+    "choices": [
+      {
+        "id": "A",
+        "text": "4"
+      },
+      {
+        "id": "B",
+        "text": "9"
+      },
+      {
+        "id": "C",
+        "text": "13"
+      },
+      {
+        "id": "D",
+        "text": "36"
+      }
+    ],
+    "answer": "A",
+    "explanation": "Official diagnostic answer: A. Review the source figure and choices above; this item is from the publisher's Practice Test 2 diagnostic key.",
+    "assets": [
+      {
+        "id": "question-image",
+        "type": "figure",
+        "src": "assets/questions/sat-binder-test-1-math-m1-common-q12.png",
+        "alt": "Practice Test 2 question image (math-m1-common question 12)",
+        "width": 756,
+        "height": 588,
+        "sourcePage": 36
+      }
+    ],
+    "sourceType": "Princeton Review Digital SAT Premium Prep 2025",
+    "sourcePage": 36,
+    "sourceQuestion": "math-m1-common question 12",
+    "needsReview": false,
+    "sourceNotes": "Question image and extracted text were visually verified. Answer letter/value comes from the publisher diagnostic answer key."
+  },
+  {
+    "id": "sat-binder-test-1-math-m1-common-q13",
+    "domain": "Advanced Math",
+    "skill": "Function Fundamentals",
+    "difficulty": 2,
+    "prompt": "| Time (seconds) | Number of colonies of yeast |\n| --- | --- |\n| 0 | 5 |\n| 1 | 20 |\n| 2 | 80 |\n| 3 | 320 |\n\nThe table above shows the exponential growth of a type of yeast over time $s$, in seconds. There are $c$ total yeast colonies on the count plate. What is the equation that represents this relationship, assuming that no yeast was added or removed after counting began?",
+    "type": "multiple-choice",
+    "choices": [
+      {
+        "id": "A",
+        "text": "$c = (1 + 3)^s$"
+      },
+      {
+        "id": "B",
+        "text": "$c = (1 + 5)^s$"
+      },
+      {
+        "id": "C",
+        "text": "$c = 3(1 + 5)^s$"
+      },
+      {
+        "id": "D",
+        "text": "$c = 5(1 + 3)^s$"
+      }
+    ],
+    "answer": "D",
+    "explanation": "Official diagnostic answer: D. Review the source figure and choices above; this item is from the publisher's Practice Test 2 diagnostic key.",
+    "assets": [
+      {
+        "id": "question-image",
+        "type": "figure",
+        "src": "assets/questions/sat-binder-test-1-math-m1-common-q13.png",
+        "alt": "Practice Test 2 question image (math-m1-common question 13)",
+        "width": 756,
+        "height": 949,
+        "sourcePage": 37
+      }
+    ],
+    "sourceType": "Princeton Review Digital SAT Premium Prep 2025",
+    "sourcePage": 37,
+    "sourceQuestion": "math-m1-common question 13",
+    "needsReview": false,
+    "sourceNotes": "Question image and extracted text were visually verified. Answer letter/value comes from the publisher diagnostic answer key."
+  },
+  {
+    "id": "sat-binder-test-1-math-m1-common-q14",
+    "domain": "Algebra",
+    "skill": "Solving Systems of Equations",
+    "difficulty": 2,
+    "prompt": "The equations $12x = y$ and $24x + 7 = 2y$ intersect at how many points when graphed in the $xy$-plane?",
+    "type": "multiple-choice",
+    "choices": [
+      {
+        "id": "A",
+        "text": "0"
+      },
+      {
+        "id": "B",
+        "text": "1"
+      },
+      {
+        "id": "C",
+        "text": "2"
+      },
+      {
+        "id": "D",
+        "text": "7"
+      }
+    ],
+    "answer": "A",
+    "explanation": "Official diagnostic answer: A. Review the source figure and choices above; this item is from the publisher's Practice Test 2 diagnostic key.",
+    "assets": [
+      {
+        "id": "question-image",
+        "type": "figure",
+        "src": "assets/questions/sat-binder-test-1-math-m1-common-q14.png",
+        "alt": "Practice Test 2 question image (math-m1-common question 14)",
+        "width": 756,
+        "height": 553,
+        "sourcePage": 37
+      }
+    ],
+    "sourceType": "Princeton Review Digital SAT Premium Prep 2025",
+    "sourcePage": 37,
+    "sourceQuestion": "math-m1-common question 14",
+    "needsReview": false,
+    "sourceNotes": "Question image and extracted text were visually verified. Answer letter/value comes from the publisher diagnostic answer key."
+  },
+  {
+    "id": "sat-binder-test-1-math-m1-common-q15",
+    "domain": "Problem-Solving and Data Analysis",
+    "skill": "Meaning In Context",
+    "difficulty": 2,
+    "prompt": "Several tiles labeled with either an A or a B are placed in a bag, and tiles are worth a different point value depending on the label. The equation $15a + 10b = 100$ represents the situation when $a$ of the A tiles and $b$ of the B tiles are drawn from the bag for a total of 100 points. How many points would be earned by drawing one A tile and one B tile from the bag?",
+    "type": "student-produced-response",
+    "choices": [],
+    "answer": "25",
+    "explanation": "Official diagnostic answer: 25. Review the source figure and choices above; this item is from the publisher's Practice Test 2 diagnostic key.",
+    "assets": [
+      {
+        "id": "question-image",
+        "type": "figure",
+        "src": "assets/questions/sat-binder-test-1-math-m1-common-q15.png",
+        "alt": "Practice Test 2 question image (math-m1-common question 15)",
+        "width": 756,
+        "height": 476,
+        "sourcePage": 37
+      }
+    ],
+    "sourceType": "Princeton Review Digital SAT Premium Prep 2025",
+    "sourcePage": 37,
+    "sourceQuestion": "math-m1-common question 15",
+    "needsReview": false,
+    "sourceNotes": "Question image and extracted text were visually verified. Answer letter/value comes from the publisher diagnostic answer key."
+  },
+  {
+    "id": "sat-binder-test-1-math-m1-common-q16",
+    "domain": "Advanced Math",
+    "skill": "Growth and Decay",
+    "difficulty": 2,
+    "prompt": "The amount of money remaining in a scholarship fund is reduced by one-fourth every year. The amount of money in the fund is represented by $d$ and the number of years by $y$. If the fund starts with \\$10,000, which equation below represents this situation after $y$ years?",
+    "type": "multiple-choice",
+    "choices": [
+      {
+        "id": "A",
+        "text": "$d = \\frac{1}{4}(10{,}000)^y$"
+      },
+      {
+        "id": "B",
+        "text": "$d = \\frac{3}{4}(10{,}000)^y$"
+      },
+      {
+        "id": "C",
+        "text": "$d = 10{,}000\\left(\\frac{1}{4}\\right)^y$"
+      },
+      {
+        "id": "D",
+        "text": "$d = 10{,}000\\left(\\frac{3}{4}\\right)^y$"
+      }
+    ],
+    "answer": "D",
+    "explanation": "Official diagnostic answer: D. Review the source figure and choices above; this item is from the publisher's Practice Test 2 diagnostic key.",
+    "assets": [
+      {
+        "id": "question-image",
+        "type": "figure",
+        "src": "assets/questions/sat-binder-test-1-math-m1-common-q16.png",
+        "alt": "Practice Test 2 question image (math-m1-common question 16)",
+        "width": 756,
+        "height": 694,
+        "sourcePage": 37
+      }
+    ],
+    "sourceType": "Princeton Review Digital SAT Premium Prep 2025",
+    "sourcePage": 37,
+    "sourceQuestion": "math-m1-common question 16",
+    "needsReview": false,
+    "sourceNotes": "Question image and extracted text were visually verified. Answer letter/value comes from the publisher diagnostic answer key."
+  },
+  {
+    "id": "sat-binder-test-1-math-m1-common-q17",
+    "domain": "Geometry and Trigonometry",
+    "skill": "Volume",
+    "difficulty": 2,
+    "prompt": "What is the diameter, in millimeters (mm), of a cylinder with a volume of $144\\pi\\ \\mathrm{mm}^3$ and a height of 4 mm?",
+    "type": "multiple-choice",
+    "choices": [
+      {
+        "id": "A",
+        "text": "6"
+      },
+      {
+        "id": "B",
+        "text": "9"
+      },
+      {
+        "id": "C",
+        "text": "12"
+      },
+      {
+        "id": "D",
+        "text": "36"
+      }
+    ],
+    "answer": "C",
+    "explanation": "Official diagnostic answer: C. Review the source figure and choices above; this item is from the publisher's Practice Test 2 diagnostic key.",
+    "assets": [
+      {
+        "id": "question-image",
+        "type": "figure",
+        "src": "assets/questions/sat-binder-test-1-math-m1-common-q17.png",
+        "alt": "Practice Test 2 question image (math-m1-common question 17)",
+        "width": 756,
+        "height": 553,
+        "sourcePage": 38
+      }
+    ],
+    "sourceType": "Princeton Review Digital SAT Premium Prep 2025",
+    "sourcePage": 38,
+    "sourceQuestion": "math-m1-common question 17",
+    "needsReview": false,
+    "sourceNotes": "Question image and extracted text were visually verified. Answer letter/value comes from the publisher diagnostic answer key."
+  },
+  {
+    "id": "sat-binder-test-1-math-m1-common-q18",
+    "domain": "Advanced Math",
+    "skill": "Points of Intersection",
+    "difficulty": 2,
+    "prompt": "$4x + 2y = 4$\n\n$19x + 10y = 14$\n\nWhen graphed in the $xy$-plane, the linear equations shown above intersect at $(a, b)$. What is the value of $a$?",
+    "type": "multiple-choice",
+    "choices": [
+      {
+        "id": "A",
+        "text": "$-20$"
+      },
+      {
+        "id": "B",
+        "text": "$-10$"
+      },
+      {
+        "id": "C",
+        "text": "$6$"
+      },
+      {
+        "id": "D",
+        "text": "$14$"
+      }
+    ],
+    "answer": "C",
+    "explanation": "Official diagnostic answer: C. Review the source figure and choices above; this item is from the publisher's Practice Test 2 diagnostic key.",
+    "assets": [
+      {
+        "id": "question-image",
+        "type": "figure",
+        "src": "assets/questions/sat-binder-test-1-math-m1-common-q18.png",
+        "alt": "Practice Test 2 question image (math-m1-common question 18)",
+        "width": 756,
+        "height": 643,
+        "sourcePage": 38
+      }
+    ],
+    "sourceType": "Princeton Review Digital SAT Premium Prep 2025",
+    "sourcePage": 38,
+    "sourceQuestion": "math-m1-common question 18",
+    "needsReview": false,
+    "sourceNotes": "Question image and extracted text were visually verified. Answer letter/value comes from the publisher diagnostic answer key."
+  },
+  {
+    "id": "sat-binder-test-1-math-m1-common-q19",
+    "domain": "Geometry and Trigonometry",
+    "skill": "Triangles",
+    "difficulty": 2,
+    "prompt": "The longest side of right triangle $ABC$ is opposite angle $B$. If $\\sin(A) = \\frac{9}{41}$, what is the value of $\\sin(C)$?",
+    "type": "student-produced-response",
+    "choices": [],
+    "answer": "40/41",
+    "explanation": "Official diagnostic answer: 40/41. Review the source figure and choices above; this item is from the publisher's Practice Test 2 diagnostic key.",
+    "assets": [
+      {
+        "id": "question-image",
+        "type": "figure",
+        "src": "assets/questions/sat-binder-test-1-math-m1-common-q19.png",
+        "alt": "Practice Test 2 question image (math-m1-common question 19)",
+        "width": 756,
+        "height": 311,
+        "sourcePage": 38
+      }
+    ],
+    "sourceType": "Princeton Review Digital SAT Premium Prep 2025",
+    "sourcePage": 38,
+    "sourceQuestion": "math-m1-common question 19",
+    "needsReview": false,
+    "sourceNotes": "Question image and extracted text were visually verified. Answer letter/value comes from the publisher diagnostic answer key."
+  },
+  {
+    "id": "sat-binder-test-1-math-m1-common-q20",
+    "domain": "Advanced Math",
+    "skill": "Equations of a Parabola",
+    "difficulty": 2,
+    "prompt": "Function $g$ reaches its maximum value when $x = a$. If $g(x) = -6x^2 - 30x - 24$, what is the value of $a$?",
+    "type": "student-produced-response",
+    "choices": [],
+    "answer": "-2.5",
+    "explanation": "Official diagnostic answer: -2.5. Review the source figure and choices above; this item is from the publisher's Practice Test 2 diagnostic key.",
+    "assets": [
+      {
+        "id": "question-image",
+        "type": "figure",
+        "src": "assets/questions/sat-binder-test-1-math-m1-common-q20.png",
+        "alt": "Practice Test 2 question image (math-m1-common question 20)",
+        "width": 756,
+        "height": 310,
+        "sourcePage": 38
+      }
+    ],
+    "sourceType": "Princeton Review Digital SAT Premium Prep 2025",
+    "sourcePage": 38,
+    "sourceQuestion": "math-m1-common question 20",
+    "needsReview": false,
+    "sourceNotes": "Question image and extracted text were visually verified. Answer letter/value comes from the publisher diagnostic answer key."
+  },
+  {
+    "id": "sat-binder-test-1-math-m1-common-q21",
+    "domain": "Geometry and Trigonometry",
+    "skill": "Parallel and Perpendicular Lines",
+    "difficulty": 2,
+    "prompt": "$f(x) = -\\frac{1}{5}x - 3$\n\nThe linear function $f(x)$, given above, is perpendicular to $g(x)$ when graphed in the $xy$-plane. If $g(0) = 0$, what is the value of $g(2)$?",
+    "type": "student-produced-response",
+    "choices": [],
+    "answer": "10",
+    "explanation": "Official diagnostic answer: 10. Review the source figure and choices above; this item is from the publisher's Practice Test 2 diagnostic key.",
+    "assets": [
+      {
+        "id": "question-image",
+        "type": "figure",
+        "src": "assets/questions/sat-binder-test-1-math-m1-common-q21.png",
+        "alt": "Practice Test 2 question image (math-m1-common question 21)",
+        "width": 756,
+        "height": 416,
+        "sourcePage": 39
+      }
+    ],
+    "sourceType": "Princeton Review Digital SAT Premium Prep 2025",
+    "sourcePage": 39,
+    "sourceQuestion": "math-m1-common question 21",
+    "needsReview": false,
+    "sourceNotes": "Question image and extracted text were visually verified. Answer letter/value comes from the publisher diagnostic answer key."
+  },
+  {
+    "id": "sat-binder-test-1-math-m1-common-q22",
+    "domain": "Advanced Math",
+    "skill": "Points of Intersection",
+    "difficulty": 2,
+    "prompt": "$y = 5kx^2 + 2x + 3$\n\n$\\frac{y}{10} = -x$\n\nThe given system of equations has exactly one solution. If $k$ is a positive constant, what is the value of $k$?",
+    "type": "student-produced-response",
+    "choices": [],
+    "answer": "2.4",
+    "explanation": "Official diagnostic answer: 2.4. Review the source figure and choices above; this item is from the publisher's Practice Test 2 diagnostic key.",
+    "assets": [
+      {
+        "id": "question-image",
+        "type": "figure",
+        "src": "assets/questions/sat-binder-test-1-math-m1-common-q22.png",
+        "alt": "Practice Test 2 question image (math-m1-common question 22)",
+        "width": 756,
+        "height": 415,
+        "sourcePage": 39
+      }
+    ],
+    "sourceType": "Princeton Review Digital SAT Premium Prep 2025",
+    "sourcePage": 39,
+    "sourceQuestion": "math-m1-common question 22",
+    "needsReview": false,
+    "sourceNotes": "Question image and extracted text were visually verified. Answer letter/value comes from the publisher diagnostic answer key."
+  },
+  {
+    "id": "sat-binder-test-1-math-m2-easier-q01",
+    "domain": "Problem-Solving and Data Analysis",
+    "skill": "What is a Median?",
+    "difficulty": 1,
+    "prompt": "33, 34, 38, 41, 43, 44, 47\n\nWhich of the following is the median of the given data?",
+    "type": "multiple-choice",
+    "choices": [
+      {
+        "id": "A",
+        "text": "38"
+      },
+      {
+        "id": "B",
+        "text": "40"
+      },
+      {
+        "id": "C",
+        "text": "41"
+      },
+      {
+        "id": "D",
+        "text": "42"
+      }
+    ],
+    "answer": "C",
+    "explanation": "Official diagnostic answer: C. Review the source figure and choices above; this item is from the publisher's Practice Test 2 diagnostic key.",
+    "assets": [
+      {
+        "id": "question-image",
+        "type": "figure",
+        "src": "assets/questions/sat-binder-test-1-math-m2-easier-q01.png",
+        "alt": "Practice Test 2 question image (math-m2-easier question 1)",
+        "width": 756,
+        "height": 564,
+        "sourcePage": 42
+      }
+    ],
+    "sourceType": "Princeton Review Digital SAT Premium Prep 2025",
+    "sourcePage": 42,
+    "sourceQuestion": "math-m2-easier question 1",
+    "needsReview": false,
+    "sourceNotes": "Question image and extracted text were visually verified. Answer letter/value comes from the publisher diagnostic answer key."
+  },
+  {
+    "id": "sat-binder-test-1-math-m2-easier-q02",
+    "domain": "Algebra",
+    "skill": "Fundamentals of Digital SAT Algebra",
+    "difficulty": 1,
+    "prompt": "What is the value of the solution to the equation $22 = y - 10$?",
+    "type": "student-produced-response",
+    "choices": [],
+    "answer": "32",
+    "explanation": "Official diagnostic answer: 32. Review the source figure and choices above; this item is from the publisher's Practice Test 2 diagnostic key.",
+    "assets": [
+      {
+        "id": "question-image",
+        "type": "figure",
+        "src": "assets/questions/sat-binder-test-1-math-m2-easier-q02.png",
+        "alt": "Practice Test 2 question image (math-m2-easier question 2)",
+        "width": 756,
+        "height": 303,
+        "sourcePage": 42
+      }
+    ],
+    "sourceType": "Princeton Review Digital SAT Premium Prep 2025",
+    "sourcePage": 42,
+    "sourceQuestion": "math-m2-easier question 2",
+    "needsReview": false,
+    "sourceNotes": "Question image and extracted text were visually verified. Answer letter/value comes from the publisher diagnostic answer key."
+  },
+  {
+    "id": "sat-binder-test-1-math-m2-easier-q03",
+    "domain": "Geometry and Trigonometry",
+    "skill": "Rectangles and Squares",
+    "difficulty": 1,
+    "prompt": "A rectangle has a height of 23 inches (in) and a width of 9 in. What is its perimeter, in inches?",
+    "type": "multiple-choice",
+    "choices": [
+      {
+        "id": "A",
+        "text": "32"
+      },
+      {
+        "id": "B",
+        "text": "64"
+      },
+      {
+        "id": "C",
+        "text": "207"
+      },
+      {
+        "id": "D",
+        "text": "1,024"
+      }
+    ],
+    "answer": "B",
+    "explanation": "Official diagnostic answer: B. Review the source figure and choices above; this item is from the publisher's Practice Test 2 diagnostic key.",
+    "assets": [
+      {
+        "id": "question-image",
+        "type": "figure",
+        "src": "assets/questions/sat-binder-test-1-math-m2-easier-q03.png",
+        "alt": "Practice Test 2 question image (math-m2-easier question 3)",
+        "width": 756,
+        "height": 553,
+        "sourcePage": 42
+      }
+    ],
+    "sourceType": "Princeton Review Digital SAT Premium Prep 2025",
+    "sourcePage": 42,
+    "sourceQuestion": "math-m2-easier question 3",
+    "needsReview": false,
+    "sourceNotes": "Question image and extracted text were visually verified. Answer letter/value comes from the publisher diagnostic answer key."
+  },
+  {
+    "id": "sat-binder-test-1-math-m2-easier-q04",
+    "domain": "Algebra",
+    "skill": "Fundamentals of Digital SAT Algebra",
+    "difficulty": 1,
+    "prompt": "$15a - (6a - 2a)$\n\nWhich of the following expressions is equivalent to the given expression?",
+    "type": "multiple-choice",
+    "choices": [
+      {
+        "id": "A",
+        "text": "$5a$"
+      },
+      {
+        "id": "B",
+        "text": "$7a$"
+      },
+      {
+        "id": "C",
+        "text": "$11a$"
+      },
+      {
+        "id": "D",
+        "text": "$23a$"
+      }
+    ],
+    "answer": "C",
+    "explanation": "Official diagnostic answer: C. Review the source figure and choices above; this item is from the publisher's Practice Test 2 diagnostic key.",
+    "assets": [
+      {
+        "id": "question-image",
+        "type": "figure",
+        "src": "assets/questions/sat-binder-test-1-math-m2-easier-q04.png",
+        "alt": "Practice Test 2 question image (math-m2-easier question 4)",
+        "width": 756,
+        "height": 611,
+        "sourcePage": 42
+      }
+    ],
+    "sourceType": "Princeton Review Digital SAT Premium Prep 2025",
+    "sourcePage": 42,
+    "sourceQuestion": "math-m2-easier question 4",
+    "needsReview": false,
+    "sourceNotes": "Question image and extracted text were visually verified. Answer letter/value comes from the publisher diagnostic answer key."
+  },
+  {
+    "id": "sat-binder-test-1-math-m2-easier-q05",
+    "domain": "Algebra",
+    "skill": "Fundamentals of Digital SAT Algebra",
+    "difficulty": 1,
+    "prompt": "Which equation represents the relationship between the numbers $a$ and $b$ if $a$ is half of $b$?",
+    "type": "multiple-choice",
+    "choices": [
+      {
+        "id": "A",
+        "text": "$a = \\frac{1}{2}b$"
+      },
+      {
+        "id": "B",
+        "text": "$a = b - 2$"
+      },
+      {
+        "id": "C",
+        "text": "$a = b + 2$"
+      },
+      {
+        "id": "D",
+        "text": "$b = \\frac{1}{2}a$"
+      }
+    ],
+    "answer": "A",
+    "explanation": "Official diagnostic answer: A. Review the source figure and choices above; this item is from the publisher's Practice Test 2 diagnostic key.",
+    "assets": [
+      {
+        "id": "question-image",
+        "type": "figure",
+        "src": "assets/questions/sat-binder-test-1-math-m2-easier-q05.png",
+        "alt": "Practice Test 2 question image (math-m2-easier question 5)",
+        "width": 756,
+        "height": 558,
+        "sourcePage": 42
+      }
+    ],
+    "sourceType": "Princeton Review Digital SAT Premium Prep 2025",
+    "sourcePage": 42,
+    "sourceQuestion": "math-m2-easier question 5",
+    "needsReview": false,
+    "sourceNotes": "Question image and extracted text were visually verified. Answer letter/value comes from the publisher diagnostic answer key."
+  },
+  {
+    "id": "sat-binder-test-1-math-m2-easier-q06",
+    "domain": "Advanced Math",
+    "skill": "Solving Rational Equations",
+    "difficulty": 1,
+    "prompt": "For all positive values of $y$, the expression $\\frac{3}{y + c}$ is equivalent to $\\frac{15}{5y + 30}$. What is the value of constant $c$?",
+    "type": "multiple-choice",
+    "choices": [
+      {
+        "id": "A",
+        "text": "3"
+      },
+      {
+        "id": "B",
+        "text": "6"
+      },
+      {
+        "id": "C",
+        "text": "8"
+      },
+      {
+        "id": "D",
+        "text": "150"
+      }
+    ],
+    "answer": "B",
+    "explanation": "Official diagnostic answer: B. Review the source figure and choices above; this item is from the publisher's Practice Test 2 diagnostic key.",
+    "assets": [
+      {
+        "id": "question-image",
+        "type": "figure",
+        "src": "assets/questions/sat-binder-test-1-math-m2-easier-q06.png",
+        "alt": "Practice Test 2 question image (math-m2-easier question 6)",
+        "width": 756,
+        "height": 616,
+        "sourcePage": 43
+      }
+    ],
+    "sourceType": "Princeton Review Digital SAT Premium Prep 2025",
+    "sourcePage": 43,
+    "sourceQuestion": "math-m2-easier question 6",
+    "needsReview": false,
+    "sourceNotes": "Question image and extracted text were visually verified. Answer letter/value comes from the publisher diagnostic answer key."
+  },
+  {
+    "id": "sat-binder-test-1-math-m2-easier-q07",
+    "domain": "Problem-Solving and Data Analysis",
+    "skill": "Percentages",
+    "difficulty": 1,
+    "prompt": "A total of 200 pets were adopted at an event. If 70% of the adopted pets were dogs, how many of the pets were dogs?",
+    "type": "student-produced-response",
+    "choices": [],
+    "answer": "140",
+    "explanation": "Official diagnostic answer: 140. Review the source figure and choices above; this item is from the publisher's Practice Test 2 diagnostic key.",
+    "assets": [
+      {
+        "id": "question-image",
+        "type": "figure",
+        "src": "assets/questions/sat-binder-test-1-math-m2-easier-q07.png",
+        "alt": "Practice Test 2 question image (math-m2-easier question 7)",
+        "width": 756,
+        "height": 338,
+        "sourcePage": 43
+      }
+    ],
+    "sourceType": "Princeton Review Digital SAT Premium Prep 2025",
+    "sourcePage": 43,
+    "sourceQuestion": "math-m2-easier question 7",
+    "needsReview": false,
+    "sourceNotes": "Question image and extracted text were visually verified. Answer letter/value comes from the publisher diagnostic answer key."
+  },
+  {
+    "id": "sat-binder-test-1-math-m2-easier-q08",
+    "domain": "Problem-Solving and Data Analysis",
+    "skill": "Rates",
+    "difficulty": 1,
+    "prompt": "James must drive 100 miles before he can take his driver’s license test. He knows that when he drives around town running errands, he drives at an average speed of 20 miles per hour. If James maintains this average speed, how many hours must he drive to meet the requirement for his driver’s license test?",
+    "type": "multiple-choice",
+    "choices": [
+      {
+        "id": "A",
+        "text": "5"
+      },
+      {
+        "id": "B",
+        "text": "20"
+      },
+      {
+        "id": "C",
+        "text": "80"
+      },
+      {
+        "id": "D",
+        "text": "100"
+      }
+    ],
+    "answer": "A",
+    "explanation": "Official diagnostic answer: A. Review the source figure and choices above; this item is from the publisher's Practice Test 2 diagnostic key.",
+    "assets": [
+      {
+        "id": "question-image",
+        "type": "figure",
+        "src": "assets/questions/sat-binder-test-1-math-m2-easier-q08.png",
+        "alt": "Practice Test 2 question image (math-m2-easier question 8)",
+        "width": 756,
+        "height": 691,
+        "sourcePage": 43
+      }
+    ],
+    "sourceType": "Princeton Review Digital SAT Premium Prep 2025",
+    "sourcePage": 43,
+    "sourceQuestion": "math-m2-easier question 8",
+    "needsReview": false,
+    "sourceNotes": "Question image and extracted text were visually verified. Answer letter/value comes from the publisher diagnostic answer key."
+  },
+  {
+    "id": "sat-binder-test-1-math-m2-easier-q09",
+    "domain": "Algebra",
+    "skill": "Solving for Expressions",
+    "difficulty": 1,
+    "prompt": "What is the value of $4y - 16$ if $y - 4 = 11$?",
+    "type": "student-produced-response",
+    "choices": [],
+    "answer": "44",
+    "explanation": "Official diagnostic answer: 44. Review the source figure and choices above; this item is from the publisher's Practice Test 2 diagnostic key.",
+    "assets": [
+      {
+        "id": "question-image",
+        "type": "figure",
+        "src": "assets/questions/sat-binder-test-1-math-m2-easier-q09.png",
+        "alt": "Practice Test 2 question image (math-m2-easier question 9)",
+        "width": 756,
+        "height": 268,
+        "sourcePage": 43
+      }
+    ],
+    "sourceType": "Princeton Review Digital SAT Premium Prep 2025",
+    "sourcePage": 43,
+    "sourceQuestion": "math-m2-easier question 9",
+    "needsReview": false,
+    "sourceNotes": "Question image and extracted text were visually verified. Answer letter/value comes from the publisher diagnostic answer key."
+  },
+  {
+    "id": "sat-binder-test-1-math-m2-easier-q10",
+    "domain": "Advanced Math",
+    "skill": "Function Fundamentals",
+    "difficulty": 1,
+    "prompt": "The function $g$ is defined as $g(x) = x^2 - 1$. What is the value of $g(x)$ when $x = 3$?",
+    "type": "multiple-choice",
+    "choices": [
+      {
+        "id": "A",
+        "text": "4"
+      },
+      {
+        "id": "B",
+        "text": "5"
+      },
+      {
+        "id": "C",
+        "text": "7"
+      },
+      {
+        "id": "D",
+        "text": "8"
+      }
+    ],
+    "answer": "D",
+    "explanation": "Official diagnostic answer: D. Review the source figure and choices above; this item is from the publisher's Practice Test 2 diagnostic key.",
+    "assets": [
+      {
+        "id": "question-image",
+        "type": "figure",
+        "src": "assets/questions/sat-binder-test-1-math-m2-easier-q10.png",
+        "alt": "Practice Test 2 question image (math-m2-easier question 10)",
+        "width": 756,
+        "height": 553,
+        "sourcePage": 44
+      }
+    ],
+    "sourceType": "Princeton Review Digital SAT Premium Prep 2025",
+    "sourcePage": 44,
+    "sourceQuestion": "math-m2-easier question 10",
+    "needsReview": false,
+    "sourceNotes": "Question image and extracted text were visually verified. Answer letter/value comes from the publisher diagnostic answer key."
+  },
+  {
+    "id": "sat-binder-test-1-math-m2-easier-q11",
+    "domain": "Advanced Math",
+    "skill": "Function Fundamentals",
+    "difficulty": 1,
+    "prompt": "The production cost $p(x)$, in dollars, to produce $x$ units of an item when materials cost \\$2 per item is given by $p(x) = 2x + 150$. What is the total cost to produce 2,000 units of this item?",
+    "type": "multiple-choice",
+    "choices": [
+      {
+        "id": "A",
+        "text": "\\$1,850"
+      },
+      {
+        "id": "B",
+        "text": "\\$2,300"
+      },
+      {
+        "id": "C",
+        "text": "\\$3,850"
+      },
+      {
+        "id": "D",
+        "text": "\\$4,150"
+      }
+    ],
+    "answer": "D",
+    "explanation": "Official diagnostic answer: D. Review the source figure and choices above; this item is from the publisher's Practice Test 2 diagnostic key.",
+    "assets": [
+      {
+        "id": "question-image",
+        "type": "figure",
+        "src": "assets/questions/sat-binder-test-1-math-m2-easier-q11.png",
+        "alt": "Practice Test 2 question image (math-m2-easier question 11)",
+        "width": 756,
+        "height": 622,
+        "sourcePage": 44
+      }
+    ],
+    "sourceType": "Princeton Review Digital SAT Premium Prep 2025",
+    "sourcePage": 44,
+    "sourceQuestion": "math-m2-easier question 11",
+    "needsReview": false,
+    "sourceNotes": "Question image and extracted text were visually verified. Answer letter/value comes from the publisher diagnostic answer key."
+  },
+  {
+    "id": "sat-binder-test-1-math-m2-easier-q12",
+    "domain": "Advanced Math",
+    "skill": "Function Fundamentals",
+    "difficulty": 1,
+    "prompt": "The function $f$ is given as $f(x) = \\frac{2}{3}x$. When $x = 6$, what is the value of $f(x)$?",
+    "type": "multiple-choice",
+    "choices": [
+      {
+        "id": "A",
+        "text": "2"
+      },
+      {
+        "id": "B",
+        "text": "4"
+      },
+      {
+        "id": "C",
+        "text": "6"
+      },
+      {
+        "id": "D",
+        "text": "9"
+      }
+    ],
+    "answer": "B",
+    "explanation": "Official diagnostic answer: B. Review the source figure and choices above; this item is from the publisher's Practice Test 2 diagnostic key.",
+    "assets": [
+      {
+        "id": "question-image",
+        "type": "figure",
+        "src": "assets/questions/sat-binder-test-1-math-m2-easier-q12.png",
+        "alt": "Practice Test 2 question image (math-m2-easier question 12)",
+        "width": 756,
+        "height": 575,
+        "sourcePage": 44
+      }
+    ],
+    "sourceType": "Princeton Review Digital SAT Premium Prep 2025",
+    "sourcePage": 44,
+    "sourceQuestion": "math-m2-easier question 12",
+    "needsReview": false,
+    "sourceNotes": "Question image and extracted text were visually verified. Answer letter/value comes from the publisher diagnostic answer key."
+  },
+  {
+    "id": "sat-binder-test-1-math-m2-easier-q13",
+    "domain": "Geometry and Trigonometry",
+    "skill": "Lines and Angles",
+    "difficulty": 1,
+    "prompt": "Note: Figure not drawn to scale.\n\nIn the given figure, what is the value of $d$ if line $a$ is parallel to line $b$?",
+    "type": "student-produced-response",
+    "choices": [],
+    "answer": "118",
+    "explanation": "Official diagnostic answer: 118. Review the source figure and choices above; this item is from the publisher's Practice Test 2 diagnostic key.",
+    "assets": [
+      {
+        "id": "question-image",
+        "type": "figure",
+        "src": "assets/questions/sat-binder-test-1-math-m2-easier-q13.png",
+        "alt": "Practice Test 2 question image (math-m2-easier question 13)",
+        "width": 756,
+        "height": 767,
+        "sourcePage": 44
+      }
+    ],
+    "sourceType": "Princeton Review Digital SAT Premium Prep 2025",
+    "sourcePage": 44,
+    "sourceQuestion": "math-m2-easier question 13",
+    "needsReview": false,
+    "sourceNotes": "Question image and extracted text were visually verified. Answer letter/value comes from the publisher diagnostic answer key."
+  },
+  {
+    "id": "sat-binder-test-1-math-m2-easier-q14",
+    "domain": "Algebra",
+    "skill": "Equations of a Line",
+    "difficulty": 1,
+    "prompt": "$3x - 4y = 17$\n\nIn the $xy$-plane, the graph of a line with an $x$-intercept of $(c, 0)$ and a $y$-intercept of $(0, k)$, where $c$ and $k$ are constants, can be represented by the given equation. What is the value of $\\frac{c}{k}$?",
+    "type": "multiple-choice",
+    "choices": [
+      {
+        "id": "A",
+        "text": "$-\\frac{4}{3}$"
+      },
+      {
+        "id": "B",
+        "text": "$-\\frac{3}{4}$"
+      },
+      {
+        "id": "C",
+        "text": "$\\frac{3}{4}$"
+      },
+      {
+        "id": "D",
+        "text": "$\\frac{4}{3}$"
+      }
+    ],
+    "answer": "A",
+    "explanation": "Official diagnostic answer: A. Review the source figure and choices above; this item is from the publisher's Practice Test 2 diagnostic key.",
+    "assets": [
+      {
+        "id": "question-image",
+        "type": "figure",
+        "src": "assets/questions/sat-binder-test-1-math-m2-easier-q14.png",
+        "alt": "Practice Test 2 question image (math-m2-easier question 14)",
+        "width": 756,
+        "height": 711,
+        "sourcePage": 45
+      }
+    ],
+    "sourceType": "Princeton Review Digital SAT Premium Prep 2025",
+    "sourcePage": 45,
+    "sourceQuestion": "math-m2-easier question 14",
+    "needsReview": false,
+    "sourceNotes": "Question image and extracted text were visually verified. Answer letter/value comes from the publisher diagnostic answer key."
+  },
+  {
+    "id": "sat-binder-test-1-math-m2-easier-q15",
+    "domain": "Problem-Solving and Data Analysis",
+    "skill": "Rates",
+    "difficulty": 1,
+    "prompt": "A postal machine processes mail at a constant rate of 21 pieces of mail per minute. At this rate, how many pieces of mail would the machine process in 7 minutes?",
+    "type": "multiple-choice",
+    "choices": [
+      {
+        "id": "A",
+        "text": "3"
+      },
+      {
+        "id": "B",
+        "text": "14"
+      },
+      {
+        "id": "C",
+        "text": "28"
+      },
+      {
+        "id": "D",
+        "text": "147"
+      }
+    ],
+    "answer": "D",
+    "explanation": "Official diagnostic answer: D. Review the source figure and choices above; this item is from the publisher's Practice Test 2 diagnostic key.",
+    "assets": [
+      {
+        "id": "question-image",
+        "type": "figure",
+        "src": "assets/questions/sat-binder-test-1-math-m2-easier-q15.png",
+        "alt": "Practice Test 2 question image (math-m2-easier question 15)",
+        "width": 756,
+        "height": 588,
+        "sourcePage": 45
+      }
+    ],
+    "sourceType": "Princeton Review Digital SAT Premium Prep 2025",
+    "sourcePage": 45,
+    "sourceQuestion": "math-m2-easier question 15",
+    "needsReview": false,
+    "sourceNotes": "Question image and extracted text were visually verified. Answer letter/value comes from the publisher diagnostic answer key."
+  },
+  {
+    "id": "sat-binder-test-1-math-m2-easier-q16",
+    "domain": "Algebra",
+    "skill": "Write Your Own Equations",
+    "difficulty": 1,
+    "prompt": "Stella had 211 invitations to send for an event. She has already sent 43 invitations and will send them all if she sends 24 each day for the next $d$ days. Which of the following equations represents this situation?",
+    "type": "multiple-choice",
+    "choices": [
+      {
+        "id": "A",
+        "text": "$24d - 43 = 211$"
+      },
+      {
+        "id": "B",
+        "text": "$24d + 43 = 211$"
+      },
+      {
+        "id": "C",
+        "text": "$43d - 24 = 211$"
+      },
+      {
+        "id": "D",
+        "text": "$43d + 24 = 211$"
+      }
+    ],
+    "answer": "B",
+    "explanation": "Official diagnostic answer: B. Review the source figure and choices above; this item is from the publisher's Practice Test 2 diagnostic key.",
+    "assets": [
+      {
+        "id": "question-image",
+        "type": "figure",
+        "src": "assets/questions/sat-binder-test-1-math-m2-easier-q16.png",
+        "alt": "Practice Test 2 question image (math-m2-easier question 16)",
+        "width": 756,
+        "height": 624,
+        "sourcePage": 45
+      }
+    ],
+    "sourceType": "Princeton Review Digital SAT Premium Prep 2025",
+    "sourcePage": 45,
+    "sourceQuestion": "math-m2-easier question 16",
+    "needsReview": false,
+    "sourceNotes": "Question image and extracted text were visually verified. Answer letter/value comes from the publisher diagnostic answer key."
+  },
+  {
+    "id": "sat-binder-test-1-math-m2-easier-q17",
+    "domain": "Advanced Math",
+    "skill": "Function Fundamentals",
+    "difficulty": 1,
+    "prompt": "| $x$ | -1 | 0 | 1 | 2 |\n| --- | --- | --- | --- | --- |\n| $f(x)$ | 12 | 15 | 18 | 21 |\n\nWhen the linear function $y = f(x)$ is graphed in the $xy$-plane, the graph contains the corresponding values of $x$ and $f(x)$ shown in the table above. Which of the following could represent the function?",
+    "type": "multiple-choice",
+    "choices": [
+      {
+        "id": "A",
+        "text": "$f(x) = 3x + 12$"
+      },
+      {
+        "id": "B",
+        "text": "$f(x) = 3x + 15$"
+      },
+      {
+        "id": "C",
+        "text": "$f(x) = 15x + 12$"
+      },
+      {
+        "id": "D",
+        "text": "$f(x) = 15x + 15$"
+      }
+    ],
+    "answer": "B",
+    "explanation": "Official diagnostic answer: B. Review the source figure and choices above; this item is from the publisher's Practice Test 2 diagnostic key.",
+    "assets": [
+      {
+        "id": "question-image",
+        "type": "figure",
+        "src": "assets/questions/sat-binder-test-1-math-m2-easier-q17.png",
+        "alt": "Practice Test 2 question image (math-m2-easier question 17)",
+        "width": 756,
+        "height": 750,
+        "sourcePage": 45
+      }
+    ],
+    "sourceType": "Princeton Review Digital SAT Premium Prep 2025",
+    "sourcePage": 45,
+    "sourceQuestion": "math-m2-easier question 17",
+    "needsReview": false,
+    "sourceNotes": "Question image and extracted text were visually verified. Answer letter/value comes from the publisher diagnostic answer key."
+  },
+  {
+    "id": "sat-binder-test-1-math-m2-easier-q18",
+    "domain": "Advanced Math",
+    "skill": "Equations of a Parabola",
+    "difficulty": 1,
+    "prompt": "The height of a rocket launched from a rooftop can be modeled by the equation $h = -16s^2 + 64s + 21$, where $h$ is the height of the rocket above the ground, in feet, and $s$ is the number of seconds since the rocket was launched. Which of the following represents the height, in feet, of the rooftop from which the rocket was launched?",
+    "type": "multiple-choice",
+    "choices": [
+      {
+        "id": "A",
+        "text": "0"
+      },
+      {
+        "id": "B",
+        "text": "16"
+      },
+      {
+        "id": "C",
+        "text": "21"
+      },
+      {
+        "id": "D",
+        "text": "64"
+      }
+    ],
+    "answer": "C",
+    "explanation": "Official diagnostic answer: C. Review the source figure and choices above; this item is from the publisher's Practice Test 2 diagnostic key.",
+    "assets": [
+      {
+        "id": "question-image",
+        "type": "figure",
+        "src": "assets/questions/sat-binder-test-1-math-m2-easier-q18.png",
+        "alt": "Practice Test 2 question image (math-m2-easier question 18)",
+        "width": 756,
+        "height": 726,
+        "sourcePage": 46
+      }
+    ],
+    "sourceType": "Princeton Review Digital SAT Premium Prep 2025",
+    "sourcePage": 46,
+    "sourceQuestion": "math-m2-easier question 18",
+    "needsReview": false,
+    "sourceNotes": "Question image and extracted text were visually verified. Answer letter/value comes from the publisher diagnostic answer key."
+  },
+  {
+    "id": "sat-binder-test-1-math-m2-easier-q19",
+    "domain": "Advanced Math",
+    "skill": "Function Fundamentals",
+    "difficulty": 1,
+    "prompt": "Function $f$ is defined by $f(x) = x^3 + 1$. Which of the following tables gives three values of $x$ and their corresponding values of $y$?",
+    "type": "multiple-choice",
+    "choices": [
+      {
+        "id": "A",
+        "text": "| $x$ | 2 | 3 | 4 |\n| --- | --- | --- | --- |\n| $y$ | 3 | 4 | 5 |"
+      },
+      {
+        "id": "B",
+        "text": "| $x$ | 2 | 3 | 4 |\n| --- | --- | --- | --- |\n| $y$ | 3 | 28 | 64 |"
+      },
+      {
+        "id": "C",
+        "text": "| $x$ | 2 | 3 | 4 |\n| --- | --- | --- | --- |\n| $y$ | 9 | 10 | 65 |"
+      },
+      {
+        "id": "D",
+        "text": "| $x$ | 2 | 3 | 4 |\n| --- | --- | --- | --- |\n| $y$ | 9 | 28 | 65 |"
+      }
+    ],
+    "answer": "D",
+    "explanation": "Official diagnostic answer: D. Review the source figure and choices above; this item is from the publisher's Practice Test 2 diagnostic key.",
+    "assets": [
+      {
+        "id": "question-image",
+        "type": "figure",
+        "src": "assets/questions/sat-binder-test-1-math-m2-easier-q19.png",
+        "alt": "Practice Test 2 question image (math-m2-easier question 19)",
+        "width": 756,
+        "height": 864,
+        "sourcePage": 46
+      }
+    ],
+    "sourceType": "Princeton Review Digital SAT Premium Prep 2025",
+    "sourcePage": 46,
+    "sourceQuestion": "math-m2-easier question 19",
+    "needsReview": false,
+    "sourceNotes": "Question image and extracted text were visually verified. Answer letter/value comes from the publisher diagnostic answer key."
+  },
+  {
+    "id": "sat-binder-test-1-math-m2-easier-q20",
+    "domain": "Advanced Math",
+    "skill": "Function Fundamentals",
+    "difficulty": 1,
+    "prompt": "If $h(-1) = 3$ and $h(0) = 5$ in linear function $h$, which of the following is the equation of function $h$?",
+    "type": "multiple-choice",
+    "choices": [
+      {
+        "id": "A",
+        "text": "$h(x) = 2x + 5$"
+      },
+      {
+        "id": "B",
+        "text": "$h(x) = 2x + 3$"
+      },
+      {
+        "id": "C",
+        "text": "$h(x) = 2x$"
+      },
+      {
+        "id": "D",
+        "text": "$h(x) = 3x + 5$"
+      }
+    ],
+    "answer": "A",
+    "explanation": "Official diagnostic answer: A. Review the source figure and choices above; this item is from the publisher's Practice Test 2 diagnostic key.",
+    "assets": [
+      {
+        "id": "question-image",
+        "type": "figure",
+        "src": "assets/questions/sat-binder-test-1-math-m2-easier-q20.png",
+        "alt": "Practice Test 2 question image (math-m2-easier question 20)",
+        "width": 756,
+        "height": 554,
+        "sourcePage": 46
+      }
+    ],
+    "sourceType": "Princeton Review Digital SAT Premium Prep 2025",
+    "sourcePage": 46,
+    "sourceQuestion": "math-m2-easier question 20",
+    "needsReview": false,
+    "sourceNotes": "Question image and extracted text were visually verified. Answer letter/value comes from the publisher diagnostic answer key."
+  },
+  {
+    "id": "sat-binder-test-1-math-m2-easier-q21",
+    "domain": "Algebra",
+    "skill": "Fundamentals of Digital SAT Algebra",
+    "difficulty": 1,
+    "prompt": "Which of the following equations correctly expresses $r$ in terms of $p$ and $s$ if the relationship between the numbers $p$, $r$, and $s$ can be expressed as $p = 13r - 6s$?",
+    "type": "multiple-choice",
+    "choices": [
+      {
+        "id": "A",
+        "text": "$r = \\frac{-6s - p}{13}$"
+      },
+      {
+        "id": "B",
+        "text": "$r = 13p + 6s$"
+      },
+      {
+        "id": "C",
+        "text": "$r = \\frac{1}{13}p + 6s$"
+      },
+      {
+        "id": "D",
+        "text": "$r = \\frac{p + 6s}{13}$"
+      }
+    ],
+    "answer": "D",
+    "explanation": "Official diagnostic answer: D. Review the source figure and choices above; this item is from the publisher's Practice Test 2 diagnostic key.",
+    "assets": [
+      {
+        "id": "question-image",
+        "type": "figure",
+        "src": "assets/questions/sat-binder-test-1-math-m2-easier-q21.png",
+        "alt": "Practice Test 2 question image (math-m2-easier question 21)",
+        "width": 756,
+        "height": 588,
+        "sourcePage": 47
+      }
+    ],
+    "sourceType": "Princeton Review Digital SAT Premium Prep 2025",
+    "sourcePage": 47,
+    "sourceQuestion": "math-m2-easier question 21",
+    "needsReview": false,
+    "sourceNotes": "Question image and extracted text were visually verified. Answer letter/value comes from the publisher diagnostic answer key."
+  },
+  {
+    "id": "sat-binder-test-1-math-m2-easier-q22",
+    "domain": "Geometry and Trigonometry",
+    "skill": "Triangles",
+    "difficulty": 1,
+    "prompt": "Right triangle $ABC$ has sides of the following lengths: $AB = 165$, $BC = 280$, and $AC = 325$. Another triangle, $LMN$, is similar to $ABC$ such that $A$ corresponds to $L$ and $B$ corresponds to $M$. What is the value of $\\cos(L)$?",
+    "type": "multiple-choice",
+    "choices": [
+      {
+        "id": "A",
+        "text": "$\\frac{33}{65}$"
+      },
+      {
+        "id": "B",
+        "text": "$\\frac{33}{56}$"
+      },
+      {
+        "id": "C",
+        "text": "$\\frac{56}{65}$"
+      },
+      {
+        "id": "D",
+        "text": "$\\frac{65}{33}$"
+      }
+    ],
+    "answer": "A",
+    "explanation": "Official diagnostic answer: A. Review the source figure and choices above; this item is from the publisher's Practice Test 2 diagnostic key.",
+    "assets": [
+      {
+        "id": "question-image",
+        "type": "figure",
+        "src": "assets/questions/sat-binder-test-1-math-m2-easier-q22.png",
+        "alt": "Practice Test 2 question image (math-m2-easier question 22)",
+        "width": 756,
+        "height": 622,
+        "sourcePage": 47
+      }
+    ],
+    "sourceType": "Princeton Review Digital SAT Premium Prep 2025",
+    "sourcePage": 47,
+    "sourceQuestion": "math-m2-easier question 22",
+    "needsReview": false,
+    "sourceNotes": "Question image and extracted text were visually verified. Answer letter/value comes from the publisher diagnostic answer key."
+  },
+  {
+    "id": "sat-binder-test-1-math-m2-harder-q01",
+    "domain": "Algebra",
+    "skill": "Fundamentals of Digital SAT Algebra",
+    "difficulty": 3,
+    "prompt": "Which of the following is equivalent to $3a^3 - 5a^3 + 6a$?",
+    "type": "multiple-choice",
+    "choices": [
+      {
+        "id": "A",
+        "text": "$-2a^3 + 6a$"
+      },
+      {
+        "id": "B",
+        "text": "$3a^3 + a$"
+      },
+      {
+        "id": "C",
+        "text": "$4a$"
+      },
+      {
+        "id": "D",
+        "text": "$-15a^9 + 6a$"
+      }
+    ],
+    "answer": "A",
+    "explanation": "Official diagnostic answer: A. Review the source figure and choices above; this item is from the publisher's Practice Test 2 diagnostic key.",
+    "assets": [
+      {
+        "id": "question-image",
+        "type": "figure",
+        "src": "assets/questions/sat-binder-test-1-math-m2-harder-q01.png",
+        "alt": "Practice Test 2 question image (math-m2-harder question 1)",
+        "width": 756,
+        "height": 520,
+        "sourcePage": 50
+      }
+    ],
+    "sourceType": "Princeton Review Digital SAT Premium Prep 2025",
+    "sourcePage": 50,
+    "sourceQuestion": "math-m2-harder question 1",
+    "needsReview": false,
+    "sourceNotes": "Question image and extracted text were visually verified. Answer letter/value comes from the publisher diagnostic answer key."
+  },
+  {
+    "id": "sat-binder-test-1-math-m2-harder-q02",
+    "domain": "Problem-Solving and Data Analysis",
+    "skill": "Percentages",
+    "difficulty": 3,
+    "prompt": "In a shipment of 45,000,000 shirts, 4,950,000 are white. What percentage of the shirts are white shirts?",
+    "type": "multiple-choice",
+    "choices": [
+      {
+        "id": "A",
+        "text": "11%"
+      },
+      {
+        "id": "B",
+        "text": "22%"
+      },
+      {
+        "id": "C",
+        "text": "78%"
+      },
+      {
+        "id": "D",
+        "text": "89%"
+      }
+    ],
+    "answer": "A",
+    "explanation": "Official diagnostic answer: A. Review the source figure and choices above; this item is from the publisher's Practice Test 2 diagnostic key.",
+    "assets": [
+      {
+        "id": "question-image",
+        "type": "figure",
+        "src": "assets/questions/sat-binder-test-1-math-m2-harder-q02.png",
+        "alt": "Practice Test 2 question image (math-m2-harder question 2)",
+        "width": 756,
+        "height": 553,
+        "sourcePage": 50
+      }
+    ],
+    "sourceType": "Princeton Review Digital SAT Premium Prep 2025",
+    "sourcePage": 50,
+    "sourceQuestion": "math-m2-harder question 2",
+    "needsReview": false,
+    "sourceNotes": "Question image and extracted text were visually verified. Answer letter/value comes from the publisher diagnostic answer key."
+  },
+  {
+    "id": "sat-binder-test-1-math-m2-harder-q03",
+    "domain": "Algebra",
+    "skill": "Solving for Expressions",
+    "difficulty": 3,
+    "prompt": "If $3(x - 8) - 16 = 8(x + 10) + x$, what is the value of $6x$?",
+    "type": "student-produced-response",
+    "choices": [],
+    "answer": "-120",
+    "explanation": "Official diagnostic answer: -120. Review the source figure and choices above; this item is from the publisher's Practice Test 2 diagnostic key.",
+    "assets": [
+      {
+        "id": "question-image",
+        "type": "figure",
+        "src": "assets/questions/sat-binder-test-1-math-m2-harder-q03.png",
+        "alt": "Practice Test 2 question image (math-m2-harder question 3)",
+        "width": 756,
+        "height": 269,
+        "sourcePage": 50
+      }
+    ],
+    "sourceType": "Princeton Review Digital SAT Premium Prep 2025",
+    "sourcePage": 50,
+    "sourceQuestion": "math-m2-harder question 3",
+    "needsReview": false,
+    "sourceNotes": "Question image and extracted text were visually verified. Answer letter/value comes from the publisher diagnostic answer key."
+  },
+  {
+    "id": "sat-binder-test-1-math-m2-harder-q04",
+    "domain": "Algebra",
+    "skill": "Solving for Expressions",
+    "difficulty": 3,
+    "prompt": "$8(a - 3) - 17 = 9(a - 3)$\n\nIn the given equation, what is the value of $a - 3$?",
+    "type": "multiple-choice",
+    "choices": [
+      {
+        "id": "A",
+        "text": "$-20$"
+      },
+      {
+        "id": "B",
+        "text": "$-17$"
+      },
+      {
+        "id": "C",
+        "text": "$-14$"
+      },
+      {
+        "id": "D",
+        "text": "$3$"
+      }
+    ],
+    "answer": "B",
+    "explanation": "Official diagnostic answer: B. Review the source figure and choices above; this item is from the publisher's Practice Test 2 diagnostic key.",
+    "assets": [
+      {
+        "id": "question-image",
+        "type": "figure",
+        "src": "assets/questions/sat-binder-test-1-math-m2-harder-q04.png",
+        "alt": "Practice Test 2 question image (math-m2-harder question 4)",
+        "width": 756,
+        "height": 564,
+        "sourcePage": 50
+      }
+    ],
+    "sourceType": "Princeton Review Digital SAT Premium Prep 2025",
+    "sourcePage": 50,
+    "sourceQuestion": "math-m2-harder question 4",
+    "needsReview": false,
+    "sourceNotes": "Question image and extracted text were visually verified. Answer letter/value comes from the publisher diagnostic answer key."
+  },
+  {
+    "id": "sat-binder-test-1-math-m2-harder-q05",
+    "domain": "Problem-Solving and Data Analysis",
+    "skill": "Meaning In Context",
+    "difficulty": 3,
+    "prompt": "A school classroom with a total of 4,200 floor tiles is divided into a 30 square-foot lab area and an 80 square-foot seating area. The number of tiles on the entire classroom floor can be represented by the equation $30a + 80b = 4{,}200$. In this context, which of the following does $b$ represent?",
+    "type": "multiple-choice",
+    "choices": [
+      {
+        "id": "A",
+        "text": "The average number of tiles per square foot in the lab area"
+      },
+      {
+        "id": "B",
+        "text": "The total number of tiles in the lab area"
+      },
+      {
+        "id": "C",
+        "text": "The average number of tiles per square foot in the seating area"
+      },
+      {
+        "id": "D",
+        "text": "The total number of tiles in the seating area"
+      }
+    ],
+    "answer": "C",
+    "explanation": "Official diagnostic answer: C. Review the source figure and choices above; this item is from the publisher's Practice Test 2 diagnostic key.",
+    "assets": [
+      {
+        "id": "question-image",
+        "type": "figure",
+        "src": "assets/questions/sat-binder-test-1-math-m2-harder-q05.png",
+        "alt": "Practice Test 2 question image (math-m2-harder question 5)",
+        "width": 756,
+        "height": 760,
+        "sourcePage": 50
+      }
+    ],
+    "sourceType": "Princeton Review Digital SAT Premium Prep 2025",
+    "sourcePage": 50,
+    "sourceQuestion": "math-m2-harder question 5",
+    "needsReview": false,
+    "sourceNotes": "Question image and extracted text were visually verified. Answer letter/value comes from the publisher diagnostic answer key."
+  },
+  {
+    "id": "sat-binder-test-1-math-m2-harder-q06",
+    "domain": "Problem-Solving and Data Analysis",
+    "skill": "Ratios and Proportions",
+    "difficulty": 3,
+    "prompt": "A triangle has a base that is 65% of its height. If the base were decreased by 13 inches, how would the height need to change to keep the same proportions?",
+    "type": "multiple-choice",
+    "choices": [
+      {
+        "id": "A",
+        "text": "It must increase by 13 inches."
+      },
+      {
+        "id": "B",
+        "text": "It must increase by 20 inches."
+      },
+      {
+        "id": "C",
+        "text": "It must decrease by 13 inches."
+      },
+      {
+        "id": "D",
+        "text": "It must decrease by 20 inches."
+      }
+    ],
+    "answer": "D",
+    "explanation": "Official diagnostic answer: D. Review the source figure and choices above; this item is from the publisher's Practice Test 2 diagnostic key.",
+    "assets": [
+      {
+        "id": "question-image",
+        "type": "figure",
+        "src": "assets/questions/sat-binder-test-1-math-m2-harder-q06.png",
+        "alt": "Practice Test 2 question image (math-m2-harder question 6)",
+        "width": 756,
+        "height": 588,
+        "sourcePage": 51
+      }
+    ],
+    "sourceType": "Princeton Review Digital SAT Premium Prep 2025",
+    "sourcePage": 51,
+    "sourceQuestion": "math-m2-harder question 6",
+    "needsReview": false,
+    "sourceNotes": "Question image and extracted text were visually verified. Answer letter/value comes from the publisher diagnostic answer key."
+  },
+  {
+    "id": "sat-binder-test-1-math-m2-harder-q07",
+    "domain": "Algebra",
+    "skill": "Plugging In Your Own Numbers",
+    "difficulty": 3,
+    "prompt": "If $\\frac{a}{3} = 10 - 7b$ and $a \\ne 0$, which of the following correctly expresses $b$ in terms of $a$?",
+    "type": "multiple-choice",
+    "choices": [
+      {
+        "id": "A",
+        "text": "$b = \\frac{a - 21}{30}$"
+      },
+      {
+        "id": "B",
+        "text": "$b = \\frac{30 - a}{21}$"
+      },
+      {
+        "id": "C",
+        "text": "$b = 10 + \\frac{a}{3}$"
+      },
+      {
+        "id": "D",
+        "text": "$b = 10 + \\frac{3}{a}$"
+      }
+    ],
+    "answer": "B",
+    "explanation": "Official diagnostic answer: B. Review the source figure and choices above; this item is from the publisher's Practice Test 2 diagnostic key.",
+    "assets": [
+      {
+        "id": "question-image",
+        "type": "figure",
+        "src": "assets/questions/sat-binder-test-1-math-m2-harder-q07.png",
+        "alt": "Practice Test 2 question image (math-m2-harder question 7)",
+        "width": 756,
+        "height": 581,
+        "sourcePage": 51
+      }
+    ],
+    "sourceType": "Princeton Review Digital SAT Premium Prep 2025",
+    "sourcePage": 51,
+    "sourceQuestion": "math-m2-harder question 7",
+    "needsReview": false,
+    "sourceNotes": "Question image and extracted text were visually verified. Answer letter/value comes from the publisher diagnostic answer key."
+  },
+  {
+    "id": "sat-binder-test-1-math-m2-harder-q08",
+    "domain": "Advanced Math",
+    "skill": "Solving Rational Equations",
+    "difficulty": 3,
+    "prompt": "For all positive values of $y$, the expression $\\frac{3}{y + c}$ is equivalent to $\\frac{15}{5y + 30}$. What is the value of constant $c$?",
+    "type": "multiple-choice",
+    "choices": [
+      {
+        "id": "A",
+        "text": "$3$"
+      },
+      {
+        "id": "B",
+        "text": "$6$"
+      },
+      {
+        "id": "C",
+        "text": "$8$"
+      },
+      {
+        "id": "D",
+        "text": "$150$"
+      }
+    ],
+    "answer": "B",
+    "explanation": "Official diagnostic answer: B. Review the source figure and choices above; this item is from the publisher's Practice Test 2 diagnostic key.",
+    "assets": [
+      {
+        "id": "question-image",
+        "type": "figure",
+        "src": "assets/questions/sat-binder-test-1-math-m2-harder-q08.png",
+        "alt": "Practice Test 2 question image (math-m2-harder question 8)",
+        "width": 756,
+        "height": 595,
+        "sourcePage": 51
+      }
+    ],
+    "sourceType": "Princeton Review Digital SAT Premium Prep 2025",
+    "sourcePage": 51,
+    "sourceQuestion": "math-m2-harder question 8",
+    "needsReview": false,
+    "sourceNotes": "Question image and extracted text were visually verified. Answer letter/value comes from the publisher diagnostic answer key."
+  },
+  {
+    "id": "sat-binder-test-1-math-m2-harder-q09",
+    "domain": "Geometry and Trigonometry",
+    "skill": "Equation of a Circle",
+    "difficulty": 3,
+    "prompt": "In the $xy$-plane, the equation $(x - 7)^2 + (y + 7)^2 = 64$ defines circle O, and the equation $(x - 7)^2 + (y + 7)^2 = c$ defines circle P. If the two circles have the same center, and the radius of circle P is three less than the radius of circle O, what is the value of constant $c$?",
+    "type": "student-produced-response",
+    "choices": [],
+    "answer": "25",
+    "explanation": "Official diagnostic answer: 25. Review the source figure and choices above; this item is from the publisher's Practice Test 2 diagnostic key.",
+    "assets": [
+      {
+        "id": "question-image",
+        "type": "figure",
+        "src": "assets/questions/sat-binder-test-1-math-m2-harder-q09.png",
+        "alt": "Practice Test 2 question image (math-m2-harder question 9)",
+        "width": 756,
+        "height": 443,
+        "sourcePage": 51
+      }
+    ],
+    "sourceType": "Princeton Review Digital SAT Premium Prep 2025",
+    "sourcePage": 51,
+    "sourceQuestion": "math-m2-harder question 9",
+    "needsReview": false,
+    "sourceNotes": "Question image and extracted text were visually verified. Answer letter/value comes from the publisher diagnostic answer key."
+  },
+  {
+    "id": "sat-binder-test-1-math-m2-harder-q10",
+    "domain": "Algebra",
+    "skill": "Plug In the Answers (PITA)",
+    "difficulty": 3,
+    "prompt": "A school has received a donation of $20,000 for the purchase of new laptops. If each laptop costs $149, no tax is charged, and the laptop manufacturer offers a 7.5% discount on orders of at least 100 laptops, what is the maximum number of laptops the school can purchase with the donation?",
+    "type": "multiple-choice",
+    "choices": [
+      {
+        "id": "A",
+        "text": "124"
+      },
+      {
+        "id": "B",
+        "text": "134"
+      },
+      {
+        "id": "C",
+        "text": "145"
+      },
+      {
+        "id": "D",
+        "text": "146"
+      }
+    ],
+    "answer": "C",
+    "explanation": "Official diagnostic answer: C. Review the source figure and choices above; this item is from the publisher's Practice Test 2 diagnostic key.",
+    "assets": [
+      {
+        "id": "question-image",
+        "type": "figure",
+        "src": "assets/questions/sat-binder-test-1-math-m2-harder-q10.png",
+        "alt": "Practice Test 2 question image (math-m2-harder question 10)",
+        "width": 756,
+        "height": 691,
+        "sourcePage": 52
+      }
+    ],
+    "sourceType": "Princeton Review Digital SAT Premium Prep 2025",
+    "sourcePage": 52,
+    "sourceQuestion": "math-m2-harder question 10",
+    "needsReview": false,
+    "sourceNotes": "Question image and extracted text were visually verified. Answer letter/value comes from the publisher diagnostic answer key."
+  },
+  {
+    "id": "sat-binder-test-1-math-m2-harder-q11",
+    "domain": "Advanced Math",
+    "skill": "Points of Intersection",
+    "difficulty": 3,
+    "prompt": "$3x^2 - y - 26 = 0$\n\n$y = -3x + 10$\n\nThe point $(a, b)$ is an intersection of the system of equations above when graphed in the $xy$-plane. What is a possible value of $a$?",
+    "type": "multiple-choice",
+    "choices": [
+      {
+        "id": "A",
+        "text": "$-4$"
+      },
+      {
+        "id": "B",
+        "text": "$6$"
+      },
+      {
+        "id": "C",
+        "text": "$20$"
+      },
+      {
+        "id": "D",
+        "text": "$26$"
+      }
+    ],
+    "answer": "A",
+    "explanation": "Official diagnostic answer: A. Review the source figure and choices above; this item is from the publisher's Practice Test 2 diagnostic key.",
+    "assets": [
+      {
+        "id": "question-image",
+        "type": "figure",
+        "src": "assets/questions/sat-binder-test-1-math-m2-harder-q11.png",
+        "alt": "Practice Test 2 question image (math-m2-harder question 11)",
+        "width": 756,
+        "height": 677,
+        "sourcePage": 52
+      }
+    ],
+    "sourceType": "Princeton Review Digital SAT Premium Prep 2025",
+    "sourcePage": 52,
+    "sourceQuestion": "math-m2-harder question 11",
+    "needsReview": false,
+    "sourceNotes": "Question image and extracted text were visually verified. Answer letter/value comes from the publisher diagnostic answer key."
+  },
+  {
+    "id": "sat-binder-test-1-math-m2-harder-q12",
+    "domain": "Algebra",
+    "skill": "Fundamentals of Digital SAT Algebra",
+    "difficulty": 3,
+    "prompt": "How many values for $y$ satisfy the equation $-6(4y + 2) = 3(4 - 8y)$?",
+    "type": "multiple-choice",
+    "choices": [
+      {
+        "id": "A",
+        "text": "Zero"
+      },
+      {
+        "id": "B",
+        "text": "Exactly one"
+      },
+      {
+        "id": "C",
+        "text": "Exactly two"
+      },
+      {
+        "id": "D",
+        "text": "Infinitely many"
+      }
+    ],
+    "answer": "A",
+    "explanation": "Official diagnostic answer: A. Review the source figure and choices above; this item is from the publisher's Practice Test 2 diagnostic key.",
+    "assets": [
+      {
+        "id": "question-image",
+        "type": "figure",
+        "src": "assets/questions/sat-binder-test-1-math-m2-harder-q12.png",
+        "alt": "Practice Test 2 question image (math-m2-harder question 12)",
+        "width": 756,
+        "height": 553,
+        "sourcePage": 52
+      }
+    ],
+    "sourceType": "Princeton Review Digital SAT Premium Prep 2025",
+    "sourcePage": 52,
+    "sourceQuestion": "math-m2-harder question 12",
+    "needsReview": false,
+    "sourceNotes": "Question image and extracted text were visually verified. Answer letter/value comes from the publisher diagnostic answer key."
+  },
+  {
+    "id": "sat-binder-test-1-math-m2-harder-q13",
+    "domain": "Advanced Math",
+    "skill": "Equations of a Parabola",
+    "difficulty": 3,
+    "prompt": "A parabola represents the graph of the function $f$ in the $xy$-plane, where $y = f(x)$. If the vertex of the parabola is $(5, -4)$ and one of the $x$-intercepts is $(-1.5, 0)$, what is the other $x$-intercept?",
+    "type": "multiple-choice",
+    "choices": [
+      {
+        "id": "A",
+        "text": "$(-6.5, 0)$"
+      },
+      {
+        "id": "B",
+        "text": "$(1.5, 0)$"
+      },
+      {
+        "id": "C",
+        "text": "$(3.5, 0)$"
+      },
+      {
+        "id": "D",
+        "text": "$(11.5, 0)$"
+      }
+    ],
+    "answer": "D",
+    "explanation": "Official diagnostic answer: D. Review the source figure and choices above; this item is from the publisher's Practice Test 2 diagnostic key.",
+    "assets": [
+      {
+        "id": "question-image",
+        "type": "figure",
+        "src": "assets/questions/sat-binder-test-1-math-m2-harder-q13.png",
+        "alt": "Practice Test 2 question image (math-m2-harder question 13)",
+        "width": 756,
+        "height": 622,
+        "sourcePage": 52
+      }
+    ],
+    "sourceType": "Princeton Review Digital SAT Premium Prep 2025",
+    "sourcePage": 52,
+    "sourceQuestion": "math-m2-harder question 13",
+    "needsReview": false,
+    "sourceNotes": "Question image and extracted text were visually verified. Answer letter/value comes from the publisher diagnostic answer key."
+  },
+  {
+    "id": "sat-binder-test-1-math-m2-harder-q14",
+    "domain": "Advanced Math",
+    "skill": "Graphing Functions",
+    "difficulty": 3,
+    "prompt": "Which equation defines function $g$, if the graph of $y = g(x) - 10$ is shown above?",
+    "type": "multiple-choice",
+    "choices": [
+      {
+        "id": "A",
+        "text": "$y = \\frac{3}{5}x - 15$"
+      },
+      {
+        "id": "B",
+        "text": "$y = \\frac{3}{5}x - 5$"
+      },
+      {
+        "id": "C",
+        "text": "$y = \\frac{3}{5}x + 5$"
+      },
+      {
+        "id": "D",
+        "text": "$y = \\frac{3}{5}x + 10$"
+      }
+    ],
+    "answer": "C",
+    "explanation": "Official diagnostic answer: C. Review the source figure and choices above; this item is from the publisher's Practice Test 2 diagnostic key.",
+    "assets": [
+      {
+        "id": "question-image",
+        "type": "figure",
+        "src": "assets/questions/sat-binder-test-1-math-m2-harder-q14.png",
+        "alt": "Practice Test 2 question image (math-m2-harder question 14)",
+        "width": 756,
+        "height": 1197,
+        "sourcePage": 53
+      }
+    ],
+    "sourceType": "Princeton Review Digital SAT Premium Prep 2025",
+    "sourcePage": 53,
+    "sourceQuestion": "math-m2-harder question 14",
+    "needsReview": false,
+    "sourceNotes": "Question image and extracted text were visually verified. Answer letter/value comes from the publisher diagnostic answer key."
+  },
+  {
+    "id": "sat-binder-test-1-math-m2-harder-q15",
+    "domain": "Advanced Math",
+    "skill": "Solving Quadratic Equations",
+    "difficulty": 3,
+    "prompt": "If $c$ is a constant in the equation $10x^2 + c = -5x$, and the equation has no real solutions, what is the value of $c$?",
+    "type": "multiple-choice",
+    "choices": [
+      {
+        "id": "A",
+        "text": "$-20$"
+      },
+      {
+        "id": "B",
+        "text": "$-5$"
+      },
+      {
+        "id": "C",
+        "text": "$0$"
+      },
+      {
+        "id": "D",
+        "text": "$1$"
+      }
+    ],
+    "answer": "D",
+    "explanation": "Official diagnostic answer: D. Review the source figure and choices above; this item is from the publisher's Practice Test 2 diagnostic key.",
+    "assets": [
+      {
+        "id": "question-image",
+        "type": "figure",
+        "src": "assets/questions/sat-binder-test-1-math-m2-harder-q15.png",
+        "alt": "Practice Test 2 question image (math-m2-harder question 15)",
+        "width": 756,
+        "height": 553,
+        "sourcePage": 53
+      }
+    ],
+    "sourceType": "Princeton Review Digital SAT Premium Prep 2025",
+    "sourcePage": 53,
+    "sourceQuestion": "math-m2-harder question 15",
+    "needsReview": false,
+    "sourceNotes": "Question image and extracted text were visually verified. Answer letter/value comes from the publisher diagnostic answer key."
+  },
+  {
+    "id": "sat-binder-test-1-math-m2-harder-q16",
+    "domain": "Algebra",
+    "skill": "Equations of a Line",
+    "difficulty": 3,
+    "prompt": "$3x - 4y = 17$\n\nIn the $xy$-plane, the graph of a line with an $x$-intercept of $(c, 0)$ and a $y$-intercept of $(0, k)$, where $c$ and $k$ are constants, can be represented by the equation above. What is the value of $\\frac{c}{k}$?",
+    "type": "multiple-choice",
+    "choices": [
+      {
+        "id": "A",
+        "text": "$-\\frac{4}{3}$"
+      },
+      {
+        "id": "B",
+        "text": "$-\\frac{3}{4}$"
+      },
+      {
+        "id": "C",
+        "text": "$\\frac{3}{4}$"
+      },
+      {
+        "id": "D",
+        "text": "$\\frac{4}{3}$"
+      }
+    ],
+    "answer": "A",
+    "explanation": "Official diagnostic answer: A. Review the source figure and choices above; this item is from the publisher's Practice Test 2 diagnostic key.",
+    "assets": [
+      {
+        "id": "question-image",
+        "type": "figure",
+        "src": "assets/questions/sat-binder-test-1-math-m2-harder-q16.png",
+        "alt": "Practice Test 2 question image (math-m2-harder question 16)",
+        "width": 756,
+        "height": 711,
+        "sourcePage": 53
+      }
+    ],
+    "sourceType": "Princeton Review Digital SAT Premium Prep 2025",
+    "sourcePage": 53,
+    "sourceQuestion": "math-m2-harder question 16",
+    "needsReview": false,
+    "sourceNotes": "Question image and extracted text were visually verified. Answer letter/value comes from the publisher diagnostic answer key."
+  },
+  {
+    "id": "sat-binder-test-1-math-m2-harder-q17",
+    "domain": "Algebra",
+    "skill": "Solving Systems of Equations",
+    "difficulty": 3,
+    "prompt": "$-7 + 2f = cg$\n\n$21g + 21 = 6f - 15g$\n\nIf $c$ is a constant, and the system of equations shown above has infinitely many solutions, what is the value of $c$?",
+    "type": "student-produced-response",
+    "choices": [],
+    "answer": "12",
+    "explanation": "Official diagnostic answer: 12. Review the source figure and choices above; this item is from the publisher's Practice Test 2 diagnostic key.",
+    "assets": [
+      {
+        "id": "question-image",
+        "type": "figure",
+        "src": "assets/questions/sat-binder-test-1-math-m2-harder-q17.png",
+        "alt": "Practice Test 2 question image (math-m2-harder question 17)",
+        "width": 756,
+        "height": 428,
+        "sourcePage": 54
+      }
+    ],
+    "sourceType": "Princeton Review Digital SAT Premium Prep 2025",
+    "sourcePage": 54,
+    "sourceQuestion": "math-m2-harder question 17",
+    "needsReview": false,
+    "sourceNotes": "Question image and extracted text were visually verified. Answer letter/value comes from the publisher diagnostic answer key."
+  },
+  {
+    "id": "sat-binder-test-1-math-m2-harder-q18",
+    "domain": "Geometry and Trigonometry",
+    "skill": "Triangles",
+    "difficulty": 3,
+    "prompt": "Triangle $A$ has angles measuring $30^{\\circ}$, $60^{\\circ}$, and $90^{\\circ}$. What is the perimeter, in centimeters, of this triangle if the smallest side has a length of 15 centimeters?",
+    "type": "multiple-choice",
+    "choices": [
+      {
+        "id": "A",
+        "text": "$15\\sqrt{3}$"
+      },
+      {
+        "id": "B",
+        "text": "$15 + 15\\sqrt{3}$"
+      },
+      {
+        "id": "C",
+        "text": "$45 + 15\\sqrt{3}$"
+      },
+      {
+        "id": "D",
+        "text": "$45\\sqrt{3}$"
+      }
+    ],
+    "answer": "C",
+    "explanation": "Official diagnostic answer: C. Review the source figure and choices above; this item is from the publisher's Practice Test 2 diagnostic key.",
+    "assets": [
+      {
+        "id": "question-image",
+        "type": "figure",
+        "src": "assets/questions/sat-binder-test-1-math-m2-harder-q18.png",
+        "alt": "Practice Test 2 question image (math-m2-harder question 18)",
+        "width": 756,
+        "height": 625,
+        "sourcePage": 54
+      }
+    ],
+    "sourceType": "Princeton Review Digital SAT Premium Prep 2025",
+    "sourcePage": 54,
+    "sourceQuestion": "math-m2-harder question 18",
+    "needsReview": false,
+    "sourceNotes": "Question image and extracted text were visually verified. Answer letter/value comes from the publisher diagnostic answer key."
+  },
+  {
+    "id": "sat-binder-test-1-math-m2-harder-q19",
+    "domain": "Advanced Math",
+    "skill": "Function Fundamentals",
+    "difficulty": 3,
+    "prompt": "| $x$ | 2 | 4 | 6 | 8 |\n| --- | --- | --- | --- | --- |\n| $g(x)$ | 46 | 0 | -46 | -92 |\n\nFour values of $x$ and their corresponding values of $g(x)$ are shown in the table above for the linear function $g$. The equation $g(x) = cx + d$ defines function $g$, and $c$ and $d$ are constants. What is the value of $c + d$?",
+    "type": "multiple-choice",
+    "choices": [
+      {
+        "id": "A",
+        "text": "$-23$"
+      },
+      {
+        "id": "B",
+        "text": "$69$"
+      },
+      {
+        "id": "C",
+        "text": "$92$"
+      },
+      {
+        "id": "D",
+        "text": "$115$"
+      }
+    ],
+    "answer": "B",
+    "explanation": "Official diagnostic answer: B. Review the source figure and choices above; this item is from the publisher's Practice Test 2 diagnostic key.",
+    "assets": [
+      {
+        "id": "question-image",
+        "type": "figure",
+        "src": "assets/questions/sat-binder-test-1-math-m2-harder-q19.png",
+        "alt": "Practice Test 2 question image (math-m2-harder question 19)",
+        "width": 756,
+        "height": 762,
+        "sourcePage": 54
+      }
+    ],
+    "sourceType": "Princeton Review Digital SAT Premium Prep 2025",
+    "sourcePage": 54,
+    "sourceQuestion": "math-m2-harder question 19",
+    "needsReview": false,
+    "sourceNotes": "Question image and extracted text were visually verified. Answer letter/value comes from the publisher diagnostic answer key."
+  },
+  {
+    "id": "sat-binder-test-1-math-m2-harder-q20",
+    "domain": "Problem-Solving and Data Analysis",
+    "skill": "Averages",
+    "difficulty": 3,
+    "prompt": "114, 109, 106, 111\n\nA data set consists of 5 positive integers greater than 101. What is the value of the smallest integer in the data set if the mean of the entire data set is an integer that is less than the mean of the four integers from the data set shown above?",
+    "type": "student-produced-response",
+    "choices": [],
+    "answer": "105",
+    "explanation": "Official diagnostic answer: 105. Review the source figure and choices above; this item is from the publisher's Practice Test 2 diagnostic key.",
+    "assets": [
+      {
+        "id": "question-image",
+        "type": "figure",
+        "src": "assets/questions/sat-binder-test-1-math-m2-harder-q20.png",
+        "alt": "Practice Test 2 question image (math-m2-harder question 20)",
+        "width": 756,
+        "height": 440,
+        "sourcePage": 54
+      }
+    ],
+    "sourceType": "Princeton Review Digital SAT Premium Prep 2025",
+    "sourcePage": 54,
+    "sourceQuestion": "math-m2-harder question 20",
+    "needsReview": false,
+    "sourceNotes": "Question image and extracted text were visually verified. Answer letter/value comes from the publisher diagnostic answer key."
+  },
+  {
+    "id": "sat-binder-test-1-math-m2-harder-q21",
+    "domain": "Algebra",
+    "skill": "Plugging In Your Own Numbers",
+    "difficulty": 3,
+    "prompt": "A teacher awards points to a class based on completed assignments. He gives 5 points per assignment for the first 50 completed assignments and 3 points for each additional completed assignment beyond 50. When $a \\ge 50$, which function $g$ gives the total number of points earned by the class for $a$ completed assignments?",
+    "type": "multiple-choice",
+    "choices": [
+      {
+        "id": "A",
+        "text": "$g(a) = 3a + 5$"
+      },
+      {
+        "id": "B",
+        "text": "$g(a) = 3a + 100$"
+      },
+      {
+        "id": "C",
+        "text": "$g(a) = 3a + 250$"
+      },
+      {
+        "id": "D",
+        "text": "$g(a) = 8a - 150$"
+      }
+    ],
+    "answer": "B",
+    "explanation": "Official diagnostic answer: B. Review the source figure and choices above; this item is from the publisher's Practice Test 2 diagnostic key.",
+    "assets": [
+      {
+        "id": "question-image",
+        "type": "figure",
+        "src": "assets/questions/sat-binder-test-1-math-m2-harder-q21.png",
+        "alt": "Practice Test 2 question image (math-m2-harder question 21)",
+        "width": 756,
+        "height": 692,
+        "sourcePage": 55
+      }
+    ],
+    "sourceType": "Princeton Review Digital SAT Premium Prep 2025",
+    "sourcePage": 55,
+    "sourceQuestion": "math-m2-harder question 21",
+    "needsReview": false,
+    "sourceNotes": "Question image and extracted text were visually verified. Answer letter/value comes from the publisher diagnostic answer key."
+  },
+  {
+    "id": "sat-binder-test-1-math-m2-harder-q22",
+    "domain": "Geometry and Trigonometry",
+    "skill": "Triangles",
+    "difficulty": 3,
+    "prompt": "In triangles $ABC$ and $XYZ$, $AB = 22$, $XY = 11$, and angles $A$ and $X$ both measure $77^{\\circ}$. Which of the following pieces of information, if any, would be enough to prove that the two triangles are similar to each other?\n\nI. Angle $B$ measures $40^{\\circ}$\n\nII. Angle $Y$ measures $50^{\\circ}$\n\nIII. Angle $Z$ measures $63^{\\circ}$",
+    "type": "multiple-choice",
+    "choices": [
+      {
+        "id": "A",
+        "text": "No additional information is necessary."
+      },
+      {
+        "id": "B",
+        "text": "Angle measures alone do not provide enough information."
+      },
+      {
+        "id": "C",
+        "text": "I and II together provide enough information."
+      },
+      {
+        "id": "D",
+        "text": "I and III together provide enough information."
+      }
+    ],
+    "answer": "D",
+    "explanation": "Official diagnostic answer: D. Review the source figure and choices above; this item is from the publisher's Practice Test 2 diagnostic key.",
+    "assets": [
+      {
+        "id": "question-image",
+        "type": "figure",
+        "src": "assets/questions/sat-binder-test-1-math-m2-harder-q22.png",
+        "alt": "Practice Test 2 question image (math-m2-harder question 22)",
+        "width": 756,
+        "height": 803,
+        "sourcePage": 55
+      }
+    ],
+    "sourceType": "Princeton Review Digital SAT Premium Prep 2025",
+    "sourcePage": 55,
+    "sourceQuestion": "math-m2-harder question 22",
+    "needsReview": false,
+    "sourceNotes": "Question image and extracted text were visually verified. Answer letter/value comes from the publisher diagnostic answer key."
+  }
+]

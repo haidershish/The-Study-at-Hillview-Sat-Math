@@ -1,10 +1,10 @@
 import type { AngleMode } from './calculator/types';
 
 export type PracticeSection = 'math' | 'reading-writing';
-export type Domain = 'Algebra' | 'Advanced Math' | 'Problem-Solving and Data Analysis' | 'Geometry and Trigonometry' | 'Craft and Structure';
+export type Domain = 'Algebra' | 'Advanced Math' | 'Problem-Solving and Data Analysis' | 'Geometry and Trigonometry' | 'Information and Ideas' | 'Craft and Structure' | 'Expression of Ideas' | 'Standard English Conventions';
 
 export const DOMAINS: Domain[] = ['Algebra', 'Advanced Math', 'Problem-Solving and Data Analysis', 'Geometry and Trigonometry'];
-export const READING_WRITING_DOMAINS: Domain[] = ['Craft and Structure'];
+export const READING_WRITING_DOMAINS: Domain[] = ['Information and Ideas', 'Craft and Structure', 'Expression of Ideas', 'Standard English Conventions'];
 export const ALL_DOMAINS: Domain[] = [...DOMAINS, ...READING_WRITING_DOMAINS];
 
 export type Difficulty = 1 | 2 | 3;
