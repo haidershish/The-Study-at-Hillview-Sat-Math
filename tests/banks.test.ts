@@ -1,5 +1,5 @@
 import { beforeEach, describe, expect, it } from 'vitest';
-import { allBanks, builtinBanks, findQuestionByKey, normalizeImportedBank, registerImportedBank, resetImportedBanks } from '../src/questions/banks';
+import { allBanks, bankSection, builtinBanks, findQuestionByKey, normalizeImportedBank, registerImportedBank, resetImportedBanks } from '../src/questions/banks';
 import type { Question } from '../src/types';
 
 beforeEach(() => resetImportedBanks());
@@ -11,6 +11,7 @@ describe('question banks', () => {
     expect(banks.map(b => b.id)).toContain('questions-2');
     expect(banks.map(b => b.id)).toContain('questions-3');
     expect(banks.map(b => b.id)).toContain('princeton-ready-visuals');
+    expect(banks.map(b => b.id)).toContain('reading-writing-craft');
   });
 
   it('reports title, description, count, domains, and difficulties', () => {
@@ -23,6 +24,14 @@ describe('question banks', () => {
       expect(domains.size).toBeGreaterThan(0);
       expect(difficulties.size).toBeGreaterThan(0);
     }
+  });
+
+  it('keeps the Reading and Writing bank separate from Math banks', () => {
+    const math = builtinBanks().find(bank => bank.id === 'questions-2');
+    const readingWriting = builtinBanks().find(bank => bank.id === 'reading-writing-craft');
+    expect(math && bankSection(math)).toBe('math');
+    expect(readingWriting && bankSection(readingWriting)).toBe('reading-writing');
+    expect(readingWriting?.questions).toHaveLength(24);
   });
 
   it('resolves colliding question ids via bankId::questionId', () => {

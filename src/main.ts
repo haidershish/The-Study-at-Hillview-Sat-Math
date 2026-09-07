@@ -1,8 +1,8 @@
 import DOMPurify from 'dompurify';
 import './styles.css';
-import type { Bank, Difficulty, Domain, Expression, Question, SessionState, TestConfig, TestMode } from './types';
-import { DIFFICULTIES, DOMAINS } from './types';
-import { allBanks, findQuestionByKey, initBanks, registerImportedBank, resetImportedBanks } from './questions/banks';
+import type { Bank, Difficulty, Domain, Expression, PracticeSection, Question, SessionState, TestConfig, TestMode } from './types';
+import { ALL_DOMAINS, DIFFICULTIES, DOMAINS, READING_WRITING_DOMAINS } from './types';
+import { allBanks, bankSection, findQuestionByKey, initBanks, registerImportedBank, resetImportedBanks } from './questions/banks';
 import { importQuestionFile } from './questions/importer';
 import { importBankZip } from './questions/zip-import';
 import { generateOrder, COUNT_OPTIONS } from './test/generator';
@@ -27,7 +27,7 @@ app.innerHTML = `
       <div class="top-actions">
         <button class="timer" id="timer" aria-label="Hide timer">35:00</button>
         <button class="quiet" id="reference-button">Reference</button>
-        <button class="primary" id="calculator-toggle" aria-expanded="true">Calculator</button>
+        <button class="primary" id="calculator-toggle" aria-expanded="false">Calculator</button>
         <button class="quiet icon-button" id="tools-button" aria-label="More tools">•••</button>
       </div>
     </header>
@@ -40,7 +40,7 @@ app.innerHTML = `
         <article id="question"></article>
         <div class="question-tip" id="question-tip" hidden></div>
       </section>
-      <aside class="calculator-panel" id="calculator-panel" aria-label="Calculator">
+      <aside class="calculator-panel closed" id="calculator-panel" aria-label="Calculator">
         <div class="calculator-header">
           <div><strong>Calculator</strong><small id="provider-status">Loading calculator…</small></div>
           <div class="calculator-header-actions">
@@ -98,6 +98,7 @@ const fromCalcExpression = (expression: CalculatorExpression, index: number): Ex
 // ---- home selection (transient form state) ---------------------------------
 
 interface HomeSelection {
+  practice: PracticeSection | 'mixed';
   mode: TestMode;
   bankIds: string[];
   domainFilters: Domain[];
@@ -109,6 +110,7 @@ interface HomeSelection {
 }
 
 let home: HomeSelection = {
+  practice: 'math',
   mode: 'bank',
   bankIds: ['questions-2'],
   domainFilters: [],
@@ -136,8 +138,14 @@ function currentResolved(): { bank: Bank; question: Question } | undefined {
 // ---- home screen -----------------------------------------------------------
 
 function renderHome(): void {
-  const banks = allBanks();
+  const banks = banksForPractice(allBanks(), home.practice);
   const hasActive = state.order.length > 0 && state.screen !== 'home';
+
+  const practiceOptions: Array<{ value: HomeSelection['practice']; label: string; hint: string }> = [
+    { value: 'math', label: 'Math Questions', hint: 'Keep the existing Math practice banks.' },
+    { value: 'reading-writing', label: 'Reading and Writing Questions', hint: 'Practice Reading and Writing questions in order.' },
+    { value: 'mixed', label: 'Complete Mixed Practice Set', hint: 'Run all Math first, followed by Reading and Writing.' },
+  ];
 
   const modeOptions: Array<{ value: TestMode; label: string; hint: string }> = [
     { value: 'bank', label: 'Single bank', hint: 'Practice one bank in order.' },
@@ -158,7 +166,8 @@ function renderHome(): void {
       </label>`;
   }).join('');
 
-  const domainFilters = DOMAINS.map(domain => `
+  const domains = home.practice === 'mixed' ? ALL_DOMAINS : home.practice === 'reading-writing' ? READING_WRITING_DOMAINS : DOMAINS;
+  const domainFilters = domains.map(domain => `
     <label class="filter-chip ${home.domainFilters.includes(domain) ? 'on' : ''}"><input type="checkbox" class="domain-filter" value="${domain}" ${home.domainFilters.includes(domain) ? 'checked' : ''}>${domain}</label>`).join('');
 
   const difficultyFilters = DIFFICULTIES.map(d => `
@@ -179,6 +188,11 @@ function renderHome(): void {
     <main class="home-main">
       <h1>Build your practice test</h1>
       ${hasActive ? `<button class="resume-card" id="resume-session"><strong>Resume active session</strong><span>${state.order.length} questions · ${state.responses ? Object.values(state.responses).filter(Boolean).length : 0} answered</span></button>` : ''}
+
+      <section class="home-section">
+        <h2>Practice set</h2>
+        <div class="mode-row">${practiceOptions.map(option => `<label class="mode-card ${home.practice === option.value ? 'selected' : ''}"><input type="radio" name="practice" class="practice-option" value="${option.value}" ${home.practice === option.value ? 'checked' : ''}><strong>${option.label}</strong><span>${option.hint}</span></label>`).join('')}</div>
+      </section>
 
       <section class="home-section">
         <h2>Mode</h2>
@@ -228,7 +242,7 @@ function renderHome(): void {
 }
 
 function updateHomeCount(): void {
-  const banks = allBanks();
+  const banks = banksForPractice(allBanks(), home.practice);
   const count = availableCount(banks, home.bankIds, home.domainFilters, home.difficultyFilters);
   const el = document.getElementById('available-count');
   if (el) el.textContent = `(${count} available)`;
@@ -237,6 +251,16 @@ function updateHomeCount(): void {
 }
 
 function bindHomeEvents(): void {
+  document.querySelectorAll('.practice-option').forEach(input => input.addEventListener('change', () => {
+    home.practice = (input as HTMLInputElement).value as HomeSelection['practice'];
+    const banks = banksForPractice(allBanks(), home.practice);
+    home.bankIds = banks.map(bank => bank.id);
+    home.mode = home.practice === 'mixed' ? 'combined' : 'bank';
+    home.domainFilters = [];
+    home.difficultyFilters = [];
+    home.questionCount = 'full';
+    renderHome();
+  }));
   document.querySelectorAll('.mode-option').forEach(input => input.addEventListener('change', () => {
     home.mode = (input as HTMLInputElement).value as TestMode;
     renderHome();
@@ -284,6 +308,10 @@ function bindHomeEvents(): void {
   document.getElementById('import-zip')?.addEventListener('click', () => $('bank-zip-file').click());
   document.getElementById('import-json')?.addEventListener('click', () => $('question-file').click());
   document.getElementById('home-link')?.addEventListener('click', event => { event.preventDefault(); returnHome(); });
+}
+
+function banksForPractice(banks: Bank[], practice: HomeSelection['practice']): Bank[] {
+  return practice === 'mixed' ? banks : banks.filter(bank => bankSection(bank) === practice);
 }
 
 function buildConfig(): TestConfig {

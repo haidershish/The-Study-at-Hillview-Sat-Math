@@ -1,7 +1,8 @@
 import questionBank2 from '../../Questions 2.json';
 import questionBank3 from '../../Questions3.json';
 import questionBank4 from '../../Questions4.json';
-import type { Bank, Question } from '../types';
+import { READING_WRITING_DOMAINS, type Bank, type PracticeSection, type Question } from '../types';
+import questionBankRW from '../../Questions RW.json';
 
 /**
  * Central bank manifest. Adding a future built-in bank requires only:
@@ -14,6 +15,7 @@ interface BuiltinBankEntry {
   description: string;
   questions: Question[];
   assetBase: string;
+  section?: PracticeSection;
 }
 
 export const BUILTIN_BANKS: BuiltinBankEntry[] = [
@@ -23,6 +25,7 @@ export const BUILTIN_BANKS: BuiltinBankEntry[] = [
     description: 'Core 12-question bank covering all four SAT domains.',
     questions: questionBank2 as Question[],
     assetBase: '.',
+    section: 'math',
   },
   {
     id: 'questions-3',
@@ -30,6 +33,7 @@ export const BUILTIN_BANKS: BuiltinBankEntry[] = [
     description: 'Questions extracted from SAT practice materials (source metadata preserved).',
     questions: questionBank3 as Question[],
     assetBase: '.',
+    section: 'math',
   },
   {
     id: 'princeton-ready-visuals',
@@ -39,6 +43,15 @@ export const BUILTIN_BANKS: BuiltinBankEntry[] = [
     // Questions4 uses deploy-root-relative paths so it also works through the
     // standalone JSON importer, which does not have a bank-specific asset base.
     assetBase: '.',
+    section: 'math',
+  },
+  {
+    id: 'reading-writing-craft',
+    title: 'SAT Reading and Writing — Craft and Structure',
+    description: '24 original Reading and Writing practice questions in sequence.',
+    questions: questionBankRW as Question[],
+    assetBase: '.',
+    section: 'reading-writing',
   },
 ];
 
@@ -47,6 +60,10 @@ const IMPORTED_KEY = 'sat-math-lab-imported-banks-v1';
 let imported: Bank[] = [];
 
 const PRINCETON_VISUAL_ASSET_ROOT = './banks/princeton-ready-visuals/';
+
+export function bankSection(bank: Pick<Bank, 'section' | 'questions'>): PracticeSection {
+  return bank.section ?? (bank.questions.some(question => READING_WRITING_DOMAINS.includes(question.domain)) ? 'reading-writing' : 'math');
+}
 
 /**
  * Questions4 was initially imported before its images had deployable URLs.

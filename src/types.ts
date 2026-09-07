@@ -1,8 +1,11 @@
 import type { AngleMode } from './calculator/types';
 
-export type Domain = 'Algebra' | 'Advanced Math' | 'Problem-Solving and Data Analysis' | 'Geometry and Trigonometry';
+export type PracticeSection = 'math' | 'reading-writing';
+export type Domain = 'Algebra' | 'Advanced Math' | 'Problem-Solving and Data Analysis' | 'Geometry and Trigonometry' | 'Craft and Structure';
 
 export const DOMAINS: Domain[] = ['Algebra', 'Advanced Math', 'Problem-Solving and Data Analysis', 'Geometry and Trigonometry'];
+export const READING_WRITING_DOMAINS: Domain[] = ['Craft and Structure'];
+export const ALL_DOMAINS: Domain[] = [...DOMAINS, ...READING_WRITING_DOMAINS];
 
 export type Difficulty = 1 | 2 | 3;
 
@@ -125,6 +128,8 @@ export interface Bank {
   questions: Question[];
   /** Base path/URL used to resolve relative asset `src` values. */
   assetBase: string;
+  /** Optional explicit section; omitted imported banks are inferred from domains. */
+  section?: PracticeSection;
   builtin: boolean;
 }
 

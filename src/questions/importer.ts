@@ -1,5 +1,5 @@
 import type { CalculatorStrategy, Difficulty, Question, QuestionAsset } from '../types';
-import { DOMAINS } from '../types';
+import { ALL_DOMAINS } from '../types';
 
 function validateStrategy(candidate: unknown, index: number): CalculatorStrategy | undefined {
   if (candidate === undefined || candidate === null) return undefined;
@@ -59,7 +59,7 @@ export function validateQuestionBank(value: unknown): Question[] {
     const q = candidate as Partial<Question>;
     if (!q.id || ids.has(q.id)) throw new Error(`Question ${index + 1} needs a unique id.`);
     if (!q.prompt || !q.answer || !q.explanation) throw new Error(`Question ${index + 1} is missing prompt, answer, or explanation.`);
-    if (!q.domain || !DOMAINS.includes(q.domain)) throw new Error(`Question ${index + 1} has an invalid SAT domain.`);
+    if (!q.domain || !ALL_DOMAINS.includes(q.domain)) throw new Error(`Question ${index + 1} has an invalid SAT domain.`);
     if (q.type !== 'multiple-choice' && q.type !== 'student-produced-response') throw new Error(`Question ${index + 1} has an invalid type.`);
     if (q.type === 'multiple-choice' && (!Array.isArray(q.choices) || q.choices.length < 2)) throw new Error(`Question ${index + 1} needs answer choices.`);
     if (q.calculatorTip !== undefined && typeof q.calculatorTip !== 'string') throw new Error(`Question ${index + 1} calculatorTip must be a string.`);

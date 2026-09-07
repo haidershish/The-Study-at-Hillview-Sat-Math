@@ -1,0 +1,794 @@
+[
+  {
+    "id": "RW-CRAFT-01",
+    "domain": "Craft and Structure",
+    "skill": "Overall purpose",
+    "difficulty": 1,
+    "prompt": "Mangrove roots slow moving water, allowing sediment to settle. Over time, trapped sediment helps stabilize coastlines by reducing the amount of soil washed away. What is the text's main purpose?",
+    "type": "multiple-choice",
+    "choices": [
+      {
+        "id": "A",
+        "text": "Argue that all coastal plants work identically."
+      },
+      {
+        "id": "B",
+        "text": "Explain how a natural process protects coastlines."
+      },
+      {
+        "id": "C",
+        "text": "Describe the history of coastal settlement."
+      },
+      {
+        "id": "D",
+        "text": "Criticize an unsuccessful restoration project."
+      }
+    ],
+    "answer": "B",
+    "explanation": "Both the mechanism and its protective effect are explained.",
+    "sourceType": "original-practice",
+    "sourcePage": 1,
+    "sourceQuestion": "1",
+    "needsReview": false,
+    "sourceNotes": "Original Reading and Writing practice item from the Craft and Structure teaching module."
+  },
+  {
+    "id": "RW-CRAFT-02",
+    "domain": "Craft and Structure",
+    "skill": "Overall purpose",
+    "difficulty": 2,
+    "prompt": "Many accounts credit one engineer with designing the bridge. Surviving workshop records, however, show that several assistants proposed features used in the final structure. What is the text's main purpose?",
+    "type": "multiple-choice",
+    "choices": [
+      {
+        "id": "A",
+        "text": "Challenge a simplified account of the bridge's design."
+      },
+      {
+        "id": "B",
+        "text": "Prove that the bridge was structurally unsafe."
+      },
+      {
+        "id": "C",
+        "text": "Explain how every feature of the bridge works."
+      },
+      {
+        "id": "D",
+        "text": "Argue that the engineer contributed nothing."
+      }
+    ],
+    "answer": "A",
+    "explanation": "The records challenge the claim that a single person deserves all credit.",
+    "sourceType": "original-practice",
+    "sourcePage": 2,
+    "sourceQuestion": "2",
+    "needsReview": false,
+    "sourceNotes": "Original Reading and Writing practice item from the Craft and Structure teaching module."
+  },
+  {
+    "id": "RW-CRAFT-03",
+    "domain": "Craft and Structure",
+    "skill": "Overall purpose",
+    "difficulty": 3,
+    "prompt": "A study linked longer library hours with higher student attendance. Its authors cautioned that the same schools also expanded tutoring, making it impossible to isolate the effect of the hours alone. What is the text's main purpose?",
+    "type": "multiple-choice",
+    "choices": [
+      {
+        "id": "A",
+        "text": "Demonstrate that longer hours reduce attendance."
+      },
+      {
+        "id": "B",
+        "text": "Establish tutoring as the sole cause of attendance."
+      },
+      {
+        "id": "C",
+        "text": "Reject attendance as a useful measure."
+      },
+      {
+        "id": "D",
+        "text": "Present a finding and limit its causal interpretation."
+      }
+    ],
+    "answer": "D",
+    "explanation": "The association is reported, then a competing factor limits causal claims.",
+    "sourceType": "original-practice",
+    "sourcePage": 3,
+    "sourceQuestion": "3",
+    "needsReview": false,
+    "sourceNotes": "Original Reading and Writing practice item from the Craft and Structure teaching module."
+  },
+  {
+    "id": "RW-CRAFT-04",
+    "domain": "Craft and Structure",
+    "skill": "Overall purpose",
+    "difficulty": 1,
+    "prompt": "Every evening, Noor stopped beside the empty stage. She pictured the lamps glowing above her and rehearsed the opening line under her breath. The text primarily serves to",
+    "type": "multiple-choice",
+    "choices": [
+      {
+        "id": "A",
+        "text": "Explain why the theater was permanently closed."
+      },
+      {
+        "id": "B",
+        "text": "Evaluate the technical quality of stage lighting."
+      },
+      {
+        "id": "C",
+        "text": "Convey Noor's anticipation of performing."
+      },
+      {
+        "id": "D",
+        "text": "Contrast two actors' interpretations of a role."
+      }
+    ],
+    "answer": "C",
+    "explanation": "Her imagined performance and repeated rehearsal reveal anticipation.",
+    "sourceType": "original-practice",
+    "sourcePage": 4,
+    "sourceQuestion": "4",
+    "needsReview": false,
+    "sourceNotes": "Original Reading and Writing practice item from the Craft and Structure teaching module."
+  },
+  {
+    "id": "RW-CRAFT-05",
+    "domain": "Craft and Structure",
+    "skill": "Overall purpose",
+    "difficulty": 2,
+    "prompt": "A researcher tested whether visitors noticed labels more often when museums placed them at eye level. Visitors read these labels more frequently, suggesting that placement can affect engagement. What is the text's main purpose?",
+    "type": "multiple-choice",
+    "choices": [
+      {
+        "id": "A",
+        "text": "Recommend removing all labels from museums."
+      },
+      {
+        "id": "B",
+        "text": "Describe a test and the implication of its result."
+      },
+      {
+        "id": "C",
+        "text": "Compare the artistic value of two exhibitions."
+      },
+      {
+        "id": "D",
+        "text": "Explain why visitors dislike museum texts."
+      }
+    ],
+    "answer": "B",
+    "explanation": "The text gives the test, observation, and resulting implication.",
+    "sourceType": "original-practice",
+    "sourcePage": 5,
+    "sourceQuestion": "5",
+    "needsReview": false,
+    "sourceNotes": "Original Reading and Writing practice item from the Craft and Structure teaching module."
+  },
+  {
+    "id": "RW-CRAFT-06",
+    "domain": "Craft and Structure",
+    "skill": "Overall purpose",
+    "difficulty": 3,
+    "prompt": "The critic does not dispute that the novel borrowed familiar plot devices. She argues that their arrangement creates an unusual pattern of delayed revelations, so originality need not depend on entirely new ingredients. The text primarily aims to",
+    "type": "multiple-choice",
+    "choices": [
+      {
+        "id": "A",
+        "text": "Defend a kind of originality compatible with borrowing."
+      },
+      {
+        "id": "B",
+        "text": "Deny that the novel uses any familiar devices."
+      },
+      {
+        "id": "C",
+        "text": "Show that delayed revelations are always effective."
+      },
+      {
+        "id": "D",
+        "text": "Rank the novel above all earlier fiction."
+      }
+    ],
+    "answer": "A",
+    "explanation": "The critic accepts borrowing but locates originality in arrangement.",
+    "sourceType": "original-practice",
+    "sourcePage": 6,
+    "sourceQuestion": "6",
+    "needsReview": false,
+    "sourceNotes": "Original Reading and Writing practice item from the Craft and Structure teaching module."
+  },
+  {
+    "id": "RW-CRAFT-07",
+    "domain": "Craft and Structure",
+    "skill": "Overall purpose",
+    "difficulty": 1,
+    "prompt": "Botanist Lian Chen created a seed catalog that helped local gardeners identify drought-tolerant plants. Schools later used the catalog in gardening lessons, extending its educational reach. What is its main purpose?",
+    "type": "multiple-choice",
+    "choices": [
+      {
+        "id": "A",
+        "text": "Explain the genetic causes of drought tolerance."
+      },
+      {
+        "id": "B",
+        "text": "Compare the budgets of different schools."
+      },
+      {
+        "id": "C",
+        "text": "Argue that catalogs have become obsolete."
+      },
+      {
+        "id": "D",
+        "text": "Highlight a botanist's contribution and its use."
+      }
+    ],
+    "answer": "D",
+    "explanation": "The botanist's work and its later educational use are both highlighted.",
+    "sourceType": "original-practice",
+    "sourcePage": 7,
+    "sourceQuestion": "7",
+    "needsReview": false,
+    "sourceNotes": "Original Reading and Writing practice item from the Craft and Structure teaching module."
+  },
+  {
+    "id": "RW-CRAFT-08",
+    "domain": "Craft and Structure",
+    "skill": "Overall purpose",
+    "difficulty": 2,
+    "prompt": "Nighttime insect surveys often use lamps, which attract some species more strongly than others. Researchers therefore propose combining light traps with passive traps to obtain a broader sample. The main purpose is to",
+    "type": "multiple-choice",
+    "choices": [
+      {
+        "id": "A",
+        "text": "Prove that light traps never collect insects."
+      },
+      {
+        "id": "B",
+        "text": "Describe the life cycle of one insect species."
+      },
+      {
+        "id": "C",
+        "text": "Identify a sampling limitation and propose a remedy."
+      },
+      {
+        "id": "D",
+        "text": "Argue that passive traps are perfect in every setting."
+      }
+    ],
+    "answer": "C",
+    "explanation": "Unequal attraction is the problem; combining methods is the remedy.",
+    "sourceType": "original-practice",
+    "sourcePage": 8,
+    "sourceQuestion": "8",
+    "needsReview": false,
+    "sourceNotes": "Original Reading and Writing practice item from the Craft and Structure teaching module."
+  },
+  {
+    "id": "RW-CRAFT-09",
+    "domain": "Craft and Structure",
+    "skill": "Organization of the whole text",
+    "difficulty": 3,
+    "prompt": "The mural seems to capture a spontaneous burst of creativity. Yet the artist's sketches document months of planning. A finished work's apparent ease can thus conceal the labor behind it. How is the text organized?",
+    "type": "multiple-choice",
+    "choices": [
+      {
+        "id": "A",
+        "text": "A procedure is listed, followed by safety instructions."
+      },
+      {
+        "id": "B",
+        "text": "An impression is revised, then a broader conclusion is drawn."
+      },
+      {
+        "id": "C",
+        "text": "Two equally supported explanations are left unresolved."
+      },
+      {
+        "id": "D",
+        "text": "A general rule is accepted without examining evidence."
+      }
+    ],
+    "answer": "B",
+    "explanation": "The initial impression is revised using sketches, then a broader insight follows.",
+    "sourceType": "original-practice",
+    "sourcePage": 9,
+    "sourceQuestion": "9",
+    "needsReview": false,
+    "sourceNotes": "Original Reading and Writing practice item from the Craft and Structure teaching module."
+  },
+  {
+    "id": "RW-CRAFT-10",
+    "domain": "Craft and Structure",
+    "skill": "Function of a sentence",
+    "difficulty": 1,
+    "prompt": "The passage argues that the neighborhood garden brings residents together. It adds, \"Families who had never spoken before now share tools and exchange seeds.\" The quoted sentence primarily",
+    "type": "multiple-choice",
+    "choices": [
+      {
+        "id": "A",
+        "text": "Provides an example supporting the claim."
+      },
+      {
+        "id": "B",
+        "text": "Introduces an unrelated topic."
+      },
+      {
+        "id": "C",
+        "text": "Rejects the value of the garden."
+      },
+      {
+        "id": "D",
+        "text": "Defines a technical gardening term."
+      }
+    ],
+    "answer": "A",
+    "explanation": "The families' behavior illustrates the claimed social connection.",
+    "sourceType": "original-practice",
+    "sourcePage": 10,
+    "sourceQuestion": "10",
+    "needsReview": false,
+    "sourceNotes": "Original Reading and Writing practice item from the Craft and Structure teaching module."
+  },
+  {
+    "id": "RW-CRAFT-11",
+    "domain": "Craft and Structure",
+    "skill": "Function of a sentence",
+    "difficulty": 2,
+    "prompt": "The author favors digitizing fragile letters. She notes, \"Digital copies cannot preserve the texture of paper or the pressure of handwriting.\" She then recommends retaining the originals. The quoted sentence",
+    "type": "multiple-choice",
+    "choices": [
+      {
+        "id": "A",
+        "text": "Shows that all digitization is pointless."
+      },
+      {
+        "id": "B",
+        "text": "Introduces evidence that the letters are forged."
+      },
+      {
+        "id": "C",
+        "text": "Explains how digital scanners operate."
+      },
+      {
+        "id": "D",
+        "text": "Acknowledges a limitation that motivates the recommendation."
+      }
+    ],
+    "answer": "D",
+    "explanation": "The missing physical qualities explain why originals should be kept.",
+    "sourceType": "original-practice",
+    "sourcePage": 11,
+    "sourceQuestion": "11",
+    "needsReview": false,
+    "sourceNotes": "Original Reading and Writing practice item from the Craft and Structure teaching module."
+  },
+  {
+    "id": "RW-CRAFT-12",
+    "domain": "Craft and Structure",
+    "skill": "Organization of the whole text",
+    "difficulty": 3,
+    "prompt": "The birds may migrate because food declines or temperatures fall. Existing data fit both explanations. Providing extra food while temperatures fall could help determine which factor matters. How is the text organized?",
+    "type": "multiple-choice",
+    "choices": [
+      {
+        "id": "A",
+        "text": "One explanation is proven and alternatives are dismissed."
+      },
+      {
+        "id": "B",
+        "text": "A test is described before any explanation is introduced."
+      },
+      {
+        "id": "C",
+        "text": "Alternatives are presented, unresolved evidence follows, then a test."
+      },
+      {
+        "id": "D",
+        "text": "Unrelated observations are listed without a research question."
+      }
+    ],
+    "answer": "C",
+    "explanation": "The reported finding cannot choose between the alternatives, so a test is proposed.",
+    "sourceType": "original-practice",
+    "sourcePage": 12,
+    "sourceQuestion": "12",
+    "needsReview": false,
+    "sourceNotes": "Original Reading and Writing practice item from the Craft and Structure teaching module."
+  },
+  {
+    "id": "RW-CRAFT-13",
+    "domain": "Craft and Structure",
+    "skill": "Function of a detail",
+    "difficulty": 1,
+    "prompt": "A text explains that some plants disperse seeds using wind. The author mentions a dandelion's light, tufted seeds. Why include this detail?",
+    "type": "multiple-choice",
+    "choices": [
+      {
+        "id": "A",
+        "text": "To show that all seeds have the same shape."
+      },
+      {
+        "id": "B",
+        "text": "To illustrate the dispersal method being explained."
+      },
+      {
+        "id": "C",
+        "text": "To argue that dandelions cannot reproduce."
+      },
+      {
+        "id": "D",
+        "text": "To contrast wind with water dispersal."
+      }
+    ],
+    "answer": "B",
+    "explanation": "The seeds provide a concrete example of wind dispersal.",
+    "sourceType": "original-practice",
+    "sourcePage": 13,
+    "sourceQuestion": "13",
+    "needsReview": false,
+    "sourceNotes": "Original Reading and Writing practice item from the Craft and Structure teaching module."
+  },
+  {
+    "id": "RW-CRAFT-14",
+    "domain": "Craft and Structure",
+    "skill": "Function of an opening",
+    "difficulty": 2,
+    "prompt": "A text opens, \"Why do some city streets stay cooler than others?\" It then compares tree cover on several streets and discusses shade. The opening question primarily",
+    "type": "multiple-choice",
+    "choices": [
+      {
+        "id": "A",
+        "text": "Introduces the issue the rest of the text investigates."
+      },
+      {
+        "id": "B",
+        "text": "States the final conclusion of the comparison."
+      },
+      {
+        "id": "C",
+        "text": "Challenges the existence of temperature differences."
+      },
+      {
+        "id": "D",
+        "text": "Expresses doubt that shade affects temperature."
+      }
+    ],
+    "answer": "A",
+    "explanation": "The question sets up the investigation that follows.",
+    "sourceType": "original-practice",
+    "sourcePage": 14,
+    "sourceQuestion": "14",
+    "needsReview": false,
+    "sourceNotes": "Original Reading and Writing practice item from the Craft and Structure teaching module."
+  },
+  {
+    "id": "RW-CRAFT-15",
+    "domain": "Craft and Structure",
+    "skill": "Function of a qualification",
+    "difficulty": 3,
+    "prompt": "The author argues that public records can reveal patterns of migration. She adds, \"Such records omit people who moved without registering.\" She then urges comparison with personal diaries. The quoted sentence",
+    "type": "multiple-choice",
+    "choices": [
+      {
+        "id": "A",
+        "text": "Denies that any public record contains useful information."
+      },
+      {
+        "id": "B",
+        "text": "Provides proof that diaries are always accurate."
+      },
+      {
+        "id": "C",
+        "text": "Repeats the author's migration finding without changing it."
+      },
+      {
+        "id": "D",
+        "text": "Qualifies the evidence base and prepares a complementary method."
+      }
+    ],
+    "answer": "D",
+    "explanation": "The omission limits the records and motivates another source.",
+    "sourceType": "original-practice",
+    "sourcePage": 15,
+    "sourceQuestion": "15",
+    "needsReview": false,
+    "sourceNotes": "Original Reading and Writing practice item from the Craft and Structure teaching module."
+  },
+  {
+    "id": "RW-CRAFT-16",
+    "domain": "Craft and Structure",
+    "skill": "Organization of the whole text",
+    "difficulty": 1,
+    "prompt": "Noise at the school entrance disrupts nearby lessons. Arriving cars produce much of this noise, so the drop-off area should be moved away from the classrooms. How is it organized?",
+    "type": "multiple-choice",
+    "choices": [
+      {
+        "id": "A",
+        "text": "Biography, historical context, literary analysis."
+      },
+      {
+        "id": "B",
+        "text": "Prediction, unrelated story, unanswered question."
+      },
+      {
+        "id": "C",
+        "text": "Problem, explanation of its cause, proposed solution."
+      },
+      {
+        "id": "D",
+        "text": "Two solutions followed by rejection of both."
+      }
+    ],
+    "answer": "C",
+    "explanation": "The three described moves follow that order.",
+    "sourceType": "original-practice",
+    "sourcePage": 16,
+    "sourceQuestion": "16",
+    "needsReview": false,
+    "sourceNotes": "Original Reading and Writing practice item from the Craft and Structure teaching module."
+  },
+  {
+    "id": "RW-CRAFT-17",
+    "domain": "Craft and Structure",
+    "skill": "Cross-text: shared view",
+    "difficulty": 2,
+    "prompt": "Text 1: Urban ponds can support wildlife when shoreline vegetation is retained.\nText 2: Pond restorations should preserve plants at the water's edge because animals depend on them.\nBoth authors would most likely agree that",
+    "type": "multiple-choice",
+    "choices": [
+      {
+        "id": "A",
+        "text": "Every urban pond supports the same animals."
+      },
+      {
+        "id": "B",
+        "text": "Shoreline plants can benefit pond wildlife."
+      },
+      {
+        "id": "C",
+        "text": "Restoration requires removing all vegetation."
+      },
+      {
+        "id": "D",
+        "text": "Ponds are more important than every other habitat."
+      }
+    ],
+    "answer": "B",
+    "explanation": "Both explicitly connect shoreline vegetation with benefits for animals.",
+    "sourceType": "original-practice",
+    "sourcePage": 17,
+    "sourceQuestion": "17",
+    "needsReview": false,
+    "sourceNotes": "Original Reading and Writing practice item from the Craft and Structure teaching module."
+  },
+  {
+    "id": "RW-CRAFT-18",
+    "domain": "Craft and Structure",
+    "skill": "Cross-text: precise disagreement",
+    "difficulty": 3,
+    "prompt": "Text 1: The poem's recurring refrain makes its speaker sound certain.\nText 2: Each repetition follows a new doubt; the refrain suggests an effort to achieve certainty, not its possession.\nThey disagree mainly about",
+    "type": "multiple-choice",
+    "choices": [
+      {
+        "id": "A",
+        "text": "Whether repetition expresses certainty or a desire for it."
+      },
+      {
+        "id": "B",
+        "text": "Whether the poem contains a repeated refrain."
+      },
+      {
+        "id": "C",
+        "text": "Whether the speaker ever mentions doubt."
+      },
+      {
+        "id": "D",
+        "text": "Whether repetition can occur in poetry."
+      }
+    ],
+    "answer": "A",
+    "explanation": "They interpret the same refrain as confidence versus an effort to become confident.",
+    "sourceType": "original-practice",
+    "sourcePage": 18,
+    "sourceQuestion": "18",
+    "needsReview": false,
+    "sourceNotes": "Original Reading and Writing practice item from the Craft and Structure teaching module."
+  },
+  {
+    "id": "RW-CRAFT-19",
+    "domain": "Craft and Structure",
+    "skill": "Cross-text: response",
+    "difficulty": 1,
+    "prompt": "Text 1: Digital maps make paper maps unnecessary.\nText 2: Paper maps remain useful in places where devices cannot receive a signal or be recharged.\nHow would the author of Text 2 respond to Text 1?",
+    "type": "multiple-choice",
+    "choices": [
+      {
+        "id": "A",
+        "text": "By agreeing that paper maps have no remaining use."
+      },
+      {
+        "id": "B",
+        "text": "By arguing that digital maps never work."
+      },
+      {
+        "id": "C",
+        "text": "By questioning whether maps show locations."
+      },
+      {
+        "id": "D",
+        "text": "By identifying situations in which paper maps still help."
+      }
+    ],
+    "answer": "D",
+    "explanation": "Text 2 supplies exceptions to the claim of complete obsolescence.",
+    "sourceType": "original-practice",
+    "sourcePage": 19,
+    "sourceQuestion": "19",
+    "needsReview": false,
+    "sourceNotes": "Original Reading and Writing practice item from the Craft and Structure teaching module."
+  },
+  {
+    "id": "RW-CRAFT-20",
+    "domain": "Craft and Structure",
+    "skill": "Cross-text: differing emphasis",
+    "difficulty": 2,
+    "prompt": "Text 1: Restoring the station preserved an example of nineteenth-century architecture.\nText 2: The restored station now hosts a market that brings neighbors together.\nThe texts differ mainly in their emphasis on",
+    "type": "multiple-choice",
+    "choices": [
+      {
+        "id": "A",
+        "text": "Agreement versus disagreement about closing the station."
+      },
+      {
+        "id": "B",
+        "text": "The station's cost versus its environmental damage."
+      },
+      {
+        "id": "C",
+        "text": "Historical preservation versus present-day social use."
+      },
+      {
+        "id": "D",
+        "text": "Two incompatible dates for the station's construction."
+      }
+    ],
+    "answer": "C",
+    "explanation": "One highlights architecture from the past; the other highlights current community use.",
+    "sourceType": "original-practice",
+    "sourcePage": 20,
+    "sourceQuestion": "20",
+    "needsReview": false,
+    "sourceNotes": "Original Reading and Writing practice item from the Craft and Structure teaching module."
+  },
+  {
+    "id": "RW-CRAFT-21",
+    "domain": "Craft and Structure",
+    "skill": "Cross-text: qualify a claim",
+    "difficulty": 3,
+    "prompt": "Text 1: Higher attendance after free admission shows that cost was the main barrier to museum visits.\nText 2: Free admission began alongside longer opening hours; the two changes were not tested separately.\nText 2 most directly challenges",
+    "type": "multiple-choice",
+    "choices": [
+      {
+        "id": "A",
+        "text": "Whether the museum recorded any visitors."
+      },
+      {
+        "id": "B",
+        "text": "Attributing the increase mainly to admission cost."
+      },
+      {
+        "id": "C",
+        "text": "Whether admission became free."
+      },
+      {
+        "id": "D",
+        "text": "The possibility that attendance can ever rise."
+      }
+    ],
+    "answer": "B",
+    "explanation": "The simultaneous change prevents isolating cost as the main cause.",
+    "sourceType": "original-practice",
+    "sourcePage": 21,
+    "sourceQuestion": "21",
+    "needsReview": false,
+    "sourceNotes": "Original Reading and Writing practice item from the Craft and Structure teaching module."
+  },
+  {
+    "id": "RW-CRAFT-22",
+    "domain": "Craft and Structure",
+    "skill": "Cross-text: shared principle",
+    "difficulty": 1,
+    "prompt": "Text 1: Local observations help researchers identify changes that short visits may miss.\nText 2: Residents' long familiarity with a place can improve environmental surveys.\nBoth texts support",
+    "type": "multiple-choice",
+    "choices": [
+      {
+        "id": "A",
+        "text": "Including local knowledge in research."
+      },
+      {
+        "id": "B",
+        "text": "Replacing all scientific instruments with opinions."
+      },
+      {
+        "id": "C",
+        "text": "Restricting every survey to one short visit."
+      },
+      {
+        "id": "D",
+        "text": "Assuming that residents never disagree."
+      }
+    ],
+    "answer": "A",
+    "explanation": "Both describe research benefits from residents' knowledge over time.",
+    "sourceType": "original-practice",
+    "sourcePage": 22,
+    "sourceQuestion": "22",
+    "needsReview": false,
+    "sourceNotes": "Original Reading and Writing practice item from the Craft and Structure teaching module."
+  },
+  {
+    "id": "RW-CRAFT-23",
+    "domain": "Craft and Structure",
+    "skill": "Cross-text: apply a criticism",
+    "difficulty": 2,
+    "prompt": "Text 1: The new reading app improved scores; students who chose to use it scored higher.\nText 2: Comparisons between volunteers and nonvolunteers can reflect prior motivation rather than a tool's effect.\nText 2 would urge caution because",
+    "type": "multiple-choice",
+    "choices": [
+      {
+        "id": "A",
+        "text": "The app could not display any reading material."
+      },
+      {
+        "id": "B",
+        "text": "All volunteers necessarily had lower initial scores."
+      },
+      {
+        "id": "C",
+        "text": "Motivation cannot influence study behavior."
+      },
+      {
+        "id": "D",
+        "text": "App users may have been more motivated beforehand."
+      }
+    ],
+    "answer": "D",
+    "explanation": "Self-selection permits an alternative explanation for the higher scores.",
+    "sourceType": "original-practice",
+    "sourcePage": 23,
+    "sourceQuestion": "23",
+    "needsReview": false,
+    "sourceNotes": "Original Reading and Writing practice item from the Craft and Structure teaching module."
+  },
+  {
+    "id": "RW-CRAFT-24",
+    "domain": "Craft and Structure",
+    "skill": "Cross-text: narrow agreement",
+    "difficulty": 3,
+    "prompt": "Text 1: Translation loses sound patterns essential to appreciating a poem.\nText 2: Sound patterns may change in translation, but imagery can still make the poem rewarding.\nBoth authors would most likely agree that",
+    "type": "multiple-choice",
+    "choices": [
+      {
+        "id": "A",
+        "text": "Translated poetry cannot reward a reader."
+      },
+      {
+        "id": "B",
+        "text": "Imagery is always more important than sound."
+      },
+      {
+        "id": "C",
+        "text": "Translation can alter a poem's sound patterns."
+      },
+      {
+        "id": "D",
+        "text": "All poems sound identical after translation."
+      }
+    ],
+    "answer": "C",
+    "explanation": "Both acknowledge a change or loss in sound patterns.",
+    "sourceType": "original-practice",
+    "sourcePage": 24,
+    "sourceQuestion": "24",
+    "needsReview": false,
+    "sourceNotes": "Original Reading and Writing practice item from the Craft and Structure teaching module."
+  }
+]

@@ -27,6 +27,7 @@ describe('session persistence', () => {
 
   it('initial state includes calculator and table fields', () => {
     const s = initialState();
+    expect(s.expressions).toEqual([]);
     expect(s.angleMode).toBe('radians');
     expect(s.tableRows).toEqual([{ x: '', y: '' }]);
     expect(s.connectPoints).toBe(false);
