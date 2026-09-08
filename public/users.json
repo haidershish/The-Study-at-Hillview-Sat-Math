@@ -1,12 +1,13 @@
 {
   "users": [
     {
-      "id": "student-001",
+      "id": "student-000",
       "username": "student",
       "password": "sat123",
       "displayName": "Demo Student",
       "active": true
-      "id": "student-002",
+      
+      "id": "student-001",
       "username": "student1",
       "password": "sat123",
       "displayName": "Student1",
