@@ -101,6 +101,8 @@ export type Screen = 'home' | 'test' | 'results';
 
 export interface SessionState {
   screen: Screen;
+  /** Stable id for recording this practice run exactly once in a user profile. */
+  attemptId?: string;
   testConfig?: TestConfig;
   /** Ordered question keys ("bankId::questionId"), stable across refresh. */
   order: string[];

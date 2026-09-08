@@ -1,0 +1,11 @@
+{
+  "users": [
+    {
+      "id": "student-001",
+      "username": "student",
+      "password": "sat123",
+      "displayName": "Demo Student",
+      "active": true
+    }
+  ]
+}

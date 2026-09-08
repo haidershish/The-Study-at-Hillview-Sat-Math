@@ -16,6 +16,9 @@ self.addEventListener('fetch', event => {
   const url = new URL(event.request.url);
   if (url.origin === DESMOS_ORIGIN) return;
 
+  // Account edits should take effect on the next sign-in, not after an old cache expires.
+  if (url.origin === self.location.origin && url.pathname.endsWith('/users.json')) return;
+
   // Navigation: network-first with an offline fallback to the cached shell, so
   // a newly deployed release is always served and old releases never pin.
   if (event.request.mode === 'navigate') {

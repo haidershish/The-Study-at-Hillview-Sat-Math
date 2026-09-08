@@ -70,6 +70,17 @@ key, offline, timeout) falls back to open-source with a human-readable status.
 
 ## Configuration
 
+### Student accounts
+
+Edit `public/users.json` to add or disable student accounts. Each account needs a
+unique `id`, `username`, `password`, and optional `displayName`; set `active` to
+`false` to block sign-in. The included demo login is `student` / `sat123`.
+
+Profiles and adaptive progress recommendations are stored per account in that
+browser's local storage. This intentionally simple plaintext password system is
+for a trusted classroom/local deployment only, because visitors can read files
+published with a static web app.
+
 ```bash
 # .env.local (never committed)
 VITE_DESMOS_API_KEY=<your key>

@@ -14,6 +14,8 @@ import { DesmosCalculatorProvider } from './calculator/desmos-provider';
 import type { CalculatorExpression, CalculatorProvider, ProviderInfo } from './calculator/types';
 import { strategyAngleMode, strategyNeedsDesmos, strategyToExpressions } from './questions/strategy';
 import { preloadImages, renderAssetsHTML, resolveAssets, wireAssets } from './questions/images';
+import { authenticate, loadSession, loadUsers, logout, saveSession, type SessionUser } from './auth';
+import { loadProfile, recordCompletedSession, type ImprovementRecommendation, type UserProfile } from './profile';
 
 const app = document.querySelector<HTMLDivElement>('#app');
 if (!app) throw new Error('Application root was not found.');
@@ -21,7 +23,8 @@ if (!app) throw new Error('Application root was not found.');
 const BRAND = `<span class="brand-mark"><img src="${import.meta.env.BASE_URL}branding/the-study.png" alt=""></span><span class="brand-copy"><strong>Digital SAT App</strong><small>by Haider Shishmahal &amp; the Study at Hillview</small></span>`;
 
 app.innerHTML = `
-  <section id="screen-home" class="screen screen-home"></section>
+  <section id="screen-login" class="screen screen-login"></section>
+  <section id="screen-home" class="screen screen-home" hidden></section>
   <section id="screen-test" class="screen screen-test" hidden>
     <header class="topbar">
       <a class="brand" href="#" id="home-link" aria-label="Digital SAT App home">${BRAND}</a>
@@ -30,6 +33,7 @@ app.innerHTML = `
         <button class="timer" id="timer" aria-label="Hide timer">35:00</button>
         <button class="quiet" id="reference-button">Reference</button>
         <button class="primary" id="calculator-toggle" aria-expanded="false">Calculator</button>
+        <button class="quiet user-button" id="test-profile-button" aria-label="Open profile"></button>
         <button class="quiet icon-button" id="tools-button" aria-label="More tools">•••</button>
       </div>
     </header>
@@ -62,6 +66,7 @@ app.innerHTML = `
     </nav>
   </section>
   <section id="screen-results" class="screen screen-results" hidden></section>
+  <section id="screen-profile" class="screen screen-profile" hidden></section>
   <dialog id="dialog"><div class="dialog-heading"><h2 id="dialog-title"></h2><button id="dialog-close" aria-label="Close">×</button></div><div id="dialog-body"></div></dialog>
   <input id="question-file" type="file" accept=".json,application/json" hidden>
   <input id="bank-zip-file" type="file" accept=".zip,application/zip" hidden>
@@ -87,6 +92,115 @@ const toast = (message: string, error = false) => {
   node.className = `toast show${error ? ' error' : ''}`;
   window.setTimeout(() => node.className = 'toast', 3200);
 };
+
+// ---- account/profile bridge ----------------------------------------------
+
+let activeUser: SessionUser | null = null;
+let activeProfile: UserProfile | null = null;
+let completionKey: string | null = null;
+
+const userName = (user = activeUser): string => user?.displayName || user?.username || 'Profile';
+const userInitials = (user = activeUser): string => {
+  const parts = userName(user).split(/\s+/).filter(Boolean);
+  return (parts.length > 1 ? `${parts[0][0]}${parts.at(-1)?.[0]}` : parts[0]?.slice(0, 2) || 'P').toUpperCase();
+};
+const userButtonHTML = (id = 'profile-button'): string => `<button class="quiet user-button" id="${id}" aria-label="Open ${clean(userName())}'s profile"><span class="user-avatar" aria-hidden="true">${clean(userInitials())}</span><span class="user-button-name">${clean(userName())}</span></button>`;
+
+function syncTestProfileButton(): void {
+  const button = document.getElementById('test-profile-button');
+  if (!button) return;
+  button.innerHTML = `<span class="user-avatar" aria-hidden="true">${clean(userInitials())}</span><span class="user-button-name">${clean(userName())}</span>`;
+  button.setAttribute('aria-label', `Open ${clean(userName())}'s profile`);
+}
+
+function renderLogin(message = ''): void {
+  $('screen-login').innerHTML = `
+    <main class="login-shell">
+      <section class="login-card" aria-labelledby="login-heading">
+        <div class="brand login-brand">${BRAND}</div>
+        <div class="login-copy"><p class="eyebrow">Student workspace</p><h1 id="login-heading">Sign in to your practice profile</h1><p>Your progress and recommendations stay with your account.</p></div>
+        <form id="login-form" class="login-form">
+          <label>Username<input id="login-username" name="username" autocomplete="username" required></label>
+          <label>Password<input id="login-password" name="password" type="password" autocomplete="current-password" required></label>
+          <p id="login-error" class="login-error" role="alert" ${message ? '' : 'hidden'}>${clean(message)}</p>
+          <button class="primary" type="submit">Sign in</button>
+        </form>
+      </section>
+    </main>`;
+  $('login-form').addEventListener('submit', event => { event.preventDefault(); void handleLogin(); });
+  window.setTimeout(() => $('login-username').focus(), 0);
+}
+
+async function handleLogin(): Promise<void> {
+  const username = $('login-username') as HTMLInputElement;
+  const password = $('login-password') as HTMLInputElement;
+  const submit = $('login-form').querySelector<HTMLButtonElement>('button[type="submit"]');
+  if (!username.value.trim() || !password.value) return;
+  if (submit) submit.disabled = true;
+  try {
+    const accounts = await loadUsers(`${import.meta.env.BASE_URL}users.json`);
+    const user = authenticate(accounts, username.value.trim(), password.value);
+    if (!user) { renderLogin('That username or password is not recognised.'); return; }
+    activeUser = user;
+    activeProfile = null;
+    completionKey = null;
+    saveSession(user);
+    syncTestProfileButton();
+    state = loadState();
+    showScreen('home');
+    renderHome();
+  } catch (error) {
+    renderLogin(error instanceof Error ? error.message : 'Unable to sign in right now.');
+  } finally {
+    if (document.getElementById('login-form') && submit) submit.disabled = false;
+  }
+}
+
+function handleLogout(): void {
+  logout();
+  stopTimer();
+  activeUser = null;
+  activeProfile = null;
+  completionKey = null;
+  state = initialState();
+  provider?.clear();
+  showScreen('login');
+  renderLogin();
+}
+
+function profileProgressRow(item: UserProfile['domains'][number]): string {
+  return `<div class="profile-progress-row"><div class="profile-progress-heading"><span>${clean(item.label)}</span><strong>${item.pct}%</strong></div><div class="profile-progress-bar"><div style="width:${item.pct}%"></div></div><small>${item.correct}/${item.total} correct</small></div>`;
+}
+
+function recommendationRow(item: ImprovementRecommendation): string {
+  return `<article class="profile-recommendation"><div><strong>${clean(item.skill)}</strong><p>${clean(item.reason)}</p></div><span>${item.accuracy}%</span></article>`;
+}
+
+function openProfile(): void {
+  if (!activeUser) return;
+  activeProfile = loadProfile(activeUser.id);
+  showScreen('profile');
+  renderProfile();
+}
+
+function renderProfile(): void {
+  if (!activeUser) return;
+  const profile = activeProfile ?? loadProfile(activeUser.id);
+  activeProfile = profile;
+  const summary = profile.summary;
+  const sessions = profile.sessions.slice(-5).reverse();
+  $('screen-profile').innerHTML = `
+    <header class="profile-header"><div class="brand">${BRAND}</div><div class="profile-header-actions"><button class="quiet" id="profile-logout">Sign out</button></div></header>
+    <main class="profile-main">
+      <div class="profile-title-row"><div><p class="eyebrow">Student profile</p><h1>${clean(userName())}</h1><p class="muted">@${clean(activeUser.username)}</p></div><button class="quiet" id="profile-home">Back to practice</button></div>
+      <section class="profile-stats" aria-label="Progress summary"><div><strong>${summary.sessions}</strong><span>sessions</span></div><div><strong>${summary.pct}%</strong><span>average score</span></div><div><strong>${summary.questions}</strong><span>questions practiced</span></div></section>
+      <div class="profile-columns"><section class="profile-panel"><h2>Progress by domain</h2>${profile.domains.length ? profile.domains.map(profileProgressRow).join('') : '<p class="muted">Complete a practice session to see domain progress.</p>'}</section><section class="profile-panel"><h2>Progress by skill</h2>${profile.skills.length ? profile.skills.map(profileProgressRow).join('') : '<p class="muted">Skill progress will appear after your first session.</p>'}</section></div>
+      <section class="profile-panel profile-needs"><div class="profile-panel-heading"><div><h2>Needs improvement</h2><p class="muted">Your next best practice targets.</p></div></div>${profile.needsImprovement.length ? profile.needsImprovement.slice(0, 6).map(recommendationRow).join('') : '<p class="muted">Nothing urgent yet. Keep building consistency.</p>'}</section>
+      <section class="profile-panel"><h2>Recent sessions</h2>${sessions.length ? sessions.map(session => `<div class="profile-history-row"><span>${clean(session.completedAt)}</span><strong>${session.total ? Math.round(session.correct / session.total * 100) : 0}%</strong></div>`).join('') : '<p class="muted">Your completed sessions will appear here.</p>'}</section>
+    </main>`;
+  $('profile-home').addEventListener('click', () => { showScreen('home'); renderHome(); });
+  $('profile-logout').addEventListener('click', handleLogout);
+}
 
 // ---- expression model conversion ------------------------------------------
 
@@ -125,10 +239,12 @@ let home: HomeSelection = {
 
 // ---- screen routing --------------------------------------------------------
 
-function showScreen(name: 'home' | 'test' | 'results'): void {
+function showScreen(name: 'login' | 'home' | 'test' | 'results' | 'profile'): void {
+  $('screen-login').hidden = name !== 'login';
   $('screen-home').hidden = name !== 'home';
   $('screen-test').hidden = name !== 'test';
   $('screen-results').hidden = name !== 'results';
+  $('screen-profile').hidden = name !== 'profile';
   if (name === 'test') window.setTimeout(() => provider?.resize(), 60);
 }
 
@@ -185,7 +301,7 @@ function renderHome(): void {
   $('screen-home').innerHTML = `
     <header class="home-hero">
       <div class="brand home-brand">${BRAND}</div>
-      <div class="home-status"><span class="provider-dot ${providerInfo.id === 'desmos' ? 'desmos' : providerInfo.degraded ? 'degraded' : ''}"></span>${clean(providerInfo.label)}</div>
+      <div class="home-hero-actions"><div class="home-status"><span class="provider-dot ${providerInfo.id === 'desmos' ? 'desmos' : providerInfo.degraded ? 'degraded' : ''}"></span>${clean(providerInfo.label)}</div>${userButtonHTML()}</div>
     </header>
     <main class="home-main">
       <h1>Build your practice test</h1>
@@ -310,6 +426,7 @@ function bindHomeEvents(): void {
   document.getElementById('import-zip')?.addEventListener('click', () => $('bank-zip-file').click());
   document.getElementById('import-json')?.addEventListener('click', () => $('question-file').click());
   document.getElementById('home-link')?.addEventListener('click', event => { event.preventDefault(); returnHome(); });
+  document.getElementById('profile-button')?.addEventListener('click', () => void openProfile());
 }
 
 function banksForPractice(banks: Bank[], practice: HomeSelection['practice']): Bank[] {
@@ -333,6 +450,8 @@ function startTest(): void {
   const config = buildConfig();
   const order = generateOrder(allBanks(), config);
   if (order.length === 0) { toast('No questions match the selected filters.', true); return; }
+  completionKey = null;
+  state.attemptId = crypto.randomUUID();
   state.testConfig = config;
   state.order = order;
   state.current = 0;
@@ -354,6 +473,8 @@ function enterTest(startClock = true): void {
 
 function restartTest(): void {
   if (!state.order.length || !window.confirm('Restart this quiz and clear the current answers?')) return;
+  completionKey = null;
+  state.attemptId = crypto.randomUUID();
   state.current = 0;
   state.secondsRemaining = 35 * 60;
   state.timerHidden = false;
@@ -383,6 +504,7 @@ function returnHome(): void {
 function renderQuestion(): void {
   const resolved = currentResolved();
   if (!resolved) { showResults(); return; }
+  syncTestProfileButton();
   const { bank, question: q } = resolved;
   const key = state.order[state.current];
   $('question-position').textContent = `Question ${state.current + 1} of ${state.order.length}`;
@@ -627,6 +749,22 @@ function stopTimer(): void {
   if (timer) { window.clearInterval(timer); timer = undefined; }
 }
 
+async function recordResultsOnce(results = computeResults(state.order, state.responses)): Promise<void> {
+  if (!activeUser || !state.order.length) return;
+  const attemptId = state.attemptId ?? `${activeUser.id}:${state.order.join('|')}:${JSON.stringify(state.responses)}`;
+  if (completionKey === attemptId) return;
+  completionKey = attemptId;
+  try {
+    const recorded = recordCompletedSession(activeUser.id, results, {
+      sessionId: attemptId,
+      completedAt: new Date().toISOString(),
+    });
+    activeProfile = recorded;
+  } catch {
+    // Results remain available locally even if profile persistence is unavailable.
+  }
+}
+
 function finishTest(): void {
   showResults();
 }
@@ -636,13 +774,14 @@ function showResults(): void {
   state.screen = 'results';
   persist();
   showScreen('results');
-  renderResults();
+  const results = computeResults(state.order, state.responses);
+  renderResults(results);
+  void recordResultsOnce(results);
 }
 
 // ---- results screen --------------------------------------------------------
 
-function renderResults(): void {
-  const results = computeResults(state.order, state.responses);
+function renderResults(results = computeResults(state.order, state.responses)): void {
   const bucket = (title: string, items: { label: string; correct: number; total: number; pct: number }[]) => `
     <section class="result-section">
       <h3>${title}</h3>
@@ -666,7 +805,7 @@ function renderResults(): void {
   $('screen-results').innerHTML = `
     <header class="results-header">
       <div class="brand">${BRAND}</div>
-      <button class="primary" id="return-home">Back to home</button>
+      <div class="results-header-actions">${userButtonHTML('results-profile-button')}<button class="primary" id="return-home">Back to home</button></div>
     </header>
     <main class="results-main">
       <div class="score-hero">
@@ -690,6 +829,7 @@ function renderResults(): void {
   $('screen-results').onclick = event => {
     const target = event.target as HTMLElement;
     if (target.closest('#return-home')) returnHome();
+    if (target.closest('#results-profile-button')) void openProfile();
     if (target.closest('#restart-test')) restartTest();
     const reviewButton = target.closest<HTMLButtonElement>('[data-review-index]');
     if (reviewButton && !reviewButton.disabled) {
@@ -876,6 +1016,7 @@ function bindEvents(): void {
       renderHome();
     }
   });
+  $('test-profile-button').addEventListener('click', () => void openProfile());
   $('question-file').addEventListener('change', async event => {
     const file = (event.target as HTMLInputElement).files?.[0];
     (event.target as HTMLInputElement).value = '';
@@ -899,8 +1040,20 @@ function boot(): void {
   initBanks();
   bindEvents();
   updateTimer();
-  showScreen('home');
-  renderHome();
+  showScreen('login');
+  renderLogin();
+  try {
+    const session = loadSession();
+    if (session) {
+      activeUser = session;
+      syncTestProfileButton();
+      if (state.screen === 'results') completionKey = state.attemptId ?? `${session.id}:${state.order.join('|')}:${JSON.stringify(state.responses)}`;
+      showScreen('home');
+      renderHome();
+    }
+  } catch {
+    // Keep the login gate visible when the simple session store is unavailable.
+  }
   void selectProvider();
 }
 

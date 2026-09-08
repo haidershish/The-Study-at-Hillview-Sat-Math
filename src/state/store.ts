@@ -5,6 +5,7 @@ const colors = ['#c74440', '#2d70b3', '#388c46', '#6042a6', '#000000'];
 
 export const initialState = (): SessionState => ({
   screen: 'home',
+  attemptId: undefined,
   testConfig: undefined,
   order: [],
   current: 0,
