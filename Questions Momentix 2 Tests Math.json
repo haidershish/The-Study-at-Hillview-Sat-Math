@@ -1,0 +1,3612 @@
+[
+  {
+    "id": "momentix-t1-m1-q01",
+    "domain": "Algebra",
+    "skill": "Mometrix Test 1 · Math Module 1 · Question 1",
+    "difficulty": 2,
+    "prompt": "See the complete question image.",
+    "type": "multiple-choice",
+    "choices": [
+      {
+        "id": "A",
+        "text": ""
+      },
+      {
+        "id": "B",
+        "text": ""
+      },
+      {
+        "id": "C",
+        "text": ""
+      },
+      {
+        "id": "D",
+        "text": ""
+      }
+    ],
+    "answer": "A",
+    "explanation": "To find when the apple reaches the ground, set the function 𝑓(𝑥) equal to 0 and solve for 𝑥. 0 = −𝑥2 −2𝑥+ 7 This quadratic can’t be easily factored, so use the quadratic formula to solve. 𝑥= −𝑏± √𝑏2 −4𝑎𝑐 2𝑎 𝑥= −(−2) ± √(−2)2 −4(−1)(7) 2(−1) 𝑥= 2 ± √4 + 28 −2 𝑥= 2 ± √32 −2 𝑥= 2 ± 4√2 −2 𝑥= −1 ± 2√2 𝑥≈1.8, −3.8 In this scenario, time can only be a positive value, so it took about 1.8 seconds for the apple to reach the ground.",
+    "assets": [
+      {
+        "id": "question-image",
+        "type": "figure",
+        "src": "assets/questions/momentix-t1-m1-q01.png",
+        "alt": "Mometrix Practice Test 1, Math Module 1, question 1",
+        "width": 1566,
+        "height": 297,
+        "sourcePage": 16
+      }
+    ],
+    "sourceType": "Mometrix SAT Practice Tests",
+    "sourcePage": 16,
+    "sourceQuestion": "Test 1, Math Module 1, question 1",
+    "needsReview": true,
+    "sourceNotes": "Question image and answer/review explanation were extracted from the supplied Mometrix PDF. Domain and difficulty are neutral app metadata pending classification."
+  },
+  {
+    "id": "momentix-t1-m1-q02",
+    "domain": "Algebra",
+    "skill": "Mometrix Test 1 · Math Module 1 · Question 2",
+    "difficulty": 2,
+    "prompt": "See the complete question image.",
+    "type": "multiple-choice",
+    "choices": [
+      {
+        "id": "A",
+        "text": ""
+      },
+      {
+        "id": "B",
+        "text": ""
+      },
+      {
+        "id": "C",
+        "text": ""
+      },
+      {
+        "id": "D",
+        "text": ""
+      }
+    ],
+    "answer": "C",
+    "explanation": "First, solve for 𝑥 in the first equation. 2𝑥+ 6 = −2 Subtract 6 from each side. 2𝑥= −8 Then, divide each side by 2. 𝑥= −4 Now we can plug this value of 𝑥 into the second expression. 10(−4) + 11 = −40 + 11 = −29",
+    "assets": [
+      {
+        "id": "question-image",
+        "type": "figure",
+        "src": "assets/questions/momentix-t1-m1-q02.png",
+        "alt": "Mometrix Practice Test 1, Math Module 1, question 2",
+        "width": 1566,
+        "height": 221,
+        "sourcePage": 16
+      }
+    ],
+    "sourceType": "Mometrix SAT Practice Tests",
+    "sourcePage": 16,
+    "sourceQuestion": "Test 1, Math Module 1, question 2",
+    "needsReview": true,
+    "sourceNotes": "Question image and answer/review explanation were extracted from the supplied Mometrix PDF. Domain and difficulty are neutral app metadata pending classification."
+  },
+  {
+    "id": "momentix-t1-m1-q03",
+    "domain": "Algebra",
+    "skill": "Mometrix Test 1 · Math Module 1 · Question 3",
+    "difficulty": 2,
+    "prompt": "See the complete question image.",
+    "type": "multiple-choice",
+    "choices": [
+      {
+        "id": "A",
+        "text": ""
+      },
+      {
+        "id": "B",
+        "text": ""
+      },
+      {
+        "id": "C",
+        "text": ""
+      },
+      {
+        "id": "D",
+        "text": ""
+      }
+    ],
+    "answer": "C",
+    "explanation": "A method commonly taught to multiply binomials is the FOIL method, an acronym for first, outer, inner, last: multiply the first terms of each factor, then the outer terms, then the inner terms, and finally, the last terms. (𝑥+ 2)(𝑥−3) (𝑥)(𝑥) + (𝑥)(−3) + (2)(𝑥) + (2)(−3) From here, simplify and combine like terms. 𝑥2 −3𝑥+ 2𝑥−6 𝑥2 −𝑥−6",
+    "assets": [
+      {
+        "id": "question-image",
+        "type": "figure",
+        "src": "assets/questions/momentix-t1-m1-q03.png",
+        "alt": "Mometrix Practice Test 1, Math Module 1, question 3",
+        "width": 1566,
+        "height": 503,
+        "sourcePage": 16
+      }
+    ],
+    "sourceType": "Mometrix SAT Practice Tests",
+    "sourcePage": 16,
+    "sourceQuestion": "Test 1, Math Module 1, question 3",
+    "needsReview": true,
+    "sourceNotes": "Question image and answer/review explanation were extracted from the supplied Mometrix PDF. Domain and difficulty are neutral app metadata pending classification."
+  },
+  {
+    "id": "momentix-t1-m1-q04",
+    "domain": "Algebra",
+    "skill": "Mometrix Test 1 · Math Module 1 · Question 4",
+    "difficulty": 2,
+    "prompt": "See the complete question image.",
+    "type": "multiple-choice",
+    "choices": [
+      {
+        "id": "A",
+        "text": ""
+      },
+      {
+        "id": "B",
+        "text": ""
+      },
+      {
+        "id": "C",
+        "text": ""
+      },
+      {
+        "id": "D",
+        "text": ""
+      }
+    ],
+    "answer": "A",
+    "explanation": "We first find the mean, or average, of the lab grades by adding them and dividing by the number of grades. 84 + 86 + 98 + 90 + 97 + 85 + 90 7 = 630 7 = 90 Then we find the median by arranging the grades in increasing order and finding the middle value: 84, 85, 86, 90, 90, 97, 98. The middle number is 90. So, the difference of the mean and median is 90 −90 = 0.",
+    "assets": [
+      {
+        "id": "question-image",
+        "type": "figure",
+        "src": "assets/questions/momentix-t1-m1-q04.png",
+        "alt": "Mometrix Practice Test 1, Math Module 1, question 4",
+        "width": 1566,
+        "height": 777,
+        "sourcePage": 16
+      }
+    ],
+    "sourceType": "Mometrix SAT Practice Tests",
+    "sourcePage": 16,
+    "sourceQuestion": "Test 1, Math Module 1, question 4",
+    "needsReview": true,
+    "sourceNotes": "Question image and answer/review explanation were extracted from the supplied Mometrix PDF. Domain and difficulty are neutral app metadata pending classification."
+  },
+  {
+    "id": "momentix-t1-m1-q05",
+    "domain": "Algebra",
+    "skill": "Mometrix Test 1 · Math Module 1 · Question 5",
+    "difficulty": 2,
+    "prompt": "See the complete question image.",
+    "type": "student-produced-response",
+    "choices": [],
+    "answer": "2",
+    "explanation": "We can find the points of intersection by setting the two equations equal to each other. 2𝑥2 + 3𝑥= −𝑥 Add 𝑥 to each side and combine like terms. 2𝑥2 + 4𝑥= 0 Factor the left side. (2𝑥)(𝑥+ 2) = 0 Setting the first term equal to 0 yields 2𝑥= 0. Thus, 𝑥= 0. This corresponds with the point we were given, (0,0). Now we set the second term equal to 0: 𝑥+ 2 = 0. We subtract 2 from each side to yield 𝑥= −2. This is 𝑎. To find 𝑏, we plug in –2 for 𝑥 to either of the two equations and solve for 𝑦. Using the second equation: 𝑦= −(−2), or 𝑦= 2. So, our point is (−2,2) and 𝑏= 2.",
+    "assets": [
+      {
+        "id": "question-image",
+        "type": "figure",
+        "src": "assets/questions/momentix-t1-m1-q05.png",
+        "alt": "Mometrix Practice Test 1, Math Module 1, question 5",
+        "width": 1566,
+        "height": 90,
+        "sourcePage": 17
+      }
+    ],
+    "sourceType": "Mometrix SAT Practice Tests",
+    "sourcePage": 17,
+    "sourceQuestion": "Test 1, Math Module 1, question 5",
+    "needsReview": true,
+    "sourceNotes": "Question image and answer/review explanation were extracted from the supplied Mometrix PDF. Domain and difficulty are neutral app metadata pending classification."
+  },
+  {
+    "id": "momentix-t1-m1-q06",
+    "domain": "Algebra",
+    "skill": "Mometrix Test 1 · Math Module 1 · Question 6",
+    "difficulty": 2,
+    "prompt": "See the complete question image.",
+    "type": "student-produced-response",
+    "choices": [],
+    "answer": "10",
+    "explanation": "Since the population is multiplied by 3 for 5 days, we can write 𝑥(35) = 2,430, where 𝑥 is the original population. Calculate 35 and simplify the equation. 243𝑥= 2,430 Divide each side by 243. 𝑥= 10 So, the original population was 10.",
+    "assets": [
+      {
+        "id": "question-image",
+        "type": "figure",
+        "src": "assets/questions/momentix-t1-m1-q06.png",
+        "alt": "Mometrix Practice Test 1, Math Module 1, question 6",
+        "width": 1566,
+        "height": 740,
+        "sourcePage": 17
+      }
+    ],
+    "sourceType": "Mometrix SAT Practice Tests",
+    "sourcePage": 17,
+    "sourceQuestion": "Test 1, Math Module 1, question 6",
+    "needsReview": true,
+    "sourceNotes": "Question image and answer/review explanation were extracted from the supplied Mometrix PDF. Domain and difficulty are neutral app metadata pending classification."
+  },
+  {
+    "id": "momentix-t1-m1-q07",
+    "domain": "Algebra",
+    "skill": "Mometrix Test 1 · Math Module 1 · Question 7",
+    "difficulty": 2,
+    "prompt": "See the complete question image.",
+    "type": "multiple-choice",
+    "choices": [
+      {
+        "id": "A",
+        "text": ""
+      },
+      {
+        "id": "B",
+        "text": ""
+      },
+      {
+        "id": "C",
+        "text": ""
+      },
+      {
+        "id": "D",
+        "text": ""
+      }
+    ],
+    "answer": "D",
+    "explanation": "For Days 1, 2, and 3 (choices A, B, and C) on the chart, the number of seedlings is 0. Day 4 is the first time we see the line move away from 0, showing that 2 seedlings sprouted that day.",
+    "assets": [
+      {
+        "id": "question-image",
+        "type": "figure",
+        "src": "assets/questions/momentix-t1-m1-q07.png",
+        "alt": "Mometrix Practice Test 1, Math Module 1, question 7",
+        "width": 1566,
+        "height": 878,
+        "sourcePage": 17
+      }
+    ],
+    "sourceType": "Mometrix SAT Practice Tests",
+    "sourcePage": 17,
+    "sourceQuestion": "Test 1, Math Module 1, question 7",
+    "needsReview": true,
+    "sourceNotes": "Question image and answer/review explanation were extracted from the supplied Mometrix PDF. Domain and difficulty are neutral app metadata pending classification."
+  },
+  {
+    "id": "momentix-t1-m1-q08",
+    "domain": "Algebra",
+    "skill": "Mometrix Test 1 · Math Module 1 · Question 8",
+    "difficulty": 2,
+    "prompt": "See the complete question image.",
+    "type": "multiple-choice",
+    "choices": [
+      {
+        "id": "A",
+        "text": ""
+      },
+      {
+        "id": "B",
+        "text": ""
+      },
+      {
+        "id": "C",
+        "text": ""
+      },
+      {
+        "id": "D",
+        "text": ""
+      }
+    ],
+    "answer": "C",
+    "explanation": "We first need to find the volume of water that Kasie is putting in each glass. The volume of a cylinder is 𝑉= 𝜋𝑟2ℎ. Since we know the radius is 1.25 and the height is 5 (ignore the actual height of the glass since it is not filled to the brim), we can write the following equation. 𝑉= (3.14)(1.25)2(5) 𝑉≈24.53 in3 Now we need to find the number of cubic inches in 3 quarts. (3 qt 1 ) (1 gal 4 qt ) (231 in3 1 gal ) = 173.25 in3 Finally, we divide 173.25 by 24.53 to find that Kasie could fill 7.06 glasses. In other words, she could completely fill 7 glasses.",
+    "assets": [
+      {
+        "id": "question-image",
+        "type": "figure",
+        "src": "assets/questions/momentix-t1-m1-q08.png",
+        "alt": "Mometrix Practice Test 1, Math Module 1, question 8",
+        "width": 1566,
+        "height": 296,
+        "sourcePage": 17
+      }
+    ],
+    "sourceType": "Mometrix SAT Practice Tests",
+    "sourcePage": 17,
+    "sourceQuestion": "Test 1, Math Module 1, question 8",
+    "needsReview": true,
+    "sourceNotes": "Question image and answer/review explanation were extracted from the supplied Mometrix PDF. Domain and difficulty are neutral app metadata pending classification."
+  },
+  {
+    "id": "momentix-t1-m1-q09",
+    "domain": "Algebra",
+    "skill": "Mometrix Test 1 · Math Module 1 · Question 9",
+    "difficulty": 2,
+    "prompt": "See the complete question image.",
+    "type": "multiple-choice",
+    "choices": [
+      {
+        "id": "A",
+        "text": ""
+      },
+      {
+        "id": "B",
+        "text": ""
+      },
+      {
+        "id": "C",
+        "text": ""
+      },
+      {
+        "id": "D",
+        "text": ""
+      }
+    ],
+    "answer": "C",
+    "explanation": "The situation may be modeled by this system of equations: {4𝑦+ 3𝑐= 9.55 2𝑦+ 2𝑐= 5.90 Multiplying the bottom equation by −2 gives: { 4𝑦+ 3𝑐= 9.55 −4𝑦−4𝑐= −11.80 Adding the two equations gives −𝑐= −2.25, or 𝑐= 2.25. Thus, one box of crackers costs $2.25.",
+    "assets": [
+      {
+        "id": "question-image",
+        "type": "figure",
+        "src": "assets/questions/momentix-t1-m1-q09.png",
+        "alt": "Mometrix Practice Test 1, Math Module 1, question 9",
+        "width": 1566,
+        "height": 258,
+        "sourcePage": 17
+      }
+    ],
+    "sourceType": "Mometrix SAT Practice Tests",
+    "sourcePage": 17,
+    "sourceQuestion": "Test 1, Math Module 1, question 9",
+    "needsReview": true,
+    "sourceNotes": "Question image and answer/review explanation were extracted from the supplied Mometrix PDF. Domain and difficulty are neutral app metadata pending classification."
+  },
+  {
+    "id": "momentix-t1-m1-q10",
+    "domain": "Algebra",
+    "skill": "Mometrix Test 1 · Math Module 1 · Question 10",
+    "difficulty": 2,
+    "prompt": "See the complete question image.",
+    "type": "multiple-choice",
+    "choices": [
+      {
+        "id": "A",
+        "text": ""
+      },
+      {
+        "id": "B",
+        "text": ""
+      },
+      {
+        "id": "C",
+        "text": ""
+      },
+      {
+        "id": "D",
+        "text": ""
+      }
+    ],
+    "answer": "C",
+    "explanation": "If 85% of the sample group prefer the new brand of juice, we can infer that most shoppers will likely prefer it. We cannot say that 85% of all shoppers will prefer it (choice A), because that would require testing all shoppers, but we can make a generalization that most shoppers seem to prefer the new brand. Choice B is incorrect because 15% is the number of the surveyed shoppers who did not prefer the new brand. Choice D is incorrect because it implies the opposite of the correct answer.",
+    "assets": [
+      {
+        "id": "question-image",
+        "type": "figure",
+        "src": "assets/questions/momentix-t1-m1-q10.png",
+        "alt": "Mometrix Practice Test 1, Math Module 1, question 10",
+        "width": 1566,
+        "height": 372,
+        "sourcePage": 17
+      }
+    ],
+    "sourceType": "Mometrix SAT Practice Tests",
+    "sourcePage": 17,
+    "sourceQuestion": "Test 1, Math Module 1, question 10",
+    "needsReview": true,
+    "sourceNotes": "Question image and answer/review explanation were extracted from the supplied Mometrix PDF. Domain and difficulty are neutral app metadata pending classification."
+  },
+  {
+    "id": "momentix-t1-m1-q11",
+    "domain": "Algebra",
+    "skill": "Mometrix Test 1 · Math Module 1 · Question 11",
+    "difficulty": 2,
+    "prompt": "See the complete question image.",
+    "type": "multiple-choice",
+    "choices": [
+      {
+        "id": "A",
+        "text": ""
+      },
+      {
+        "id": "B",
+        "text": ""
+      },
+      {
+        "id": "C",
+        "text": ""
+      },
+      {
+        "id": "D",
+        "text": ""
+      }
+    ],
+    "answer": "D",
+    "explanation": "We solve for 𝑥 and 𝑦 by using elimination. We can multiply the second equation by 2 and then add the two equations to eliminate the 𝑦-terms. 5𝑥−6𝑦= 12 +(−4𝑥+ 6𝑦= −10) 𝑥= 2 If 𝑥= 2, we can solve for 𝑦 by plugging the 𝑥-value back into one of the equations. For example, use the second equation. −2(2) + 3𝑦= −5 Simplify and add 4 to each side. 3𝑦= −1 Divide each side by 3. 𝑦= −1 3 So, the solution is (2, − 1 3). Now we can use these values to find 𝑥2 −3𝑦. (2)2 −3 (−1 3) = 4 + 1 = 5",
+    "assets": [
+      {
+        "id": "question-image",
+        "type": "figure",
+        "src": "assets/questions/momentix-t1-m1-q11.png",
+        "alt": "Mometrix Practice Test 1, Math Module 1, question 11",
+        "width": 1566,
+        "height": 304,
+        "sourcePage": 18
+      }
+    ],
+    "sourceType": "Mometrix SAT Practice Tests",
+    "sourcePage": 18,
+    "sourceQuestion": "Test 1, Math Module 1, question 11",
+    "needsReview": true,
+    "sourceNotes": "Question image and answer/review explanation were extracted from the supplied Mometrix PDF. Domain and difficulty are neutral app metadata pending classification."
+  },
+  {
+    "id": "momentix-t1-m1-q12",
+    "domain": "Algebra",
+    "skill": "Mometrix Test 1 · Math Module 1 · Question 12",
+    "difficulty": 2,
+    "prompt": "See the complete question image.",
+    "type": "multiple-choice",
+    "choices": [
+      {
+        "id": "A",
+        "text": ""
+      },
+      {
+        "id": "B",
+        "text": ""
+      },
+      {
+        "id": "C",
+        "text": ""
+      },
+      {
+        "id": "D",
+        "text": ""
+      }
+    ],
+    "answer": "D",
+    "explanation": "Bacterial growth is exponential. Let 𝑥 be the number of times the population doubles, 𝑎 be the number of bacteria in the colony originally transferred into the broth, and 𝑦 be the number of bacteria in the broth after 𝑥 doubling times. After 1 hour, the population would have doubled three times: 𝑎(2)𝑥= 𝑦 𝑎(23) = 8 × 106 8𝑎= 8 × 106 𝑎= 106 So, the number of bacteria originally transferred into the petri dish was 106. The equation for determining the number of bacteria is 𝑦= (2𝑥) × 106. Since the bacteria double every twenty minutes, they go through three doubling times every hour. So, when the bacteria are allowed to grow for eight hours, they will have gone through 8 × 3 = 24 doubling times. When 𝑥= 24, 𝑦= (224) × 106 = 16,777,216 × 106, which is approximately 1.7 × 1013.",
+    "assets": [
+      {
+        "id": "question-image",
+        "type": "figure",
+        "src": "assets/questions/momentix-t1-m1-q12.png",
+        "alt": "Mometrix Practice Test 1, Math Module 1, question 12",
+        "width": 1566,
+        "height": 373,
+        "sourcePage": 18
+      }
+    ],
+    "sourceType": "Mometrix SAT Practice Tests",
+    "sourcePage": 18,
+    "sourceQuestion": "Test 1, Math Module 1, question 12",
+    "needsReview": true,
+    "sourceNotes": "Question image and answer/review explanation were extracted from the supplied Mometrix PDF. Domain and difficulty are neutral app metadata pending classification."
+  },
+  {
+    "id": "momentix-t1-m1-q13",
+    "domain": "Algebra",
+    "skill": "Mometrix Test 1 · Math Module 1 · Question 13",
+    "difficulty": 2,
+    "prompt": "See the complete question image.",
+    "type": "multiple-choice",
+    "choices": [
+      {
+        "id": "A",
+        "text": ""
+      },
+      {
+        "id": "B",
+        "text": ""
+      },
+      {
+        "id": "C",
+        "text": ""
+      },
+      {
+        "id": "D",
+        "text": ""
+      }
+    ],
+    "answer": "B",
+    "explanation": "We first solve for 𝑥 in the first equation. 3𝑥−4 = −1 Add 4 to each side. 3𝑥= 3 Then, divide each side by 3. 𝑥= 1 Be careful not to mistakenly select answer choice D rather than finishing the problem. The final step is to plug this value of 𝑥 into the second expression. 12(1) + 3 = 12 + 3 = 15",
+    "assets": [
+      {
+        "id": "question-image",
+        "type": "figure",
+        "src": "assets/questions/momentix-t1-m1-q13.png",
+        "alt": "Mometrix Practice Test 1, Math Module 1, question 13",
+        "width": 1566,
+        "height": 226,
+        "sourcePage": 18
+      }
+    ],
+    "sourceType": "Mometrix SAT Practice Tests",
+    "sourcePage": 18,
+    "sourceQuestion": "Test 1, Math Module 1, question 13",
+    "needsReview": true,
+    "sourceNotes": "Question image and answer/review explanation were extracted from the supplied Mometrix PDF. Domain and difficulty are neutral app metadata pending classification."
+  },
+  {
+    "id": "momentix-t1-m1-q14",
+    "domain": "Algebra",
+    "skill": "Mometrix Test 1 · Math Module 1 · Question 14",
+    "difficulty": 2,
+    "prompt": "See the complete question image.",
+    "type": "multiple-choice",
+    "choices": [
+      {
+        "id": "A",
+        "text": ""
+      },
+      {
+        "id": "B",
+        "text": ""
+      },
+      {
+        "id": "C",
+        "text": ""
+      },
+      {
+        "id": "D",
+        "text": ""
+      }
+    ],
+    "answer": "C",
+    "explanation": "Because the radicals are the same, we can add the coefficients in front of the radicals and keep the radical the same. 4√6 + 8√6 = (4 + 8)√6 = 12√6 Since the radicand, 6, has no perfect square factor, we cannot simplify this expression further.",
+    "assets": [
+      {
+        "id": "question-image",
+        "type": "figure",
+        "src": "assets/questions/momentix-t1-m1-q14.png",
+        "alt": "Mometrix Practice Test 1, Math Module 1, question 14",
+        "width": 1566,
+        "height": 235,
+        "sourcePage": 18
+      }
+    ],
+    "sourceType": "Mometrix SAT Practice Tests",
+    "sourcePage": 18,
+    "sourceQuestion": "Test 1, Math Module 1, question 14",
+    "needsReview": true,
+    "sourceNotes": "Question image and answer/review explanation were extracted from the supplied Mometrix PDF. Domain and difficulty are neutral app metadata pending classification."
+  },
+  {
+    "id": "momentix-t1-m1-q15",
+    "domain": "Algebra",
+    "skill": "Mometrix Test 1 · Math Module 1 · Question 15",
+    "difficulty": 2,
+    "prompt": "See the complete question image.",
+    "type": "student-produced-response",
+    "choices": [],
+    "answer": "6",
+    "explanation": "If the two triangles are similar, corresponding sides are also similar. Set up a ratio. 𝐴𝐵 4 = 9 6 Then, cross-multiply. 6𝐴𝐵= 9(4) 6𝐴𝐵= 36 Divide both sides by 6. 𝐴𝐵= 6",
+    "assets": [
+      {
+        "id": "question-image",
+        "type": "figure",
+        "src": "assets/questions/momentix-t1-m1-q15.png",
+        "alt": "Mometrix Practice Test 1, Math Module 1, question 15",
+        "width": 1566,
+        "height": 842,
+        "sourcePage": 18
+      }
+    ],
+    "sourceType": "Mometrix SAT Practice Tests",
+    "sourcePage": 18,
+    "sourceQuestion": "Test 1, Math Module 1, question 15",
+    "needsReview": true,
+    "sourceNotes": "Question image and answer/review explanation were extracted from the supplied Mometrix PDF. Domain and difficulty are neutral app metadata pending classification."
+  },
+  {
+    "id": "momentix-t1-m1-q16",
+    "domain": "Algebra",
+    "skill": "Mometrix Test 1 · Math Module 1 · Question 16",
+    "difficulty": 2,
+    "prompt": "See the complete question image.",
+    "type": "multiple-choice",
+    "choices": [
+      {
+        "id": "A",
+        "text": ""
+      },
+      {
+        "id": "B",
+        "text": ""
+      },
+      {
+        "id": "C",
+        "text": ""
+      },
+      {
+        "id": "D",
+        "text": ""
+      }
+    ],
+    "answer": "D",
+    "explanation": "The equation of a circle is (𝑥−ℎ)2 + (𝑦−𝑘)2 = 𝑟2, where 𝑟 is the radius. We need to put the equation in this form to solve for 𝑟. First, we separate the 𝑥- and 𝑦-terms and then we complete the square. (𝑥2 −4𝑥) + (𝑦2 + 2𝑦) = 4 (𝑥2 −4𝑥+ 4) −4 + (𝑦2 + 2𝑦+ 1) −1 = 4 (𝑥−2)2 + (𝑦 + 1)2 −5 = 4 (𝑥−2)2 + (𝑦 + 1)2 = 9 (𝑥−2)2 + (𝑦 + 1)2 = 32 Thus, we can see that the radius is 3 (be careful not to mistakenly choose answer choice B). Since the diameter is twice the radius, we multiply 3 by 2 to obtain 6.",
+    "assets": [
+      {
+        "id": "question-image",
+        "type": "figure",
+        "src": "assets/questions/momentix-t1-m1-q16.png",
+        "alt": "Mometrix Practice Test 1, Math Module 1, question 16",
+        "width": 1566,
+        "height": 269,
+        "sourcePage": 19
+      }
+    ],
+    "sourceType": "Mometrix SAT Practice Tests",
+    "sourcePage": 19,
+    "sourceQuestion": "Test 1, Math Module 1, question 16",
+    "needsReview": true,
+    "sourceNotes": "Question image and answer/review explanation were extracted from the supplied Mometrix PDF. Domain and difficulty are neutral app metadata pending classification."
+  },
+  {
+    "id": "momentix-t1-m1-q17",
+    "domain": "Algebra",
+    "skill": "Mometrix Test 1 · Math Module 1 · Question 17",
+    "difficulty": 2,
+    "prompt": "See the complete question image.",
+    "type": "multiple-choice",
+    "choices": [
+      {
+        "id": "A",
+        "text": ""
+      },
+      {
+        "id": "B",
+        "text": ""
+      },
+      {
+        "id": "C",
+        "text": ""
+      },
+      {
+        "id": "D",
+        "text": ""
+      }
+    ],
+    "answer": "A",
+    "explanation": "We begin by solving the inequality for 𝑎. 4𝑥+ 3 ≤1 First, subtract 3 from each side. 4𝑎≤−2 Then, divide each side by 4 and reduce. 𝑎≤−1 2 So, − 1 2 is the greatest possible value for 𝑎. We plug this value into 6𝑎−2 6 (−1 2) −2 = −3 −2 = −5",
+    "assets": [
+      {
+        "id": "question-image",
+        "type": "figure",
+        "src": "assets/questions/momentix-t1-m1-q17.png",
+        "alt": "Mometrix Practice Test 1, Math Module 1, question 17",
+        "width": 1566,
+        "height": 238,
+        "sourcePage": 19
+      }
+    ],
+    "sourceType": "Mometrix SAT Practice Tests",
+    "sourcePage": 19,
+    "sourceQuestion": "Test 1, Math Module 1, question 17",
+    "needsReview": true,
+    "sourceNotes": "Question image and answer/review explanation were extracted from the supplied Mometrix PDF. Domain and difficulty are neutral app metadata pending classification."
+  },
+  {
+    "id": "momentix-t1-m1-q18",
+    "domain": "Algebra",
+    "skill": "Mometrix Test 1 · Math Module 1 · Question 18",
+    "difficulty": 2,
+    "prompt": "See the complete question image.",
+    "type": "multiple-choice",
+    "choices": [
+      {
+        "id": "A",
+        "text": ""
+      },
+      {
+        "id": "B",
+        "text": ""
+      },
+      {
+        "id": "C",
+        "text": ""
+      },
+      {
+        "id": "D",
+        "text": ""
+      }
+    ],
+    "answer": "C",
+    "explanation": "We need to find the point at which 𝑖 is equal to 𝑝, so we set the two equations equal to each other. 5.5𝑥= 15,200 + 0.75𝑥 Subtract 0.75𝑥 from each side. 4.75𝑥= 15,200 Divide each side by 4.75. 𝑥= 3,200 Therefore, the “break even” number of products is 3,200.",
+    "assets": [
+      {
+        "id": "question-image",
+        "type": "figure",
+        "src": "assets/questions/momentix-t1-m1-q18.png",
+        "alt": "Mometrix Practice Test 1, Math Module 1, question 18",
+        "width": 1566,
+        "height": 379,
+        "sourcePage": 19
+      }
+    ],
+    "sourceType": "Mometrix SAT Practice Tests",
+    "sourcePage": 19,
+    "sourceQuestion": "Test 1, Math Module 1, question 18",
+    "needsReview": true,
+    "sourceNotes": "Question image and answer/review explanation were extracted from the supplied Mometrix PDF. Domain and difficulty are neutral app metadata pending classification."
+  },
+  {
+    "id": "momentix-t1-m1-q19",
+    "domain": "Algebra",
+    "skill": "Mometrix Test 1 · Math Module 1 · Question 19",
+    "difficulty": 2,
+    "prompt": "See the complete question image.",
+    "type": "multiple-choice",
+    "choices": [
+      {
+        "id": "A",
+        "text": ""
+      },
+      {
+        "id": "B",
+        "text": ""
+      },
+      {
+        "id": "C",
+        "text": ""
+      },
+      {
+        "id": "D",
+        "text": ""
+      }
+    ],
+    "answer": "B",
+    "explanation": "The point marked on the scatterplot for the final day shows that Julio practiced for 3 hours, while the line of best fit crosses the 2-hour mark on the same day. The difference between 3 hours and 2 hours is 1 hour.",
+    "assets": [
+      {
+        "id": "question-image",
+        "type": "figure",
+        "src": "assets/questions/momentix-t1-m1-q19.png",
+        "alt": "Mometrix Practice Test 1, Math Module 1, question 19",
+        "width": 1566,
+        "height": 1052,
+        "sourcePage": 19
+      }
+    ],
+    "sourceType": "Mometrix SAT Practice Tests",
+    "sourcePage": 19,
+    "sourceQuestion": "Test 1, Math Module 1, question 19",
+    "needsReview": true,
+    "sourceNotes": "Question image and answer/review explanation were extracted from the supplied Mometrix PDF. Domain and difficulty are neutral app metadata pending classification."
+  },
+  {
+    "id": "momentix-t1-m1-q20",
+    "domain": "Algebra",
+    "skill": "Mometrix Test 1 · Math Module 1 · Question 20",
+    "difficulty": 2,
+    "prompt": "See the complete question image.",
+    "type": "multiple-choice",
+    "choices": [
+      {
+        "id": "A",
+        "text": ""
+      },
+      {
+        "id": "B",
+        "text": ""
+      },
+      {
+        "id": "C",
+        "text": ""
+      },
+      {
+        "id": "D",
+        "text": ""
+      }
+    ],
+    "answer": "B",
+    "explanation": "Dividing both sides of the equation by 1 3 𝜋ℎ gives 𝑟2 = 𝑉 1 3𝜋ℎ= 3𝑉 𝜋ℎ. We can then solve for 𝑟 by taking the square root of both sides, which gives us 𝑟= √ 3𝑉 𝜋ℎ.",
+    "assets": [
+      {
+        "id": "question-image",
+        "type": "figure",
+        "src": "assets/questions/momentix-t1-m1-q20.png",
+        "alt": "Mometrix Practice Test 1, Math Module 1, question 20",
+        "width": 1566,
+        "height": 357,
+        "sourcePage": 20
+      }
+    ],
+    "sourceType": "Mometrix SAT Practice Tests",
+    "sourcePage": 20,
+    "sourceQuestion": "Test 1, Math Module 1, question 20",
+    "needsReview": true,
+    "sourceNotes": "Question image and answer/review explanation were extracted from the supplied Mometrix PDF. Domain and difficulty are neutral app metadata pending classification."
+  },
+  {
+    "id": "momentix-t1-m1-q21",
+    "domain": "Algebra",
+    "skill": "Mometrix Test 1 · Math Module 1 · Question 21",
+    "difficulty": 2,
+    "prompt": "See the complete question image.",
+    "type": "multiple-choice",
+    "choices": [
+      {
+        "id": "A",
+        "text": ""
+      },
+      {
+        "id": "B",
+        "text": ""
+      },
+      {
+        "id": "C",
+        "text": ""
+      },
+      {
+        "id": "D",
+        "text": ""
+      }
+    ],
+    "answer": "C",
+    "explanation": "If Jan has 6 pairs of socks for each pair of shoes, we can write that socks = 6(shoes). We can then substitute 12 for the shoes and 𝑠 for the socks: 𝑠= 6(12). We look through the answer choices to see which matches this. Answer choice A can be rewritten as 𝑠= 6 12. Answer choice B can be rewritten as 𝑠= 12 6 . Answer choice C can be rewritten as 𝑠= 6(12). Answer choice D can be rewritten as 𝑠= 12 −6. So only answer choice C matches.",
+    "assets": [
+      {
+        "id": "question-image",
+        "type": "figure",
+        "src": "assets/questions/momentix-t1-m1-q21.png",
+        "alt": "Mometrix Practice Test 1, Math Module 1, question 21",
+        "width": 1566,
+        "height": 274,
+        "sourcePage": 20
+      }
+    ],
+    "sourceType": "Mometrix SAT Practice Tests",
+    "sourcePage": 20,
+    "sourceQuestion": "Test 1, Math Module 1, question 21",
+    "needsReview": true,
+    "sourceNotes": "Question image and answer/review explanation were extracted from the supplied Mometrix PDF. Domain and difficulty are neutral app metadata pending classification."
+  },
+  {
+    "id": "momentix-t1-m1-q22",
+    "domain": "Algebra",
+    "skill": "Mometrix Test 1 · Math Module 1 · Question 22",
+    "difficulty": 2,
+    "prompt": "See the complete question image.",
+    "type": "multiple-choice",
+    "choices": [
+      {
+        "id": "A",
+        "text": ""
+      },
+      {
+        "id": "B",
+        "text": ""
+      },
+      {
+        "id": "C",
+        "text": ""
+      },
+      {
+        "id": "D",
+        "text": ""
+      }
+    ],
+    "answer": "C",
+    "explanation": "To solve, we raise each side to the –2 power. This yields (𝑥−1 2)−2 = 𝑚−2. We can simplify to 𝑥= 1 𝑚2. Answer choice A is incorrect because it raises 𝑚 to the power of 2, not –2. Answer choice B is incorrect because it adds in a constant (1) and does not raise 𝑚 to the power of –2. Answer choice D is incorrect because it raises 𝑚 to the power of –1, not –2.",
+    "assets": [
+      {
+        "id": "question-image",
+        "type": "figure",
+        "src": "assets/questions/momentix-t1-m1-q22.png",
+        "alt": "Mometrix Practice Test 1, Math Module 1, question 22",
+        "width": 1566,
+        "height": 280,
+        "sourcePage": 20
+      }
+    ],
+    "sourceType": "Mometrix SAT Practice Tests",
+    "sourcePage": 20,
+    "sourceQuestion": "Test 1, Math Module 1, question 22",
+    "needsReview": true,
+    "sourceNotes": "Question image and answer/review explanation were extracted from the supplied Mometrix PDF. Domain and difficulty are neutral app metadata pending classification."
+  },
+  {
+    "id": "momentix-t1-m2-q01",
+    "domain": "Algebra",
+    "skill": "Mometrix Test 1 · Math Module 2 · Question 1",
+    "difficulty": 2,
+    "prompt": "See the complete question image.",
+    "type": "student-produced-response",
+    "choices": [],
+    "answer": "0.25",
+    "explanation": "If the two triangles are similar, corresponding sides are also similar. We can set up a ratio: 𝐴𝐵 𝐸𝐹= 4 8 = 1 2, or 0.5. If the ratio of each side of ∆𝐴𝐵𝐶 to each side of ∆𝐸𝐹𝐺 is 1 2, the ratio of the areas is ( 1 2) 2 = 1 4, or 0.25. Alternatively, we could find the actual area of each right triangle. We can find side 𝐵𝐶 by multiplying side 𝐹𝐺 by 1 2: 12 × 1 2 = 6. So the area of ∆𝐴𝐵𝐶 is 1 2 × 4 × 6 = 12. The area of ∆𝐸𝐹𝐺 is 1 2 × 8 × 12 = 48. Thus, the ratio of the areas is ∆𝐴𝐵𝐶 ∆𝐸𝐹𝐺= 12 48 = 1 4, or 0.25.",
+    "assets": [
+      {
+        "id": "question-image",
+        "type": "figure",
+        "src": "assets/questions/momentix-t1-m2-q01.png",
+        "alt": "Mometrix Practice Test 1, Math Module 2, question 1",
+        "width": 1566,
+        "height": 480,
+        "sourcePage": 20
+      }
+    ],
+    "sourceType": "Mometrix SAT Practice Tests",
+    "sourcePage": 20,
+    "sourceQuestion": "Test 1, Math Module 2, question 1",
+    "needsReview": true,
+    "sourceNotes": "Question image and answer/review explanation were extracted from the supplied Mometrix PDF. Domain and difficulty are neutral app metadata pending classification."
+  },
+  {
+    "id": "momentix-t1-m2-q02",
+    "domain": "Algebra",
+    "skill": "Mometrix Test 1 · Math Module 2 · Question 2",
+    "difficulty": 2,
+    "prompt": "See the complete question image.",
+    "type": "multiple-choice",
+    "choices": [
+      {
+        "id": "A",
+        "text": ""
+      },
+      {
+        "id": "B",
+        "text": ""
+      },
+      {
+        "id": "C",
+        "text": ""
+      },
+      {
+        "id": "D",
+        "text": ""
+      }
+    ],
+    "answer": "D",
+    "explanation": "We look for a value at which 𝑓(𝑥) = 0 to determine a factor, because the graph of the equation crosses the 𝑥-axis at this point. The table shows that 𝑓(𝑥) = 0 when 𝑥= 2, so the point is (2,0). This means that if we were to factor the original equation, one of the factors would be (𝑥−2), as 𝑦= 𝑥−2 goes through the point (2,0).",
+    "assets": [
+      {
+        "id": "question-image",
+        "type": "figure",
+        "src": "assets/questions/momentix-t1-m2-q02.png",
+        "alt": "Mometrix Practice Test 1, Math Module 2, question 2",
+        "width": 1566,
+        "height": 513,
+        "sourcePage": 20
+      }
+    ],
+    "sourceType": "Mometrix SAT Practice Tests",
+    "sourcePage": 20,
+    "sourceQuestion": "Test 1, Math Module 2, question 2",
+    "needsReview": true,
+    "sourceNotes": "Question image and answer/review explanation were extracted from the supplied Mometrix PDF. Domain and difficulty are neutral app metadata pending classification."
+  },
+  {
+    "id": "momentix-t1-m2-q03",
+    "domain": "Algebra",
+    "skill": "Mometrix Test 1 · Math Module 2 · Question 3",
+    "difficulty": 2,
+    "prompt": "See the complete question image.",
+    "type": "multiple-choice",
+    "choices": [
+      {
+        "id": "A",
+        "text": ""
+      },
+      {
+        "id": "B",
+        "text": ""
+      },
+      {
+        "id": "C",
+        "text": ""
+      },
+      {
+        "id": "D",
+        "text": ""
+      }
+    ],
+    "answer": "A",
+    "explanation": "The solution(s) to a system of equations is the point or points at which the graphs of the two equations cross. If a system has no solution, this means that the graphs never cross. In other words, the two graphs are parallel. In the system here, we know the lines will be parallel if the slopes are identical. We can look at the first equation to find the slope by moving the 𝑥-value to the right and solving for 𝑦. 𝑦= −1 3 𝑥−7 3 Thus, the slope of the second equation needs to also be − 1 3. We again move the 𝑥-value to the right and solve for 𝑦. 𝑦= −𝑎 −2 𝑥+ 6 −2 𝑦= 𝑎 2 −3 Therefore, the slope here is 𝑎 2. We can set the slopes equal to each other to solve for 𝑎. 𝑎 2 = −1 3 Then we cross-multiply. 3𝑎= −2 Finally, we divide both sides by 3. 𝑎= −2 3",
+    "assets": [
+      {
+        "id": "question-image",
+        "type": "figure",
+        "src": "assets/questions/momentix-t1-m2-q03.png",
+        "alt": "Mometrix Practice Test 1, Math Module 2, question 3",
+        "width": 1566,
+        "height": 391,
+        "sourcePage": 21
+      }
+    ],
+    "sourceType": "Mometrix SAT Practice Tests",
+    "sourcePage": 21,
+    "sourceQuestion": "Test 1, Math Module 2, question 3",
+    "needsReview": true,
+    "sourceNotes": "Question image and answer/review explanation were extracted from the supplied Mometrix PDF. Domain and difficulty are neutral app metadata pending classification."
+  },
+  {
+    "id": "momentix-t1-m2-q04",
+    "domain": "Algebra",
+    "skill": "Mometrix Test 1 · Math Module 2 · Question 4",
+    "difficulty": 2,
+    "prompt": "See the complete question image.",
+    "type": "multiple-choice",
+    "choices": [
+      {
+        "id": "A",
+        "text": ""
+      },
+      {
+        "id": "B",
+        "text": ""
+      },
+      {
+        "id": "C",
+        "text": ""
+      },
+      {
+        "id": "D",
+        "text": ""
+      }
+    ],
+    "answer": "C",
+    "explanation": "We need to simplify the equation so we can factor it. First, we subtract 3 from each side. 5𝑥2 −30𝑥−35 = 0 Then, we can divide each term by 5. 𝑥2 −6𝑥−7 = 0 Finally, we can factor. (𝑥+ 1)(𝑥−7) = 0 Setting each factored term equal to 0 yields 𝑥+ 1 = 0 and 𝑥−7 = 0, or 𝑥= −1 and 𝑥= 7. The sum of –1 and 7 is 6.",
+    "assets": [
+      {
+        "id": "question-image",
+        "type": "figure",
+        "src": "assets/questions/momentix-t1-m2-q04.png",
+        "alt": "Mometrix Practice Test 1, Math Module 2, question 4",
+        "width": 1566,
+        "height": 277,
+        "sourcePage": 21
+      }
+    ],
+    "sourceType": "Mometrix SAT Practice Tests",
+    "sourcePage": 21,
+    "sourceQuestion": "Test 1, Math Module 2, question 4",
+    "needsReview": true,
+    "sourceNotes": "Question image and answer/review explanation were extracted from the supplied Mometrix PDF. Domain and difficulty are neutral app metadata pending classification."
+  },
+  {
+    "id": "momentix-t1-m2-q05",
+    "domain": "Algebra",
+    "skill": "Mometrix Test 1 · Math Module 2 · Question 5",
+    "difficulty": 2,
+    "prompt": "See the complete question image.",
+    "type": "student-produced-response",
+    "choices": [],
+    "answer": "0.8",
+    "explanation": "The cosine of an angle can be calculated as the adjacent Dside (3) divided by the hypotenuse (5). If angle 𝑀 measures 𝑎°, then angle 𝑁 measures (90 – 𝑎)°, so we are looking for the cosine of angle 𝑁. We begin by solving for the remaining side of the triangle. If the hypotenuse of a right triangle is 5 and one leg is 3, the other leg can be found with the Pythagorean theorem: 32 + 𝑁𝑃2 = 52 9 + 𝑁𝑃2 = 25 𝑁𝑃2 = 16 𝑁𝑃= 4 So, we can find the cosine of angle 𝑁 by taking the adjacent side (4) and dividing by the hypotenuse (5). So the answer is 4 5 or 0.8.",
+    "assets": [
+      {
+        "id": "question-image",
+        "type": "figure",
+        "src": "assets/questions/momentix-t1-m2-q05.png",
+        "alt": "Mometrix Practice Test 1, Math Module 2, question 5",
+        "width": 1566,
+        "height": 680,
+        "sourcePage": 21
+      }
+    ],
+    "sourceType": "Mometrix SAT Practice Tests",
+    "sourcePage": 21,
+    "sourceQuestion": "Test 1, Math Module 2, question 5",
+    "needsReview": true,
+    "sourceNotes": "Question image and answer/review explanation were extracted from the supplied Mometrix PDF. Domain and difficulty are neutral app metadata pending classification."
+  },
+  {
+    "id": "momentix-t1-m2-q06",
+    "domain": "Algebra",
+    "skill": "Mometrix Test 1 · Math Module 2 · Question 6",
+    "difficulty": 2,
+    "prompt": "See the complete question image.",
+    "type": "multiple-choice",
+    "choices": [
+      {
+        "id": "A",
+        "text": ""
+      },
+      {
+        "id": "B",
+        "text": ""
+      },
+      {
+        "id": "C",
+        "text": ""
+      },
+      {
+        "id": "D",
+        "text": ""
+      }
+    ],
+    "answer": "D",
+    "explanation": "If 52% of the sample group prefer Brand A, this is very close to half, and it is not logical to claim that either brand has a majority (answer choices B and C) when only 25 people were polled and results are fairly inconclusive (we can calculate that 13 liked Brand A and 12 liked Brand B). We cannot presume that 52% or more of all shoppers will prefer it (answer choice A), because there can be margin of error in either direction.",
+    "assets": [
+      {
+        "id": "question-image",
+        "type": "figure",
+        "src": "assets/questions/momentix-t1-m2-q06.png",
+        "alt": "Mometrix Practice Test 1, Math Module 2, question 6",
+        "width": 1566,
+        "height": 636,
+        "sourcePage": 21
+      }
+    ],
+    "sourceType": "Mometrix SAT Practice Tests",
+    "sourcePage": 21,
+    "sourceQuestion": "Test 1, Math Module 2, question 6",
+    "needsReview": true,
+    "sourceNotes": "Question image and answer/review explanation were extracted from the supplied Mometrix PDF. Domain and difficulty are neutral app metadata pending classification."
+  },
+  {
+    "id": "momentix-t1-m2-q07",
+    "domain": "Algebra",
+    "skill": "Mometrix Test 1 · Math Module 2 · Question 7",
+    "difficulty": 2,
+    "prompt": "See the complete question image.",
+    "type": "student-produced-response",
+    "choices": [],
+    "answer": "1",
+    "explanation": "We can choose any value between 1.2 and 1.5 to use as our diameter. The formula for volume of a sphere is 𝑉= 4 3 𝜋𝑟3, so the first step is to find the radius, dividing the diameter by 2. If we choose the smallest value, our diameter is 1.2 ÷ 2 = 0.6. We then can calculate volume. 𝑉= 4 3 (3.14)(0.6)3 𝑉≈0.90 Rounding to the nearest cubic inch gives us 1 in3. If we choose the largest value, our diameter is 1.5 ÷ 2 = 0.75. We then can calculate volume. 𝑉= 4 3 (3.14)(0.75)3 𝑉≈2.4 Rounding to the nearest cubic inch gives us 2 in3. Since any possible answer will be between these two values, either 1 or 2 is a correct answer.",
+    "assets": [
+      {
+        "id": "question-image",
+        "type": "figure",
+        "src": "assets/questions/momentix-t1-m2-q07.png",
+        "alt": "Mometrix Practice Test 1, Math Module 2, question 7",
+        "width": 1566,
+        "height": 164,
+        "sourcePage": 22
+      }
+    ],
+    "sourceType": "Mometrix SAT Practice Tests",
+    "sourcePage": 22,
+    "sourceQuestion": "Test 1, Math Module 2, question 7",
+    "needsReview": true,
+    "sourceNotes": "Question image and answer/review explanation were extracted from the supplied Mometrix PDF. Domain and difficulty are neutral app metadata pending classification."
+  },
+  {
+    "id": "momentix-t1-m2-q08",
+    "domain": "Algebra",
+    "skill": "Mometrix Test 1 · Math Module 2 · Question 8",
+    "difficulty": 2,
+    "prompt": "See the complete question image.",
+    "type": "multiple-choice",
+    "choices": [
+      {
+        "id": "A",
+        "text": ""
+      },
+      {
+        "id": "B",
+        "text": ""
+      },
+      {
+        "id": "C",
+        "text": ""
+      },
+      {
+        "id": "D",
+        "text": ""
+      }
+    ],
+    "answer": "C",
+    "explanation": "We first need to find the volume of the container. Since we will need to know the volume in cubic inches to convert to gallons, we convert each measurement from feet to inches by multiplying each by 12. Thus, the length is 8 × 12 = 96 inches, the width is 4 × 12 = 48 inches, and the height is 3 × 12 = 36 inches. The volume of a rectangular prism is 𝑉= 𝑙𝑤ℎ, so we can calculate the container’s volume. 𝑉= 96 × 48 × 36 = 165,888 in3 Now we need to find the number of gallons needed to fill this container. (165,888 in3 1 ) ( 1 gal 231 in3) = 718.13 gallons Since the problem is asking for the number of gallon jugs to completely fill the container, we need to round up. Buying 718 jugs will almost completely fill the container, but a little water will be needed from jug 719. Choice A is incorrect because it only multiplies the volume in feet by 12 to convert to inches, rather than multiplying each dimension. Choice B is incorrect because it rounds down instead of up. Choice D is incorrect because it is the volume in cubic inches rather than gallons.",
+    "assets": [
+      {
+        "id": "question-image",
+        "type": "figure",
+        "src": "assets/questions/momentix-t1-m2-q08.png",
+        "alt": "Mometrix Practice Test 1, Math Module 2, question 8",
+        "width": 1566,
+        "height": 297,
+        "sourcePage": 22
+      }
+    ],
+    "sourceType": "Mometrix SAT Practice Tests",
+    "sourcePage": 22,
+    "sourceQuestion": "Test 1, Math Module 2, question 8",
+    "needsReview": true,
+    "sourceNotes": "Question image and answer/review explanation were extracted from the supplied Mometrix PDF. Domain and difficulty are neutral app metadata pending classification."
+  },
+  {
+    "id": "momentix-t1-m2-q09",
+    "domain": "Algebra",
+    "skill": "Mometrix Test 1 · Math Module 2 · Question 9",
+    "difficulty": 2,
+    "prompt": "See the complete question image.",
+    "type": "multiple-choice",
+    "choices": [
+      {
+        "id": "A",
+        "text": ""
+      },
+      {
+        "id": "B",
+        "text": ""
+      },
+      {
+        "id": "C",
+        "text": ""
+      },
+      {
+        "id": "D",
+        "text": ""
+      }
+    ],
+    "answer": "A",
+    "explanation": "Note that (2𝑥2 + 3𝑥+ 2) −(𝑥2 + 2𝑥−3) = (2𝑥2 + 3𝑥+ 2) + (−1)(𝑥2 + 2𝑥−3). Distribute the –1 to remove the parentheses: 2𝑥2 + 3𝑥+ 2 −𝑥2 −2𝑥+ 3. Next, combine like terms. (2𝑥2 −𝑥2) + (3𝑥−2𝑥) + (2 + 3) = 𝑥2 + 𝑥+ 5",
+    "assets": [
+      {
+        "id": "question-image",
+        "type": "figure",
+        "src": "assets/questions/momentix-t1-m2-q09.png",
+        "alt": "Mometrix Practice Test 1, Math Module 2, question 9",
+        "width": 1566,
+        "height": 224,
+        "sourcePage": 22
+      }
+    ],
+    "sourceType": "Mometrix SAT Practice Tests",
+    "sourcePage": 22,
+    "sourceQuestion": "Test 1, Math Module 2, question 9",
+    "needsReview": true,
+    "sourceNotes": "Question image and answer/review explanation were extracted from the supplied Mometrix PDF. Domain and difficulty are neutral app metadata pending classification."
+  },
+  {
+    "id": "momentix-t1-m2-q10",
+    "domain": "Algebra",
+    "skill": "Mometrix Test 1 · Math Module 2 · Question 10",
+    "difficulty": 2,
+    "prompt": "See the complete question image.",
+    "type": "multiple-choice",
+    "choices": [
+      {
+        "id": "A",
+        "text": ""
+      },
+      {
+        "id": "B",
+        "text": ""
+      },
+      {
+        "id": "C",
+        "text": ""
+      },
+      {
+        "id": "D",
+        "text": ""
+      }
+    ],
+    "answer": "D",
+    "explanation": "We can see from the table that 9 people ordered a small serving of lemon yogurt and that a total of 57 orders were placed. So, the probability is 9 out of 57, or 9 57. We can divide both the numerator and denominator by 3 to reduce the fraction to 3 19. Choice A is the probability of choosing a small serving given that lemon yogurt was selected (not the overall probability). Choice B is the probability of choosing lemon given that a small serving was selected ( 9 21 reduces to 3 7). Choice C is the probability of choosing a small serving ( 21 57 reduces to 7 19).",
+    "assets": [
+      {
+        "id": "question-image",
+        "type": "figure",
+        "src": "assets/questions/momentix-t1-m2-q10.png",
+        "alt": "Mometrix Practice Test 1, Math Module 2, question 10",
+        "width": 1566,
+        "height": 581,
+        "sourcePage": 22
+      }
+    ],
+    "sourceType": "Mometrix SAT Practice Tests",
+    "sourcePage": 22,
+    "sourceQuestion": "Test 1, Math Module 2, question 10",
+    "needsReview": true,
+    "sourceNotes": "Question image and answer/review explanation were extracted from the supplied Mometrix PDF. Domain and difficulty are neutral app metadata pending classification."
+  },
+  {
+    "id": "momentix-t1-m2-q11",
+    "domain": "Algebra",
+    "skill": "Mometrix Test 1 · Math Module 2 · Question 11",
+    "difficulty": 2,
+    "prompt": "See the complete question image.",
+    "type": "multiple-choice",
+    "choices": [
+      {
+        "id": "A",
+        "text": ""
+      },
+      {
+        "id": "B",
+        "text": ""
+      },
+      {
+        "id": "C",
+        "text": ""
+      },
+      {
+        "id": "D",
+        "text": ""
+      }
+    ],
+    "answer": "B",
+    "explanation": "We can solve the system of equations by using substitution. We can plug in −𝑥 for 𝑦 in the top equation. 3𝑥+ (−𝑥) = −2 This simplifies to 2𝑥= −2, and dividing each side by 2 yields 𝑥= −1. Then, we can solve for 𝑦 with the bottom equation. 𝑦= −(−1) = 1 Finally, we can calculate 𝑥+ 𝑦= −1 + 1 = 0. Choice A is incorrect because it is the value of 𝑥. Choice C is incorrect because it is the value of 𝑦. Choice D is incorrect because it is the value of (𝑦−𝑥).",
+    "assets": [
+      {
+        "id": "question-image",
+        "type": "figure",
+        "src": "assets/questions/momentix-t1-m2-q11.png",
+        "alt": "Mometrix Practice Test 1, Math Module 2, question 11",
+        "width": 1566,
+        "height": 716,
+        "sourcePage": 22
+      }
+    ],
+    "sourceType": "Mometrix SAT Practice Tests",
+    "sourcePage": 22,
+    "sourceQuestion": "Test 1, Math Module 2, question 11",
+    "needsReview": true,
+    "sourceNotes": "Question image and answer/review explanation were extracted from the supplied Mometrix PDF. Domain and difficulty are neutral app metadata pending classification."
+  },
+  {
+    "id": "momentix-t1-m2-q12",
+    "domain": "Algebra",
+    "skill": "Mometrix Test 1 · Math Module 2 · Question 12",
+    "difficulty": 2,
+    "prompt": "See the complete question image.",
+    "type": "multiple-choice",
+    "choices": [
+      {
+        "id": "A",
+        "text": ""
+      },
+      {
+        "id": "B",
+        "text": ""
+      },
+      {
+        "id": "C",
+        "text": ""
+      },
+      {
+        "id": "D",
+        "text": ""
+      }
+    ],
+    "answer": "D",
+    "explanation": "For Rylie to make $75 in profit, she needs to earn $75 + $12 = $87 to compensate for her overhead costs. We can calculate the amount she will earn by weeding the garden: 0.05(1,000) = $50. We subtract this from $87 to find that she needs to earn an additional $37 from mowing and edging the lawn. Letting the size of the lawn be 𝑥, we can write out our equation. 0.003𝑥+ 0.002𝑥= 37 Simplify by combining like terms on the left side. 0.005𝑥= 37 Next, divide each side by 0.005. 𝑥= 7,400 So, the lawn needs to be at least 7,400 square feet.",
+    "assets": [
+      {
+        "id": "question-image",
+        "type": "figure",
+        "src": "assets/questions/momentix-t1-m2-q12.png",
+        "alt": "Mometrix Practice Test 1, Math Module 2, question 12",
+        "width": 1566,
+        "height": 651,
+        "sourcePage": 23
+      }
+    ],
+    "sourceType": "Mometrix SAT Practice Tests",
+    "sourcePage": 23,
+    "sourceQuestion": "Test 1, Math Module 2, question 12",
+    "needsReview": true,
+    "sourceNotes": "Question image and answer/review explanation were extracted from the supplied Mometrix PDF. Domain and difficulty are neutral app metadata pending classification."
+  },
+  {
+    "id": "momentix-t1-m2-q13",
+    "domain": "Algebra",
+    "skill": "Mometrix Test 1 · Math Module 2 · Question 13",
+    "difficulty": 2,
+    "prompt": "See the complete question image.",
+    "type": "multiple-choice",
+    "choices": [
+      {
+        "id": "A",
+        "text": ""
+      },
+      {
+        "id": "B",
+        "text": ""
+      },
+      {
+        "id": "C",
+        "text": ""
+      },
+      {
+        "id": "D",
+        "text": ""
+      }
+    ],
+    "answer": "D",
+    "explanation": "Start by calculating the cost of each person’s mowing and edging. Elise’s cost: 0.0025(7,500) + 0.0015(7,500) = 18.75 + 11.25 = $30 Max’s cost: 0.002(7,500) + 0.0015(7,500) = 15 + 11.25 = $26.25 Now we can set up an inequality, letting 𝑥 be the size of the flower bed. For Elise’s services to be a better deal, they must cost less than Max’s. 30 + 0.055𝑥< 26.25 + 0.065𝑥 Solve for 𝑥 by subtracting 0.055𝑥 from both sides. 30 < 26.25 + 0.01𝑥 Now, subtract 26.25 from each side. 3.75 < 0.01𝑥 We rewrite this as 0.01𝑥> 3.75 and divide each side by 0.01 to obtain 𝑥> 375. It is important to remember to reverse the inequality sign when we move the 𝑥 to the left so we don’t end up with 𝑥< 375 (answer choice B).",
+    "assets": [
+      {
+        "id": "shared-stimulus",
+        "type": "figure",
+        "src": "assets/questions/momentix-t1-m2-q13-stimulus.png",
+        "alt": "Mometrix shared source material for Test 1, Math Module 2, questions 12–13",
+        "width": 1566,
+        "height": 349,
+        "sourcePage": 23
+      },
+      {
+        "id": "question-image",
+        "type": "figure",
+        "src": "assets/questions/momentix-t1-m2-q13.png",
+        "alt": "Mometrix Practice Test 1, Math Module 2, question 13",
+        "width": 1566,
+        "height": 295,
+        "sourcePage": 23
+      }
+    ],
+    "sourceType": "Mometrix SAT Practice Tests",
+    "sourcePage": 23,
+    "sourceQuestion": "Test 1, Math Module 2, question 13",
+    "needsReview": true,
+    "sourceNotes": "Question image and answer/review explanation were extracted from the supplied Mometrix PDF. Domain and difficulty are neutral app metadata pending classification."
+  },
+  {
+    "id": "momentix-t1-m2-q14",
+    "domain": "Algebra",
+    "skill": "Mometrix Test 1 · Math Module 2 · Question 14",
+    "difficulty": 2,
+    "prompt": "See the complete question image.",
+    "type": "student-produced-response",
+    "choices": [],
+    "answer": "4",
+    "explanation": "Since the total is an even number of hundreds (16) and the $100 prize is the only prize that is an odd number of hundreds, we can conclude that there must be an even number of $100 prizes awarded. Since we are looking for the greatest number, we should begin at the top and check each number to see if it is possible. If there are six $100 prizes awarded, this leaves only one other prize to make up the difference. $1,600 −6($100) = $1,600 −$600 = $1,000 Since there is not a $1,000 prize, there cannot be six $100 prizes. If there are four $100 prizes awarded, this leaves three other prizes to make up the difference. $1,600 −4($100) = $1,600 −$400 = $1,200 Note that $1,200 divided by 3 is $400, so a combination of four $100 prizes and three $400 prizes satisfies all the parameters.",
+    "assets": [
+      {
+        "id": "question-image",
+        "type": "figure",
+        "src": "assets/questions/momentix-t1-m2-q14.png",
+        "alt": "Mometrix Practice Test 1, Math Module 2, question 14",
+        "width": 1566,
+        "height": 194,
+        "sourcePage": 23
+      }
+    ],
+    "sourceType": "Mometrix SAT Practice Tests",
+    "sourcePage": 23,
+    "sourceQuestion": "Test 1, Math Module 2, question 14",
+    "needsReview": true,
+    "sourceNotes": "Question image and answer/review explanation were extracted from the supplied Mometrix PDF. Domain and difficulty are neutral app metadata pending classification."
+  },
+  {
+    "id": "momentix-t1-m2-q15",
+    "domain": "Algebra",
+    "skill": "Mometrix Test 1 · Math Module 2 · Question 15",
+    "difficulty": 2,
+    "prompt": "See the complete question image.",
+    "type": "multiple-choice",
+    "choices": [
+      {
+        "id": "A",
+        "text": ""
+      },
+      {
+        "id": "B",
+        "text": ""
+      },
+      {
+        "id": "C",
+        "text": ""
+      },
+      {
+        "id": "D",
+        "text": ""
+      }
+    ],
+    "answer": "D",
+    "explanation": "We can graph the two lines on a coordinate plane by plotting the 𝑦-intercept and then finding another point based on the slope. For the first equation, the 𝑦-intercept is − 3 2, so we plot the point (0, − 3 2). Then we use the slope ( 2 3) to plot another point by moving up 2 and 3 to the right, to (3, 1 2). Now we can draw a line passing through the two points. It is a solid line because the solution is less than or equal to the equation. Next, we graph the second line. The 𝑦-intercept is − 5 2, so we plot the point (0, − 5 2). Then we use the slope (–2) to plot another point by moving down 2 and over 1, to (1, − 9 2). Now we can draw a line passing through the two points. It is also a solid line because the solution is greater than or equal to the equation. We shade the area that is both below the graph of the first line and above the graph of the second line. When we do this, we can see that the overlap of the shaded area in Quadrants I, III, and IV. ‑1 ‑2 ‑3 ‑4 ‑5 ‑6 1 2 3 4 5 6 1 2 3 4 5 6 ‑1 ‑2 ‑3 ‑4 ‑5 ‑6",
+    "assets": [
+      {
+        "id": "question-image",
+        "type": "figure",
+        "src": "assets/questions/momentix-t1-m2-q15.png",
+        "alt": "Mometrix Practice Test 1, Math Module 2, question 15",
+        "width": 1566,
+        "height": 841,
+        "sourcePage": 23
+      }
+    ],
+    "sourceType": "Mometrix SAT Practice Tests",
+    "sourcePage": 23,
+    "sourceQuestion": "Test 1, Math Module 2, question 15",
+    "needsReview": true,
+    "sourceNotes": "Question image and answer/review explanation were extracted from the supplied Mometrix PDF. Domain and difficulty are neutral app metadata pending classification."
+  },
+  {
+    "id": "momentix-t1-m2-q16",
+    "domain": "Algebra",
+    "skill": "Mometrix Test 1 · Math Module 2 · Question 16",
+    "difficulty": 2,
+    "prompt": "See the complete question image.",
+    "type": "multiple-choice",
+    "choices": [
+      {
+        "id": "A",
+        "text": ""
+      },
+      {
+        "id": "B",
+        "text": ""
+      },
+      {
+        "id": "C",
+        "text": ""
+      },
+      {
+        "id": "D",
+        "text": ""
+      }
+    ],
+    "answer": "C",
+    "explanation": "Solve for 𝑎 by rearranging the equation to isolate 𝑎. 𝑑= 𝑣𝑡+ 1 2 𝑎𝑡2 Subtract 𝑣𝑡 from both sides. 𝑑−𝑣𝑡= 1 2 𝑎𝑡2 Then, multiply each side by 2 𝑡2. 𝑎= 2𝑑−2𝑣𝑡 𝑡2 Finally, break it into two fractions and simplify. 2𝑑 𝑡2 −2𝑣 𝑡 Choice A is incorrect because it is missing one 𝑡 in the denominator. Choice B is incorrect because it multiples the 𝑑 and 𝑣𝑡 terms instead of subtracting them. Choice D is incorrect because it leaves off the denominator of 𝑡2 in the second term.",
+    "assets": [
+      {
+        "id": "question-image",
+        "type": "figure",
+        "src": "assets/questions/momentix-t1-m2-q16.png",
+        "alt": "Mometrix Practice Test 1, Math Module 2, question 16",
+        "width": 1566,
+        "height": 445,
+        "sourcePage": 24
+      }
+    ],
+    "sourceType": "Mometrix SAT Practice Tests",
+    "sourcePage": 24,
+    "sourceQuestion": "Test 1, Math Module 2, question 16",
+    "needsReview": true,
+    "sourceNotes": "Question image and answer/review explanation were extracted from the supplied Mometrix PDF. Domain and difficulty are neutral app metadata pending classification."
+  },
+  {
+    "id": "momentix-t1-m2-q17",
+    "domain": "Algebra",
+    "skill": "Mometrix Test 1 · Math Module 2 · Question 17",
+    "difficulty": 2,
+    "prompt": "See the complete question image.",
+    "type": "multiple-choice",
+    "choices": [
+      {
+        "id": "A",
+        "text": ""
+      },
+      {
+        "id": "B",
+        "text": ""
+      },
+      {
+        "id": "C",
+        "text": ""
+      },
+      {
+        "id": "D",
+        "text": ""
+      }
+    ],
+    "answer": "A",
+    "explanation": "We look for a value at which 𝑓(𝑥) = 0 to determine a factor, because the graph of the equation crosses the 𝑥-axis at this point. The table shows that 𝑓(𝑥) = 0 when 𝑥= −3, so the point is (−3,0). This means that if we were to factor the original equation, one of the factors would be (𝑥+ 3), as 𝑦= 𝑥+ 3 goes through the point (−3,0).",
+    "assets": [
+      {
+        "id": "question-image",
+        "type": "figure",
+        "src": "assets/questions/momentix-t1-m2-q17.png",
+        "alt": "Mometrix Practice Test 1, Math Module 2, question 17",
+        "width": 1566,
+        "height": 442,
+        "sourcePage": 24
+      }
+    ],
+    "sourceType": "Mometrix SAT Practice Tests",
+    "sourcePage": 24,
+    "sourceQuestion": "Test 1, Math Module 2, question 17",
+    "needsReview": true,
+    "sourceNotes": "Question image and answer/review explanation were extracted from the supplied Mometrix PDF. Domain and difficulty are neutral app metadata pending classification."
+  },
+  {
+    "id": "momentix-t1-m2-q18",
+    "domain": "Algebra",
+    "skill": "Mometrix Test 1 · Math Module 2 · Question 18",
+    "difficulty": 2,
+    "prompt": "See the complete question image.",
+    "type": "multiple-choice",
+    "choices": [
+      {
+        "id": "A",
+        "text": ""
+      },
+      {
+        "id": "B",
+        "text": ""
+      },
+      {
+        "id": "C",
+        "text": ""
+      },
+      {
+        "id": "D",
+        "text": ""
+      }
+    ],
+    "answer": "B",
+    "explanation": "Use the FOIL method (first, outside, inside, and last) to expand the polynomial multiplication. 12𝑥2 −18𝑥+ 20𝑥−30 Then, combine like terms to simplify the expression. 12𝑥2 + 2𝑥−30",
+    "assets": [
+      {
+        "id": "question-image",
+        "type": "figure",
+        "src": "assets/questions/momentix-t1-m2-q18.png",
+        "alt": "Mometrix Practice Test 1, Math Module 2, question 18",
+        "width": 1566,
+        "height": 269,
+        "sourcePage": 24
+      }
+    ],
+    "sourceType": "Mometrix SAT Practice Tests",
+    "sourcePage": 24,
+    "sourceQuestion": "Test 1, Math Module 2, question 18",
+    "needsReview": true,
+    "sourceNotes": "Question image and answer/review explanation were extracted from the supplied Mometrix PDF. Domain and difficulty are neutral app metadata pending classification."
+  },
+  {
+    "id": "momentix-t1-m2-q19",
+    "domain": "Algebra",
+    "skill": "Mometrix Test 1 · Math Module 2 · Question 19",
+    "difficulty": 2,
+    "prompt": "See the complete question image.",
+    "type": "multiple-choice",
+    "choices": [
+      {
+        "id": "A",
+        "text": ""
+      },
+      {
+        "id": "B",
+        "text": ""
+      },
+      {
+        "id": "C",
+        "text": ""
+      },
+      {
+        "id": "D",
+        "text": ""
+      }
+    ],
+    "answer": "C",
+    "explanation": "We can solve the system of equations by using substitution. Plug in 3𝑦 for 𝑥 in the top equation, and solve for 𝑦. 4(3𝑦) −𝑦= 11 12𝑦−𝑦= 11 11𝑦= 11 𝑦= 1 Then, solve for 𝑥 by substituting 1 in for 𝑦 in the bottom equation. 𝑥= 3𝑦= 3(1) = 3 Finally, we can calculate the final expression. 𝑥−𝑦= 3 −1 = 2",
+    "assets": [
+      {
+        "id": "question-image",
+        "type": "figure",
+        "src": "assets/questions/momentix-t1-m2-q19.png",
+        "alt": "Mometrix Practice Test 1, Math Module 2, question 19",
+        "width": 1566,
+        "height": 828,
+        "sourcePage": 24
+      }
+    ],
+    "sourceType": "Mometrix SAT Practice Tests",
+    "sourcePage": 24,
+    "sourceQuestion": "Test 1, Math Module 2, question 19",
+    "needsReview": true,
+    "sourceNotes": "Question image and answer/review explanation were extracted from the supplied Mometrix PDF. Domain and difficulty are neutral app metadata pending classification."
+  },
+  {
+    "id": "momentix-t1-m2-q20",
+    "domain": "Algebra",
+    "skill": "Mometrix Test 1 · Math Module 2 · Question 20",
+    "difficulty": 2,
+    "prompt": "See the complete question image.",
+    "type": "multiple-choice",
+    "choices": [
+      {
+        "id": "A",
+        "text": ""
+      },
+      {
+        "id": "B",
+        "text": ""
+      },
+      {
+        "id": "C",
+        "text": ""
+      },
+      {
+        "id": "D",
+        "text": ""
+      }
+    ],
+    "answer": "C",
+    "explanation": "Solve for 𝐿 by rearranging the equation to isolate it. First, divide 2𝜋 from both sides. 𝑇 2𝜋= √𝐿 𝑔 Then, square each side to eliminate the radical. ( 𝑇 2𝜋) 2 = (√𝐿 𝑔) 2 𝑇2 4𝜋2 = 𝐿 𝑔 Finally, multiply both sides by 𝑔. 𝑇2𝑔 4𝜋2 = 𝐿 Choice A is incorrect because it subtracts 2𝜋 instead of dividing it. Choice B is incorrect because it takes the square root when it should have squared the fraction. Choice D is incorrect because it is the reciprocal of the correct answer.",
+    "assets": [
+      {
+        "id": "question-image",
+        "type": "figure",
+        "src": "assets/questions/momentix-t1-m2-q20.png",
+        "alt": "Mometrix Practice Test 1, Math Module 2, question 20",
+        "width": 1566,
+        "height": 542,
+        "sourcePage": 25
+      }
+    ],
+    "sourceType": "Mometrix SAT Practice Tests",
+    "sourcePage": 25,
+    "sourceQuestion": "Test 1, Math Module 2, question 20",
+    "needsReview": true,
+    "sourceNotes": "Question image and answer/review explanation were extracted from the supplied Mometrix PDF. Domain and difficulty are neutral app metadata pending classification."
+  },
+  {
+    "id": "momentix-t1-m2-q21",
+    "domain": "Algebra",
+    "skill": "Mometrix Test 1 · Math Module 2 · Question 21",
+    "difficulty": 2,
+    "prompt": "See the complete question image.",
+    "type": "student-produced-response",
+    "choices": [],
+    "answer": "6",
+    "explanation": "Solve for 𝑥 in the equation by first subtracting 12 from each side. 𝑥2 −4𝑥−12 = 0 Then, factor the left side. (𝑥+ 2)(𝑥−6) = 0 Solving yields 𝑥= −2 or 𝑥= 6, and since the problem specifies that 𝑥> 0, this means that 𝑥= 6.",
+    "assets": [
+      {
+        "id": "question-image",
+        "type": "figure",
+        "src": "assets/questions/momentix-t1-m2-q21.png",
+        "alt": "Mometrix Practice Test 1, Math Module 2, question 21",
+        "width": 1566,
+        "height": 90,
+        "sourcePage": 25
+      }
+    ],
+    "sourceType": "Mometrix SAT Practice Tests",
+    "sourcePage": 25,
+    "sourceQuestion": "Test 1, Math Module 2, question 21",
+    "needsReview": true,
+    "sourceNotes": "Question image and answer/review explanation were extracted from the supplied Mometrix PDF. Domain and difficulty are neutral app metadata pending classification."
+  },
+  {
+    "id": "momentix-t1-m2-q22",
+    "domain": "Algebra",
+    "skill": "Mometrix Test 1 · Math Module 2 · Question 22",
+    "difficulty": 2,
+    "prompt": "See the complete question image.",
+    "type": "multiple-choice",
+    "choices": [
+      {
+        "id": "A",
+        "text": ""
+      },
+      {
+        "id": "B",
+        "text": ""
+      },
+      {
+        "id": "C",
+        "text": ""
+      },
+      {
+        "id": "D",
+        "text": ""
+      }
+    ],
+    "answer": "A",
+    "explanation": "First, solve for the constant by using the ordered pair (2,0). 0 = 3 2 (2) + 𝑏 Multiply on the right side. 0 = 3 + 𝑏 Then, solve for 𝑏 by subtracting 3 from each side. −3 = 𝑏 Now the equation can be rewritten with the value of 𝑏 plugged in. 𝑓(𝑥) = 3 2 𝑥−3 Finally, plug in –1 for 𝑥 and solve. 𝑓(−1) = 3 2 (−1) −3 = −3 2 −6 2 = −9 2 Answer choice B is incorrect because it is the value of 𝑏 rather than the function required. Choice C is incorrect because it uses 1 for 𝑥 rather than –1. Choice D is incorrect because it adds 3 rather than subtracting.",
+    "assets": [
+      {
+        "id": "question-image",
+        "type": "figure",
+        "src": "assets/questions/momentix-t1-m2-q22.png",
+        "alt": "Mometrix Practice Test 1, Math Module 2, question 22",
+        "width": 1566,
+        "height": 1354,
+        "sourcePage": 25
+      }
+    ],
+    "sourceType": "Mometrix SAT Practice Tests",
+    "sourcePage": 25,
+    "sourceQuestion": "Test 1, Math Module 2, question 22",
+    "needsReview": true,
+    "sourceNotes": "Question image and answer/review explanation were extracted from the supplied Mometrix PDF. Domain and difficulty are neutral app metadata pending classification."
+  },
+  {
+    "id": "momentix-t2-m1-q01",
+    "domain": "Algebra",
+    "skill": "Mometrix Test 2 · Math Module 1 · Question 1",
+    "difficulty": 2,
+    "prompt": "See the complete question image.",
+    "type": "student-produced-response",
+    "choices": [],
+    "answer": "179625",
+    "explanation": "The ratio of new car sales to used car sales is 3 ∶5. This means that the total number of cars sold (both new and used) is 3 + 5 = 8. The used car sales are 5 8 of the total sales: 5 8 × $287,400 = $179,625",
+    "assets": [
+      {
+        "id": "question-image",
+        "type": "figure",
+        "src": "assets/questions/momentix-t2-m1-q01.png",
+        "alt": "Mometrix Practice Test 2, Math Module 1, question 1",
+        "width": 1566,
+        "height": 185,
+        "sourcePage": 61
+      }
+    ],
+    "sourceType": "Mometrix SAT Practice Tests",
+    "sourcePage": 61,
+    "sourceQuestion": "Test 2, Math Module 1, question 1",
+    "needsReview": true,
+    "sourceNotes": "Question image and answer/review explanation were extracted from the supplied Mometrix PDF. Domain and difficulty are neutral app metadata pending classification."
+  },
+  {
+    "id": "momentix-t2-m1-q02",
+    "domain": "Algebra",
+    "skill": "Mometrix Test 2 · Math Module 1 · Question 2",
+    "difficulty": 2,
+    "prompt": "See the complete question image.",
+    "type": "multiple-choice",
+    "choices": [
+      {
+        "id": "A",
+        "text": ""
+      },
+      {
+        "id": "B",
+        "text": ""
+      },
+      {
+        "id": "C",
+        "text": ""
+      },
+      {
+        "id": "D",
+        "text": ""
+      }
+    ],
+    "answer": "C",
+    "explanation": "The formula for the volume of a pyramid is 𝑉= 1 3 𝐵ℎ, where 𝐵 is the area of the base and ℎ is the height of the pyramid. The base is a square with a length of 756 feet on each side. So, the area of the base is 𝐴= 𝑠2 = (756 ft)2 = 571,536 ft2. With a base of 571,536 ft2 and a height of 481 ft, the volume of the pyramid is 𝑉= 1 3 (571,536 ft2)(481 ft) ≈9.16 × 107 ft3.",
+    "assets": [
+      {
+        "id": "question-image",
+        "type": "figure",
+        "src": "assets/questions/momentix-t2-m1-q02.png",
+        "alt": "Mometrix Practice Test 2, Math Module 1, question 2",
+        "width": 1566,
+        "height": 300,
+        "sourcePage": 61
+      }
+    ],
+    "sourceType": "Mometrix SAT Practice Tests",
+    "sourcePage": 61,
+    "sourceQuestion": "Test 2, Math Module 1, question 2",
+    "needsReview": true,
+    "sourceNotes": "Question image and answer/review explanation were extracted from the supplied Mometrix PDF. Domain and difficulty are neutral app metadata pending classification."
+  },
+  {
+    "id": "momentix-t2-m1-q03",
+    "domain": "Algebra",
+    "skill": "Mometrix Test 2 · Math Module 1 · Question 3",
+    "difficulty": 2,
+    "prompt": "See the complete question image.",
+    "type": "multiple-choice",
+    "choices": [
+      {
+        "id": "A",
+        "text": ""
+      },
+      {
+        "id": "B",
+        "text": ""
+      },
+      {
+        "id": "C",
+        "text": ""
+      },
+      {
+        "id": "D",
+        "text": ""
+      }
+    ],
+    "answer": "A",
+    "explanation": "(2𝑥2 + 3𝑥+ 2) −(𝑥2 + 2𝑥−3) = (2𝑥2 + 3𝑥+ 2) + (−1)(𝑥2 + 2𝑥−3). First, distribute the –1 to remove the parentheses: 2𝑥2 + 3𝑥+ 2 −𝑥2 −2𝑥+ 3. Next, combine like terms: (2𝑥2 −𝑥2) + (3𝑥−2𝑥) + (2 + 3) = 𝑥2 + 𝑥+ 5.",
+    "assets": [
+      {
+        "id": "question-image",
+        "type": "figure",
+        "src": "assets/questions/momentix-t2-m1-q03.png",
+        "alt": "Mometrix Practice Test 2, Math Module 1, question 3",
+        "width": 1566,
+        "height": 237,
+        "sourcePage": 61
+      }
+    ],
+    "sourceType": "Mometrix SAT Practice Tests",
+    "sourcePage": 61,
+    "sourceQuestion": "Test 2, Math Module 1, question 3",
+    "needsReview": true,
+    "sourceNotes": "Question image and answer/review explanation were extracted from the supplied Mometrix PDF. Domain and difficulty are neutral app metadata pending classification."
+  },
+  {
+    "id": "momentix-t2-m1-q04",
+    "domain": "Algebra",
+    "skill": "Mometrix Test 2 · Math Module 1 · Question 4",
+    "difficulty": 2,
+    "prompt": "See the complete question image.",
+    "type": "multiple-choice",
+    "choices": [
+      {
+        "id": "A",
+        "text": ""
+      },
+      {
+        "id": "B",
+        "text": ""
+      },
+      {
+        "id": "C",
+        "text": ""
+      },
+      {
+        "id": "D",
+        "text": ""
+      }
+    ],
+    "answer": "D",
+    "explanation": "To add the two fractions, first rewrite them with the least common denominator, which is in this case 𝑦3. This is already the denominator in 𝑥 𝑦3, and we can rewrite 𝑥2 𝑦2 as 𝑥2×𝑦 𝑦2×𝑦= 𝑥2𝑦 𝑦3 . Thus, 𝑥2 𝑦2 + 𝑥 𝑦3 = 𝑥2𝑦 𝑦3 + 𝑥 𝑦3 = 𝑥2𝑦+𝑥 𝑦3 .",
+    "assets": [
+      {
+        "id": "question-image",
+        "type": "figure",
+        "src": "assets/questions/momentix-t2-m1-q04.png",
+        "alt": "Mometrix Practice Test 2, Math Module 1, question 4",
+        "width": 1566,
+        "height": 459,
+        "sourcePage": 61
+      }
+    ],
+    "sourceType": "Mometrix SAT Practice Tests",
+    "sourcePage": 61,
+    "sourceQuestion": "Test 2, Math Module 1, question 4",
+    "needsReview": true,
+    "sourceNotes": "Question image and answer/review explanation were extracted from the supplied Mometrix PDF. Domain and difficulty are neutral app metadata pending classification."
+  },
+  {
+    "id": "momentix-t2-m1-q05",
+    "domain": "Algebra",
+    "skill": "Mometrix Test 2 · Math Module 1 · Question 5",
+    "difficulty": 2,
+    "prompt": "See the complete question image.",
+    "type": "student-produced-response",
+    "choices": [],
+    "answer": "6",
+    "explanation": "We can find the points of intersection by setting the two equations equal to each other. −𝑥2 + 5𝑥= 2𝑥 We combine like terms by subtracting 2𝑥 from each side. −𝑥2 + 3𝑥= 0 We can factor the left side of the equation. (−𝑥)(𝑥−3) = 0 Setting the first term equal to 0 yields −𝑥= 0. Thus, 𝑥= 0. This corresponds with the point we were given, (0,0). Now we set the second term equal to 0: 𝑥−3 = 0. We add 3 to each side to yield 𝑥= 3. This is 𝑎. To find 𝑏, we plug in 3 for 𝑥 to either of the two equations and solve for 𝑦. Using the second equation: 𝑦= 2(3), or 𝑦= 6. So, our point is (3,6) and 𝑏= 6.",
+    "assets": [
+      {
+        "id": "question-image",
+        "type": "figure",
+        "src": "assets/questions/momentix-t2-m1-q05.png",
+        "alt": "Mometrix Practice Test 2, Math Module 1, question 5",
+        "width": 1566,
+        "height": 90,
+        "sourcePage": 61
+      }
+    ],
+    "sourceType": "Mometrix SAT Practice Tests",
+    "sourcePage": 61,
+    "sourceQuestion": "Test 2, Math Module 1, question 5",
+    "needsReview": true,
+    "sourceNotes": "Question image and answer/review explanation were extracted from the supplied Mometrix PDF. Domain and difficulty are neutral app metadata pending classification."
+  },
+  {
+    "id": "momentix-t2-m1-q06",
+    "domain": "Algebra",
+    "skill": "Mometrix Test 2 · Math Module 1 · Question 6",
+    "difficulty": 2,
+    "prompt": "See the complete question image.",
+    "type": "multiple-choice",
+    "choices": [
+      {
+        "id": "A",
+        "text": ""
+      },
+      {
+        "id": "B",
+        "text": ""
+      },
+      {
+        "id": "C",
+        "text": ""
+      },
+      {
+        "id": "D",
+        "text": ""
+      }
+    ],
+    "answer": "C",
+    "explanation": "To find the average, we need to add up each part and divide by the number of parts. If Max reads 3 books and Lucy reads 5 books, there are 8 books in total. We can find the total number of pages by multiplying 360 by 3 and 200 by 5, and then dividing the sum by 8. 360 × 3 + 200 × 5 8 = 1,080 + 1,000 8 = 2,080 8 = 260 Therefore, the average length of all the books that Max and Lucy read is 260 pages.",
+    "assets": [
+      {
+        "id": "question-image",
+        "type": "figure",
+        "src": "assets/questions/momentix-t2-m1-q06.png",
+        "alt": "Mometrix Practice Test 2, Math Module 1, question 6",
+        "width": 1566,
+        "height": 260,
+        "sourcePage": 61
+      }
+    ],
+    "sourceType": "Mometrix SAT Practice Tests",
+    "sourcePage": 61,
+    "sourceQuestion": "Test 2, Math Module 1, question 6",
+    "needsReview": true,
+    "sourceNotes": "Question image and answer/review explanation were extracted from the supplied Mometrix PDF. Domain and difficulty are neutral app metadata pending classification."
+  },
+  {
+    "id": "momentix-t2-m1-q07",
+    "domain": "Algebra",
+    "skill": "Mometrix Test 2 · Math Module 1 · Question 7",
+    "difficulty": 2,
+    "prompt": "See the complete question image.",
+    "type": "multiple-choice",
+    "choices": [
+      {
+        "id": "A",
+        "text": ""
+      },
+      {
+        "id": "B",
+        "text": ""
+      },
+      {
+        "id": "C",
+        "text": ""
+      },
+      {
+        "id": "D",
+        "text": ""
+      }
+    ],
+    "answer": "D",
+    "explanation": "There are many ways to solve quadratic equations in the form 𝑎𝑥2 + 𝑏𝑥+ 𝑐= 0. However, some methods, such as graphing and factoring, are not useful for equations with irrational or complex roots. Solve this equation by using the quadratic formula, 𝑥= −𝑏±√𝑏2−4𝑎𝑐 2𝑎 . Set the given equation equal to zero, so 7𝑥2 + 6𝑥+ 2 = 0. Substitute the values 𝑎= 7, 𝑏= 6, and 𝑐= 2 into the quadratic formula. 𝑥= −𝑏± √𝑏2 −4𝑎𝑐 2𝑎 𝑥= −6 ± √62 −4(7)(2) 2(7) 𝑥= −6 ± √36 −56 14 𝑥= −6 ± √−20 14 𝑥= −6 ± 2𝑖√5 14 𝑥= −3 ± 𝑖√5 7",
+    "assets": [
+      {
+        "id": "question-image",
+        "type": "figure",
+        "src": "assets/questions/momentix-t2-m1-q07.png",
+        "alt": "Mometrix Practice Test 2, Math Module 1, question 7",
+        "width": 1566,
+        "height": 384,
+        "sourcePage": 61
+      }
+    ],
+    "sourceType": "Mometrix SAT Practice Tests",
+    "sourcePage": 61,
+    "sourceQuestion": "Test 2, Math Module 1, question 7",
+    "needsReview": true,
+    "sourceNotes": "Question image and answer/review explanation were extracted from the supplied Mometrix PDF. Domain and difficulty are neutral app metadata pending classification."
+  },
+  {
+    "id": "momentix-t2-m1-q08",
+    "domain": "Algebra",
+    "skill": "Mometrix Test 2 · Math Module 1 · Question 8",
+    "difficulty": 2,
+    "prompt": "See the complete question image.",
+    "type": "multiple-choice",
+    "choices": [
+      {
+        "id": "A",
+        "text": ""
+      },
+      {
+        "id": "B",
+        "text": ""
+      },
+      {
+        "id": "C",
+        "text": ""
+      },
+      {
+        "id": "D",
+        "text": ""
+      }
+    ],
+    "answer": "C",
+    "explanation": "The expression representing the charge for Ride Service A is $10 + $0.25(𝑚−10), where 𝑚 is the number of miles. Set this expression equal to the charge for Ride Service B, which is $0.40𝑚. Solve for 𝑚 to find the number of miles the two companies charge the same amount. $10 + $0.25(𝑚−10) = $0.40𝑚 $10 + $0.25𝑚−$2.50 = $0.40𝑚 $7.50 = $0.15𝑚 𝑚= 50 So, the cost of the two services would be the same for a 50-mile ride.",
+    "assets": [
+      {
+        "id": "question-image",
+        "type": "figure",
+        "src": "assets/questions/momentix-t2-m1-q08.png",
+        "alt": "Mometrix Practice Test 2, Math Module 1, question 8",
+        "width": 1566,
+        "height": 296,
+        "sourcePage": 62
+      }
+    ],
+    "sourceType": "Mometrix SAT Practice Tests",
+    "sourcePage": 62,
+    "sourceQuestion": "Test 2, Math Module 1, question 8",
+    "needsReview": true,
+    "sourceNotes": "Question image and answer/review explanation were extracted from the supplied Mometrix PDF. Domain and difficulty are neutral app metadata pending classification."
+  },
+  {
+    "id": "momentix-t2-m1-q09",
+    "domain": "Algebra",
+    "skill": "Mometrix Test 2 · Math Module 1 · Question 9",
+    "difficulty": 2,
+    "prompt": "See the complete question image.",
+    "type": "multiple-choice",
+    "choices": [
+      {
+        "id": "A",
+        "text": ""
+      },
+      {
+        "id": "B",
+        "text": ""
+      },
+      {
+        "id": "C",
+        "text": ""
+      },
+      {
+        "id": "D",
+        "text": ""
+      }
+    ],
+    "answer": "C",
+    "explanation": "In a 45-45-90 triangle, the legs can be found by dividing the hypotenuse by √2, so one leg is 4 √2. We simplify 4 √2 by multiplying by √2 √2. 4√2 √2√2 = 4√2 2 = 2√2 Therefore, the three sides of the triangle are 2√2, 2√2, and 4. We add these sides together to obtain the perimeter: 4 + 4√2. Answer choice A is incorrect because it is the area rather than the perimeter. Answer choice B is incorrect because it is the area without the last step of dividing by 2. Answer choice D is incorrect because it is only two of the three sides.",
+    "assets": [
+      {
+        "id": "question-image",
+        "type": "figure",
+        "src": "assets/questions/momentix-t2-m1-q09.png",
+        "alt": "Mometrix Practice Test 2, Math Module 1, question 9",
+        "width": 1566,
+        "height": 232,
+        "sourcePage": 62
+      }
+    ],
+    "sourceType": "Mometrix SAT Practice Tests",
+    "sourcePage": 62,
+    "sourceQuestion": "Test 2, Math Module 1, question 9",
+    "needsReview": true,
+    "sourceNotes": "Question image and answer/review explanation were extracted from the supplied Mometrix PDF. Domain and difficulty are neutral app metadata pending classification."
+  },
+  {
+    "id": "momentix-t2-m1-q10",
+    "domain": "Algebra",
+    "skill": "Mometrix Test 2 · Math Module 1 · Question 10",
+    "difficulty": 2,
+    "prompt": "See the complete question image.",
+    "type": "multiple-choice",
+    "choices": [
+      {
+        "id": "A",
+        "text": ""
+      },
+      {
+        "id": "B",
+        "text": ""
+      },
+      {
+        "id": "C",
+        "text": ""
+      },
+      {
+        "id": "D",
+        "text": ""
+      }
+    ],
+    "answer": "B",
+    "explanation": "To simplify the given inequality, first move all the terms to one side. 𝑥2 + 3 > 2𝑥+ 2 𝑥2 + 3 −2𝑥−2 > 0 𝑥2 −2𝑥+ 1 > 0 Now, factor the left-hand side. 𝑥2 −2𝑥+ 1 = (𝑥−1)(𝑥−1) = (𝑥−1)2 The original inequality is equivalent to (𝑥−1)2 > 0. Since the square of a negative number is positive, (𝑥−1)2 > 0 everywhere except where 𝑥−1 = 0, i.e. at 𝑥= 1. Therefore, 𝑥≠1 is equivalent to 𝑥2 + 3 > 2𝑥+ 2.",
+    "assets": [
+      {
+        "id": "question-image",
+        "type": "figure",
+        "src": "assets/questions/momentix-t2-m1-q10.png",
+        "alt": "Mometrix Practice Test 2, Math Module 1, question 10",
+        "width": 1566,
+        "height": 222,
+        "sourcePage": 62
+      }
+    ],
+    "sourceType": "Mometrix SAT Practice Tests",
+    "sourcePage": 62,
+    "sourceQuestion": "Test 2, Math Module 1, question 10",
+    "needsReview": true,
+    "sourceNotes": "Question image and answer/review explanation were extracted from the supplied Mometrix PDF. Domain and difficulty are neutral app metadata pending classification."
+  },
+  {
+    "id": "momentix-t2-m1-q11",
+    "domain": "Algebra",
+    "skill": "Mometrix Test 2 · Math Module 1 · Question 11",
+    "difficulty": 2,
+    "prompt": "See the complete question image.",
+    "type": "multiple-choice",
+    "choices": [
+      {
+        "id": "A",
+        "text": ""
+      },
+      {
+        "id": "B",
+        "text": ""
+      },
+      {
+        "id": "C",
+        "text": ""
+      },
+      {
+        "id": "D",
+        "text": ""
+      }
+    ],
+    "answer": "D",
+    "explanation": "The solution(s) to a system of equations is the point or points at which the graphs of the two equations cross. If a system has no solution, this means that the graphs never cross. In other words, the two graphs are parallel. In the system here, we know the lines will be parallel if the slopes are identical. We can look at the first equation to find the slope by moving the 𝑥-value to the right and solving for 𝑦. 𝑦= 3𝑥−2 Thus, the slope of the second equation needs to also be 3. We again move the 𝑥-value to the right and solve for 𝑦. 𝑦= −𝑛 3 𝑥−5 3 Therefore, the slope here is − 𝑛 3. We can set the slopes equal to each other to solve for 𝑛. −𝑛 3 = 3 1 Then we cross-multiply. −𝑛(1) = 3(3) Finally, we divide both sides by –1 to find that 𝑛= −9. Answer choice B is incorrect because it is the value of the slope. Answer choice A is the negative reciprocal of the slope, which would be used if we were looking for a perpendicular line, not a parallel one. Answer choice C is the 𝑦-intercept of the second line.",
+    "assets": [
+      {
+        "id": "question-image",
+        "type": "figure",
+        "src": "assets/questions/momentix-t2-m1-q11.png",
+        "alt": "Mometrix Practice Test 2, Math Module 1, question 11",
+        "width": 1566,
+        "height": 375,
+        "sourcePage": 62
+      }
+    ],
+    "sourceType": "Mometrix SAT Practice Tests",
+    "sourcePage": 62,
+    "sourceQuestion": "Test 2, Math Module 1, question 11",
+    "needsReview": true,
+    "sourceNotes": "Question image and answer/review explanation were extracted from the supplied Mometrix PDF. Domain and difficulty are neutral app metadata pending classification."
+  },
+  {
+    "id": "momentix-t2-m1-q12",
+    "domain": "Algebra",
+    "skill": "Mometrix Test 2 · Math Module 1 · Question 12",
+    "difficulty": 2,
+    "prompt": "See the complete question image.",
+    "type": "multiple-choice",
+    "choices": [
+      {
+        "id": "A",
+        "text": ""
+      },
+      {
+        "id": "B",
+        "text": ""
+      },
+      {
+        "id": "C",
+        "text": ""
+      },
+      {
+        "id": "D",
+        "text": ""
+      }
+    ],
+    "answer": "D",
+    "explanation": "The expression representing the monthly charge for Plan A is $20 + $15(𝑑−2.5), where 𝑑 is the data used. This can be found by adding the flat rate to the price of any data used over the provided amount. Set this expression equal to the monthly charge for Plan B, which is $50. Solve for 𝑑 to find the number of GB for which the two plans charge the same amount. $20 + $15(𝑑−2.5) = $50 $15(𝑑−2.5) = $30 𝑑−2.5 = 2 𝑑= 4.5 So, the plans have the same cost when Gillian uses 4.5 GB of data.",
+    "assets": [
+      {
+        "id": "question-image",
+        "type": "figure",
+        "src": "assets/questions/momentix-t2-m1-q12.png",
+        "alt": "Mometrix Practice Test 2, Math Module 1, question 12",
+        "width": 1566,
+        "height": 332,
+        "sourcePage": 62
+      }
+    ],
+    "sourceType": "Mometrix SAT Practice Tests",
+    "sourcePage": 62,
+    "sourceQuestion": "Test 2, Math Module 1, question 12",
+    "needsReview": true,
+    "sourceNotes": "Question image and answer/review explanation were extracted from the supplied Mometrix PDF. Domain and difficulty are neutral app metadata pending classification."
+  },
+  {
+    "id": "momentix-t2-m1-q13",
+    "domain": "Algebra",
+    "skill": "Mometrix Test 2 · Math Module 1 · Question 13",
+    "difficulty": 2,
+    "prompt": "See the complete question image.",
+    "type": "multiple-choice",
+    "choices": [
+      {
+        "id": "A",
+        "text": ""
+      },
+      {
+        "id": "B",
+        "text": ""
+      },
+      {
+        "id": "C",
+        "text": ""
+      },
+      {
+        "id": "D",
+        "text": ""
+      }
+    ],
+    "answer": "B",
+    "explanation": "Call the number of people present at the meeting 𝑥. If each person hands out a card to every other person (that is, every person besides himself), then each person hands out 𝑥−1 cards. The total number of cards handed out is therefore 𝑥(𝑥−1). Since we are told there are a total of 30 cards handed out, we have the equation 𝑥(𝑥−1) = 30, which we can rewrite as the quadratic equation 𝑥2 −𝑥−30 = 0. We can solve this equation by factoring the quadratic expression. One way to do this is to find two numbers that add up to the coefficient of 𝑥 (in this case, –1) and that multiply to the constant term (in this case, –30). Those two numbers are 5 and –6. Our factored equation is therefore (𝑥+ 5)(𝑥−6) = 0. To make the equation true, one or both of the factors must be zero: either 𝑥+ 5 = 0, in which case 𝑥= −5 , or 𝑥−6 = 0, in which case 𝑥= 6. Obviously, the number of people at the meeting cannot be negative, so the second solution, 𝑥= 6, must be correct. There are 6 people at the meeting.",
+    "assets": [
+      {
+        "id": "question-image",
+        "type": "figure",
+        "src": "assets/questions/momentix-t2-m1-q13.png",
+        "alt": "Mometrix Practice Test 2, Math Module 1, question 13",
+        "width": 1566,
+        "height": 258,
+        "sourcePage": 62
+      }
+    ],
+    "sourceType": "Mometrix SAT Practice Tests",
+    "sourcePage": 62,
+    "sourceQuestion": "Test 2, Math Module 1, question 13",
+    "needsReview": true,
+    "sourceNotes": "Question image and answer/review explanation were extracted from the supplied Mometrix PDF. Domain and difficulty are neutral app metadata pending classification."
+  },
+  {
+    "id": "momentix-t2-m1-q14",
+    "domain": "Algebra",
+    "skill": "Mometrix Test 2 · Math Module 1 · Question 14",
+    "difficulty": 2,
+    "prompt": "See the complete question image.",
+    "type": "multiple-choice",
+    "choices": [
+      {
+        "id": "A",
+        "text": ""
+      },
+      {
+        "id": "B",
+        "text": ""
+      },
+      {
+        "id": "C",
+        "text": ""
+      },
+      {
+        "id": "D",
+        "text": ""
+      }
+    ],
+    "answer": "D",
+    "explanation": "Manipulate the inequality to isolate the variable. Start by adding 12 to each side. 4𝑥−12 < 4 4𝑥−12 + 12 < 4 + 12 4𝑥< 16 Then, divide both sides by 4. 4𝑥 4 < 16 4 𝑥< 4 Since 𝑥 must be less than and not equal to 4, only choice D works.",
+    "assets": [
+      {
+        "id": "question-image",
+        "type": "figure",
+        "src": "assets/questions/momentix-t2-m1-q14.png",
+        "alt": "Mometrix Practice Test 2, Math Module 1, question 14",
+        "width": 1566,
+        "height": 263,
+        "sourcePage": 62
+      }
+    ],
+    "sourceType": "Mometrix SAT Practice Tests",
+    "sourcePage": 62,
+    "sourceQuestion": "Test 2, Math Module 1, question 14",
+    "needsReview": true,
+    "sourceNotes": "Question image and answer/review explanation were extracted from the supplied Mometrix PDF. Domain and difficulty are neutral app metadata pending classification."
+  },
+  {
+    "id": "momentix-t2-m1-q15",
+    "domain": "Algebra",
+    "skill": "Mometrix Test 2 · Math Module 1 · Question 15",
+    "difficulty": 2,
+    "prompt": "See the complete question image.",
+    "type": "multiple-choice",
+    "choices": [
+      {
+        "id": "A",
+        "text": ""
+      },
+      {
+        "id": "B",
+        "text": ""
+      },
+      {
+        "id": "C",
+        "text": ""
+      },
+      {
+        "id": "D",
+        "text": ""
+      }
+    ],
+    "answer": "D",
+    "explanation": "We can see from the table that 8 people ordered a cup of veggie soup and that a total of 42 orders were placed. So, the probability is 8 out of 42, or 8 42. We can divide both numerator and denominator by 2 to reduce the fraction to 4 21. Choice A is the probability of choosing veggie soup given that a cup was selected (not the overall probability). Choice B is the probability of choosing a cup of chicken soup ( 7 42 reduces to 1 6). Choice C is the probability of choosing a cup, given that veggie soup was selected ( 8 20 reduces to 2 5).",
+    "assets": [
+      {
+        "id": "question-image",
+        "type": "figure",
+        "src": "assets/questions/momentix-t2-m1-q15.png",
+        "alt": "Mometrix Practice Test 2, Math Module 1, question 15",
+        "width": 1566,
+        "height": 545,
+        "sourcePage": 63
+      }
+    ],
+    "sourceType": "Mometrix SAT Practice Tests",
+    "sourcePage": 63,
+    "sourceQuestion": "Test 2, Math Module 1, question 15",
+    "needsReview": true,
+    "sourceNotes": "Question image and answer/review explanation were extracted from the supplied Mometrix PDF. Domain and difficulty are neutral app metadata pending classification."
+  },
+  {
+    "id": "momentix-t2-m1-q16",
+    "domain": "Algebra",
+    "skill": "Mometrix Test 2 · Math Module 1 · Question 16",
+    "difficulty": 2,
+    "prompt": "See the complete question image.",
+    "type": "multiple-choice",
+    "choices": [
+      {
+        "id": "A",
+        "text": ""
+      },
+      {
+        "id": "B",
+        "text": ""
+      },
+      {
+        "id": "C",
+        "text": ""
+      },
+      {
+        "id": "D",
+        "text": ""
+      }
+    ],
+    "answer": "C",
+    "explanation": "If there is one white petunia for every three red petunias, we can write that red petunias = 3(white petunias). We can then substitute 8 for the white petunias and 𝑟 for the red petunias: 𝑟= 3(8). We look through the answer choices to see which matches this. Answer choice A can be rewritten as 𝑟= 8 3. Answer choice B can be rewritten as 𝑟= 3 8. Answer choice C can be rewritten as 𝑟= 3(8). Answer choice D can be rewritten as 𝑟= 8 −3. So only answer choice C matches.",
+    "assets": [
+      {
+        "id": "question-image",
+        "type": "figure",
+        "src": "assets/questions/momentix-t2-m1-q16.png",
+        "alt": "Mometrix Practice Test 2, Math Module 1, question 16",
+        "width": 1566,
+        "height": 277,
+        "sourcePage": 63
+      }
+    ],
+    "sourceType": "Mometrix SAT Practice Tests",
+    "sourcePage": 63,
+    "sourceQuestion": "Test 2, Math Module 1, question 16",
+    "needsReview": true,
+    "sourceNotes": "Question image and answer/review explanation were extracted from the supplied Mometrix PDF. Domain and difficulty are neutral app metadata pending classification."
+  },
+  {
+    "id": "momentix-t2-m1-q17",
+    "domain": "Algebra",
+    "skill": "Mometrix Test 2 · Math Module 1 · Question 17",
+    "difficulty": 2,
+    "prompt": "See the complete question image.",
+    "type": "multiple-choice",
+    "choices": [
+      {
+        "id": "A",
+        "text": ""
+      },
+      {
+        "id": "B",
+        "text": ""
+      },
+      {
+        "id": "C",
+        "text": ""
+      },
+      {
+        "id": "D",
+        "text": ""
+      }
+    ],
+    "answer": "C",
+    "explanation": "When solving radical equations, check for extraneous solutions. √2𝑥−3 = √2𝑥−15 (√2𝑥−3) 2 = (√2𝑥−15) 2 2𝑥−6√2𝑥+ 9 = 2𝑥−15 −6√2𝑥+ 9 = −15 −6√2𝑥= −24 √2𝑥= 4 2𝑥= 16 𝑥= 8 Check: √2(8) −3 = √2(8) −15 √16 −3 = √16 −15 4 −3 = √1 1 = 1 Since the solution checks, it is a valid solution. Notice that the graphs 𝑦= √2𝑥−3 and 𝑦= √2𝑥−15 intersect, which confirms there is a solution.",
+    "assets": [
+      {
+        "id": "question-image",
+        "type": "figure",
+        "src": "assets/questions/momentix-t2-m1-q17.png",
+        "alt": "Mometrix Practice Test 2, Math Module 1, question 17",
+        "width": 1566,
+        "height": 225,
+        "sourcePage": 63
+      }
+    ],
+    "sourceType": "Mometrix SAT Practice Tests",
+    "sourcePage": 63,
+    "sourceQuestion": "Test 2, Math Module 1, question 17",
+    "needsReview": true,
+    "sourceNotes": "Question image and answer/review explanation were extracted from the supplied Mometrix PDF. Domain and difficulty are neutral app metadata pending classification."
+  },
+  {
+    "id": "momentix-t2-m1-q18",
+    "domain": "Algebra",
+    "skill": "Mometrix Test 2 · Math Module 1 · Question 18",
+    "difficulty": 2,
+    "prompt": "See the complete question image.",
+    "type": "multiple-choice",
+    "choices": [
+      {
+        "id": "A",
+        "text": ""
+      },
+      {
+        "id": "B",
+        "text": ""
+      },
+      {
+        "id": "C",
+        "text": ""
+      },
+      {
+        "id": "D",
+        "text": ""
+      }
+    ],
+    "answer": "D",
+    "explanation": "The radical equation may be solved by first subtracting 8 from both sides of the equation. 4√𝑥+ 8 = 24 4√𝑥= 16 Then, divide both sides of the equation by 4. √𝑥= 4 Finally, square both sides. 𝑥= 16",
+    "assets": [
+      {
+        "id": "question-image",
+        "type": "figure",
+        "src": "assets/questions/momentix-t2-m1-q18.png",
+        "alt": "Mometrix Practice Test 2, Math Module 1, question 18",
+        "width": 1566,
+        "height": 222,
+        "sourcePage": 63
+      }
+    ],
+    "sourceType": "Mometrix SAT Practice Tests",
+    "sourcePage": 63,
+    "sourceQuestion": "Test 2, Math Module 1, question 18",
+    "needsReview": true,
+    "sourceNotes": "Question image and answer/review explanation were extracted from the supplied Mometrix PDF. Domain and difficulty are neutral app metadata pending classification."
+  },
+  {
+    "id": "momentix-t2-m1-q19",
+    "domain": "Algebra",
+    "skill": "Mometrix Test 2 · Math Module 1 · Question 19",
+    "difficulty": 2,
+    "prompt": "See the complete question image.",
+    "type": "multiple-choice",
+    "choices": [
+      {
+        "id": "A",
+        "text": ""
+      },
+      {
+        "id": "B",
+        "text": ""
+      },
+      {
+        "id": "C",
+        "text": ""
+      },
+      {
+        "id": "D",
+        "text": ""
+      }
+    ],
+    "answer": "C",
+    "explanation": "We need to simplify the equation so we can factor it. First, we subtract 2 from each side. 3𝑥2 −3𝑥−36 = 0 Then we can divide each term by 3. 𝑥2 −𝑥−12 = 0 Finally, we can factor. (𝑥+ 3)(𝑥−4) = 0 Setting each factored term equal to 0 yields 𝑥+ 3 = 0 and 𝑥−4 = 0, or 𝑥= −3 and 𝑥= 4. The sum of –3 and 4 is 1.",
+    "assets": [
+      {
+        "id": "question-image",
+        "type": "figure",
+        "src": "assets/questions/momentix-t2-m1-q19.png",
+        "alt": "Mometrix Practice Test 2, Math Module 1, question 19",
+        "width": 1566,
+        "height": 713,
+        "sourcePage": 63
+      }
+    ],
+    "sourceType": "Mometrix SAT Practice Tests",
+    "sourcePage": 63,
+    "sourceQuestion": "Test 2, Math Module 1, question 19",
+    "needsReview": true,
+    "sourceNotes": "Question image and answer/review explanation were extracted from the supplied Mometrix PDF. Domain and difficulty are neutral app metadata pending classification."
+  },
+  {
+    "id": "momentix-t2-m1-q20",
+    "domain": "Algebra",
+    "skill": "Mometrix Test 2 · Math Module 1 · Question 20",
+    "difficulty": 2,
+    "prompt": "See the complete question image.",
+    "type": "multiple-choice",
+    "choices": [
+      {
+        "id": "A",
+        "text": ""
+      },
+      {
+        "id": "B",
+        "text": ""
+      },
+      {
+        "id": "C",
+        "text": ""
+      },
+      {
+        "id": "D",
+        "text": ""
+      }
+    ],
+    "answer": "C",
+    "explanation": "A rectangle’s area is found by multiplying length by width. Here, length is 5𝑥 and width is 𝑥. 245 in2 = 𝑥⋅5𝑥 245 in2 = 5𝑥2 49 in2 = 𝑥2 7 in = 𝑥 Therefore, the longest side is 5 × 7 in = 35 in.",
+    "assets": [
+      {
+        "id": "question-image",
+        "type": "figure",
+        "src": "assets/questions/momentix-t2-m1-q20.png",
+        "alt": "Mometrix Practice Test 2, Math Module 1, question 20",
+        "width": 1566,
+        "height": 485,
+        "sourcePage": 64
+      }
+    ],
+    "sourceType": "Mometrix SAT Practice Tests",
+    "sourcePage": 64,
+    "sourceQuestion": "Test 2, Math Module 1, question 20",
+    "needsReview": true,
+    "sourceNotes": "Question image and answer/review explanation were extracted from the supplied Mometrix PDF. Domain and difficulty are neutral app metadata pending classification."
+  },
+  {
+    "id": "momentix-t2-m1-q21",
+    "domain": "Algebra",
+    "skill": "Mometrix Test 2 · Math Module 1 · Question 21",
+    "difficulty": 2,
+    "prompt": "See the complete question image.",
+    "type": "multiple-choice",
+    "choices": [
+      {
+        "id": "A",
+        "text": ""
+      },
+      {
+        "id": "B",
+        "text": ""
+      },
+      {
+        "id": "C",
+        "text": ""
+      },
+      {
+        "id": "D",
+        "text": ""
+      }
+    ],
+    "answer": "D",
+    "explanation": "We can use the table to find the linear equation in slope-intercept form, 𝑦= 𝑚𝑥+ 𝑏, where 𝑚 is the slope and 𝑏 is the 𝑦-intercept. The table shows the 𝑦-intercept (the 𝑦-value at 𝑥= 0) to be −5. The slope is the ratio of the change in 𝑦-values to the corresponding change in 𝑥-values. As the 𝑥-value increases by 1, the 𝑦-value increases by 3. Thus, the slope is 3 1, or 3. So the equation is 𝑦= 3𝑥−5. Only the graphs in choices B and D have a 𝑦-intercept at −5. Of these two graphs, only choice D has a 𝑦-value increase of 3 for each 𝑥-value increase of 1, indicating a slope of 3.",
+    "assets": [
+      {
+        "id": "question-image",
+        "type": "figure",
+        "src": "assets/questions/momentix-t2-m1-q21.png",
+        "alt": "Mometrix Practice Test 2, Math Module 1, question 21",
+        "width": 1566,
+        "height": 1501,
+        "sourcePage": 64
+      }
+    ],
+    "sourceType": "Mometrix SAT Practice Tests",
+    "sourcePage": 64,
+    "sourceQuestion": "Test 2, Math Module 1, question 21",
+    "needsReview": true,
+    "sourceNotes": "Question image and answer/review explanation were extracted from the supplied Mometrix PDF. Domain and difficulty are neutral app metadata pending classification."
+  },
+  {
+    "id": "momentix-t2-m1-q22",
+    "domain": "Algebra",
+    "skill": "Mometrix Test 2 · Math Module 1 · Question 22",
+    "difficulty": 2,
+    "prompt": "See the complete question image.",
+    "type": "student-produced-response",
+    "choices": [],
+    "answer": "140",
+    "explanation": "If the distance between the two houses is 10 cm on the map, then the actual distance between the houses is 100 m. To find 𝑥, use the Pythagorean theorem. 𝑥2 + (𝑥+ 20)2 = (100)2 𝑥2 + 𝑥2 + 40𝑥+ 400 = 10,000 2𝑥2 + 40𝑥−9,600 = 0 2(𝑥2 + 20𝑥−4,800) = 0 2(𝑥−60)(𝑥+ 80) = 0 𝑥= 60 𝑥= −80 Since 𝑥 represents a distance, it cannot equal –80. Since 𝑥= 60, 𝑥+ 20 = 80. Roxana walks a total of 60 + 80 = 140 meters to get to her friend’s house.",
+    "assets": [
+      {
+        "id": "question-image",
+        "type": "figure",
+        "src": "assets/questions/momentix-t2-m1-q22.png",
+        "alt": "Mometrix Practice Test 2, Math Module 1, question 22",
+        "width": 1566,
+        "height": 271,
+        "sourcePage": 65
+      }
+    ],
+    "sourceType": "Mometrix SAT Practice Tests",
+    "sourcePage": 65,
+    "sourceQuestion": "Test 2, Math Module 1, question 22",
+    "needsReview": true,
+    "sourceNotes": "Question image and answer/review explanation were extracted from the supplied Mometrix PDF. Domain and difficulty are neutral app metadata pending classification."
+  },
+  {
+    "id": "momentix-t2-m2-q01",
+    "domain": "Algebra",
+    "skill": "Mometrix Test 2 · Math Module 2 · Question 1",
+    "difficulty": 2,
+    "prompt": "See the complete question image.",
+    "type": "multiple-choice",
+    "choices": [
+      {
+        "id": "A",
+        "text": ""
+      },
+      {
+        "id": "B",
+        "text": ""
+      },
+      {
+        "id": "C",
+        "text": ""
+      },
+      {
+        "id": "D",
+        "text": ""
+      }
+    ],
+    "answer": "D",
+    "explanation": "To solve, we first rewrite the equation. We can write √𝑥 3 as 𝑥 1 3 and rewrite the fraction by making the exponent negative: 1 𝑥 1 3 = 𝑥−1 3. Then we can raise each side to the –3 power. This yields (𝑥−1 3) −3 = 𝑎−3. We can simplify to 𝑥= 1 𝑎3. Answer choice A is incorrect because it raises 𝑎 to the power of 3, not –3. Answer choice B is incorrect because it adds in a constant (1) and does not raise 𝑎 to the power of –3. Answer choice C is incorrect because it raises 𝑎 to the power of –2, not –3.",
+    "assets": [
+      {
+        "id": "question-image",
+        "type": "figure",
+        "src": "assets/questions/momentix-t2-m2-q01.png",
+        "alt": "Mometrix Practice Test 2, Math Module 2, question 1",
+        "width": 1566,
+        "height": 276,
+        "sourcePage": 65
+      }
+    ],
+    "sourceType": "Mometrix SAT Practice Tests",
+    "sourcePage": 65,
+    "sourceQuestion": "Test 2, Math Module 2, question 1",
+    "needsReview": true,
+    "sourceNotes": "Question image and answer/review explanation were extracted from the supplied Mometrix PDF. Domain and difficulty are neutral app metadata pending classification."
+  },
+  {
+    "id": "momentix-t2-m2-q02",
+    "domain": "Algebra",
+    "skill": "Mometrix Test 2 · Math Module 2 · Question 2",
+    "difficulty": 2,
+    "prompt": "See the complete question image.",
+    "type": "multiple-choice",
+    "choices": [
+      {
+        "id": "A",
+        "text": ""
+      },
+      {
+        "id": "B",
+        "text": ""
+      },
+      {
+        "id": "C",
+        "text": ""
+      },
+      {
+        "id": "D",
+        "text": ""
+      }
+    ],
+    "answer": "A",
+    "explanation": "We can graph the two lines on a coordinate plane by plotting the 𝑦-intercept and then finding another point based on the slope. For the first equation, the 𝑦-intercept is –2, so we plot the point (0, −2). Then we use the slope ( 1 4) to plot another point by moving up 1 and 4 to the right, to (4, −1). Now we can draw a line passing through the two points. It is a solid line because the solution is less than or equal to the equation. Next, we graph the second line. The 𝑦-intercept is − 7 5, so we plot the point (0, − 7 5). Then we use the slope (3) to plot another point by moving up 3 and over 1, to (1, 8 5). Now we can draw a line passing through the two points. It i a dotted line because the solution is greater than the equation. We shade the area that is both below the graph of the first line and above the graph of the second line. When we do this, we can see that the overlap of the shaded area is only in quadrant III.",
+    "assets": [
+      {
+        "id": "question-image",
+        "type": "figure",
+        "src": "assets/questions/momentix-t2-m2-q02.png",
+        "alt": "Mometrix Practice Test 2, Math Module 2, question 2",
+        "width": 1566,
+        "height": 1361,
+        "sourcePage": 65
+      }
+    ],
+    "sourceType": "Mometrix SAT Practice Tests",
+    "sourcePage": 65,
+    "sourceQuestion": "Test 2, Math Module 2, question 2",
+    "needsReview": true,
+    "sourceNotes": "Question image and answer/review explanation were extracted from the supplied Mometrix PDF. Domain and difficulty are neutral app metadata pending classification."
+  },
+  {
+    "id": "momentix-t2-m2-q03",
+    "domain": "Algebra",
+    "skill": "Mometrix Test 2 · Math Module 2 · Question 3",
+    "difficulty": 2,
+    "prompt": "See the complete question image.",
+    "type": "multiple-choice",
+    "choices": [
+      {
+        "id": "A",
+        "text": ""
+      },
+      {
+        "id": "B",
+        "text": ""
+      },
+      {
+        "id": "C",
+        "text": ""
+      },
+      {
+        "id": "D",
+        "text": ""
+      }
+    ],
+    "answer": "C",
+    "explanation": "To make $820 in profit, Nursery B needs to earn $5,500 + $820 = $6,320 to compensate for overhead costs. We can calculate the amount earned by selling plants: 100(30) + 100(20) = $5,000. We subtract this from $6,320 to find that they need to earn an additional $1,320 from landscaping charges. Letting the number of hours be 𝑥, we can write out our equation: 55𝑥= 1,320. We divide each side by 55 to find that 𝑥= 24. So, Nursery B needs at least 24 hours of work.",
+    "assets": [
+      {
+        "id": "question-image",
+        "type": "figure",
+        "src": "assets/questions/momentix-t2-m2-q03.png",
+        "alt": "Mometrix Practice Test 2, Math Module 2, question 3",
+        "width": 1566,
+        "height": 647,
+        "sourcePage": 66
+      }
+    ],
+    "sourceType": "Mometrix SAT Practice Tests",
+    "sourcePage": 66,
+    "sourceQuestion": "Test 2, Math Module 2, question 3",
+    "needsReview": true,
+    "sourceNotes": "Question image and answer/review explanation were extracted from the supplied Mometrix PDF. Domain and difficulty are neutral app metadata pending classification."
+  },
+  {
+    "id": "momentix-t2-m2-q04",
+    "domain": "Algebra",
+    "skill": "Mometrix Test 2 · Math Module 2 · Question 4",
+    "difficulty": 2,
+    "prompt": "See the complete question image.",
+    "type": "multiple-choice",
+    "choices": [
+      {
+        "id": "A",
+        "text": ""
+      },
+      {
+        "id": "B",
+        "text": ""
+      },
+      {
+        "id": "C",
+        "text": ""
+      },
+      {
+        "id": "D",
+        "text": ""
+      }
+    ],
+    "answer": "D",
+    "explanation": "We can calculate the cost of each nursery’s trees and bushes. Nursery A’s cost is: 25(10) + 15(8) = 250 + 120 = $370 Nursery C’s cost is: 20(10) + 15(8) = 200 + 120 = $320 So, we can set up an inequality, letting 𝑥 be the number of hours to plant the bushes and trees. For Nursery A’s services to be a better deal, they must cost less than Nursery C’s. 370 + 45𝑥< 320 + 50𝑥 We solve for 𝑥 by subtracting 45𝑥 and 320 from each side. 50 < 5𝑥 We rewrite this as 5𝑥> 50 and divide each side by 5 to obtain 𝑥> 10. It is important to remember to reverse the inequality sign when we move the 𝑥 to the left so we don’t end up with 𝑥< 10 (answer choice B).",
+    "assets": [
+      {
+        "id": "shared-stimulus",
+        "type": "figure",
+        "src": "assets/questions/momentix-t2-m2-q04-stimulus.png",
+        "alt": "Mometrix shared source material for Test 2, Math Module 2, questions 3–4",
+        "width": 1566,
+        "height": 384,
+        "sourcePage": 66
+      },
+      {
+        "id": "question-image",
+        "type": "figure",
+        "src": "assets/questions/momentix-t2-m2-q04.png",
+        "alt": "Mometrix Practice Test 2, Math Module 2, question 4",
+        "width": 1566,
+        "height": 259,
+        "sourcePage": 66
+      }
+    ],
+    "sourceType": "Mometrix SAT Practice Tests",
+    "sourcePage": 66,
+    "sourceQuestion": "Test 2, Math Module 2, question 4",
+    "needsReview": true,
+    "sourceNotes": "Question image and answer/review explanation were extracted from the supplied Mometrix PDF. Domain and difficulty are neutral app metadata pending classification."
+  },
+  {
+    "id": "momentix-t2-m2-q05",
+    "domain": "Algebra",
+    "skill": "Mometrix Test 2 · Math Module 2 · Question 5",
+    "difficulty": 2,
+    "prompt": "See the complete question image.",
+    "type": "multiple-choice",
+    "choices": [
+      {
+        "id": "A",
+        "text": ""
+      },
+      {
+        "id": "B",
+        "text": ""
+      },
+      {
+        "id": "C",
+        "text": ""
+      },
+      {
+        "id": "D",
+        "text": ""
+      }
+    ],
+    "answer": "C",
+    "explanation": "The side of the square is equal to the diameter of the circle, or twice the radius, 2𝑟. The area of the square is this quantity squared, or 4𝑟2. The area of the circle is 𝜋𝑟2. Subtracting the area of the circle from the area of the square gives the difference between the two areas. 4𝑟2 −𝜋𝑟2 A common 𝑟2 can be factored out of each term to get the expression 𝑟2(4 −𝜋).",
+    "assets": [
+      {
+        "id": "question-image",
+        "type": "figure",
+        "src": "assets/questions/momentix-t2-m2-q05.png",
+        "alt": "Mometrix Practice Test 2, Math Module 2, question 5",
+        "width": 1566,
+        "height": 1077,
+        "sourcePage": 66
+      }
+    ],
+    "sourceType": "Mometrix SAT Practice Tests",
+    "sourcePage": 66,
+    "sourceQuestion": "Test 2, Math Module 2, question 5",
+    "needsReview": true,
+    "sourceNotes": "Question image and answer/review explanation were extracted from the supplied Mometrix PDF. Domain and difficulty are neutral app metadata pending classification."
+  },
+  {
+    "id": "momentix-t2-m2-q06",
+    "domain": "Algebra",
+    "skill": "Mometrix Test 2 · Math Module 2 · Question 6",
+    "difficulty": 2,
+    "prompt": "See the complete question image.",
+    "type": "multiple-choice",
+    "choices": [
+      {
+        "id": "A",
+        "text": ""
+      },
+      {
+        "id": "B",
+        "text": ""
+      },
+      {
+        "id": "C",
+        "text": ""
+      },
+      {
+        "id": "D",
+        "text": ""
+      }
+    ],
+    "answer": "A",
+    "explanation": "The equation can be translated: investment = (initial lump sum) + 4,500(number of months since beginning) In other words, it grows 4,500 cents every month. The answer choices are in dollars, so we divide by 100 to obtain $45 per month.",
+    "assets": [
+      {
+        "id": "question-image",
+        "type": "figure",
+        "src": "assets/questions/momentix-t2-m2-q06.png",
+        "alt": "Mometrix Practice Test 2, Math Module 2, question 6",
+        "width": 1566,
+        "height": 342,
+        "sourcePage": 67
+      }
+    ],
+    "sourceType": "Mometrix SAT Practice Tests",
+    "sourcePage": 67,
+    "sourceQuestion": "Test 2, Math Module 2, question 6",
+    "needsReview": true,
+    "sourceNotes": "Question image and answer/review explanation were extracted from the supplied Mometrix PDF. Domain and difficulty are neutral app metadata pending classification."
+  },
+  {
+    "id": "momentix-t2-m2-q07",
+    "domain": "Algebra",
+    "skill": "Mometrix Test 2 · Math Module 2 · Question 7",
+    "difficulty": 2,
+    "prompt": "See the complete question image.",
+    "type": "multiple-choice",
+    "choices": [
+      {
+        "id": "A",
+        "text": ""
+      },
+      {
+        "id": "B",
+        "text": ""
+      },
+      {
+        "id": "C",
+        "text": ""
+      },
+      {
+        "id": "D",
+        "text": ""
+      }
+    ],
+    "answer": "D",
+    "explanation": "To solve, isolate 𝑛 by putting all the other terms on the other side of the equal sign. 4𝑛−𝑝= 3𝑟 4𝑛= 3𝑟+ 𝑝 𝑛= 3𝑟 4 + 𝑝 4",
+    "assets": [
+      {
+        "id": "question-image",
+        "type": "figure",
+        "src": "assets/questions/momentix-t2-m2-q07.png",
+        "alt": "Mometrix Practice Test 2, Math Module 2, question 7",
+        "width": 1566,
+        "height": 256,
+        "sourcePage": 67
+      }
+    ],
+    "sourceType": "Mometrix SAT Practice Tests",
+    "sourcePage": 67,
+    "sourceQuestion": "Test 2, Math Module 2, question 7",
+    "needsReview": true,
+    "sourceNotes": "Question image and answer/review explanation were extracted from the supplied Mometrix PDF. Domain and difficulty are neutral app metadata pending classification."
+  },
+  {
+    "id": "momentix-t2-m2-q08",
+    "domain": "Algebra",
+    "skill": "Mometrix Test 2 · Math Module 2 · Question 8",
+    "difficulty": 2,
+    "prompt": "See the complete question image.",
+    "type": "multiple-choice",
+    "choices": [
+      {
+        "id": "A",
+        "text": ""
+      },
+      {
+        "id": "B",
+        "text": ""
+      },
+      {
+        "id": "C",
+        "text": ""
+      },
+      {
+        "id": "D",
+        "text": ""
+      }
+    ],
+    "answer": "D",
+    "explanation": "We solve for 𝑥 and 𝑦 by using elimination. We can multiply the first equation by 2 to eliminate the 𝑦- terms. 6𝑥−4𝑦= 0 −2𝑥+ 4𝑦= −8 Adding these two equations together yields 4𝑥= −8, or 𝑥= −2. We can solve for 𝑦 by plugging the 𝑥-value back into one of the equations. Using the first equation, this yields: 3(−2) −2𝑦= 0 We add 6 to each side. −2𝑦= 6 Divide each side by –2. 𝑦= −3 So, the solution is (−2, −3). Now we can use these values to find 2𝑥2 −𝑦. 2(−2)2 −(−3) = 8 + 3 = 11 Choices A and B are incorrect because they are the values of 𝑦 and 𝑥, respectively. Choice C is incorrect because it involves adding the negative term instead of subtracting it.",
+    "assets": [
+      {
+        "id": "question-image",
+        "type": "figure",
+        "src": "assets/questions/momentix-t2-m2-q08.png",
+        "alt": "Mometrix Practice Test 2, Math Module 2, question 8",
+        "width": 1566,
+        "height": 304,
+        "sourcePage": 67
+      }
+    ],
+    "sourceType": "Mometrix SAT Practice Tests",
+    "sourcePage": 67,
+    "sourceQuestion": "Test 2, Math Module 2, question 8",
+    "needsReview": true,
+    "sourceNotes": "Question image and answer/review explanation were extracted from the supplied Mometrix PDF. Domain and difficulty are neutral app metadata pending classification."
+  },
+  {
+    "id": "momentix-t2-m2-q09",
+    "domain": "Algebra",
+    "skill": "Mometrix Test 2 · Math Module 2 · Question 9",
+    "difficulty": 2,
+    "prompt": "See the complete question image.",
+    "type": "student-produced-response",
+    "choices": [],
+    "answer": "0.5",
+    "explanation": "We need to rewrite the equation to be in standard form of a circle. (𝑥−ℎ)2 + (𝑦−𝑘)2 = 𝑟2 First, we isolate the 𝑥- and 𝑦-terms. (𝑥2 −6𝑥) + (𝑦2 −𝑦) = −21 4 Next, we can complete the square to simplify the equation. (𝑥2 −6𝑥+ 9) −9 + (𝑦2 −𝑦+ 1 4) −1 4 = −21 4 (𝑥−3)2 + (𝑦−1 2) 2 −37 4 = −21 4 (𝑥−3)2 + (𝑦−1 2) 2 = 16 4 (𝑥−3)2 + (𝑦−1 2) 2 = 4 Now we can solve for the center point of the circle by setting the parts of the equations in parentheses equal to 0. 𝑥−3 = 0 becomes 𝑥= 3 𝑦− 1 2 = 0 becomes 𝑦= 1 2 So, the coordinates of the center are (3, 1 2), meaning that the 𝑦-coordinate is 1 2, or 0.5.",
+    "assets": [
+      {
+        "id": "question-image",
+        "type": "figure",
+        "src": "assets/questions/momentix-t2-m2-q09.png",
+        "alt": "Mometrix Practice Test 2, Math Module 2, question 9",
+        "width": 1566,
+        "height": 170,
+        "sourcePage": 67
+      }
+    ],
+    "sourceType": "Mometrix SAT Practice Tests",
+    "sourcePage": 67,
+    "sourceQuestion": "Test 2, Math Module 2, question 9",
+    "needsReview": true,
+    "sourceNotes": "Question image and answer/review explanation were extracted from the supplied Mometrix PDF. Domain and difficulty are neutral app metadata pending classification."
+  },
+  {
+    "id": "momentix-t2-m2-q10",
+    "domain": "Algebra",
+    "skill": "Mometrix Test 2 · Math Module 2 · Question 10",
+    "difficulty": 2,
+    "prompt": "See the complete question image.",
+    "type": "student-produced-response",
+    "choices": [],
+    "answer": "6",
+    "explanation": "Since the total is a multiple of ten and the $5 bill is the only one that is not already a multiple of $10, we can conclude that Riley must have an even number of $5 bills. Since we are looking for the greatest number, we should begin at the top and check each number to see if it is possible. If there are eight $5 bills, this leaves only one other bill to make up the difference. $80 −8($5) = $80 −$40 = $40 Since there is no such thing as a $40 bill, there cannot be eight $5 bills. If there are six $5 bills, this leaves three other bills to make up the difference. $80 −6($5) = $80 −$30 = $50 This $50, made up of three bills, could be formed by a combination of two $20 bills and one $10 bill. Since this satisfies the parameters, Riley has a maximum of six $5 bills.",
+    "assets": [
+      {
+        "id": "question-image",
+        "type": "figure",
+        "src": "assets/questions/momentix-t2-m2-q10.png",
+        "alt": "Mometrix Practice Test 2, Math Module 2, question 10",
+        "width": 1566,
+        "height": 128,
+        "sourcePage": 67
+      }
+    ],
+    "sourceType": "Mometrix SAT Practice Tests",
+    "sourcePage": 67,
+    "sourceQuestion": "Test 2, Math Module 2, question 10",
+    "needsReview": true,
+    "sourceNotes": "Question image and answer/review explanation were extracted from the supplied Mometrix PDF. Domain and difficulty are neutral app metadata pending classification."
+  },
+  {
+    "id": "momentix-t2-m2-q11",
+    "domain": "Algebra",
+    "skill": "Mometrix Test 2 · Math Module 2 · Question 11",
+    "difficulty": 2,
+    "prompt": "See the complete question image.",
+    "type": "multiple-choice",
+    "choices": [
+      {
+        "id": "A",
+        "text": ""
+      },
+      {
+        "id": "B",
+        "text": ""
+      },
+      {
+        "id": "C",
+        "text": ""
+      },
+      {
+        "id": "D",
+        "text": ""
+      }
+    ],
+    "answer": "A",
+    "explanation": "The expression may be factored as (𝑥−8)(𝑥+ 5). The factorization may be checked by distributing each term in the first factor to each term in the second factor by using the FOIL method. Doing so gives 𝑥2 + 5𝑥−8𝑥−40, which can be rewritten as 𝑥2 −3𝑥−40.",
+    "assets": [
+      {
+        "id": "question-image",
+        "type": "figure",
+        "src": "assets/questions/momentix-t2-m2-q11.png",
+        "alt": "Mometrix Practice Test 2, Math Module 2, question 11",
+        "width": 1566,
+        "height": 221,
+        "sourcePage": 67
+      }
+    ],
+    "sourceType": "Mometrix SAT Practice Tests",
+    "sourcePage": 67,
+    "sourceQuestion": "Test 2, Math Module 2, question 11",
+    "needsReview": true,
+    "sourceNotes": "Question image and answer/review explanation were extracted from the supplied Mometrix PDF. Domain and difficulty are neutral app metadata pending classification."
+  },
+  {
+    "id": "momentix-t2-m2-q12",
+    "domain": "Algebra",
+    "skill": "Mometrix Test 2 · Math Module 2 · Question 12",
+    "difficulty": 2,
+    "prompt": "See the complete question image.",
+    "type": "multiple-choice",
+    "choices": [
+      {
+        "id": "A",
+        "text": ""
+      },
+      {
+        "id": "B",
+        "text": ""
+      },
+      {
+        "id": "C",
+        "text": ""
+      },
+      {
+        "id": "D",
+        "text": ""
+      }
+    ],
+    "answer": "D",
+    "explanation": "We need to find the point at which 𝑑 is equal to 𝑝, so set the two equations equal to each other. 4𝑎= 9,660 + 1.2𝑎 Subtract 1.2𝑎 from each side. 2.8𝑎= 9,660 Divide each side by 2.8. 𝑎= 3,450 We then plug 𝑎 into the first equation to find that 𝑑= 9,660 + 1.2(3,450) = 13,800. Therefore, $13,800 of investment is required.",
+    "assets": [
+      {
+        "id": "question-image",
+        "type": "figure",
+        "src": "assets/questions/momentix-t2-m2-q12.png",
+        "alt": "Mometrix Practice Test 2, Math Module 2, question 12",
+        "width": 1566,
+        "height": 557,
+        "sourcePage": 67
+      }
+    ],
+    "sourceType": "Mometrix SAT Practice Tests",
+    "sourcePage": 67,
+    "sourceQuestion": "Test 2, Math Module 2, question 12",
+    "needsReview": true,
+    "sourceNotes": "Question image and answer/review explanation were extracted from the supplied Mometrix PDF. Domain and difficulty are neutral app metadata pending classification."
+  },
+  {
+    "id": "momentix-t2-m2-q13",
+    "domain": "Algebra",
+    "skill": "Mometrix Test 2 · Math Module 2 · Question 13",
+    "difficulty": 2,
+    "prompt": "See the complete question image.",
+    "type": "multiple-choice",
+    "choices": [
+      {
+        "id": "A",
+        "text": ""
+      },
+      {
+        "id": "B",
+        "text": ""
+      },
+      {
+        "id": "C",
+        "text": ""
+      },
+      {
+        "id": "D",
+        "text": ""
+      }
+    ],
+    "answer": "C",
+    "explanation": "Write the first part of the sentence as an equation. 3𝑥2 = 48 Then, divide each side by 3. 𝑥2 = 16 Take the square root of each side. 𝑥= ±4 Since we are told that it is a positive number, we know the answer is 4. Finally, we multiply the number by 2 and subtract from 15. 15 −2(4) = 7 Choice A is incorrect because it is obtained by subtracting 15 from 8 rather than vice versa. Choice B is incorrect because it is the value of 𝑥, not the final answer. Choice D is incorrect because it is obtained by subtracting 𝑥 from 15 without first doubling 𝑥.",
+    "assets": [
+      {
+        "id": "question-image",
+        "type": "figure",
+        "src": "assets/questions/momentix-t2-m2-q13.png",
+        "alt": "Mometrix Practice Test 2, Math Module 2, question 13",
+        "width": 1566,
+        "height": 259,
+        "sourcePage": 68
+      }
+    ],
+    "sourceType": "Mometrix SAT Practice Tests",
+    "sourcePage": 68,
+    "sourceQuestion": "Test 2, Math Module 2, question 13",
+    "needsReview": true,
+    "sourceNotes": "Question image and answer/review explanation were extracted from the supplied Mometrix PDF. Domain and difficulty are neutral app metadata pending classification."
+  },
+  {
+    "id": "momentix-t2-m2-q14",
+    "domain": "Algebra",
+    "skill": "Mometrix Test 2 · Math Module 2 · Question 14",
+    "difficulty": 2,
+    "prompt": "See the complete question image.",
+    "type": "multiple-choice",
+    "choices": [
+      {
+        "id": "A",
+        "text": ""
+      },
+      {
+        "id": "B",
+        "text": ""
+      },
+      {
+        "id": "C",
+        "text": ""
+      },
+      {
+        "id": "D",
+        "text": ""
+      }
+    ],
+    "answer": "B",
+    "explanation": "The point marked on the scatterplot for Day 8 shows that Zac worked for 3 hours, while the line of best fit crosses the 2-hour mark on the same day. The difference between 3 and 2 is 1 hour.",
+    "assets": [
+      {
+        "id": "question-image",
+        "type": "figure",
+        "src": "assets/questions/momentix-t2-m2-q14.png",
+        "alt": "Mometrix Practice Test 2, Math Module 2, question 14",
+        "width": 1566,
+        "height": 795,
+        "sourcePage": 68
+      }
+    ],
+    "sourceType": "Mometrix SAT Practice Tests",
+    "sourcePage": 68,
+    "sourceQuestion": "Test 2, Math Module 2, question 14",
+    "needsReview": true,
+    "sourceNotes": "Question image and answer/review explanation were extracted from the supplied Mometrix PDF. Domain and difficulty are neutral app metadata pending classification."
+  },
+  {
+    "id": "momentix-t2-m2-q15",
+    "domain": "Algebra",
+    "skill": "Mometrix Test 2 · Math Module 2 · Question 15",
+    "difficulty": 2,
+    "prompt": "See the complete question image.",
+    "type": "student-produced-response",
+    "choices": [],
+    "answer": "4",
+    "explanation": "Solve for 𝑥 in the equation by first adding 7 to each side. 𝑥2 = 16 Then, solve by taking the square root of each side to yield 𝑥= ±4. Since 𝑥> 0, this means that 𝑥= 4.",
+    "assets": [
+      {
+        "id": "question-image",
+        "type": "figure",
+        "src": "assets/questions/momentix-t2-m2-q15.png",
+        "alt": "Mometrix Practice Test 2, Math Module 2, question 15",
+        "width": 1566,
+        "height": 98,
+        "sourcePage": 68
+      }
+    ],
+    "sourceType": "Mometrix SAT Practice Tests",
+    "sourcePage": 68,
+    "sourceQuestion": "Test 2, Math Module 2, question 15",
+    "needsReview": true,
+    "sourceNotes": "Question image and answer/review explanation were extracted from the supplied Mometrix PDF. Domain and difficulty are neutral app metadata pending classification."
+  },
+  {
+    "id": "momentix-t2-m2-q16",
+    "domain": "Algebra",
+    "skill": "Mometrix Test 2 · Math Module 2 · Question 16",
+    "difficulty": 2,
+    "prompt": "See the complete question image.",
+    "type": "multiple-choice",
+    "choices": [
+      {
+        "id": "A",
+        "text": ""
+      },
+      {
+        "id": "B",
+        "text": ""
+      },
+      {
+        "id": "C",
+        "text": ""
+      },
+      {
+        "id": "D",
+        "text": ""
+      }
+    ],
+    "answer": "A",
+    "explanation": "We solve for 𝑞 by dividing each side by 3 7. We do this by multiplying each side by the reciprocal, 7 3. 𝑞= −6 1 × 7 3 = −42 3 = −14 Choice B is incorrect because it involves multiplying 3 7 instead of dividing. Choice C is incorrect because it involves subtracting 3 7 from each side instead of dividing. Choice D is incorrect because it is only the numerator of the multiplied fraction.",
+    "assets": [
+      {
+        "id": "question-image",
+        "type": "figure",
+        "src": "assets/questions/momentix-t2-m2-q16.png",
+        "alt": "Mometrix Practice Test 2, Math Module 2, question 16",
+        "width": 1566,
+        "height": 264,
+        "sourcePage": 68
+      }
+    ],
+    "sourceType": "Mometrix SAT Practice Tests",
+    "sourcePage": 68,
+    "sourceQuestion": "Test 2, Math Module 2, question 16",
+    "needsReview": true,
+    "sourceNotes": "Question image and answer/review explanation were extracted from the supplied Mometrix PDF. Domain and difficulty are neutral app metadata pending classification."
+  },
+  {
+    "id": "momentix-t2-m2-q17",
+    "domain": "Algebra",
+    "skill": "Mometrix Test 2 · Math Module 2 · Question 17",
+    "difficulty": 2,
+    "prompt": "See the complete question image.",
+    "type": "multiple-choice",
+    "choices": [
+      {
+        "id": "A",
+        "text": ""
+      },
+      {
+        "id": "B",
+        "text": ""
+      },
+      {
+        "id": "C",
+        "text": ""
+      },
+      {
+        "id": "D",
+        "text": ""
+      }
+    ],
+    "answer": "D",
+    "explanation": "Use the difference of squares rule that states that (𝑎+ 𝑏)(𝑎−𝑏) = 𝑎2 −𝑏2, or multiply the binomials using the FOIL method: multiply together the first term of each factor, then the outer terms, then the inner terms, and finally the last terms. Then add the products together. (𝑥+ 6)(𝑥−6) = 𝑥× 𝑥+ 𝑥× (−6) + 6 × 𝑥+ 6 × (−6) = 𝑥2 −6𝑥+ 6𝑥−36 = 𝑥2 −36",
+    "assets": [
+      {
+        "id": "question-image",
+        "type": "figure",
+        "src": "assets/questions/momentix-t2-m2-q17.png",
+        "alt": "Mometrix Practice Test 2, Math Module 2, question 17",
+        "width": 1566,
+        "height": 566,
+        "sourcePage": 68
+      }
+    ],
+    "sourceType": "Mometrix SAT Practice Tests",
+    "sourcePage": 68,
+    "sourceQuestion": "Test 2, Math Module 2, question 17",
+    "needsReview": true,
+    "sourceNotes": "Question image and answer/review explanation were extracted from the supplied Mometrix PDF. Domain and difficulty are neutral app metadata pending classification."
+  },
+  {
+    "id": "momentix-t2-m2-q18",
+    "domain": "Algebra",
+    "skill": "Mometrix Test 2 · Math Module 2 · Question 18",
+    "difficulty": 2,
+    "prompt": "See the complete question image.",
+    "type": "multiple-choice",
+    "choices": [
+      {
+        "id": "A",
+        "text": ""
+      },
+      {
+        "id": "B",
+        "text": ""
+      },
+      {
+        "id": "C",
+        "text": ""
+      },
+      {
+        "id": "D",
+        "text": ""
+      }
+    ],
+    "answer": "A",
+    "explanation": "The graph shows that Miguel had 6 quarters in the jar at the end of the day on Sunday, and there were still 6 at the end of Monday. So, he did not add any quarters that day.",
+    "assets": [
+      {
+        "id": "question-image",
+        "type": "figure",
+        "src": "assets/questions/momentix-t2-m2-q18.png",
+        "alt": "Mometrix Practice Test 2, Math Module 2, question 18",
+        "width": 1566,
+        "height": 1182,
+        "sourcePage": 69
+      }
+    ],
+    "sourceType": "Mometrix SAT Practice Tests",
+    "sourcePage": 69,
+    "sourceQuestion": "Test 2, Math Module 2, question 18",
+    "needsReview": true,
+    "sourceNotes": "Question image and answer/review explanation were extracted from the supplied Mometrix PDF. Domain and difficulty are neutral app metadata pending classification."
+  },
+  {
+    "id": "momentix-t2-m2-q19",
+    "domain": "Algebra",
+    "skill": "Mometrix Test 2 · Math Module 2 · Question 19",
+    "difficulty": 2,
+    "prompt": "See the complete question image.",
+    "type": "multiple-choice",
+    "choices": [
+      {
+        "id": "A",
+        "text": ""
+      },
+      {
+        "id": "B",
+        "text": ""
+      },
+      {
+        "id": "C",
+        "text": ""
+      },
+      {
+        "id": "D",
+        "text": ""
+      }
+    ],
+    "answer": "C",
+    "explanation": "The line climbs the most sharply between Wednesday and Thursday, growing by 3 (from 9 to 12). Since the measurement is taken at the end of each day, we know there were 9 quarters in the jar at the end of Wednesday and 12 at the end of Thursday, so 3 quarters were added on Thursday.",
+    "assets": [
+      {
+        "id": "shared-stimulus",
+        "type": "figure",
+        "src": "assets/questions/momentix-t2-m2-q19-stimulus.png",
+        "alt": "Mometrix shared source material for Test 2, Math Module 2, questions 18–19",
+        "width": 1566,
+        "height": 955,
+        "sourcePage": 69
+      },
+      {
+        "id": "question-image",
+        "type": "figure",
+        "src": "assets/questions/momentix-t2-m2-q19.png",
+        "alt": "Mometrix Practice Test 2, Math Module 2, question 19",
+        "width": 1566,
+        "height": 222,
+        "sourcePage": 69
+      }
+    ],
+    "sourceType": "Mometrix SAT Practice Tests",
+    "sourcePage": 69,
+    "sourceQuestion": "Test 2, Math Module 2, question 19",
+    "needsReview": true,
+    "sourceNotes": "Question image and answer/review explanation were extracted from the supplied Mometrix PDF. Domain and difficulty are neutral app metadata pending classification."
+  },
+  {
+    "id": "momentix-t2-m2-q20",
+    "domain": "Algebra",
+    "skill": "Mometrix Test 2 · Math Module 2 · Question 20",
+    "difficulty": 2,
+    "prompt": "See the complete question image.",
+    "type": "student-produced-response",
+    "choices": [],
+    "answer": "38",
+    "explanation": "We start with the formula 𝑦(𝑡) = 𝑎𝑒𝑘𝑡 where 𝑎 is the starting amount and 𝑡 is the time in hours. Since the half-life is 5, we can write 0.5 = 1𝑒𝑘(5). We then solve by taking the natural logarithm of each side. ln(0.5) = ln(𝑒5𝑘) ln(0.5) = 5𝑘 k = ln(0.5) 5 At 2:00 p.m., it has been 7 hours since Rafe drank the cup of coffee, so we can put that into the equation. 𝑦(7) = 1𝑒(𝑘)(7) ≈0.379 This translates to 37.9%, or approximately 38%.",
+    "assets": [
+      {
+        "id": "question-image",
+        "type": "figure",
+        "src": "assets/questions/momentix-t2-m2-q20.png",
+        "alt": "Mometrix Practice Test 2, Math Module 2, question 20",
+        "width": 1566,
+        "height": 579,
+        "sourcePage": 69
+      }
+    ],
+    "sourceType": "Mometrix SAT Practice Tests",
+    "sourcePage": 69,
+    "sourceQuestion": "Test 2, Math Module 2, question 20",
+    "needsReview": true,
+    "sourceNotes": "Question image and answer/review explanation were extracted from the supplied Mometrix PDF. Domain and difficulty are neutral app metadata pending classification."
+  },
+  {
+    "id": "momentix-t2-m2-q21",
+    "domain": "Algebra",
+    "skill": "Mometrix Test 2 · Math Module 2 · Question 21",
+    "difficulty": 2,
+    "prompt": "See the complete question image.",
+    "type": "student-produced-response",
+    "choices": [],
+    "answer": "0.8",
+    "explanation": "The sine of an angle can be calculated as the opposite side (4) divided by the hypotenuse (5). If angle 𝑍 measures 𝑧°, then angle 𝑋 measures (90 −𝑧)°, so we are looking for the cosine of angle 𝑋. We can find the cosine of angle 𝑋 by taking the adjacent side (4) and dividing by the hypotenuse (5). So, the answer is 4 5, or 0.8.",
+    "assets": [
+      {
+        "id": "question-image",
+        "type": "figure",
+        "src": "assets/questions/momentix-t2-m2-q21.png",
+        "alt": "Mometrix Practice Test 2, Math Module 2, question 21",
+        "width": 1566,
+        "height": 561,
+        "sourcePage": 70
+      }
+    ],
+    "sourceType": "Mometrix SAT Practice Tests",
+    "sourcePage": 70,
+    "sourceQuestion": "Test 2, Math Module 2, question 21",
+    "needsReview": true,
+    "sourceNotes": "Question image and answer/review explanation were extracted from the supplied Mometrix PDF. Domain and difficulty are neutral app metadata pending classification."
+  },
+  {
+    "id": "momentix-t2-m2-q22",
+    "domain": "Algebra",
+    "skill": "Mometrix Test 2 · Math Module 2 · Question 22",
+    "difficulty": 2,
+    "prompt": "See the complete question image.",
+    "type": "student-produced-response",
+    "choices": [],
+    "answer": "15",
+    "explanation": "If 𝑊𝑋= 𝑋𝑍, we can write 𝑊𝑋= 𝑋𝑌+ 𝑌𝑍. We then substitute the expressions into this equation. 𝑎+ 9 = 4𝑎−9 + 2𝑎+ 3 Moving 𝑎-values to the left and numerical values to the right yields −5𝑎= −15, or 𝑎= 3. Now we can solve for 𝑊𝑋 and 𝑋𝑌. 𝑊𝑋= 𝑎+ 9 = 3 + 9 = 12 𝑋𝑌= 4𝑎−9 = 4(3) −9 = 3 So 𝑊𝑌= 𝑊𝑋+ 𝑋𝑌= 12 + 3 = 15.",
+    "assets": [
+      {
+        "id": "question-image",
+        "type": "figure",
+        "src": "assets/questions/momentix-t2-m2-q22.png",
+        "alt": "Mometrix Practice Test 2, Math Module 2, question 22",
+        "width": 1566,
+        "height": 1418,
+        "sourcePage": 70
+      }
+    ],
+    "sourceType": "Mometrix SAT Practice Tests",
+    "sourcePage": 70,
+    "sourceQuestion": "Test 2, Math Module 2, question 22",
+    "needsReview": true,
+    "sourceNotes": "Question image and answer/review explanation were extracted from the supplied Mometrix PDF. Domain and difficulty are neutral app metadata pending classification."
+  }
+]

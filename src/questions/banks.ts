@@ -4,6 +4,7 @@ import { READING_WRITING_DOMAINS, type Bank, type PracticeSection, type Question
 import questionBankRW from '../../Questions RW.json';
 import practiceTest2Math from '../../Questions Practice Test 2 Math.json';
 import practiceTest2ReadingWriting from '../../Questions Practice Test 2 Reading and Writing.json';
+import momentix2TestsMath from '../../Questions Momentix 2 Tests Math.json';
 import rwInformationIdeas from '../../Questions RW Information_and_Ideas.json';
 import rwExpressionIdeas from '../../Questions RW Expression_of_Ideas.json';
 import rwConventions from '../../Questions RW Standard_English_Conventions.json';
@@ -55,6 +56,14 @@ export const BUILTIN_BANKS: BuiltinBankEntry[] = [
     description: 'Verified Practice Test 2 Math extraction, including both adaptive routes.',
     questions: practiceTest2Math as Question[],
     assetBase: './banks/practice-test-2',
+    section: 'math',
+  },
+  {
+    id: 'momentix-2-tests-math',
+    title: 'Mometrix — SAT Practice Tests 1 & 2 Math (88 questions)',
+    description: 'Two Mometrix Math practice tests with complete question images, answers, and review explanations.',
+    questions: momentix2TestsMath as Question[],
+    assetBase: './banks/momentix-2-tests',
     section: 'math',
   },
   {
