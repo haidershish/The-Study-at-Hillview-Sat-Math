@@ -5,13 +5,15 @@
       "username": "student",
       "password": "sat123",
       "displayName": "Demo Student",
-      "active": true,
-      
+      "active": true
+       }, 
+    {
       "id": "student-001",
       "username": "student1",
       "password": "sat123",
       "displayName": "Student1",
       "active": true
+       {
     }
   ]
 }
