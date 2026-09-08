@@ -338,12 +338,26 @@ function startTest(): void {
   state.timerHidden = false;
   state.responses = {};
   state.review = [];
+  enterTest();
+}
+
+function enterTest(startClock = true): void {
   state.screen = 'test';
   persist();
   showScreen('test');
   renderQuestion();
-  startTimer();
+  if (startClock) startTimer();
   ensureCalculatorMounted();
+}
+
+function restartTest(): void {
+  if (!state.order.length || !window.confirm('Restart this quiz and clear the current answers?')) return;
+  state.current = 0;
+  state.secondsRemaining = 35 * 60;
+  state.timerHidden = false;
+  state.responses = {};
+  state.review = [];
+  enterTest();
 }
 
 function returnHome(): void {
@@ -380,10 +394,11 @@ function renderQuestion(): void {
 
   const answer = state.responses[key] ?? '';
   const isReadingWriting = READING_WRITING_DOMAINS.includes(q.domain);
-  const visualOnly = bank.id.startsWith('practice-test-2');
+  const imageOnly = !isReadingWriting && q.prompt.trim() === 'See the complete question image.' && Boolean(q.assets?.length);
+  const visualOnly = bank.id.startsWith('practice-test-2') || imageOnly;
   const assets = renderAssetsHTML(resolveAssets(q.assets, bank.assetBase));
   const controls = q.type === 'multiple-choice'
-    ? `<div class="choices">${q.choices?.map(choice => `<label class="choice ${answer === choice.id ? 'selected' : ''}"><input type="radio" name="answer" value="${choice.id}" ${answer === choice.id ? 'checked' : ''}><span class="choice-letter">${choice.id}</span><span>${clean(choice.text)}</span></label>`).join('') ?? ''}</div>`
+    ? `<div class="choices">${q.choices?.map((choice, index) => `<label class="choice${imageOnly ? ' image-choice' : ''} ${answer === choice.id ? 'selected' : ''}"><input type="radio" name="answer" value="${choice.id}" ${answer === choice.id ? 'checked' : ''}><span class="choice-letter">${choice.id}</span>${imageOnly ? `<canvas class="choice-image" data-choice-index="${index}" aria-hidden="true"></canvas>` : `<span>${clean(choice.text)}</span>`}</label>`).join('') ?? ''}</div>`
     : `<label class="spr-label">Enter your answer<input class="spr" id="spr" inputmode="decimal" value="${clean(answer)}" placeholder="Answer"></label>`;
   const questionMarkup = isReadingWriting
     ? renderReadingWritingQuestion(q, assets, controls, visualOnly)
@@ -392,6 +407,7 @@ function renderQuestion(): void {
   $('question').classList.toggle('math-question', !isReadingWriting);
   $('question').innerHTML = questionMarkup;
   wireAssets($('question'));
+  if (imageOnly) wireImageChoices($('question'));
 
   const tip = $('question-tip');
   const tipText = q.calculatorTip ?? q.calculatorStrategy?.instructions ?? '';
@@ -408,6 +424,110 @@ function renderQuestion(): void {
   renderMenu();
   updateSetupButton();
   preloadNext();
+}
+
+interface ImageChoiceRow { top: number; bottom: number; left: number; right: number }
+
+function findImageChoiceRows(source: HTMLImageElement): ImageChoiceRow[] {
+  const width = source.naturalWidth;
+  const height = source.naturalHeight;
+  if (!width || !height) return [];
+  const canvas = document.createElement('canvas');
+  canvas.width = width;
+  canvas.height = height;
+  const context = canvas.getContext('2d');
+  if (!context) return [];
+
+  try { context.drawImage(source, 0, 0); } catch { return []; }
+  let pixels: ImageData;
+  try { pixels = context.getImageData(0, 0, width, height); } catch { return []; }
+
+  const rowMin = new Uint16Array(height);
+  const rowMax = new Uint16Array(height);
+  const labelInk = new Uint16Array(height);
+  rowMin.fill(width);
+  for (let y = 0; y < height; y += 1) {
+    for (let x = 0; x < width; x += 1) {
+      const offset = (y * width + x) * 4;
+      if (pixels.data[offset] > 200 || pixels.data[offset + 1] > 200 || pixels.data[offset + 2] > 200 || pixels.data[offset + 3] === 0) continue;
+      rowMin[y] = Math.min(rowMin[y], x);
+      rowMax[y] = Math.max(rowMax[y], x);
+      if (x >= width * .03 && x <= width * .22) labelInk[y] += 1;
+    }
+  }
+
+  const groups: Array<{ top: number; bottom: number; minX: number }> = [];
+  let top = -1;
+  let lastInk = -1;
+  for (let y = 0; y <= height; y += 1) {
+    if (y < height && labelInk[y] > 0) {
+      if (top < 0) top = y;
+      lastInk = y;
+      continue;
+    }
+    if (top < 0 || y - lastInk < 4) continue;
+    let minX = width;
+    for (let row = top; row <= lastInk; row += 1) minX = Math.min(minX, rowMin[row]);
+    if (minX >= width * .03 && minX <= width * .22) groups.push({ top, bottom: lastInk, minX });
+    top = -1;
+  }
+
+  let selected: typeof groups = [];
+  let bestSpread = Infinity;
+  for (let index = 0; index <= groups.length - 4; index += 1) {
+    const window = groups.slice(index, index + 4);
+    const gaps = window.slice(1).map((row, gapIndex) => row.top - window[gapIndex].top);
+    const spread = Math.max(...gaps) - Math.min(...gaps);
+    if (Math.min(...gaps) > 10 && spread < bestSpread && Math.max(...gaps) / Math.min(...gaps) < 2) {
+      selected = window;
+      bestSpread = spread;
+    }
+  }
+  if (selected.length !== 4) return [];
+
+  return selected.map((row, index) => {
+    let bottom = index < 3 ? selected[index + 1].top - 5 : height;
+    if (index === 3) {
+      let blankRows = 0;
+      for (let y = row.bottom + 1; y < height; y += 1) {
+        if (rowMin[y] === width) blankRows += 1;
+        else blankRows = 0;
+        if (blankRows >= 12) { bottom = y - blankRows + 1; break; }
+      }
+    }
+    const cropTop = Math.max(0, row.top - 7);
+    const cropBottom = Math.max(row.bottom + 1, bottom);
+    let left = width;
+    let right = 0;
+    for (let y = cropTop; y < cropBottom; y += 1) {
+      left = Math.min(left, rowMin[y]);
+      right = Math.max(right, rowMax[y]);
+    }
+    return { top: cropTop, bottom: cropBottom, left: Math.max(0, left - 8), right: Math.min(width, right + 8) };
+  });
+}
+
+function wireImageChoices(container: HTMLElement): void {
+  const source = container.querySelector<HTMLImageElement>('.question-asset img');
+  const choices = [...container.querySelectorAll<HTMLCanvasElement>('.choice-image')];
+  if (!source || choices.length !== 4) return;
+
+  const draw = () => {
+    const rows = findImageChoiceRows(source);
+    if (rows.length !== choices.length) return;
+    rows.forEach((row, index) => {
+      const canvas = choices[index];
+      const context = canvas.getContext('2d');
+      if (!context) return;
+      if (row.right <= row.left) return;
+      canvas.width = row.right - row.left;
+      canvas.height = row.bottom - row.top;
+      context.drawImage(source, row.left, row.top, canvas.width, canvas.height, 0, 0, canvas.width, canvas.height);
+    });
+  };
+
+  if (source.complete && source.naturalWidth > 0) draw();
+  else source.addEventListener('load', draw, { once: true });
 }
 
 function splitReadingPrompt(prompt: string): { passage: string; question: string } {
@@ -531,7 +651,13 @@ function renderResults(): void {
   const review = results.perQuestion.map((item, index) => {
     const right = item.correct;
     const status = !item.answered ? 'Unanswered' : right ? 'Correct' : 'Incorrect';
-    return `<details><summary><span>${index + 1}. ${clean(item.question.skill)}</span><b class="${item.correct ? 'right' : item.answered ? 'wrong' : 'muted'}">${status}</b></summary><p>Your answer: ${clean(item.response || '—')} · Correct answer: ${clean(item.question.answer)}</p><p>${clean(item.question.explanation)}</p></details>`;
+    const questionIndex = state.order.indexOf(item.key);
+    const response = item.response.trim().toLowerCase();
+    const answer = item.question.answer.trim().toLowerCase();
+    const choices = item.question.choices?.map(choice => `<div class="review-choice ${response === choice.id.trim().toLowerCase() ? 'selected' : ''} ${answer === choice.id.trim().toLowerCase() ? 'correct' : ''}"><b>${clean(choice.id)}</b><span>${clean(choice.text)}</span></div>`).join('') ?? '';
+    const resolved = findQuestionByKey(item.key);
+    const assets = renderAssetsHTML(resolveAssets(item.question.assets, resolved?.bank.assetBase ?? ''));
+    return `<details class="review-item"${right ? '' : ' open'}><summary><span>${index + 1}. ${clean(item.question.skill)}</span><b class="${item.correct ? 'right' : item.answered ? 'wrong' : 'muted'}">${status}</b></summary><div class="review-content"><p class="review-question"><strong>Question</strong>${clean(item.question.prompt)}</p>${assets}${choices ? `<div class="review-choices"><strong>Answer choices</strong>${choices}</div>` : ''}<p>Your answer: ${clean(item.response || '—')} · Correct answer: ${clean(item.question.answer)}</p><p>${clean(item.question.explanation)}</p><div class="review-actions"><button class="quiet" data-review-index="${questionIndex}" ${questionIndex < 0 ? 'disabled' : ''}>Go to question</button></div></div></details>`;
   }).join('');
 
   $('screen-results').innerHTML = `
@@ -554,9 +680,20 @@ function renderResults(): void {
         ${bucket('Skill performance', results.skills)}
       </div>
       <section class="result-section"><h3>Review answers</h3>${review}</section>
+      <div class="results-actions"><button class="primary" id="restart-test">Restart quiz</button></div>
     </main>`;
 
-  document.getElementById('return-home')?.addEventListener('click', returnHome);
+  wireAssets($('screen-results'));
+  $('screen-results').onclick = event => {
+    const target = event.target as HTMLElement;
+    if (target.closest('#return-home')) returnHome();
+    if (target.closest('#restart-test')) restartTest();
+    const reviewButton = target.closest<HTMLButtonElement>('[data-review-index]');
+    if (reviewButton && !reviewButton.disabled) {
+      state.current = Number(reviewButton.dataset.reviewIndex);
+      enterTest(false);
+    }
+  };
 }
 
 // ---- dialogs / reference / tools -------------------------------------------
