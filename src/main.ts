@@ -18,11 +18,13 @@ import { preloadImages, renderAssetsHTML, resolveAssets, wireAssets } from './qu
 const app = document.querySelector<HTMLDivElement>('#app');
 if (!app) throw new Error('Application root was not found.');
 
+const BRAND = `<span class="brand-mark"><img src="${import.meta.env.BASE_URL}branding/the-study.png" alt=""></span><span class="brand-copy"><strong>Digital SAT App</strong><small>by Haider Shishmahal &amp; the Study at Hillview</small></span>`;
+
 app.innerHTML = `
   <section id="screen-home" class="screen screen-home"></section>
   <section id="screen-test" class="screen screen-test" hidden>
     <header class="topbar">
-      <a class="brand" href="#" id="home-link" aria-label="SAT Math Lab home"><span class="brand-mark">∿</span><span>SAT Math Lab</span></a>
+      <a class="brand" href="#" id="home-link" aria-label="Digital SAT App home">${BRAND}</a>
       <div class="module-name"><span class="live-dot"></span> Digital SAT · Math Practice</div>
       <div class="top-actions">
         <button class="timer" id="timer" aria-label="Hide timer">35:00</button>
@@ -182,7 +184,7 @@ function renderHome(): void {
 
   $('screen-home').innerHTML = `
     <header class="home-hero">
-      <div class="brand home-brand"><span class="brand-mark">∿</span><span>SAT Math Lab</span></div>
+      <div class="brand home-brand">${BRAND}</div>
       <div class="home-status"><span class="provider-dot ${providerInfo.id === 'desmos' ? 'desmos' : providerInfo.degraded ? 'degraded' : ''}"></span>${clean(providerInfo.label)}</div>
     </header>
     <main class="home-main">
@@ -654,15 +656,16 @@ function renderResults(): void {
     const questionIndex = state.order.indexOf(item.key);
     const response = item.response.trim().toLowerCase();
     const answer = item.question.answer.trim().toLowerCase();
-    const choices = item.question.choices?.map(choice => `<div class="review-choice ${response === choice.id.trim().toLowerCase() ? 'selected' : ''} ${answer === choice.id.trim().toLowerCase() ? 'correct' : ''}"><b>${clean(choice.id)}</b><span>${clean(choice.text)}</span></div>`).join('') ?? '';
+    const choices = item.question.choices?.filter(choice => choice.text.trim()).map(choice => `<div class="review-choice ${response === choice.id.trim().toLowerCase() ? 'selected' : ''} ${answer === choice.id.trim().toLowerCase() ? 'correct' : ''}"><b>${clean(choice.id)}</b><span>${clean(choice.text)}</span></div>`).join('') ?? '';
     const resolved = findQuestionByKey(item.key);
     const assets = renderAssetsHTML(resolveAssets(item.question.assets, resolved?.bank.assetBase ?? ''));
-    return `<details class="review-item"${right ? '' : ' open'}><summary><span>${index + 1}. ${clean(item.question.skill)}</span><b class="${item.correct ? 'right' : item.answered ? 'wrong' : 'muted'}">${status}</b></summary><div class="review-content"><p class="review-question"><strong>Question</strong>${clean(item.question.prompt)}</p>${assets}${choices ? `<div class="review-choices"><strong>Answer choices</strong>${choices}</div>` : ''}<p>Your answer: ${clean(item.response || '—')} · Correct answer: ${clean(item.question.answer)}</p><p>${clean(item.question.explanation)}</p><div class="review-actions"><button class="quiet" data-review-index="${questionIndex}" ${questionIndex < 0 ? 'disabled' : ''}>Go to question</button></div></div></details>`;
+    const questionText = item.question.prompt.trim() === 'See the complete question image.' ? '' : `<p class="review-question"><strong>Question</strong>${clean(item.question.prompt)}</p>`;
+    return `<details class="review-item"${right ? '' : ' open'}><summary><span>${index + 1}. ${clean(item.question.skill)}</span><b class="${item.correct ? 'right' : item.answered ? 'wrong' : 'muted'}">${status}</b></summary><div class="review-content">${questionText}${assets}${choices ? `<div class="review-choices"><strong>Answer choices</strong>${choices}</div>` : ''}<p>Your answer: ${clean(item.response || '—')} · Correct answer: ${clean(item.question.answer)}</p><p>${clean(item.question.explanation)}</p><div class="review-actions"><button class="quiet" data-review-index="${questionIndex}" ${questionIndex < 0 ? 'disabled' : ''}>Go to question</button></div></div></details>`;
   }).join('');
 
   $('screen-results').innerHTML = `
     <header class="results-header">
-      <div class="brand"><span class="brand-mark">∿</span><span>SAT Math Lab</span></div>
+      <div class="brand">${BRAND}</div>
       <button class="primary" id="return-home">Back to home</button>
     </header>
     <main class="results-main">

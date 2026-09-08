@@ -1,13 +1,13 @@
 {
-  "name": "SAT Math Lab",
-  "short_name": "SAT Math",
-  "description": "Offline Digital SAT Math practice and graphing calculator",
+  "name": "Digital SAT App by Haider Shishmahal & the Study at Hillview",
+  "short_name": "Digital SAT App",
+  "description": "Offline Digital SAT Math practice by Haider Shishmahal and the Study at Hillview",
   "start_url": "./",
   "scope": "./",
   "display": "standalone",
-  "background_color": "#f4f7f5",
-  "theme_color": "#12372a",
+  "background_color": "#fbf8f2",
+  "theme_color": "#4b1011",
   "icons": [
-    { "src": "./icon.svg", "sizes": "any", "type": "image/svg+xml", "purpose": "any maskable" }
+    { "src": "./branding/the-study-icon.png", "sizes": "2000x2000", "type": "image/png", "purpose": "any maskable" }
   ]
 }
